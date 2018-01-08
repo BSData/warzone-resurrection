@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="738b-8a53-c002-8d57" name="Cybertronic- Mirrormen Propaganda Force" revision="1" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="0d13-4e95-41da-b265" name="Pieter &apos;The Shield&apos; Diamond" page="163" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d247-50e5-38ca-a67d" name="Pieter &apos;The Shield&apos; Diamond" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/3"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="10"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="19"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="50"/>
+          </characteristics>
+        </profile>
+        <profile id="54a5-26fc-2269-7157" name="Mirrorshard Shield" hidden="false" profileTypeId="7225-7dbb-bfa5-5cbb" profileTypeName="Shield">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="+ARM" characteristicTypeId="6758-24d0-9c9d-2ed4" value="3"/>
+            <characteristic name="+DEF" characteristicTypeId="b603-6489-772a-c092" value="2"/>
+            <characteristic name="RULES" characteristicTypeId="f03f-1c6a-5b9c-49f8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0bf6-35f5-8c0a-00b0" name="Master of Mirrors" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model is attached to a squad of Mirrormen, all Mirrormen in that squad receive Hard to hit (+2).</description>
+        </rule>
+        <rule id="0ff4-3eba-6c1c-7560" name="Mirrorshard Shield" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Whenever this model successfully passes an armour test against a non-template Ranged attack, he may reflect it back at the attacker. The shooting model receives an autohit at the ST of the attack on a roll of 1-10.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="dfab-d803-af0e-c2c5" name="CSA404 Heat Sword" hidden="false" targetId="d7ad-616c-4ab1-de2b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d6a8-16ab-a11e-27db" name="Camouflaged Suit" hidden="false" targetId="d688-f7fd-9055-6654" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c55a-6bea-6215-3b44" name="Chrome-Mirrored Suit" hidden="false" targetId="75cc-7fff-d54f-5e99" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e6d0-4edf-3b69-7eda" name="Disorientating Reflection" hidden="false" targetId="b4f3-aa27-29d2-3a69" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0047-b9e2-e377-05c1" name="Poster Boys" hidden="false" targetId="1460-687b-8e31-9da8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="649a-9e48-3254-c3a2" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4fce-3530-eb75-832c" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6908-bbbe-02bf-f8b6" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="881f-626d-393e-ee3f" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5a44-8d93-b0a7-8164" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c8d-696b-17b3-7a42" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="103f-2377-d416-e75d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6547-606a-2b6c-7a3d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9b95-c403-8a66-219a" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b78a-3c8c-6f08-360b" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c6ab-01e0-00fd-6982" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2c1-565f-3593-5aa0" name="Mirrormen" page="169" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="846d-617b-6435-75a5" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="929b-1f7f-00fd-56c9" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2fe1-e948-4c59-566f" name="Mirrormen" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="4ca4-8083-e6b3-8261" name="Mirrorman" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/3"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="11&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="20"/>
+              </characteristics>
+            </profile>
+            <profile id="6643-a4af-f26e-eac0" name="CSA400 Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fe1-e948-4c59-566f" type="equalTo"/>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f07a-055e-e636-4f3a" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f07a-055e-e636-4f3a" type="equalTo"/>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fe1-e948-4c59-566f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fe1-e948-4c59-566f" type="equalTo"/>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f07a-055e-e636-4f3a" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f07a-055e-e636-4f3a" type="equalTo"/>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fe1-e948-4c59-566f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f07a-055e-e636-4f3a" type="equalTo"/>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fe1-e948-4c59-566f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f07a-055e-e636-4f3a" type="equalTo"/>
+                            <condition field="selections" scope="e2c1-565f-3593-5aa0" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2fe1-e948-4c59-566f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="38a7-8057-076f-93c8" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4620-368e-2efb-595c" name="Camouflaged Suit" hidden="false" targetId="d688-f7fd-9055-6654" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="668f-7b7a-4de9-7a5e" name="Disorientating Reflection" hidden="false" targetId="b4f3-aa27-29d2-3a69" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1bfc-8201-e452-0724" name="Poster Boys" hidden="false" targetId="1460-687b-8e31-9da8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4f56-1d15-ecc9-d2e8" name="Chrome-Mirrored Suit" hidden="false" targetId="75cc-7fff-d54f-5e99" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="acb0-3f81-c03b-d291" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3991-e76d-0da5-4a36" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="68d7-5f2c-1ec2-67ba" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d687-a249-da30-5c36" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3e33-298a-8df2-62f4" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="591c-fd89-2fe2-a60b" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60c9-564f-9c4f-1364" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f07a-055e-e636-4f3a" name="CSA404 Heat Sword" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="60ee-cf80-37fe-be61" name="CSA404 Heat Sword" hidden="false" targetId="d7ad-616c-4ab1-de2b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" field="e600-e972-31e5-c306" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e600-e972-31e5-c306" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="443a-bf03-c484-e25c" name="Infiltrate" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6be-0e46-826d-816a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="22a6-c8ef-e04f-e5ca" name="Cybertronic Upgrades" hidden="false" targetId="1852-843d-6339-6ae6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6d29-cdbc-6724-7cb8" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88c5-216b-d534-d81d" name="Mirrormen" page="169" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2334-ac57-5bd2-50a7" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d0d8-c3c7-013d-a8e1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3578-c074-e82e-00c9" name="Mirrormen" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="b451-1653-77da-af3b" name="Mirrorman" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/3"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="11&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="20"/>
+              </characteristics>
+            </profile>
+            <profile id="8d66-c55c-c2e9-fb04" name="CSA400 Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaec-8736-aea2-dd09" type="equalTo"/>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3578-c074-e82e-00c9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaec-8736-aea2-dd09" type="equalTo"/>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3578-c074-e82e-00c9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaec-8736-aea2-dd09" type="equalTo"/>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3578-c074-e82e-00c9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaec-8736-aea2-dd09" type="equalTo"/>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3578-c074-e82e-00c9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaec-8736-aea2-dd09" type="equalTo"/>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3578-c074-e82e-00c9" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3578-c074-e82e-00c9" type="equalTo"/>
+                            <condition field="selections" scope="88c5-216b-d534-d81d" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaec-8736-aea2-dd09" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="7e1b-bcad-2c18-a5bd" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0bd4-4e05-8553-c655" name="Camouflaged Suit" hidden="false" targetId="d688-f7fd-9055-6654" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="996e-cf2b-26a7-8456" name="Disorientating Reflection" hidden="false" targetId="b4f3-aa27-29d2-3a69" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="67fe-685e-7cfa-a136" name="Poster Boys" hidden="false" targetId="1460-687b-8e31-9da8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2be6-b46e-15c3-49c0" name="Chrome-Mirrored Suit" hidden="false" targetId="75cc-7fff-d54f-5e99" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="55b6-e003-3d24-5a58" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8496-2c85-a5bd-9237" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9d04-82c7-0a1e-5f89" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2c98-057d-31f1-956a" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b6eb-05f5-5110-9282" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d1-b805-5990-e354" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8843-5227-2003-3697" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eaec-8736-aea2-dd09" name="CSA404 Heat Sword" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6377-78cd-c8a7-9cd7" name="CSA404 Heat Sword" hidden="false" targetId="d7ad-616c-4ab1-de2b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" field="7f37-36aa-9886-6d63" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f37-36aa-9886-6d63" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1c96-a2b0-29b5-1ce2" name="Infiltrate" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f23-784f-0582-2313" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a843-dc83-338f-d583" name="Cybertronic Upgrades" hidden="false" targetId="1852-843d-6339-6ae6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="608f-c989-2175-f19a" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="f8c7-d243-fd6f-0f5b" name="Vince Diamond" hidden="false" targetId="3562-8b85-1f08-0def" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="41c1-5688-31b1-ae9e" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4caf-b08a-fdbf-b9de" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5cb1-085a-aa61-e43a" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cebd-acdf-ad8c-c728" name="Dr. Cynthia Diana" hidden="false" targetId="3dcb-6999-ed54-fe09" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="63ac-0e4a-6daf-e123" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fb92-81f0-5333-2672" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b828-8dc3-ee80-5d17" name="Dr. Diana Clone" hidden="false" targetId="73c5-04f4-33ef-8109" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6aa6-cde3-5ab2-c504" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a15b-ee63-e94b-a298" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c18-3cc7-a964-2bb8" name="Dr. Diana Commander" hidden="false" targetId="f595-88e1-cc3f-0462" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7ea9-b2f9-b982-b574" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1f80-da9e-58bb-93b8" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c9f6-250c-ef6b-6f7d" name="Dr. Diana Neoclone" hidden="false" targetId="bbb1-a02a-9cfd-c3f9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5059-1b9f-9866-4d79" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="22f2-c846-91ea-9184" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="583c-818d-98f2-4d86" name="Enhanced Machinators" hidden="false" targetId="f669-c13e-228a-4cf5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b8bd-5b0a-8caa-e2e8" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9027-9dd5-e990-2315" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e8ab-f254-f43b-85a6" name="Scorpion" hidden="false" targetId="6d2e-6f59-df90-4160" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9d19-676e-4233-87bf" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="633a-2075-a0da-88e5" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7c5f-94b7-cf2e-ea1d" name="Eradicator Death Droids" hidden="false" targetId="68d5-a604-7710-c084" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="994f-b53d-635e-a878" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f4e2-0b29-aea3-f723" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1522-cbc4-b68d-28ce" name="Nova" hidden="false" targetId="6d32-483b-c7ce-eb0a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="676e-7b56-ec2e-8ab0" name="New CategoryLink" hidden="false" targetId="79ad-4512-1052-014d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cabf-954d-6c64-7b2e" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6288-7d33-67f3-0751" name="Scorpion" hidden="false" targetId="6d2e-6f59-df90-4160" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="05c0-c803-280c-eca2" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e4aa-97e8-e502-9595" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="175c-aa10-4c7d-5fe1" name="Eradicator Death Droid" hidden="false" targetId="5bf7-459a-ba1a-d45d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="928c-eb8d-379a-e4f5" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="98ca-981e-b87b-da22" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>

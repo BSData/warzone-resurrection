@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="830f-2fe2-c162-b926" name="Cybertronic- Battlefield Reclamation Squad" revision="1" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="a325-d5b4-39ec-8c60" name="Chasseurs" page="166" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9a03-1d0e-0297-3db9" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7f5c-66d2-350d-49b8" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="01bd-4c09-0add-bbc4" name="Chasseurs" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="4bb6-42d6-081e-1476" name="Chasseur" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="12/0"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="12"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="19"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="13"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="cb8c-f25d-e93e-ad0f" name="Enhanced Mirage Generator Mk. I" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>RES(1): During the (acting) squad commander’s activation place one Mirage Generator Mk.I permanent token within 2” of him. Every friendly non-vehicle model within 6” of the token gains A(+2) against ranged attacks and cousts as having a Gas Mask. During the squad’s activation, the token can be removed from the table by spending RES(1). It can then be re-deployed in a later turn unless it was destroyed. Each additional Mirage Generator Mk.I in range of a model affected by a different one increases
+A(+1).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="75fa-ea67-d8e5-15ff" name="AR3501 Chain Carbine" hidden="false" targetId="36b5-4ec4-35cd-93a8" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c4f0-6f75-5c60-583e" name="Electric Fist" hidden="false" targetId="cf03-5744-a54e-3704" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a9cf-c84b-9d45-4b15" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bf6-d1a9-4c58-3a4a" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02da-4d1c-9c8d-3822" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b9aa-a6fa-ec3b-622a" name="Heavy Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="77d6-317f-4415-14eb" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d6-317f-4415-14eb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bab5-b158-8df0-27f5" name="SSW550 Rocket Launcher" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c441-cf3a-64d3-33f5" name="SSW5500 Rocket Launcher" hidden="false" targetId="8f9f-adce-5fd5-5abf" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="7f0d-658b-558d-3770" name="SSW5500 Rocket Launcher(Anti-Personnel)" hidden="false" targetId="6a59-925c-e80a-1759" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb47-7515-dcf6-f9a9" name="PR4000 Blaster" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7954-246e-cb67-6563" name="PR4000 Blaster" hidden="false" targetId="3023-2cb5-1106-3943" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f4a3-4ce9-f14e-c48b" name="Advisor" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba7-8d01-6914-63b9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="4c3a-1486-9b5b-0c3c" name="Cuirassier &apos;Atilla&apos; Mk. III" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="4d00-db6a-6af3-720f" name="Ultrasonic Resonation" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Every enemy Model within 18” of this model receives A(-2). For each additional ‘Ultrasonic Resonation’ above the first affecting an enemy Model, it receives A(-1)</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="d06a-55e3-6416-8a20" name="Cuirassier" hidden="false" targetId="8b34-aa97-b1b2-f4e3" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="3ea1-389a-2550-5d40" name="CAW2500 Enhanced SMG" hidden="false" targetId="50a2-b1ff-a513-1a60" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="c50e-99b3-4c66-d344" name="CAW2500 Enhanced SMG(Hypervelocity Ammo)" hidden="false" targetId="3979-2809-9096-172c" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e527-fa35-a953-7a11" name="Cybernetic Fist" hidden="false" targetId="ad25-0cb4-e34f-4e91" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="b4c5-c96a-9814-7eac" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4430-c1af-62b4-5a2f" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="d41d-865f-5f15-9a5d" name="Regeneration(10)" hidden="false" targetId="c2e5-e2d4-4548-101a" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="6605-12c5-5503-edb0" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f56-155c-69ac-f05b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="7362-5ff9-56c8-c1e3" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2910-5e44-f035-3665" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4854-df98-56c6-bb92" name="Cybertronic Upgrades" hidden="false" targetId="1852-843d-6339-6ae6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ab-deb9-3029-c0be" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="bac1-6c82-d6f7-11de" name="Dr. Cynthia Diana" hidden="false" targetId="3dcb-6999-ed54-fe09" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="577e-706d-460e-589b" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7820-3668-11ef-1906" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b6a5-6878-efb5-d317" name="Dr. Diana Clone" hidden="false" targetId="73c5-04f4-33ef-8109" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5a86-c4aa-0631-576a" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="047b-0048-9471-3723" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="28d4-2a50-b978-2a01" name="Dr. Diana Commander" hidden="false" targetId="f595-88e1-cc3f-0462" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="700e-2775-d90d-810d" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3426-db5c-9df5-c3d5" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df81-827e-d3c0-c07e" name="Dr. Diana Neoclone" hidden="false" targetId="bbb1-a02a-9cfd-c3f9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="031a-a823-6daf-a230" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="77e2-3d99-b2b0-7a63" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7702-4fec-a5ae-8c1a" name="Dick Howkins" hidden="false" targetId="b015-dd52-a579-601f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="53e3-72ca-56a0-efeb" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="33d1-1304-81a4-5999" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2178-eb8d-09cf-4377" name="Cuirassier &apos;Atilla&apos; Mk.III" hidden="false" targetId="3a7f-d4cf-87b2-5193" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a277-a95f-9646-2bf9" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0f44-7d5b-987f-6512" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0730-6189-a306-0e4b" name="Voltigeur" hidden="false" targetId="9b1b-9cec-07d5-8bab" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e07a-c77a-1161-53a9" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b6c0-85b1-355f-0c8d" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9ccb-043e-de8e-00b2" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9608-3bc5-c721-19e3" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="62ed-5e8c-5955-395a" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b47-920a-eac1-1fae" name="Voltigeur" hidden="false" targetId="9b1b-9cec-07d5-8bab" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9bf1-05c9-7c7b-35ec" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6598-ee7b-78cd-01d2" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b350-89fc-2beb-1fc4" name="Chasseur Heavy Weapon Squad" hidden="false" targetId="d583-c4ff-7850-cf81" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1383-30e1-22bc-e13b" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0e20-2705-633e-db4c" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be18-1c88-ca26-875b" name="Chasseur Heavy Weapon Squad" hidden="false" targetId="561b-69db-f089-b2db" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6cb6-b80a-93a7-6e15" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4630-32fe-60bb-9e5d" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>

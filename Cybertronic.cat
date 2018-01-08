@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="1" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="fc8f-42f5-fd4c-4dbd" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="494c-f8f4-71c0-e506" name="CTL-422 Mule Armoured Carrier" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
+            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
+            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="12"/>
+            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="13"/>
+            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
+            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
+            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
+            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
+            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
+            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="45"/>
+          </characteristics>
+        </profile>
+        <profile id="a69d-f123-3fa5-16a0" name="MG-40 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ab3d-0788-4833-98ff" name="Transport(10)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a7c3-7821-f7d1-7d7e" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="da9b-6c29-980a-57fb" name="Repair(5)" hidden="false" targetId="59ee-ad15-2e83-26d3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c832-7656-93bf-2cc1" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e961-57a8-5dc0-013f" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0374-b138-82f4-644d" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04fb-ab52-dd4a-aad0" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="6a3b-12aa-4ab0-abc7" name="CTL-422 Mule Armoured Carrier" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
+            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
+            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="12"/>
+            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="13"/>
+            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
+            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
+            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
+            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
+            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
+            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="45"/>
+          </characteristics>
+        </profile>
+        <profile id="9c8b-ef77-304b-c4ea" name="MG-40 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="07ab-8658-4248-6c94" name="Transport(10)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7c15-8c4d-5f70-f4c4" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1463-5277-8d6e-b539" name="Repair(5)" hidden="false" targetId="59ee-ad15-2e83-26d3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4a54-fbdc-4f2f-9bec" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9fa0-a817-4aa0-c37d" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="81e9-8714-b492-98be" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="3258-aad9-afe6-50a2" name="The Immortal" hidden="false" targetId="7c70-9f05-6107-e7a8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="48e7-003c-5348-4011" name="Vince Diamond" hidden="false" targetId="3562-8b85-1f08-0def" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7fe7-4e2d-52ce-e8cd" name="Everassur" hidden="false" targetId="ecbb-7f33-71de-5d98" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8753-07f3-f610-f50e" name="Dr. Diana Commander" hidden="false" targetId="f595-88e1-cc3f-0462" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1e1d-03e6-3ba0-bd86" name="Dr. Diana Clone" hidden="false" targetId="73c5-04f4-33ef-8109" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5363-9525-322b-0648" name="Dr. Diana Neoclone" hidden="false" targetId="bbb1-a02a-9cfd-c3f9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b3af-89ae-601b-bf57" name="Dr. Cynthia Diana" hidden="false" targetId="3dcb-6999-ed54-fe09" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d174-5059-0e9f-c789" name="Pieter &apos;The Shield&apos; Diamond" hidden="false" targetId="1705-e526-928f-0cb7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="12f5-d538-413d-ea36" name="Chasseurs" hidden="false" targetId="8581-c041-fa19-f653" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3502-98fd-e949-be66" name="Armored Chasseurs" hidden="false" targetId="0c51-5244-7098-4d9d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="34fc-fbf3-813f-6c5a" name="Chasseurs(Free Upgrade)" hidden="false" targetId="77cf-b295-8257-a19e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fc8b-5ce5-c907-ed35" name="Enhanced Chasseurs" hidden="false" targetId="d2d5-0630-35f7-211f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="119b-6235-4657-1c01" name="Mirrormen" hidden="false" targetId="064e-8fc8-0a9c-e334" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="04da-c5a4-754b-f00e" name="Mirrormen" hidden="false" targetId="064e-8fc8-0a9c-e334" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6333-2c56-11d2-c256" name="Cuirassier &apos;Atilla&apos; Mk.III" hidden="false" targetId="3a7f-d4cf-87b2-5193" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="831f-ba60-7c6a-6319" name="Enhanced Machinators" hidden="false" targetId="f669-c13e-228a-4cf5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d010-163d-309b-95f1" name="Shiryo-X" hidden="false" targetId="cd5d-91eb-55e4-f4f1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d438-c2c4-6346-e1ca" name="Scorpion" hidden="false" targetId="6d2e-6f59-df90-4160" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="867d-0864-cf60-5ba1" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9717-ee2d-3229-8ed0" name="Exterminateur &apos;Atilla&apos; Mk.I" hidden="false" targetId="50c1-07e6-af49-2911" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1414-fb55-09d0-0867" name="Voltigeur" hidden="false" targetId="9b1b-9cec-07d5-8bab" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b73d-003d-73f5-7cd1" name="Eradicator Death Droid" hidden="false" targetId="5bf7-459a-ba1a-d45d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="23d8-fd1c-01a6-6be8" name="Eradicator Death Droids" hidden="false" targetId="68d5-a604-7710-c084" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e392-4a6b-85ed-8047" name="CTL-F800 Emancipator Combat Aircraft" hidden="false" targetId="5806-73b9-30b1-6309" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4c69-8cd0-8146-475e" name="732-R4-NCE" hidden="false" targetId="9bbd-8128-c41c-07e1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9ec5-1c22-3dc9-a15b" name="Nova" hidden="false" targetId="6d32-483b-c7ce-eb0a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bd37-da28-ef82-3761" name="Dick Howkins" hidden="false" targetId="b015-dd52-a579-601f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2991-0490-e15c-23c8" name="Coral Beach" hidden="false" targetId="e739-8d81-9cdc-8e73" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d073-56da-5821-6474" name="Corporate Security Agents" hidden="false" targetId="afe7-5da3-ebbf-e831" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9180-e033-ec3f-aa14" name="Big Bob Watts" hidden="false" targetId="e84a-f503-c548-7d27" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1e96-fe32-55ec-93e9" name="Detective Nathan Castle" hidden="false" targetId="72ec-3f60-b80b-5f2d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d548-76b5-45a5-e8c1" name="Sean Gallagher" hidden="false" targetId="7635-6d77-c154-fc6d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fbb9-12df-adcd-b1db" name="Sergeant Michael McBride" hidden="false" targetId="557c-16c2-9b06-2907" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c9b4-fca4-8a71-66e3" name="John Baptiste" hidden="false" targetId="0363-58ea-b105-b777" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e51c-a0e3-4fa8-b555" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="bfc8-1571-96d7-8878" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfc8-1571-96d7-8878" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8350-fb9e-a9f0-e58f" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="c4ba-fad4-547b-cf0b" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ba-fad4-547b-cf0b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
