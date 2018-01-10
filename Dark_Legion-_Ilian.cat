@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb06-1065-ba4a-975d" name="Dark Legion- Ilian" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb06-1065-ba4a-975d" name="Dark Legion- Ilian" revision="4" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="45de-20ed-4b45-2477" name="Void Portal Tokens" hidden="false">
@@ -2993,31 +2993,683 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="46c8-26ad-2791-8974" name="Kerheela" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="facd-a9b6-8a45-7a21" name="Kerheela" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/3"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="11"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="17"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="100"/>
+          </characteristics>
+        </profile>
+        <profile id="17e4-2b53-b745-1b6c" name="Nihilarc" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+4"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6), Headshot, Deadly"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="266f-46da-482d-a19e" name="Cry of the Void" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(2): All enemy models within 3” of Kerheela must immediately pass a CON(+2) test or receive a Stun effect.</description>
+        </rule>
+        <rule id="cc1d-7ea7-d653-5a8e" name="The Reaping" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(2) Every enemy model within 3” of this model receives a ST(14) autohit. This counts as a Close Combat action.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f038-0c83-261a-0286" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="752d-5305-bee8-2625" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2255-b3d5-8d16-8212" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c6f0-521a-3b5b-74ce" name="Follow Up" hidden="false" targetId="1c99-2d68-2388-51a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8fc2-33f8-7074-9908" name="Regeneration(7)" hidden="false" targetId="d1c4-43f3-c9ae-db24" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6a5b-27d7-2dc6-2836" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4792-4cd9-2185-c195" name="Void Portal" hidden="false" targetId="3a2b-64fc-9a78-f44e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3133-8742-e3b0-11c3" name="Walk the Void" hidden="false" targetId="8b27-ebcd-d41c-e73e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c057-0c4e-2675-cedb" name="Slowed Time" hidden="false" targetId="e1a5-b04c-7083-d4bb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5213-7acb-d14b-c4d8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d6-398e-8f8d-c1f5" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7b86-8849-693d-1374" name="Dark Symmetry" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e6c-6d10-b35a-b45c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="dc40-6ebf-c6f3-1a49" name="Ilian Powers" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="10d4-7d4a-0f6a-bbdc" name="Type (B) Powers" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="35ce-0a8b-cae5-9190" name="Clarion of the Legionnaire" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="fe34-d2d2-48a2-4097" name="Clarion of the Legionnaire" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Range: Caster. This model may summon either a Heretic or an Undead Legionnaire. Place the summoned model B2B to the caster. It joins the caster´s squad and activates directly after the caster. Remove it in the next End phase.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae27-3aa5-1969-b041" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="cf96-28e1-eb5c-19b7" name="Dancing on the Void´s Razored Edge" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="5c0e-7805-25e1-4f62" name="Dancing on the Void´s Razored Edge" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Range: Caster. Gains Undying until their next activation. The model has Regeneration(10) in the next Control Phase.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b149-394c-98d3-e9d4" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="7933-2e63-1571-23a4" name="The Dark Masquerade" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="69b9-d550-c48d-a02a" name="The Dark Masquerade" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Range: Caster. This model gains Hard to Hit(4).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc69-cbe2-cd7c-d382" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="04c6-f6e1-01c8-b827" name="Path Through the Void" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="9d7a-eb56-f3a8-687e" name="Path Through the Void" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Range: Caster. Recall this model. In the next Control Phase, redeploy it in the deployment zone specified in the mission description.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a5-6851-2612-ccf8" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2b5f-f334-fe18-1a56" name="Return to Darkness" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="ccd5-ba7e-339e-5b01" name="Return to Darkness" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Range: Caster. Recall the model. It does not count against Body Count.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aced-0173-b41c-bb39" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="1ab5-63d5-12f9-1582" name="Type (D) Powers" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="7b39-02c6-a892-1c4d" name="Call of the Wild Hunt" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="12b8-0ce7-a12c-0aca" name="Call of the Wild Hunt" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Target any model with no more than WP(14). That model must pass a WP test or loses W(1) (on a random location, if a vehicle).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6442-6217-48af-9a24" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a257-4159-7c73-edba" name="Dark Removal" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="6bac-d31d-12f0-a0e3" name="Dark Removal" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Specify one of this model´s weapons. It is not usable this turn unless the target passes a WP(-6) check when they activate.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa36-f662-4716-3f7b" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ee90-5973-6b5c-6036" name="Foul Lust" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="a317-9a2c-cd0b-c0a4" name="Foul Lust" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>This model must pass a WP test. If failed, the model immediately makes a Ranged or Close Combat attack against the nearest friendly model (pivot for free if necessary).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b2-d395-4b6e-1765" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3391-a9c9-966d-853d" name="Disrupt Power" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="88a0-ff9c-bd3f-5a12" name="Disrupt Power" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Place a temporary token anywhere within 24” of and LOS to the caster. No model within 6” of the token can cast any Psychic Power, nor can he be affected by one, except Disrupt Power.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ad-1d8e-f5f4-4355" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1f8e-25a7-aad1-6e7f" name="Soulwither" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules>
+                        <rule id="fedf-5600-8fec-f811" name="Soulwither" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Models in this squad suffer WP and CON (-4).</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ee-5244-0b82-6e5c" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="4bf0-95b6-ab6d-cb7c" name="Type (S) Powers" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="e913-514f-e31d-2389" name="Ilian´s Flaming Fist of Destruction" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="05df-7eca-5cbe-2f72" name="Ilian´s Flaming Fist of Destruction" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
+                            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="4"/>
+                            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="PSY"/>
+                            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Deadly"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9168-6811-d70e-b242" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="45c5-7cc1-bd33-9268" name="Dark Bolt of the Stars" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="d80d-239b-5795-029a" name="Dark Bolt of the Stars" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="3"/>
+                            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="PSY"/>
+                            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(5), Critical Force(2)"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9140-7e0c-f1e3-a302" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2fd3-6ea0-7c1f-8353" name="Vortex of the Multiverse" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="f7ff-e27f-b810-0d99" name="Vortex of the Multiverse" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/LE"/>
+                            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="2"/>
+                            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="PSY"/>
+                            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Exploit"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f0-8858-bb10-505d" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="de5e-0e69-8b1f-d13d" name="Algeroth Powers" hidden="false" targetId="3e05-1579-3250-a997" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f1f0-6420-96a0-ff99" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7169-32bf-b629-9a75" name="Nepharite of Ilian" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="59f5-75b9-1a9d-ec0e" name="Nepharite of Ilian" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/2"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="17"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(9)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="80"/>
+          </characteristics>
+        </profile>
+        <profile id="40d5-c71e-acc4-73f8" name="Dimensional Blaster" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="4"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="PSY"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot"/>
+          </characteristics>
+        </profile>
+        <profile id="b321-893a-ad9b-73f9" name="Etheric Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="4"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC, PSY"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1343-75c1-57ca-0d96" name="Animated Chains" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All enemy models engaged with this model take a ST(8) autohit at the beginning of their activation.</description>
+        </rule>
+        <rule id="1f19-92c8-64e6-2a00" name="Dimensional Being" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(2): This model ignores ‘Free Slash’ and gains Hard to Hit (4).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="19b8-485e-aaa2-8210" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2e22-31a4-5378-e182" name="Regeneration(7)" hidden="false" targetId="d1c4-43f3-c9ae-db24" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6104-0e23-572b-9f41" name="Void Portal" hidden="false" targetId="3a2b-64fc-9a78-f44e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="43f7-878f-9dca-01e2" name="Walk the Void" hidden="false" targetId="8b27-ebcd-d41c-e73e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d197-7cbb-da41-7ccc" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2713-870a-01d7-4d55" name="Dark Symmetry" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9eb-4be2-12ca-805e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b7a7-626e-ffb7-263b" name="Algeroth Powers" hidden="false" targetId="3e05-1579-3250-a997" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3db5-9ece-55cf-dcc0" name="Ilian Powers" hidden="false" targetId="ae0a-37c2-0ace-d1ab" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="597b-19b4-fb49-9c01" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="9f1a-cade-edb3-2c16" name="Kerheela" hidden="false" targetId="b7b6-2142-90da-4632" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="1d4a-448f-e313-a888" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="b639-bd01-aebc-15f3" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="31a9-603c-7a30-71dd" name="Golgotha, Mistress of Pain" hidden="false" targetId="4f73-8eb9-f727-ac1b" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -3187,29 +3839,6 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
           <constraints/>
         </categoryLink>
         <categoryLink id="7b59-7614-dacc-71b3" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="12ae-213c-6e12-b200" name="Nepharite of Ilian" hidden="false" targetId="25fe-053c-7527-4c77" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="8165-c6ca-35d1-5141" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="b45f-950b-f64f-2be0" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>

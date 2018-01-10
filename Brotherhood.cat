@@ -2382,7 +2382,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="16.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4593,7 +4593,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="16.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

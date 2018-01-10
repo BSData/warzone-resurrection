@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="1" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -190,6 +190,173 @@
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3212-c724-f5e3-2403" name="Dominik Kaspernov" page="82" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ecaa-8b6e-a671-ef99" name="Dominik Kaspernov" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="55"/>
+          </characteristics>
+        </profile>
+        <profile id="8cd6-415a-1bbc-7698" name="&apos;Murder &amp; Killer&apos;" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): ST(2), Poison"/>
+          </characteristics>
+        </profile>
+        <profile id="dcb9-cc24-d55b-362a" name="Fire Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="ST/SE"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Precision(2)"/>
+          </characteristics>
+        </profile>
+        <profile id="f42e-58b2-7dbb-6868" name="Electro Shock Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="ST/SE"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="-"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(0), Vehicles Lose AP(-2) this turn (to a minimum of 1)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0fe7-ac0f-79bd-8c21" name="Pride of Volksburg" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(1): If attached to a Venusian
+Ranger squad, all models in this squad gain Ferocity (2).</description>
+        </rule>
+        <rule id="0d83-30e3-54af-77cd" name="Paired Weapons(GR)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1b9b-9f7d-7556-412c" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8a08-7001-ed14-f834" name="Crackshot(2)" hidden="false" targetId="b165-7d53-6093-bb07" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5808-2c83-2781-41c8" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2cf-af60-0908-8d70" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="529c-8358-bae5-7d8b" name="Leap(4)" hidden="false" targetId="4e6b-2b56-cfe0-1b4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bdf1-fcfa-23db-32f5" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5d5c-6a4c-5c60-5890" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d546-6c06-5bbd-e086" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e250-662d-8f5e-80bf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7e7a-09d8-ff7a-be35" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1d66-824b-6114-23e0" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8390-6a3c-df50-81b3" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="027f-9d6a-3164-6fa9" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -434,36 +601,6 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="142f-68da-aa2a-8010" name="Dominik Kaspernov" hidden="false" targetId="a292-2224-36fc-3534" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="8982-8496-ddff-9fd0" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="27ec-97e9-1c45-48c8" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="c8db-956b-6b14-2b14" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="e903-d414-ebe6-98e9" name="T-32 Wolfclaw JBT" hidden="false" targetId="0b9e-f1f3-b8f8-3275" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -487,7 +624,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5c34-09e1-ec22-783d" name="Hussars" hidden="false" targetId="7d6c-2ff0-0cc7-0acb" type="selectionEntry">
+    <entryLink id="43ad-cbf7-155d-adf5" name="Hussars" hidden="false" targetId="7d6c-2ff0-0cc7-0acb" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>

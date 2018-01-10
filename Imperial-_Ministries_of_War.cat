@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="3" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="4" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c534-748b-2fea-1be3" name="Military Heirarchy" hidden="false">
@@ -1701,7 +1701,7 @@ All Traps have 3 attributes:
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7bf2-ed1f-8f83-627d" name="Main Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="7bf2-ed1f-8f83-627d" name="Main Weapon" hidden="false" collective="false" defaultSelectionEntryId="7f7c-375b-152c-182a">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4567,6 +4567,337 @@ All Traps have 3 attributes:
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="aa86-7e2c-e32a-fdd7" name="Andrew Drougan" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3ef4-159a-e338-268c" name="Andrew Drougan" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="85"/>
+          </characteristics>
+        </profile>
+        <profile id="e88b-8692-cbe3-2397" name="Plasma Carbine ‘Deidre’" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4), Deadly, Short-Ranged Burst, RES(1): Critical Force(2)"/>
+          </characteristics>
+        </profile>
+        <profile id="b57c-9868-6825-771d" name="Chainripper ‘Chorobat´s Bane’" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(5)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6201-2d76-c3cb-ec81" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="42e7-ed4e-1d4f-8c27" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4081-3e7e-853e-0141" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8652-7ee0-eadc-31a4" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="88e6-e0d8-76f8-4eb2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1b8c-70be-f387-f8d2" name="Crackshot(3)" hidden="false" targetId="7cb4-b902-b94d-e214" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af89-bf01-ae87-bd7e" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="073f-acf2-574d-c00e" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c78-c589-4d2a-d9b6" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d089-14a4-ef46-022c" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="31c6-f07a-768c-6ecf" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8ffc-0d0e-5b6e-d4ee" name="Monster Hunter" hidden="false" targetId="b9f7-f546-c40a-d1e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c05f-d4c5-8b39-2a51" name="Scanner" hidden="false" targetId="df8a-ec44-be7f-6610" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ad-4aee-3630-cf62" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f0-ecd5-758d-057b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="23cc-9e98-6443-de74" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="45b0-187c-9044-e06e" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="40d3-09fd-4135-9eba" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="61ee-2fec-e62e-be6a" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d88-7c7c-d3dc-bf35" name="Sergeant Michael McBride" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ae35-a1c2-2fd7-6feb" name="Sergeant Michael McBride" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="13"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1a32-6aa1-a324-f4f0" name="Best of the Best" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any other model in a squad this character is attached to gains RS and CC(+1)</description>
+        </rule>
+        <rule id="0f1e-5275-f54d-7fb9" name="Vehicle Hunter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any squad this character is attached to is equipped with Burning Star Incendiary Gel.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a9a5-5a36-98fb-53b3" name="Heavy Chainripper" hidden="false" targetId="9868-7ca6-6179-4fb6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9bf6-b998-2354-083e" name="Interceptor SMG" hidden="false" targetId="7ab1-670b-306d-77dd" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="441b-654e-9e54-743f" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="01f2-87ba-349b-aeaf" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5f00-a91a-406d-acc0" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c78c-f5e3-c8e0-61e5" name="Medic(3)" hidden="false" targetId="854a-e720-0e5d-7471" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f816-8fc0-bce9-c46a" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8b38-3df5-2507-a2ea" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a5a3-e685-476b-f771" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="efa7-a16f-a092-0d9a" name="Monster Hunter" hidden="false" targetId="b9f7-f546-c40a-d1e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6887-bbf7-38a4-d4ce" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="271f-d253-7601-8fde" name="Burning Star Incendiary Gel" hidden="false" targetId="e43c-7ad7-7773-e2c1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8077-13f0-1c23-7b8b" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="88e6-e0d8-76f8-4eb2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c9-8831-c503-3e55" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9db3-999d-3f4b-0174" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="99e4-899c-d68c-fd8c" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0eef-99e5-793f-597b" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2436-7891-dc29-4701" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f54e-bad1-60a6-e428" name="Army Commander" hidden="false" targetId="471e-ea00-3077-49f4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="4488-ca8a-659a-0b31" name="Stormtrenchers" hidden="false" targetId="ea26-7439-e7e6-b29d" type="selectionEntry">
@@ -4785,22 +5116,6 @@ All Traps have 3 attributes:
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fb35-e166-39ea-209c" name="Sergeant Michael McBride" hidden="false" targetId="557c-16c2-9b06-2907" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="3545-9312-20c7-f30b" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="d28f-332c-4135-1f00" name="Blood Berets" hidden="true" targetId="2150-6322-9db7-8256" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -4835,36 +5150,6 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="2e84-5b32-f516-25ea" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f785-9ba9-abfe-6aa9" name="Andrew Drougan" hidden="false" targetId="3b69-08b3-e650-f359" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="b641-9552-1f4d-4896" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="94be-c194-a206-e1a6" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="d835-732c-c9a4-aafc" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5544,7 +5829,7 @@ All Traps have 3 attributes:
         <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e7b-2d1c-20b4-7c45" type="greaterThan"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2402-abc2-4604-52fc" type="greaterThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -5559,14 +5844,6 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
       </categoryLinks>
-    </entryLink>
-    <entryLink id="2bb2-3178-4f6c-6e84" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" targetId="0e7b-2d1c-20b4-7c45" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
     </entryLink>
     <entryLink id="374f-8724-135c-c0a2" name="John Baptiste" hidden="false" targetId="0363-58ea-b105-b777" type="selectionEntry">
       <profiles/>
@@ -5708,6 +5985,14 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="2402-abc2-4604-52fc" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" targetId="48c0-a20a-eee7-475a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -6606,7 +6891,7 @@ All Traps have 3 attributes:
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a2e0-645b-7f6f-6e9b" name="Main Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="a2e0-645b-7f6f-6e9b" name="Main Weapon" hidden="false" collective="false" defaultSelectionEntryId="fc23-e064-a9ab-baa0">
           <profiles/>
           <rules/>
           <infoLinks/>
