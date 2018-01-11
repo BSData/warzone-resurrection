@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="4" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="5" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -947,62 +947,34 @@
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="63ec-185e-a0eb-82b1" name="Colonel Mitch Hunter" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c18-5607-bed2-f396" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6ae-ac0e-6792-dce2" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="43b1-b0ed-2543-3f77" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9e7-cdf0-c5a3-2851" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0f-b527-062c-0e42" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="056e-4bcd-30e2-7f5d" name="Captain Vince &apos;Fel&apos; Harland" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b0-7250-0b2e-e440" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0af0-9ab1-7de9-4b99" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="2109-18cb-24e9-e4ea" name="Big Bob Watts" hidden="false" targetId="e84a-f503-c548-7d27" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0782-f66a-e804-47b6" name="Colonel Mitch Hunter" hidden="false" targetId="bb04-51cd-f09d-5780" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="ebd0-0875-e7dd-2dbb" name="Captain Vince &apos;Fel&apos; Harland" hidden="false" targetId="2555-f128-b504-1dfd" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="312d-0de8-c3c5-f8db" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" targetId="f95e-0462-17f1-8d11" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1266,7 +1238,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c799-6751-d7b4-6b03" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c799-6751-d7b4-6b03" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3979-1de7-275e-e02e" type="max"/>
       </constraints>
       <categoryLinks>
@@ -1394,7 +1366,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c54-82bd-1c7c-8c8f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c54-82bd-1c7c-8c8f" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3387-b303-dfb5-9418" type="max"/>
       </constraints>
       <categoryLinks>
@@ -1612,7 +1584,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ec-07ae-6338-0d18" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36ec-07ae-6338-0d18" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4c9-5b33-9e59-5c6e" type="max"/>
       </constraints>
       <categoryLinks>
@@ -2295,7 +2267,7 @@ A(+1).</description>
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="75"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="95"/>
           </characteristics>
         </profile>
         <profile id="f716-bf20-8057-a3d7" name="Legion Athame" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -6693,7 +6665,7 @@ A(+1).</description>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3e2-ab08-777f-5957" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e25-68a4-cce4-168e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e25-68a4-cce4-168e" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2579-db00-f720-9400" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -9419,7 +9391,7 @@ A(+1).</description>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="677a-da60-34c0-06c4" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11b0-2cf7-3be6-3a05" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11b0-2cf7-3be6-3a05" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4689-8fe9-58e3-3970" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -9930,7 +9902,7 @@ A(+1).</description>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fbc-fc66-0021-d53b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea69-a55b-fa59-b23f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea69-a55b-fa59-b23f" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="beb9-8988-6ef3-13ef" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -10088,8 +10060,8 @@ A(+1).</description>
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92d4-ef4b-615f-4289" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f87-a71a-fd2e-d41a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92d4-ef4b-615f-4289" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f87-a71a-fd2e-d41a" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="19b9-fbc0-b040-8192" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -10263,7 +10235,7 @@ A(+1).</description>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="928c-bc67-b52d-97e7" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee4-b135-c177-342c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ee4-b135-c177-342c" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8c37-24ee-6ba9-8135" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -10713,7 +10685,7 @@ models are placed B2B with him in his front facing and travel the full movement 
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="719e-dcde-71ca-fa0b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f36-8290-771e-8780" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f36-8290-771e-8780" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f3f2-ebcd-5748-c6bc" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -10877,7 +10849,7 @@ models are placed B2B with him in his front facing and travel the full movement 
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce2d-0ffa-b863-be08" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b8d-fc99-d2d2-b287" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0b8d-fc99-d2d2-b287" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2a0d-63c7-37d6-f910" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -11080,7 +11052,7 @@ models are placed B2B with him in his front facing and travel the full movement 
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4234-b815-1b9d-3c0c" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="481d-ee40-6c53-dd91" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="481d-ee40-6c53-dd91" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="ef87-1f18-c384-fa04" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -11392,7 +11364,7 @@ models are placed B2B with him in his front facing and travel the full movement 
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f508-d441-4049-d7be" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3f7-0a5c-0f4b-2356" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d3f7-0a5c-0f4b-2356" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a843-132f-7f40-3532" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
@@ -15116,7 +15088,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="affa-9b39-01f6-97dc" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2af3-b664-dcf3-5291" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2af3-b664-dcf3-5291" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -15373,19 +15345,6 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
                 <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="12"/>
               </characteristics>
             </profile>
-            <profile id="7057-cbc9-ae22-9196" name="M50 Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
           </profiles>
           <rules>
             <rule id="7b5c-f2ba-00cd-4f72" name="Battalion" hidden="false">
@@ -15405,6 +15364,12 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
           </rules>
           <infoLinks>
             <infoLink id="ca22-b0fe-3472-05b4" name="Combat Knife" hidden="false" targetId="9351-7193-1f40-4935" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="88ad-620d-70b6-dd13" name="M50 Assault Rifle" hidden="false" targetId="d857-2b3f-3077-4aae" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -15448,134 +15413,6 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="66a7-02d4-f983-a5f7" name="Army Commander" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="434a-ea4f-3b52-d6a9" name="Leader(2/Free Marines)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1878-a455-3344-10d6" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="02a7-a953-11e4-1500" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="51d4-6423-4aaa-c9ca" name="Army Commander" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="47ac-b6c0-6c0f-0ad4" name="Leader(2/Inquisitors)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f248-3d9a-3899-e43c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="4402-d0ab-c1ec-aa00" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9775-2878-f429-369c" name="Army Commander" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="4a46-c209-b9f4-46db" name="Leader(1/Tiger Dragons)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="471e-f312-789a-e31f" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="2185-ba76-e913-6678" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="471e-ea00-3077-49f4" name="Army Commander" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules>
-        <rule id="1b62-467a-0a37-129b" name="Leader(2/Blood Berets)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0267-27aa-209d-4a0d" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="10c8-45f7-2d22-080f" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
@@ -15786,6 +15623,627 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb04-51cd-f09d-5780" name="Colonel Mitch Hunter" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4fac-7c53-89f8-a23e" name="Colonel Mitch Hunter" book="" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="17/5"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="17"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(11)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="130"/>
+          </characteristics>
+        </profile>
+        <profile id="5d95-2664-a4c2-b68a" name="M13 Bolter Handgun (High Velocity Shells)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="8"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="HG"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1), Headshot, Deadly"/>
+          </characteristics>
+        </profile>
+        <profile id="aba0-2a03-90c7-2e37" name="Capitolian Sword of Honor" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a192-7bde-a3bc-6066" name="Fortune Favors the Brave" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per Turn, when this model is not affected by fear, it may gain CC(+X) to a single CC test, where (X) is the Fear modifier of an enemy in his CCWR.</description>
+        </rule>
+        <rule id="3a6b-8c6b-04fe-4a70" name="Megacorp Champion" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains ST and IA(+1)per ‘Death or Glory’ marker up to a maximum of (+5).</description>
+        </rule>
+        <rule id="165c-c43d-9e8a-75b7" name="Whirlwind" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(2): Place a ‘Whirlwind’ marker within 5” of this model. This model then makes a Charge action
+to that marker, even through enemy models and does not receive Free Slashes. All models that are within this model´s CCWR during the Charge action receive a ST(14) autohit. If an enemy model was killed, place a ‘Death or Glory’ marker either next to him or on his stat card.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4d35-2834-400c-e777" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7ddb-a498-74e0-5079" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6979-6adb-b1f3-3bed" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bade-1c9e-e688-5166" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dd59-94f4-490b-dc57" name="Eagle Eye(3)" hidden="false" targetId="28a2-4c45-cfcc-38d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b332-c8e1-3a13-c208" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3ddb-88b2-1950-b08b" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fe2-63cd-3770-156e" name="Blend In" hidden="false" targetId="b1ce-a199-b498-cdf1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="026b-8599-dc69-40be" name="Geurilla Tactics" hidden="false" targetId="a3e1-642c-9ed1-a372" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f1a-a5be-82be-b89b" name="Prepared Grounds" hidden="false" targetId="4b16-4d79-c9cc-ffb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8ee0-bcd0-9eb2-12f3" name="Surgical Strike" hidden="false" targetId="788d-9ec5-7d17-2d51" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5d72-3b25-6a75-4f26" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e35f-48b8-ffd9-bb1f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="33b8-7dda-602c-42c3" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8838-6bdc-7c11-2276" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6b22-6b43-d767-6756" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="79d5-96a7-440e-2852" name="Pride the Dog" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="2626-666c-053f-4b3c" name="Pride the Dog" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/3"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="0"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="25"/>
+              </characteristics>
+            </profile>
+            <profile id="2c20-05ce-8de6-7a3c" name="Enhanced Canine Teeth" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="61d0-0384-1fbf-0be1" name="Clever Dog!" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Mitch and Pride ignore unit coherency. If within 12” of Pride, Mitch may reroll CON tests.</description>
+            </rule>
+            <rule id="a53b-61bf-455d-56d7" name="Investigation" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>While Pride is alive, Mitch gains Predator Senses and Target Identifier (2).</description>
+            </rule>
+            <rule id="4f8a-6916-6835-abed" name="Loyal Unto Death" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If Mitch is killed, Pride gains (+2) to CC, ST, and ROA until the end of the game.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="def0-1749-d070-990c" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7d12-19eb-9492-bcfd" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="03bb-92ef-8912-2b12" name="Hidden Agenda" hidden="false" targetId="1ae7-3924-fd11-d673" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="008c-910c-b535-8455" name="Leap(3)" hidden="false" targetId="f16b-7b60-7b61-0ca6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d692-f319-bc4e-1209" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b911-c9dc-79aa-0ba0" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c935-4a15-0794-c4d7" name="Target Identifier(4)" hidden="false" targetId="c12f-2b96-a676-ff19" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ad-ddc0-9866-4c2b" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="7c06-f15e-1232-606c" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2555-f128-b504-1dfd" name="Captain Vince &apos;Fel&apos; Harland" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9857-a610-33be-e50c" name="Captain Vince &apos;Fel&apos; Harland" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="13"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
+          </characteristics>
+        </profile>
+        <profile id="c580-94b3-1559-efa6" name="M50 Assault Rifle (Spec Ops Ammo)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="28"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Weapon Mode (Demolition Grenade) RES(1): Exploit"/>
+          </characteristics>
+        </profile>
+        <profile id="64d8-6bba-a7c0-2d8f" name="M50 Assault Rifle (Demolition Grenade)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/SE"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(6), Critical Force(2)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a964-92bd-bec1-5fdc" name="Fell&apos;s Angels" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>One squad of Free Marines gains SP(+1), Disposable, and Follow Up.</description>
+        </rule>
+        <rule id="1bba-777f-1664-f161" name="Master of Blades" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(2): When making a Charge action, this model’s Close Combat weapons gain Critical Force (2) and it may reroll all failed CC attacks.</description>
+        </rule>
+        <rule id="d78a-a321-8a5f-811c" name="Paired Weapons(Serrated Punisher Short Sword)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="79a2-a5ae-9718-3932" name="Serrated Punisher Short Sword" hidden="false" targetId="2d49-aed8-ce13-0d2c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="767b-2cfd-9c26-5df2" name="Serrated Punisher Short Sword" hidden="false" targetId="2d49-aed8-ce13-0d2c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5a1c-ad09-4c79-517a" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3b2c-056c-1cb8-af8d" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ca55-0a1f-f79e-803f" name="Disposable" hidden="false" targetId="5b09-3564-b803-efd7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a92-89a5-9c08-5be7" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6d50-f422-502f-36d7" name="Cooperation" hidden="false" targetId="3e75-701f-faba-28d6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="05fa-87fb-c28b-9a22" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2eeb-aecf-50a0-6e4c" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cda0-2efa-d17d-f5bc" name="Ferocity(1)" hidden="false" targetId="44dc-bca0-18ec-fd2d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5903-2c27-e3b7-1e91" name="Freedom Forever" hidden="false" targetId="bce0-ccfb-a355-3980" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eaa9-9a25-83c2-8748" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="80f7-4b60-c684-b03c" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2190-de3b-e0eb-0e78" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413c-8911-b878-e0a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="63d9-aea3-ac40-dd63" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cb0b-8f65-5757-c813" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cf5c-dc4b-51cd-1f1f" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f95e-0462-17f1-8d11" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f081-20fc-0f59-5d58" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="16/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="13"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
+          </characteristics>
+        </profile>
+        <profile id="ccb2-bab0-7ff9-d192" name="Modified Banshee Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Critical Force(2)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="87d1-e407-7abd-992d" name="M50 Assault Rifle" hidden="false" targetId="d857-2b3f-3077-4aae" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5249-7f3d-554f-12f1" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="40ff-3ef9-5379-7868" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6d6b-fd64-cdf1-4de8" name="Contempt(Dark Legion/Mishima)" hidden="false" targetId="60bb-3ad2-9b74-ade9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="855e-d5c0-ad00-5019" name="Death From Above" hidden="false" targetId="f1fd-e2c7-4268-d056" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3a36-9882-ae26-d9dc" name="Death Shriek" hidden="false" targetId="00c5-3b3a-99b4-02c5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8f2d-b0a8-a264-63f7" name="Dissention(2)" hidden="false" targetId="e697-95a3-e404-cc1c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3929-cef6-324c-ccbc" name="Jet Boots" hidden="false" targetId="3c89-daf3-170a-bf6f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a27a-76da-2161-8dc5" name="Jet Packs" hidden="false" targetId="9219-eb64-2384-1c60" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1599-25cc-4db0-bae2" name="Pure Hatred" hidden="false" targetId="f0bb-7e82-7b60-9cec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8ae2-e243-71a1-9052" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="751a-3f0d-6902-eab5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fed0-87e3-3c90-f9b5" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="438b-5cf5-1f1b-08a6" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0c62-d957-9d2b-e068" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -27024,6 +27482,77 @@ and Critical Force (2).</description>
       <description>RES(2): Once per game, the squad commander may place a permanent ‘Flag’ token within
 2”.All Free Marines squads within 10” of this token gain CC(+1), DEF(+1) and Unbreakable. Their Close Combat Weapons gain ROA(+1). (not cumulative)</description>
     </rule>
+    <rule id="b1ce-a199-b498-cdf1" name="Blend In" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>RES(1): At the beginning of the squad’s activation, if no member of the squad is engaged, you
+may place a ‘Blend In’ marker next to the squad. Every Sea Lion in this squad may only be targeted by Ranged attacks if they are within 12” of the model targeting them. If any model in this squad takes an action other than Shooting, the effect ends on the entire squad immediately. Otherwise, remove the marker at the beginning of the squad´s next activation.</description>
+    </rule>
+    <rule id="a3e1-642c-9ed1-a372" name="Geurilla Tactics" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Enemies may not make Free Slash when this model leaves their CCWR.</description>
+    </rule>
+    <rule id="4b16-4d79-c9cc-ffb4" name="Prepared Grounds" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>RES(2): Once per game, place a temporary token on a single piece of terrain that has at least one model from this squad in it. Any enemy model beginning or finishing any movement action within this terrain takes a ST(10) autohit at the end of the action.</description>
+    </rule>
+    <rule id="9786-fc1f-583c-d7a7" name="Surgical Strike" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may always choose to deploy first when Infiltrating, regardless of who won the Initiative roll. If both armies have units with this ability, they are deployed in Initiative order.</description>
+    </rule>
+    <rule id="f1fd-e2c7-4268-d056" name="Death From Above" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When making a Charge action under influence of the Jet Packs ability, the model’s Close Combat weapons gain ST(+2) and Concussive (0).</description>
+    </rule>
+    <rule id="00c5-3b3a-99b4-02c5" name="Death Shriek" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>RES(1): This squad gains Fear (3) until the end of the turn.</description>
+    </rule>
+    <rule id="3c89-daf3-170a-bf6f" name="Jet Boots" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model may jump across 4” gaps. When falling from height, he ignores the (+6) modifier to the autohit. Banshees ignore the CON test for climbing. When deploying from Rapid Deployment, he may move the deployment point up to 3” in any direction after the scatter is resolved.</description>
+    </rule>
+    <rule id="9219-eb64-2384-1c60" name="Jet Packs" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this model is in open terrain, at the beginning of its activation, it may gain SP(+3), Ranger, and also ignores the free slash rule. If during this turn the model ends its movement in difficult terrain, it must pass a CON test or take a ST(8) autohit.</description>
+    </rule>
+    <rule id="f0bb-7e82-7b60-9cec" name="Pure Hatred" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When fighting the Dark Legion or Mishima factions, gain Fearless (5).</description>
+    </rule>
+    <rule id="60bb-3ad2-9b74-ade9" name="Contempt(Dark Legion/Mishima)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="3971-7f07-2429-32d8" name="Samurai Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -27949,6 +28478,19 @@ and Critical Force (2).</description>
         <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
         <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
         <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Critical Force(2), ROA(1), Slow to Reload"/>
+      </characteristics>
+    </profile>
+    <profile id="d857-2b3f-3077-4aae" name="M50 Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+        <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+        <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
       </characteristics>
     </profile>
   </sharedProfiles>
