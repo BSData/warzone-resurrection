@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e2a-f69a-79a1-ec47" name="Capitol" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -18,14 +18,14 @@
           <characteristics>
             <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
             <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
-            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="14"/>
+            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="12"/>
             <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="13"/>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
-            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-"/>
+            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
             <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="45"/>
@@ -52,16 +52,15 @@
           <infoLinks/>
           <modifiers/>
         </rule>
-        <rule id="15c9-9e6d-ace4-7812" name="Corporate Modifications: Bauhaus" hidden="false">
+      </rules>
+      <infoLinks>
+        <infoLink id="dd76-2628-0bb1-de55" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>RS(+2) and no rear A penalty. (included in profile)</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="dd76-2628-0bb1-de55" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+        </infoLink>
+        <infoLink id="3c0f-8ba5-1b36-a6d0" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -110,14 +109,14 @@
           <characteristics>
             <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
             <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
-            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="14"/>
+            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="12"/>
             <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="13"/>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
-            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-"/>
+            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
             <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="45"/>
@@ -144,16 +143,15 @@
           <infoLinks/>
           <modifiers/>
         </rule>
-        <rule id="ccfb-c15f-487a-a3f7" name="Corporate Modifications: Bauhaus" hidden="false">
+      </rules>
+      <infoLinks>
+        <infoLink id="27c6-2c49-3e22-254c" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>RS(+2) and no rear A penalty. (included in profile)</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="27c6-2c49-3e22-254c" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+        </infoLink>
+        <infoLink id="f3a7-8b96-5752-adfc" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -192,123 +190,126 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3212-c724-f5e3-2403" name="Dominik Kaspernov" page="82" hidden="false" collective="false" type="model">
+    <selectionEntry id="6090-ab60-255b-7937" name="Big Bob Watts" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="ecaa-8b6e-a671-ef99" name="Dominik Kaspernov" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+        <profile id="868f-8b41-8a35-3156" name="Big Bob Watts" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="17"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="12"/>
             <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22(10)"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="55"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="120"/>
           </characteristics>
         </profile>
-        <profile id="8cd6-415a-1bbc-7698" name="&apos;Murder &amp; Killer&apos;" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+        <profile id="c5f3-ed21-1c80-25ae" name="Atlas Megacannon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="28"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): ST(2), Poison"/>
-          </characteristics>
-        </profile>
-        <profile id="dcb9-cc24-d55b-362a" name="Fire Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="ST/SE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Precision(2)"/>
-          </characteristics>
-        </profile>
-        <profile id="f42e-58b2-7dbb-6868" name="Electro Shock Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="ST/SE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="-"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(0), Vehicles Lose AP(-2) this turn (to a minimum of 1)"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Armour-Piercing(3), Pinning RES(1): ROA(+2)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="0fe7-ac0f-79bd-8c21" name="Pride of Volksburg" hidden="false">
+        <rule id="c0f4-5601-a7c7-f826" name="Inspiring Presence" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>RES(1): If attached to a Venusian
-Ranger squad, all models in this squad gain Ferocity (2).</description>
+          <description>Any friendly broken or pinned squad automatically recover if they have LOS to Bob Watts when he kills a model.</description>
         </rule>
-        <rule id="0d83-30e3-54af-77cd" name="Paired Weapons(GR)" hidden="false">
+        <rule id="4563-bb72-2f80-71e2" name="The Chopper" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+          <description>RES(3): When making a Shooting action, the target does not gain any benefits from cover. At the end of the action, remove the terrain piece the primary target was in if it is 3”x3” or smaller.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="1b9b-9f7d-7556-412c" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+        <infoLink id="ee33-046e-c507-9ee4" name="Serrated Punisher Short Sword" hidden="false" targetId="2d49-aed8-ce13-0d2c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8a08-7001-ed14-f834" name="Crackshot(2)" hidden="false" targetId="b165-7d53-6093-bb07" type="rule">
+        <infoLink id="fe44-22a0-53d4-834a" name="Gunslinger" hidden="false" targetId="ca2b-7c55-cf10-b2c2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5808-2c83-2781-41c8" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule">
+        <infoLink id="6a15-b236-d175-bf46" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b2cf-af60-0908-8d70" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+        <infoLink id="3622-37d4-bd7a-40ac" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="529c-8358-bae5-7d8b" name="Leap(4)" hidden="false" targetId="4e6b-2b56-cfe0-1b4a" type="rule">
+        <infoLink id="bc04-3324-af8e-788a" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="bdf1-fcfa-23db-32f5" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+        <infoLink id="e495-c2f0-fce3-cd27" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5d5c-6a4c-5c60-5890" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
+        <infoLink id="b884-dc39-7b50-0d43" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cdea-9216-a49b-24a1" name="Ferocity(1)" hidden="false" targetId="44dc-bca0-18ec-fd2d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="805e-7f56-f99b-e40f" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ac49-8e30-7768-44bc" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="edd4-84f5-42e3-9786" name="Cooperation" hidden="false" targetId="3e75-701f-faba-28d6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7236-7232-bcd0-c1ca" name="Freedom Forever" hidden="false" targetId="bce0-ccfb-a355-3980" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -317,25 +318,32 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d546-6c06-5bbd-e086" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e250-662d-8f5e-80bf" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff5f-3dbe-ecbd-39ff" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a1-d8d8-5f47-6370" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="7e7a-09d8-ff7a-be35" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+        <categoryLink id="76c6-3be6-0f2d-31f5" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1d66-824b-6114-23e0" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+        <categoryLink id="a5e2-2f25-e47e-68f1" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="8390-6a3c-df50-81b3" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+        <categoryLink id="3290-c2b3-83c4-1c19" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ce5c-fbe4-258b-6140" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -346,7 +354,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="027f-9d6a-3164-6fa9" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+        <entryLink id="bf2a-2097-a5f0-f06c" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -356,7 +364,167 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a9e-d6e7-e9e8-1769" name="Detective Nathan Castle" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3c38-16a2-ad18-3ff9" name="Detective Nathan Castle" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="13/1"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="21"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="40"/>
+          </characteristics>
+        </profile>
+        <profile id="0a40-5cd9-2d7e-efe4" name="CA-101 Piranha Handgun" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="HG"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Weapon Mode(Heretic Stopper)"/>
+          </characteristics>
+        </profile>
+        <profile id="f9ef-4659-7253-c0e6" name="CA-101 Piranha Handgun(Heretic Stopper)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="HG"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Precision(8), Critical Force(2), Slow to Reload"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c5d4-66c6-e736-37da" name="Apprehended" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any hits made by this model in Close Combat against models with W(2) or lower gain Critical Force (2).</description>
+        </rule>
+        <rule id="216c-fd2b-14e7-8714" name="Corporate Investigation" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Opponents must reveal their Corporate Agenda Missions in the first Control Phase.</description>
+        </rule>
+        <rule id="459f-cebb-9ad3-5382" name="Deputize" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each time this model receives W(-1), place a Law marker on a friendly squad within 4” of him. This squad gains CC, RS, and ST (+1) against the squad that wounded Nathan. Law markers are not cumulative.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="526b-9b0b-79d8-3779" name="Punisher Short Sword" hidden="false" targetId="6d8c-80ce-73b2-682b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7e04-1528-de03-6d0f" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5fce-3fe7-1428-3cec" name="Flash-Bang Grenade" hidden="false" targetId="9653-99fb-b2cd-95a7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c9c8-4cda-3de5-41db" name="Espionage" hidden="false" targetId="9964-22c6-ef0c-0c9f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3bd5-6211-bca9-8510" name="Fearless(1)" hidden="false" targetId="7a31-2091-c190-5d4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e595-cdb3-9f86-efca" name="Target Identifier(3)" hidden="false" targetId="20de-56cb-5088-a91c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b401-6dc8-a16c-948f" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1374-508d-4b04-3106" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3f3-946e-7e35-d1e7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2815-40d2-4e51-489e" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a5d1-802a-6089-be57" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d721-42ca-c9df-fea3" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8dfb-b6fb-3326-74d0" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="40.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -383,66 +551,6 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <constraints/>
         </categoryLink>
         <categoryLink id="2a8c-a876-2f48-51aa" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="41f7-f94b-8c73-c83f" name="Detective Nathan Castle" hidden="false" targetId="72ec-3f60-b80b-5f2d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="7128-8d0a-e22f-70f7" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5973-af10-8f97-3b74" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="a920-1b47-9fd4-e05c" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b7de-01bf-08e4-a8c5" name="Big Bob Watts" hidden="false" targetId="e84a-f503-c548-7d27" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="edaa-1401-205f-30bf" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="13e2-cc39-14f3-8dd2" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e4b9-98c4-6870-2781" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -600,37 +708,6 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-    </entryLink>
-    <entryLink id="e903-d414-ebe6-98e9" name="T-32 Wolfclaw JBT" hidden="false" targetId="0b9e-f1f3-b8f8-3275" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="d9c3-bc7a-3943-28de" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="dd5b-247c-d928-a6d2" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="43ad-cbf7-155d-adf5" name="Hussars" hidden="false" targetId="7d6c-2ff0-0cc7-0acb" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>

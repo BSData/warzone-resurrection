@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="1" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -821,31 +821,6 @@
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-    </entryLink>
-    <entryLink id="af40-bce9-b075-031b" name="Eradicator Death Droid" hidden="false" targetId="5bf7-459a-ba1a-d45d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d852-3266-589b-c382" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="26d0-8404-66bb-6223" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="8a5e-e333-576c-4fb8" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>
