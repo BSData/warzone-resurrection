@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="4" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2071,14 +2071,14 @@
         <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="51d4-6423-4aaa-c9ca" type="greaterThan"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afd7-7c1b-84ad-22d3" type="greaterThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="dfb5-f9e4-d0d4-ec73" value="2">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="51d4-6423-4aaa-c9ca" type="greaterThan"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afd7-7c1b-84ad-22d3" type="greaterThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -5418,30 +5418,142 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <entryLinks>
-    <entryLink id="6322-d5aa-6173-5f95" name="Inquisitor Majoris Hanno Hamilkar" hidden="false" targetId="aeb9-8639-d129-a1cf" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
+    <selectionEntry id="bb4a-5a26-f5ae-3f01" name="Inquisitor Majoris Hanno Hamilkar" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d8c8-6498-0875-81e4" name="Inquisitor Majoris Hanno Hamilkar" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/2"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="17"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="18"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="26(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="110"/>
+          </characteristics>
+        </profile>
+        <profile id="abe6-f57c-50f2-cc23" name="Blessed AC-40 Justifier" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4), When firing at targets within 6”, the weapon is ST(+2), RES(1): ST(+2), RES(1):Weapon Mode (Holy Bullet)"/>
+          </characteristics>
+        </profile>
+        <profile id="a297-a16d-331d-c7f0" name="Blessed AC-40 Justifier (Holy Bullet)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing (4), Deadly, Exploit, Slow to Reload, Does not need LOS, When firing at targets within 6”, the weapon is ST(+2), RES(1): ST(+2)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b626-af84-1ec7-e7d4" name="Interrogation" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(2): Target one enemy model. If this model removes the targeted model in Close Combat, the opponent receives Initiative(-4) next turn.</description>
+        </rule>
+        <rule id="cd17-39ca-d1a5-0b1c" name="Shock and Awe" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is the army commander, all Psychic (S) Powers cast by friendly models are ST(+1).
+All friendly models in a squad that successfully wounds with one or more Psychic (S) Powers gain RS(+1).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ee5e-7b2e-722d-f966" name="Holy Disemboweller Chainblade" hidden="false" targetId="07fd-a7bc-cee6-6043" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0e1c-d318-2fed-a463" name="Espionage" hidden="false" targetId="9964-22c6-ef0c-0c9f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3e36-ce34-da01-e656" name="Fear(4)" hidden="false" targetId="2011-c842-5a4f-0efc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d14e-b386-4fc7-5a04" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f488-8ad5-f3be-9604" name="Initiative(2)" hidden="false" targetId="44f4-981b-8b86-6486" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8ed6-d005-5254-75e0" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb00-746a-074f-9f6f" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1f36-f5c3-f183-4e97" name="Book of Atonement" hidden="false" targetId="d8f2-4a96-8738-5f7b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0907-208a-e777-dd7d" name="Book of Law" hidden="false" targetId="ee28-46d2-37ae-679e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825c-1adb-2503-f70f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c8-0cc7-6bc0-e6a2" type="max"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="e6d2-3398-5255-5888" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+        <categoryLink id="6b77-bc8e-7b0c-cc61" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="5659-24a8-c5ae-4e0b" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="74c4-d48a-bf30-e5d0" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+        <categoryLink id="0254-bf46-d9f3-6cfe" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5449,7 +5561,35 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-    </entryLink>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e61f-1336-82c8-e65a" name="Free Art Powers" hidden="false" targetId="9537-8765-fd19-90cc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="202f-9ea7-7e8d-5c3e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94cc-cec1-e34c-0300" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fdb5-8c14-77ec-fb15" name="Army Commander" hidden="false" targetId="afd7-7c1b-84ad-22d3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
     <entryLink id="941c-b414-76c2-188c" name="Corporate Security Agents" hidden="false" targetId="afe7-5da3-ebbf-e831" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -6274,6 +6414,38 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="6922-d68a-d6c0-0dad" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afd7-7c1b-84ad-22d3" name="Army Commander" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="5bb9-0071-5f66-61d2" name="Leader(2/Inquisitors)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c04-a087-d779-f452" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c6a9-d120-13a9-27af" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>

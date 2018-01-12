@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="4" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="6" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c534-748b-2fea-1be3" name="Military Heirarchy" hidden="false">
@@ -4691,7 +4691,15 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="f8f0-ecd5-758d-057b" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b69-08b3-e650-f359" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ad-4aee-3630-cf62" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f0-ecd5-758d-057b" type="max"/>
@@ -4885,7 +4893,7 @@ All Traps have 3 attributes:
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="f54e-bad1-60a6-e428" name="Army Commander" hidden="false" targetId="471e-ea00-3077-49f4" type="selectionEntry">
+        <entryLink id="f54e-bad1-60a6-e428" name="Army Commander" hidden="false" targetId="5851-936b-ca73-40c0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4896,6 +4904,398 @@ All Traps have 3 attributes:
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baec-0cf9-e42d-c757" name="Lieutenant Isaac Alfreds" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2d4b-aa05-3f41-abc4" name="Lieutenant Isaac Alfreds" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="17/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="80"/>
+          </characteristics>
+        </profile>
+        <profile id="b152-b1d6-9d3d-7cf3" name="Mk.IVP Plasma Intruder" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(2), Deadly, Short-Ranged Burst, RES(1): Critical Force(2)"/>
+          </characteristics>
+        </profile>
+        <profile id="6ee6-33a9-98ae-c55b" name="Heavy Chainripper ‘Betsy’" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+5"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6b69-ef38-341e-0eb0" name="Blessed by the Drougans" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains WP(+2) against all Psychic attacks.</description>
+        </rule>
+        <rule id="d49b-f9ed-aaef-1884" name="Ever-Ready" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per Game Turn, at any time, this model may complete a Shooting or Walk action as if in Sentry, whenever an enemy model deploys within 6” of him (even if he has already activated this Game Turn). Also, every such enemy model receives a ST(10) autohit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b904-ad4a-132b-d3d6" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9657-6e89-97fb-11b1" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cf20-8da4-63b9-cba8" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2134-68e6-b466-050b" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dcef-a0c5-7e65-3430" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d57a-87c5-b581-e78e" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b39b-124f-2c86-7387" name="Monster Hunter" hidden="false" targetId="b9f7-f546-c40a-d1e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a00-7474-a4f9-27a5" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="72c2-d632-64cf-1cb2" name="Burning Star Incendiary Gel" hidden="false" targetId="e43c-7ad7-7773-e2c1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0d82-33f8-8bb3-ad7d" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="88e6-e0d8-76f8-4eb2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a306-a754-9680-2965" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c9e5-1cc4-82de-1f7d" name="Scanner" hidden="false" targetId="df8a-ec44-be7f-6610" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="0086-79e9-ff71-e392" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88c4-1013-986a-0fd5" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="472b-7678-e7c5-9a3c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0086-79e9-ff71-e392" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="339b-be62-0512-8f3c" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b20e-5ee3-b993-fa4c" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6b4a-1077-40a5-92b3" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e75f-b154-86a0-bcf2" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67ab-fb7c-7e4e-f0f7" name="Hurricane Walker" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="54ff-9562-7e14-718e" name="Hurricane Walker" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
+            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="15/1"/>
+            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="15"/>
+            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
+            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="16"/>
+            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
+            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="28/4"/>
+            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/4"/>
+            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/4"/>
+            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
+            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="8&quot;"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="135"/>
+          </characteristics>
+        </profile>
+        <profile id="8cba-a75f-03ce-f6f4" name="Stomp" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
+          </characteristics>
+        </profile>
+        <profile id="4abc-1f6c-8a8f-1d79" name="Heavy Chimney Gas Cannon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="6/FT"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="6"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Gas"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cdd3-d0af-94be-639c" name="Beacon of Imperial" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any friendly squad with at least one model within 10” of this model can re-roll failed LD tests.</description>
+        </rule>
+        <rule id="0a4c-c9ea-a0b4-976c" name="Radioactive Dome" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="67ab-fb7c-7e4e-f0f7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9ed0-8c4f-f2a9-bb3c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <description>RES(1): This model may use one of the following abilities per turn. 
+• Supply Drop : AP(2): once per game, gain RES(4).
+• Microwave Pulse: no model within 18” can use Heal.
+• EMP Pulse: every vehicle within 18” (except Hurricane Walkers) loses AP(1). If it already has been activated, it suffers a ST(13) autohit.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd17-a7c4-fb72-8ad6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a707-5025-05f9-917d" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9ed0-8c4f-f2a9-bb3c" name="Heavy Gun Nest" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="619f-77ca-f097-dd8c" name="Heavy Gun Nest" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="5"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(2): Weapon Type gains CC, Hurricane of Destruction, and R(1.5)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e502-914e-4b9e-f45a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4c27-ea45-2ec6-1c3f" name="Pattern" hidden="false" collective="false" defaultSelectionEntryId="f5b4-3404-7a01-0741">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e06-e00f-7c5f-d523" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c82-81be-f176-90fc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f5b4-3404-7a01-0741" name="Reaper Pattern" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="2b55-dda9-fd9e-d69b" name="Reaper Pattern" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="26"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="6"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(2)"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8fdc-5f75-db98-abfe" name="Hammer Pattern" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f8f2-ed08-f4b4-34ad" name="Heavy Charger – Hammer Pattern" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="26"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(5)"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="135.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -5123,7 +5523,7 @@ All Traps have 3 attributes:
       <modifiers>
         <modifier type="increment" field="86a6-d146-4bea-a3ef" value="2">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="471e-ea00-3077-49f4" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5851-936b-ca73-40c0" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="db84-977d-3009-b8d8" repeats="1" roundUp="false"/>
           </repeats>
           <conditions/>
@@ -5133,7 +5533,7 @@ All Traps have 3 attributes:
           <repeats/>
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="db84-977d-3009-b8d8" type="greaterThan"/>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="471e-ea00-3077-49f4" type="greaterThan"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5851-936b-ca73-40c0" type="greaterThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -5150,22 +5550,6 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="2e84-5b32-f516-25ea" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b23a-d912-eea7-31f3" name="Lieutenant Isaac Alfreds" hidden="false" targetId="88c4-1013-986a-0fd5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="bf27-5112-f789-81d7" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5213,29 +5597,6 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="def9-9574-ede9-a107" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a890-f70b-dd5f-9b33" name="Hurricane Walker" hidden="false" targetId="d2e2-8a95-2150-eb8b" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="0ee8-fa58-1c77-3a10" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="2c53-06ed-fc99-12ad" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7655,6 +8016,38 @@ All Traps have 3 attributes:
       </constraints>
       <categoryLinks>
         <categoryLink id="1a5a-7030-f8d6-443e" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5851-936b-ca73-40c0" name="Army Commander" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9ca3-f864-d9d2-bc06" name="Leader(2/Blood Berets)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="75ca-1ba7-ba34-ae1c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8280-139d-64bb-77e8" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>

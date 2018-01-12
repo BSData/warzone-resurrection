@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="3" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="4" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="040b-c469-d738-5885" name="Death Before Dishonour" hidden="false">
@@ -3613,14 +3613,14 @@ All Traps have 3 attributes:
         <modifier type="set" field="6e9a-3e7c-2d5d-fbcc" value="1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9775-2878-f429-369c" type="greaterThan"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="94dc-feb4-3a03-a1a6" type="greaterThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9775-2878-f429-369c" type="greaterThan"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="94dc-feb4-3a03-a1a6" type="greaterThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -4612,7 +4612,7 @@ All Traps have 3 attributes:
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="4eff-4094-f942-c6f4" name="Army Commander" hidden="false" targetId="9775-2878-f429-369c" type="selectionEntry">
+        <entryLink id="4eff-4094-f942-c6f4" name="Army Commander" hidden="false" targetId="94dc-feb4-3a03-a1a6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5448,6 +5448,38 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
       </constraints>
       <categoryLinks>
         <categoryLink id="c9aa-97be-f2b2-a389" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94dc-feb4-3a03-a1a6" name="Army Commander" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="6a99-8a61-f9c2-fa54" name="Leader(1/Tiger Dragons)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2fd5-d269-37c8-123f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ef5f-575e-65ff-a6d8" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
