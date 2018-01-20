@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5b55-a7c9-a9f8-de85" name="Capitol- Line Battalion" revision="5" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5b55-a7c9-a9f8-de85" name="Capitol- Line Battalion" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -360,7 +360,62 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e0df-4154-3c24-979a" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afaa-ea87-1bd7-edc2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f085-d9d6-27ef-254c" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0aa6-2551-f04e-c23c" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9558-afc3-5dc8-5aa1" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8bad-92a5-3d99-8e3b" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0dfa-85cd-9031-671c" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="bf2a-2097-a5f0-f06c" name="Army Commander" hidden="false" targetId="7d1c-8139-2607-f959" type="selectionEntry">
           <profiles/>
@@ -520,7 +575,62 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="69ab-f1a7-e39c-fc07" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2442-4a79-cf73-3807" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9b86-e6a1-df5b-b6c9" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e9cb-b488-1937-63c1" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="39c6-c820-a0f2-a614" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="372d-64dd-65f2-e7f8" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="13bc-4220-ecd9-bf22" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8dfb-b6fb-3326-74d0" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -677,7 +787,62 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f87-84b2-f65f-ce20" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14fb-39fb-b1f1-2f53" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6dc1-1c87-d0ec-78e3" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e0e3-1788-5457-4ec8" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3998-7825-2460-fc18" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3869-bdbe-a8bf-8d37" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="acb2-389a-bef2-4350" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ab49-0dfa-4441-1ba4" name="Army Commander" hidden="false" targetId="4fdc-9f23-f47a-f0b6" type="selectionEntry">
           <profiles/>
@@ -986,7 +1151,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="475d-8205-a679-31c9" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef35-4f0a-ff97-fb7b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1cb9-eea8-34ae-b00d" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9bd4-0acc-37ab-7a3f" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6241-a80c-07bc-a81c" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8e73-ab9c-968a-4b3f" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5793-b789-9e44-30ba" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="096f-5b97-bdbb-ecb6" name="Army Commander" hidden="false" targetId="e1c0-455a-6e7e-78e7" type="selectionEntry">
           <profiles/>
@@ -1226,7 +1446,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b060-6cc9-c779-5f31" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7599-917d-d4e0-6bfd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0921-9af8-d479-4d37" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fa4b-8e7a-d552-d0bf" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="27d5-da40-2c6b-1c1e" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="923f-cfa6-ae0e-b1a8" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6272-779e-25c8-113d" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1377,7 +1652,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bca5-1b4a-bb8c-cea5" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2def-b74a-3889-5757" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="fa93-f50f-da8d-25b5" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6ab1-36b6-9d27-b8e2" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ae9e-d252-5d32-451c" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1e1e-acce-b710-1662" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c669-ce3a-39f2-2c8b" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1545,7 +1875,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5ff9-5656-63f7-d1dc" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="038e-279b-0d6c-5b1c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9e56-b0de-664f-fe24" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="451e-9683-5f7b-1853" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="bec0-c3c4-ebc0-5b77" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6468-0fae-8c30-0b93" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5386-0fe0-e0e6-cd1e" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1670,7 +2055,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d5fe-2011-b29b-3cda" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1314-8350-7e9b-c452" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e60c-ed7d-9b2d-cf8e" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fe2b-ec67-f7ad-4073" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cd9c-ad56-43cf-7a45" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4512-2d7b-bf81-2d51" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="eb0a-73ad-e3a5-56b1" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1923,7 +2363,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b630-2065-18d5-320e" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b5-6ffd-5120-b319" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="17be-7dee-9c72-06a1" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dff3-87df-d7bb-9ed8" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4f6f-9046-2f80-445f" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6222-5889-c9f2-2d83" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="66bb-8add-c712-dfac" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2193,7 +2688,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c1ea-6ef2-c9a6-fc48" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e45-aee1-c0d2-0e95" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0380-a75e-37d3-d08f" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2e6b-aac8-5ef8-d0ed" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="858d-331c-d9e4-b500" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2851-aeb3-2261-ad88" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cb0b-d7d2-b01b-ef5b" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2310,7 +2860,46 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8bcf-a5be-ee50-5031" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a67-543e-3aef-fe3e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c548-9345-afb3-1933" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3873-fbc7-657f-026c" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d13d-d1fd-f801-3073" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2515,7 +3104,62 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="96a6-0daf-69d9-51dd" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb7-2ef5-d128-ee1e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5a16-b0f3-6135-fcf8" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7c1e-6299-4b63-afa6" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="289e-f9ed-8980-4fcb" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fb46-adc9-d004-23f6" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="12ab-85bb-0c35-beef" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2585,81 +3229,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9116-e8de-0b4f-1cca" name="K-9 Ranger Handler" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="ac4f-8f51-6e8d-19fe" name="K-9 Ranger Handler" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="16&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="25"/>
-              </characteristics>
-            </profile>
-            <profile id="f70a-05eb-a24f-10bf" name="M50 Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Weapon Mode(Tear Gas)"/>
-              </characteristics>
-            </profile>
-            <profile id="7268-5b12-db1c-1d4d" name="Riot Shield" hidden="false" profileTypeId="7225-7dbb-bfa5-5cbb" profileTypeName="Shield">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="+ARM" characteristicTypeId="6758-24d0-9c9d-2ed4" value="2"/>
-                <characteristic name="+DEF" characteristicTypeId="b603-6489-772a-c092" value="2"/>
-                <characteristic name="RULES" characteristicTypeId="f03f-1c6a-5b9c-49f8" value="IA(10)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="2d2e-7c10-c674-e1b5" name="Punisher Short Sword" hidden="false" targetId="6d8c-80ce-73b2-682b" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="f3dd-360a-4574-3017" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba1-278d-507e-1e5b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e706-2b6d-52bb-bada" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="f5ef-6628-db7b-466b" name="K-9 Investigation Dog" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="1ab1-0d85-0b7a-b8db" name="K-9 Investigation Dog" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
@@ -2813,8 +3382,180 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="14.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="78cb-805e-2d8e-ce0c" name="K-9 Ranger Handler" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="a174-e992-a634-03e5" name="K-9 Ranger Handler" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="16&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="25"/>
+              </characteristics>
+            </profile>
+            <profile id="6c6e-f457-3a5b-7298" name="M50 Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Weapon Mode(Tear Gas)"/>
+              </characteristics>
+            </profile>
+            <profile id="df4f-d093-2e2d-8cac" name="Riot Shield" hidden="false" profileTypeId="7225-7dbb-bfa5-5cbb" profileTypeName="Shield">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="+ARM" characteristicTypeId="6758-24d0-9c9d-2ed4" value="2"/>
+                <characteristic name="+DEF" characteristicTypeId="b603-6489-772a-c092" value="2"/>
+                <characteristic name="RULES" characteristicTypeId="f03f-1c6a-5b9c-49f8" value="IA(10)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="183e-4752-1083-47fc" name="Awareness" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>All models in this squad may perform a Sentry action with no limit to the number of models.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="0fff-8538-812a-d0b7" name="Punisher Short Sword" hidden="false" targetId="6d8c-80ce-73b2-682b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2325-3d6e-0377-f7b7" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="49af-316a-01cd-9950" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5a29-524e-058e-7f44" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="545a-ea1c-415a-0eaf" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3909-4d37-a495-0b60" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fddf-8c51-7e28-63b4" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="5edb-0c00-24b0-fcc4" name="Handler" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a79d-1e2d-8b11-e4be" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f25-124d-2ca1-db35" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e3db-1690-1c87-ddcd" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f5a-0862-f582-4c16" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="bb23-7fbf-7c3e-6263" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3c02-f6a0-c49a-d526" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="bab8-9ff1-43d9-4d0a" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a028-814c-cb68-ea97" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2422-aecb-9ae4-8a0c" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2947,7 +3688,46 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="13b4-ad2f-4e65-fe7a" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5321-df3d-919a-eff4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1ba2-897e-3f5d-da8a" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="da1c-444e-a2df-ecfb" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e6b5-4254-909d-af36" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="165.0"/>
@@ -3080,7 +3860,46 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9021-5ee6-094e-3348" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd94-705d-e229-e8bc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2e49-5cc9-8737-c9f3" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6d3a-d6a8-7458-e9c4" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fb05-93be-b607-efc1" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="320.0"/>
@@ -3207,7 +4026,46 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fa8e-6187-1cec-6d62" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af56-abc4-4e32-7037" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d104-02c7-4797-671e" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ecfe-a0e9-62a9-0e29" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d582-39cc-5d7e-7a84" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
@@ -3374,7 +4232,62 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3a15-14ec-a1de-dbfc" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6c-180d-1d1a-eef7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="422a-17a6-3beb-9a08" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="38da-0b3e-9d6f-6682" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="184b-80e5-79f6-1cc0" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5d61-e88e-ca98-c9a2" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="71b2-393d-26fe-b6be" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="723c-e202-8ddb-b7a8" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -3536,7 +4449,62 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d6a1-bf6b-a168-aa45" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33a9-7c79-813e-7fc4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="98c3-83e3-2358-7f42" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="714f-4dc5-63be-7073" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1e44-dc2d-232d-a3b2" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8488-721a-cf76-1405" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7140-3d0a-9591-b188" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -3699,7 +4667,62 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="558a-a02c-3135-7e51" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d52-c593-f70d-11c0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2a75-d8cb-fbac-0d9b" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9e7e-bb07-2dff-3d06" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b417-f853-1d33-5f92" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c40c-5200-5420-d6ff" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="86d2-da55-d5ba-7103" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5b89-ccfe-f1a2-9342" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -3838,7 +4861,62 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e625-b4ae-969a-a4ad" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4f-2de6-30c4-b894" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="aa1c-c653-0a1c-8166" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4921-af22-e1f2-3996" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="da19-9c30-7982-ef54" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b48c-3e42-6191-7007" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e382-6029-c6f4-cbaf" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f292-579d-7527-9604" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -4025,7 +5103,62 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bf0f-a165-bc38-e7ca" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64cb-d656-6c71-67ff" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0dab-515e-7f76-2752" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e62e-276e-471d-9443" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1362-67aa-6be1-924e" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="732b-b27c-2929-1e62" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0844-5ed1-99ef-8ffa" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3a6a-37a4-58d6-7399" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -4204,7 +5337,62 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3d74-8bfa-bd96-7e03" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64cf-fbe6-05ad-e765" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4013-d3aa-a7de-0423" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cbc9-742e-b368-dfd2" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="20e9-c434-4ae1-8158" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ed40-ead9-69dc-0f49" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="882e-6fe7-2635-a222" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="220a-172f-fe1a-9238" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -4664,7 +5852,62 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="707e-945c-7259-7b1b" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b5-5a8e-bc91-ae9c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b82d-6057-41ca-7c52" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9ad7-f050-c695-db50" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e4b9-9efa-3e03-f1aa" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d539-cb22-21a1-0d7c" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c2de-ca6e-3de5-14c8" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
@@ -5001,7 +6244,62 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d0dd-1428-7daa-183d" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bdf-795d-5903-e33c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="aee7-0f49-0854-21da" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="015b-27d6-c062-26ee" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1723-180f-3d68-863e" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="84a0-ae1b-2e25-c423" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8fc0-eba0-82dc-da9c" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -5249,7 +6547,62 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="559c-08b3-ab67-f974" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="830d-7d90-e730-2e28" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e9a6-5cde-7f95-401b" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7581-cf9e-1622-cb02" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dcad-e11c-6011-916e" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0b18-51cf-fa81-448b" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e163-675e-fe8b-f52c" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -5516,7 +6869,62 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3e31-b6e0-d347-75f3" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c72-d89b-803a-a763" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="8351-66d5-a5d0-9c5a" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0683-11b5-9070-4ba5" name="Rifle Drill" hidden="false" targetId="7726-4c31-5b54-b256" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="48a3-0f8a-1533-413f" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2485-4c59-c454-e386" name="Dig In" hidden="false" targetId="edea-48bb-5b9a-5a98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3a48-3804-75bb-041f" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -5804,7 +7212,46 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d84f-4c9b-0982-57a9" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8120-79e6-ee6e-fb0b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="148d-26f1-c52c-a1cb" name="Artillery Support" hidden="false" targetId="c422-8bdf-598a-2ba9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6da4-4694-628c-16a9" name="Combat Drugs" hidden="false" targetId="6206-91c1-76c0-738d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3e1f-ebdd-3fbf-3a11" name="Psy-Ops" hidden="false" targetId="bf8f-c384-5196-04fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="11ca-535d-b8e4-2cfd" name="Army Commander" hidden="false" targetId="4fdc-9f23-f47a-f0b6" type="selectionEntry">
           <profiles/>
@@ -5817,6 +7264,147 @@ Smoke Bombardment.</description>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="190.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edea-48bb-5b9a-5a98" name="Dig In" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="56cb-a35d-5fea-10d2" name="Dig In" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Infantry only. The squad can be deployed in foxholes. Only models using Regular Deployment may use this tactic. Place a Foxhole marker next to every model in the squad after the models are deployed. The models count as being in cover and gain A(+1) against ranged attacks. If the model moves for any reason, it loses this benefit. Any Infantry model (including enemy models) in B2B contact with the marker may climb into the foxhole for SP(2) to gain the above bonuses.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1963-cafb-f1f8-f60a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6206-91c1-76c0-738d" name="Combat Drugs" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="5147-8b67-359f-9ad6" name="Combat Drugs" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(1): The model gains Heal (3), CC(+2) and ROA(+1) to its Close Combat weapons. At the end of its activation, it must make a CON(-2) test or suffer W(1).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aae-f618-72cc-b4f3" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7726-4c31-5b54-b256" name="Rifle Drill" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="80d8-acc4-cae8-a4a8" name="Rifle Drill" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Infantry and Cavalry only. When performing a Battle Focus action with an A-type weapon, all failed RS tests may be rerolled.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d78-0b12-8c8e-3605" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf8f-c384-5196-04fb" name="Psy-Ops" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="6222-4b66-403e-5af5" name="Psy-Ops" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The squad gains Contempt (All).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d0fa-ce7d-eb0b-de5f" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9719-9355-4fbd-f957" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c422-8bdf-598a-2ba9" name="Artillery Support" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="cfb0-0f5b-a3e6-077f" name="Artillery Strike" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="32/LE"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="LE"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(5), Pinning"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="49e9-8912-e3bf-fecc" name="Artillery Support" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game, the squad commander can call in an artillery strike. There is no RS test involved and it always scatters D20/2. Any vehicle touched by the template counts as taking the hit on its Rear Facing. This counts as a Shooting Action.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b3-3f33-d985-2b51" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

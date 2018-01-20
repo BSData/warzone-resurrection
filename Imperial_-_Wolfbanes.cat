@@ -1,11 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="4" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="5" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="1d05-375c-35c9-32bc" name="Strength in Small Numbers" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each Wolfbane squad with no more than 5 models gains Coherency (+3). They also gain ST(+1) to their Close Combat Weapons for each other friendly model engaged with the same target.</description>
+    </rule>
+    <rule id="6ce8-0bc7-2ff3-a20e" name="Strength in Mobility" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If carried in transporters, SZ(1) Wolfbane models count as being SZ(0).</description>
+    </rule>
+    <rule id="4e5a-4098-2511-6d2d" name="Our Own Way!" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Wolfbane squads may not be joined by MOW characters.</description>
+    </rule>
+    <rule id="ebe1-1b91-fd8d-c608" name="Silent Roar" hidden="true">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="339d-2f42-15fa-2300" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <description>Silent Roar: Each Wolfbane squad deployed on the battlefield generates the number of Silent Roar points listed below. During the Control Phase calculate how many Silent Roar Points you have for this turn. The points can be used to activate Rites or Howls as described in the Rites and Howl sections. Only models from squads able to generate Silent Roar points can use a Rite or Howl. These markers are generated even if the squad is in stalk.
+Characters: 2SRP
+Troops:
+Wolfbane Commandos: 1SRP
+Mourning Wolves: 1SRP
+Support:
+Headhunters: 2SRP
+Warhounds: 1SRP
+Strathgordon Varg Riders: 1SRP
+Light Vehicles:
+Necromower: 1SRP
+Fenris Bike: 1SRP
+RITES:
+Wolfbane rites and rituals are often long and difficult to perform ceremonies involving potions, books and stanzas. They usually require long preparation and the presence of those who know how to use them, connection with the lay lines and a lot of alcohol. They result in a higher plane of understanding and a furor for battle. Rites are abilities that squads are upgraded with during army building and affect every model in the squad. A squad can only be upgraded with one rite. At the start of every Control Phase, the controlling player must pay the upkeep cost in Silent Roar points for each rite. If the controlling player does not, the rite is lost for the rest of the game.
+4SRP Rite of the Eternal Night:
+Any ranged attack made against this models in this squad receives RS(-4) (or WP in case of Psychic (S) attacks).
+3SRP Rite of the Tempest:
+Every squad trying to deploy via Rapid Deployment within 8” of this model receives (+4) to their RD die roll
+and a ST(5) autohit after deploying (not cumulative)
+3SRP Rite of Extended Death:
+When this model is reduced to W(0), make a WP test. If the test is passed the model gains W(+1). Any model
+that regains a W in this way is removed from play at the end of the turn as a casualty. If the model is forced
+to make another WP test in the same Game Turn from any source, remove the model immediately from
+the Game as a casualty before the test is made. A model can only regain W(+1) this way per game. Nonvehicle
+models only.
+3SRP Rite of Ghostly Strike:
+This squad gains the Preemptive Strike Deployment Option.
+4SRP Rite of the Revenge:
+Any enemy model that causes the removal of this model via a ranged attack receives a St8 autohit at the
+end of their activation.
+4SRP Rite of the Black Wolf:
+If this squad consists only of non-vehicle Wolfbane models, it may be deployed using the Stalk rules.
+Reveal the squad immediately if the upkeep cost is not paid for.
+6SRP Rite of the Sacrifice:
+This model has W(+1).” To “Non-vehicle models upgraded with this Rite have W(+1). If the upkeep cost is not
+paid for, this model loses one W and, at the beginning of each of its activations, receives a ST(10) autohit.
+HOWLS:
+The centre of a wolf’s universe is its pack and howling is the glue that keeps the pack together. Wolfbanes often use howls to communicate during battles and in many a social situation. Just like in wolf society, Wolfbanes have different Howls for each occasion, some strike fear into the hearts of their enemies and others fill the Wolfbanes themselves with fury, frenzy and hatred. A Howl can be activated by spending Silent Roar points at the beginning of the squad activation and affects all models from the howling squad. 2 Howls can be used per squad per turn (including the same Howl twice) and their effects are cumulative. Characters may only be affected once by each Howl per turn. Howls last until the end of the Game Turn.
+2SRP Howl of Fury:
+Models in this squad suffer A(-2), but each of their close combat weapons gains ROA (+1).
+2SRP Call to Hunt:
+The squad gains CC(+2).
+2SRP Growl of Determination:
+The squad gains A(+1).
+1SRP Death Song:
+The squad gains WP(+4).
+2SRP Warcry:
+Each of this model´s close combat weapons has its Power Shot die range increased by one (any to hit roll
+of 1-2 becomes a Power Shot).
+2SRP Bone-chilling Howl:
+The squad gains Fear (+2).
+2SRP Howl of Fate:
+Each model in the squad may re-roll one failed CC or RS roll per turn.</description>
+    </rule>
+  </rules>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries/>
+  <categoryEntries>
+    <categoryEntry id="c793-2fda-6bd9-98b2" name="Rules" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="c4d1-65e5-7a1a-1d65" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" type="model">
@@ -2450,6 +2547,14 @@ models are placed B2B with him in his front facing and travel the full movement 
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="339d-2f42-15fa-2300" name="Print Silent Roar Rules" hidden="false" targetId="d9c3-03d0-1331-bbd3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="bd4b-681e-a5de-7c22" name="High Chieftain Morten Oakenfist" hidden="false" collective="false" type="model">
@@ -3090,6 +3195,29 @@ them in B2B contact with this model, with Morten in their front facing. If you c
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="d9c3-03d0-1331-bbd3" name="Print Silent Roar Rules" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e9-ac13-fea1-7c74" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c99-03b3-9591-740a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4d56-18d9-2c51-8165" name="New CategoryLink" hidden="false" targetId="c793-2fda-6bd9-98b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
