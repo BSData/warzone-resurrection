@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="5" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5554,6 +5554,13 @@ All friendly models in a squad that successfully wounds with one or more Psychic
           <constraints/>
         </categoryLink>
         <categoryLink id="0254-bf46-d9f3-6cfe" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2494-1de3-4f7f-7d84" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>

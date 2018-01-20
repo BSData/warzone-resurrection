@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="7" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="040b-c469-d738-5885" name="Death Before Dishonour" hidden="false">
@@ -1565,26 +1565,7 @@ Samurai squad commander is added. Ashigaru may never use Ki Powers.</description
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="fd0c-8830-1db1-cbb2" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f65d-691f-3f35-ef42" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="ae1c-a9b1-b860-a7d8" name="Psychic Mastery(B)" hidden="false" targetId="ee1b-156a-88fb-600a" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
+          <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
@@ -1668,7 +1649,26 @@ Samurai squad commander is added. Ashigaru may never use Ki Powers.</description
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="9dae-60f5-176d-7c6c" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a4-0e30-616e-9f32" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="03e0-c7a3-683c-6507" name="Psychic Mastery(B)" hidden="false" targetId="ee1b-156a-88fb-600a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>

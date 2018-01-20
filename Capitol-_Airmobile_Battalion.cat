@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d03a-8dea-c83c-de83" name="Capitol- Airmobile Battalion" revision="3" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d03a-8dea-c83c-de83" name="Capitol- Airmobile Battalion" revision="5" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -2303,7 +2303,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="c0e9-2074-f930-dbd4" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+            <entryLink id="c0e9-2074-f930-dbd4" name="Dropped Supplies" hidden="false" targetId="9b31-90f0-3f2d-04cf" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2634,7 +2634,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="6a50-6349-c985-6236" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+            <entryLink id="6a50-6349-c985-6236" name="Dropped Supplies" hidden="false" targetId="9b31-90f0-3f2d-04cf" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3251,7 +3251,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f5ef-6628-db7b-466b" name="K-9 Investigation Dog" hidden="false" collective="false" type="model">
           <profiles>
@@ -4843,7 +4845,7 @@ Smoke Bombardment.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="fe8f-f209-a929-bc95" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+            <entryLink id="fe8f-f209-a929-bc95" name="Dropped Supplies" hidden="false" targetId="9b31-90f0-3f2d-04cf" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5323,7 +5325,7 @@ Smoke Bombardment.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="dc3f-83e3-6f71-ee88" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+            <entryLink id="dc3f-83e3-6f71-ee88" name="Dropped Supplies" hidden="false" targetId="9b31-90f0-3f2d-04cf" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6016,10 +6018,16 @@ Smoke Bombardment.</description>
         </modifier>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38b4-432f-cf4c-03f1" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38b4-432f-cf4c-03f1" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d1c-8139-2607-f959" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>

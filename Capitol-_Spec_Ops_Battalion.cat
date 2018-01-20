@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="19d2-af2b-ac0a-8d3a" name="Capitol- Spec Ops Battalion" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="19d2-af2b-ac0a-8d3a" name="Capitol- Spec Ops Battalion" revision="7" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -3499,7 +3499,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5627,7 +5629,22 @@ Smoke Bombardment.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="fab1-5adc-daf4-64b5" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="41d2-fc5c-d612-81ff" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="2d2f-84b8-d0bf-11cd" name="Fell&apos;s Angels" hidden="false" targetId="da03-42b7-6af2-1548" type="selectionEntry">
       <profiles/>
@@ -5635,7 +5652,22 @@ Smoke Bombardment.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="b559-7b3c-3d22-4db8" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e52a-d424-33b7-5011" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="311d-94bd-3de7-2f00" name="Free Marines" hidden="false" targetId="d22f-1c35-e3e1-c417" type="selectionEntry">
       <profiles/>
@@ -5675,7 +5707,22 @@ Smoke Bombardment.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="c513-dac8-895f-a252" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4dcf-43a9-ab22-cf8e" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="9cad-3d51-7c8d-f0c4" name="Martian Banshees (Spec Ops)" hidden="false" targetId="2bcc-b9c3-3bc0-cb5c" type="selectionEntry">
       <profiles/>
@@ -5683,9 +5730,47 @@ Smoke Bombardment.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="24c4-c6e6-2169-d4e1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="145d-ed6e-0748-1754" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="feff-cfed-c824-2cd3" name="Sea Lions (Spec Ops)" hidden="false" targetId="075d-71cc-5dc9-7a29" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5899-9e31-a61c-de3c" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0db1-3cec-2516-9339" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c6e7-c09b-3010-57e6" name="Fell&apos;s Angels (Spec Ops)" hidden="false" targetId="e120-c2a3-74d4-4d3e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6060,10 +6145,16 @@ Smoke Bombardment.</description>
         </modifier>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38b4-432f-cf4c-03f1" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38b4-432f-cf4c-03f1" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d1c-8139-2607-f959" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -6380,6 +6471,13 @@ Smoke Bombardment.</description>
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="decrement" field="d7f9-8ab1-abeb-4b71" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7ac-653d-bf30-0252" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f9-8ab1-abeb-4b71" type="max"/>
@@ -6678,10 +6776,16 @@ Smoke Bombardment.</description>
         </modifier>
         <modifier type="decrement" field="b7bc-11d5-151e-c8f2" value="1">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7ac-653d-bf30-0252" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7ac-653d-bf30-0252" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
@@ -7356,6 +7460,7 @@ Smoke Bombardment.</description>
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="075d-71cc-5dc9-7a29" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f3d-e243-f155-b8dc" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e120-c2a3-74d4-4d3e" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7698,6 +7803,13 @@ Smoke Bombardment.</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="decrement" field="f9ba-c869-1515-4937" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e120-c2a3-74d4-4d3e" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9ba-c869-1515-4937" type="max"/>
@@ -7995,6 +8107,7 @@ Smoke Bombardment.</description>
               <conditions>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f3d-e243-f155-b8dc" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bcc-b9c3-3bc0-cb5c" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e120-c2a3-74d4-4d3e" type="greaterThan"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8356,6 +8469,348 @@ Smoke Bombardment.</description>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e120-c2a3-74d4-4d3e" name="Fell&apos;s Angels (Spec Ops)" hidden="true" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="95a7-5673-6d50-969e" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38b4-432f-cf4c-03f1" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="95a7-5673-6d50-969e" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da03-42b7-6af2-1548" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7ac-653d-bf30-0252" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38b4-432f-cf4c-03f1" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="95a7-5673-6d50-969e" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="075d-71cc-5dc9-7a29" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bcc-b9c3-3bc0-cb5c" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f3d-e243-f155-b8dc" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="95a7-5673-6d50-969e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a0b1-118a-aef6-bbcd" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="725d-584d-5fcd-e7d9" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="af9d-7a29-eb52-fee4" name="Fell&apos;s Angels" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="5b31-31e7-373e-e6db" name="Fell&apos;s Angel" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/3"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="11"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="21"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="12&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="22"/>
+              </characteristics>
+            </profile>
+            <profile id="b990-4cdc-cc73-3b39" name="M50 Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Weapon Mode (Anti-tank Grenade)"/>
+              </characteristics>
+            </profile>
+            <profile id="612e-af97-4508-a8f7" name="M50 Assault Rifle (Anti-tank Grenade)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(8)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f714-ee38-0714-8572" name="Serrated Punisher Short Sword" hidden="false" targetId="2d49-aed8-ce13-0d2c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6b76-11c1-687c-2811" name="Cooperation" hidden="false" targetId="3e75-701f-faba-28d6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="95ad-0fae-26fd-ea99" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2833-271b-890b-726a" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="96d6-5425-2470-7491" name="Ferocity(1)" hidden="false" targetId="44dc-bca0-18ec-fd2d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="915d-782b-d6a3-ab27" name="Freedom Forever" hidden="false" targetId="bce0-ccfb-a355-3980" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a545-a948-dd73-42c6" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d8cf-5e48-a491-ee79" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2a26-3b82-fa45-ceb3" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="bd6d-11ba-2b6a-df84" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="be13-efda-80d2-1af4" name="Disposable" hidden="false" targetId="5b09-3564-b803-efd7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0169-d3d6-bed6-8187" name="Follow Up" hidden="false" targetId="1c99-2d68-2388-51a7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec0d-bc38-5f01-db00" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7db-5b34-0c56-00dd" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="22.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1eb8-0bbc-8018-98cd" name="M606 LMG" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e632-914e-c842-3bc3" name="M606 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="7a94-9a32-95a7-7ce6" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e120-c2a3-74d4-4d3e" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af9d-7a29-eb52-fee4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a94-9a32-95a7-7ce6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4448-822b-c6ab-2e0f" name="DPAT-9 Rocket Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5a07-d6ca-98ac-a4c4" name="DPAT-9 Rocket Launcher" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24/SE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="15"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="ML"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(5), Critical Force(2)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="bc0f-17f0-ddde-de4d" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="e120-c2a3-74d4-4d3e" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af9d-7a29-eb52-fee4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc0f-17f0-ddde-de4d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1a60-eb9f-2bdd-e26a" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2820-dd67-18a2-0dd6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="eb33-fcc4-7451-579a" name="Deadeyes" hidden="false" targetId="14ac-4770-6fb0-4f16" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b6ad-8be8-ae89-b8d9" name="Napalm Strike" hidden="false" targetId="7c3b-dff2-c54e-8b5a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5bb3-0ec2-b1f7-9e25" name="Stealth" hidden="false" targetId="8a21-c8a8-5159-466d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c499-9a28-f0db-6686" name="Smoke Bombardment" hidden="false" targetId="7711-2bff-85c3-75fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="73e4-49d6-dd90-161d" name="Scouts" hidden="false" targetId="7c1c-a02a-aea4-9aa4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
