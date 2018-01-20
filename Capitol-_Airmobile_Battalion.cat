@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d03a-8dea-c83c-de83" name="Capitol- Airmobile Battalion" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d03a-8dea-c83c-de83" name="Capitol- Airmobile Battalion" revision="3" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -360,7 +360,54 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a145-8abb-2a81-e30a" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91b7-6122-7b6a-f765" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f5c9-0af0-c46a-d84c" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="956e-72c8-47a1-f1f5" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0d44-a1c0-131e-1b39" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5435-a4dc-efe5-243c" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="bf2a-2097-a5f0-f06c" name="Army Commander" hidden="false" targetId="7d1c-8139-2607-f959" type="selectionEntry">
           <profiles/>
@@ -520,7 +567,54 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c8a2-d510-4d46-d4d1" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eda4-21fb-6d0b-6d1c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="8259-1b37-b02e-e348" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="86de-c807-3aeb-191b" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0b4a-e0a6-c581-e706" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b083-fda5-926c-0647" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8dfb-b6fb-3326-74d0" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -986,7 +1080,54 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0331-4cbc-a624-3c15" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f17-04f3-15ce-95f8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0733-f022-275b-ed1c" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="638d-3505-6a3f-b273" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7b8a-8959-e7d6-bc3b" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ddf1-25ae-6cda-3642" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="096f-5b97-bdbb-ecb6" name="Army Commander" hidden="false" targetId="e1c0-455a-6e7e-78e7" type="selectionEntry">
           <profiles/>
@@ -1226,7 +1367,54 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="278d-336d-a066-6c13" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0618-fec6-7ef4-cdc8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="be9d-d006-b37b-a2dd" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cf3a-34ff-094c-e55b" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8961-31eb-1822-5af4" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ff2e-5faa-1512-49e8" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1377,7 +1565,54 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e10b-7646-973d-8235" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef8-5dff-62af-481d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="55e2-2197-2ac1-24c8" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f77a-4747-73d0-a55d" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="06d1-15bb-9249-8648" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dbcd-62cd-c76b-e28d" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1545,7 +1780,54 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a64-666f-a45a-627e" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7994-86ab-aaf8-d00c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="39fd-b0cd-110c-80b9" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5637-e7c8-e223-359a" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1d32-0556-f642-af4f" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e21c-9233-fa90-a811" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1670,7 +1952,54 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e334-00bb-7169-2387" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f25e-9bec-5525-d254" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="794d-cdac-5fd8-6ebd" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2cc4-ff89-1976-f86d" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="de06-5d62-949e-0b12" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5e4a-9777-4c00-2472" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1923,7 +2252,68 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="43ce-d5b0-48c5-b700" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e86-e94a-93d4-1037" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="24b5-d859-1687-4248" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3e68-2908-206a-afa4" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dc03-bad6-43b1-a618" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="98eb-bd42-d4fb-4e91" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c0e9-2074-f930-dbd4" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2193,7 +2583,68 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cd53-5370-a280-10d2" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aceb-2837-380b-46c4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="638e-232f-44f5-625d" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3686-87cd-e647-37d2" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="74fa-9d99-2ac1-2e2d" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d291-ee31-cfbe-1cf6" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6a50-6349-c985-6236" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2310,7 +2761,60 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="213f-e8ae-5439-35eb" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66f4-de3d-25b3-0f1d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e33a-eddd-df47-8b47" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0a8a-7a2c-885d-4f5b" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="30ea-0a33-86bb-a319" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8ddc-c0d9-464a-f590" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="50">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2515,7 +3019,54 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4e9c-be23-e994-fbab" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6864-3487-0e19-4e6a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9d29-9ad7-b0d2-33f1" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5105-08ea-e95a-5a74" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a8d3-7308-b5b8-40d7" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5eed-43bf-086d-ae08" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2632,7 +3183,15 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               </characteristics>
             </profile>
           </profiles>
-          <rules/>
+          <rules>
+            <rule id="c1c5-d5c8-51f1-a5e6" name="Awareness" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>All models in this squad may perform a Sentry action with no limit to the number of models.</description>
+            </rule>
+          </rules>
           <infoLinks>
             <infoLink id="2d2e-7c10-c674-e1b5" name="Punisher Short Sword" hidden="false" targetId="6d8c-80ce-73b2-682b" type="profile">
               <profiles/>
@@ -2646,6 +3205,24 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               <infoLinks/>
               <modifiers/>
             </infoLink>
+            <infoLink id="1bcc-d663-5ce7-d239" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="da39-63b1-ea5a-d2c5" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="04dd-e510-327d-8c37" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
           </infoLinks>
           <modifiers/>
           <constraints>
@@ -2653,12 +3230,28 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e706-2b6d-52bb-bada" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="3209-dc25-4bab-3f88" name="Handler" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce5-6b77-4c4d-6618" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03d0-8b4f-6753-c5a4" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
         <selectionEntry id="f5ef-6628-db7b-466b" name="K-9 Investigation Dog" hidden="false" collective="false" type="model">
           <profiles>
@@ -2814,7 +3407,54 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0bb7-59ea-88bb-5890" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a4-5103-c1a0-92a0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b367-3d92-4024-fde1" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2230-8f7b-aa2e-bb7a" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2e55-dcd7-b2c0-be4f" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="45de-39bf-432e-f9a6" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2947,7 +3587,60 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="44c1-8e9d-48e6-dfaf" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d7a-9176-1cfe-6316" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="8f88-e4cb-ad8e-a5c7" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7702-3278-8ecc-e7c0" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="525c-95e1-fdf3-2b57" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f38c-2814-4bd9-6b7a" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="50">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="165.0"/>
@@ -3080,7 +3773,60 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7064-7396-4864-d6b9" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ec-f091-d489-7246" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="8bc8-8d54-8000-41ee" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="16f2-ba33-b89a-27e2" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4a4b-de0a-4485-a2c3" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ae0e-4397-9147-3514" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="50">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="320.0"/>
@@ -3207,7 +3953,60 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e1ed-dd85-851e-3e7a" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfce-fb4d-170b-f327" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="736b-18aa-f79f-052e" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5c33-d544-b6a5-8aec" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ec9b-6656-1bb1-c0e5" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="abf2-79bd-eefc-1e3d" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="50">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
@@ -3374,7 +4173,54 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ee64-c5f4-d0ea-3436" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6180-7c5b-06a7-106b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="32da-2855-7b86-a4ab" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3980-03e3-cdcc-3791" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fd9d-06f2-513d-62ed" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a0fd-e8aa-5249-13c8" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="723c-e202-8ddb-b7a8" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -3536,7 +4382,68 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9a0e-4a59-8f9c-a55b" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="768e-95f5-07a1-a02e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2e9b-7c2b-f3cc-7fb3" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="596d-9c76-e58e-cf0f" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fd03-d5b5-9582-224d" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c019-d20c-656e-ca64" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f4be-0660-975d-c2ed" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -3699,7 +4606,54 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b6a3-2564-ef44-f363" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee9f-4347-667c-0811" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e06c-3e7e-60c8-009a" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ad77-0452-5c43-84c1" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="31d4-f85e-31cc-a0b5" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5548-4506-3d62-e016" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5b89-ccfe-f1a2-9342" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -3838,7 +4792,68 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b5c4-538e-ac27-dbba" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bba3-5708-467d-bebc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9d72-adca-1ba6-1840" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="55a4-ba64-ce8b-5a69" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="25a1-3b0f-d5b7-47ef" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="53a7-7316-773f-2e8d" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fe8f-f209-a929-bc95" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f292-579d-7527-9604" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -4025,7 +5040,54 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9ae9-2668-3c95-002e" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="779a-0d4f-dbb2-1a69" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="267d-4dec-3ea6-057a" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3586-9792-273d-9723" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ec54-9114-ebed-eb7c" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3662-4df1-61c4-517d" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3a6a-37a4-58d6-7399" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -4181,6 +5243,12 @@ Smoke Bombardment.</description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="e443-2382-4766-b528" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -4204,7 +5272,68 @@ Smoke Bombardment.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dfc8-1708-db14-2d11" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12f-eaed-e8d3-5b44" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7f1a-748e-3489-55aa" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="be81-c141-8607-75c8" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8a07-9b21-54ee-835d" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1f1e-a528-0158-c284" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dc3f-83e3-6f71-ee88" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="220a-172f-fe1a-9238" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
           <profiles/>
@@ -5127,7 +6256,54 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ca06-0947-172a-66d9" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5db6-0ecf-4969-e923" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0709-ca2f-7f66-1252" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="aba2-de35-b0da-fcef" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0ee3-b563-6610-ec85" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="dbcd-324d-bdbe-c882" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -5375,7 +6551,54 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6c87-1139-093b-5801" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d05-f6a5-c155-a78b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2fa9-8b75-47d0-0735" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ab67-80ec-ead6-91ff" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2a4b-54b4-5aa9-f24e" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5d62-b327-faed-cf87" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -5642,7 +6865,54 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e5ac-0682-97aa-1b9e" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0500-8782-7256-3082" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="ca05-6780-7627-8544" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7cd6-1cf1-3ea6-820b" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="72d6-4683-3aaf-4aac" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ae02-bd12-408a-cf13" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -5930,7 +7200,60 @@ Smoke Bombardment.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c150-f3d6-be01-90d0" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da0-5e0b-cbe0-96fd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="734b-7b91-9184-f222" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8855-70cb-9e36-1582" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1fcd-da7c-44f4-8114" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f423-97bf-2020-807b" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="50">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="11ca-535d-b8e4-2cfd" name="Army Commander" hidden="false" targetId="4fdc-9f23-f47a-f0b6" type="selectionEntry">
           <profiles/>
@@ -5943,6 +7266,133 @@ Smoke Bombardment.</description>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="190.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e571-43ca-f81b-e9a8" name="On Target Drop" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="d2c8-0375-7b52-b2db" name="On-Target Drop" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The squad gains Rapid Deployment as a Deployment Option. They may also reroll a failed Rapid Deployment rolls and treat a roll of a 20 as a 19.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5388-9380-0e5a-1cb0" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef78-5a8b-dc5b-2353" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4173-1358-1638-d5f4" name="CAS Helicopter Missile Strike" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="dc9d-e8fb-ea9f-f311" name="CAS Helicopter Missile Strike" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game, the squad commander (or acting squad commander) may place a temporary token within 18”. Scatter it 20/4 and then place an LE template centered on it. Every model touched by the template suffers a ST(13), Concussive (2) autohit on the roll of a 1-10. This counts as a Shooting Action.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bd2-d1c0-cc67-9476" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b31-90f0-3f2d-04cf" name="Dropped Supplies" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="f493-6e12-d9bf-721a" name="Dropped Supplies" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Rapid Deployment squads only. Once per game, you may call either an ‘Ammo Dump’ or ‘Med Kit’ permanent token. The token is placed via Rapid Deployment rules with the Squad Commander as the drop point. Ranged Weapons from friendly non-vehicle models within 3” of the ‘Ammo Dump’ gain ROA(+1). The ‘Med Kit’ counts as having Medic (5).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473b-f95f-5e3e-62fd" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bab5-6baf-137e-85ee" name="Evac Chopper" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="8773-bfef-ad46-0ce5" name="Evac Chopper" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If no models in the squad are engaged at the beginning of the squad’s activation, they may be Recalled. They must be redeployed into the owning player’s deployment zone using Regular Deployment the next turn, which counts as a Walk action.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a76e-edb8-c892-a334" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e326-43a4-ed05-73b1" name="Eyes in the Sky" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9cf8-5d2b-7834-9d29" name="Eyes in the Sky" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The squad gains Predator Senses and does not need LOS when shooting template weapons, but receives a RS(-4) when doing this.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b37-6f53-1a25-b11f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

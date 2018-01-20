@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="4" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="040b-c469-d738-5885" name="Death Before Dishonour" hidden="false">
@@ -1365,46 +1365,8 @@ All Traps have 3 attributes:
     </selectionEntry>
     <selectionEntry id="4e16-0c40-f315-7947" name="Ashigaru" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules>
-        <rule id="9e5b-244e-fde6-fac4" name="Loyal Followers" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(1): At the beginning of the squad&apos;s activation, if a Ronin Samurai is part of the squad, you may choose up to one of the following bonuses to affect all Ashigaru Infantry models in the squad: RS(+1), CC(+1), CON(+2), or WP(+2). May only benefit from this once per turn.</description>
-        </rule>
-        <rule id="0a0b-b5e7-405e-782d" name="Kajiya" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Any Ronin Samurai in this squad may spend AP(1) to place a temporary token within LOS. Any
-Ashigaru Mortar Team firing at a target within 4” of this token will only scatter D20/4.</description>
-        </rule>
-        <rule id="bf41-6845-7756-87b8" name="Peasants" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Ashigaru do not benefit from Death Before Dishonour or provide a Resource unless Ronin
-Samurai squad commander is added. Ashigaru may never use Ki Powers.</description>
-        </rule>
-        <rule id="27e2-971a-717e-46cb" name="Still a Samurai" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Any Ronin Samurai or character attached to this squad gains Execution, which may be used at any time for free on Ashigaru.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="d53f-8df8-e0b4-c072" name="Cannon Fodder" hidden="false" targetId="37aa-df41-f6b9-c75c" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1460,9 +1422,46 @@ Samurai squad commander is added. Ashigaru may never use Ki Powers.</description
               </characteristics>
             </profile>
           </profiles>
-          <rules/>
+          <rules>
+            <rule id="0bf2-1335-6c65-ced4" name="Kajiya" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any Ronin Samurai in this squad may spend AP(1) to place a temporary token within LOS. Any
+Ashigaru Mortar Team firing at a target within 4” of this token will only scatter D20/4.</description>
+            </rule>
+            <rule id="34b1-d8f8-dbf2-49d6" name="Loyal Followers" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>RES(1): At the beginning of the squad&apos;s activation, if a Ronin Samurai is part of the squad, you may choose up to one of the following bonuses to affect all Ashigaru Infantry models in the squad: RS(+1), CC(+1), CON(+2), or WP(+2). May only benefit from this once per turn.</description>
+            </rule>
+            <rule id="db47-1d8f-6cdf-9c30" name="Peasants" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Ashigaru do not benefit from Death Before Dishonour or provide a Resource unless Ronin
+Samurai squad commander is added. Ashigaru may never use Ki Powers.</description>
+            </rule>
+            <rule id="9c84-42d4-1cba-21aa" name="Still a Samurai" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any Ronin Samurai or character attached to this squad gains Execution, which may be used at any time for free on Ashigaru.</description>
+            </rule>
+          </rules>
           <infoLinks>
             <infoLink id="7671-5d5d-6acd-5d1a" name="Tambu NO.1 Shogun Assault Rifle" hidden="false" targetId="6374-99a6-c027-66bb" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="ab71-2662-65a4-4a10" name="Cannon Fodder" hidden="false" targetId="37aa-df41-f6b9-c75c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1546,7 +1545,25 @@ Samurai squad commander is added. Ashigaru may never use Ki Powers.</description
               <constraints/>
             </categoryLink>
           </categoryLinks>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="1d10-949d-02d9-202a" name="Squad Commander" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ee-2f45-c249-0c6d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33c-56b1-a2bb-2884" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="fd0c-8830-1db1-cbb2" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
@@ -1569,7 +1586,7 @@ Samurai squad commander is added. Ashigaru may never use Ki Powers.</description
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="13.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8319-6b72-4a6a-17de" name="Ashigaru Mortar Team" hidden="false" collective="false" type="model">

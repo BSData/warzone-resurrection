@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="830f-2fe2-c162-b926" name="Cybertronic- Battlefield Reclamation Squad" revision="1" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="830f-2fe2-c162-b926" name="Cybertronic- Battlefield Reclamation Squad" revision="3" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="ddc7-cfec-e376-e98f" name="Resistant to Psychic Powers" hidden="false" targetId="68d2-b773-a60a-bc5d" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
@@ -178,93 +185,18 @@ A(+1).</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba7-8d01-6914-63b9" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="4c3a-1486-9b5b-0c3c" name="Cuirassier &apos;Atilla&apos; Mk. III" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="4d00-db6a-6af3-720f" name="Ultrasonic Resonation" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Every enemy Model within 18” of this model receives A(-2). For each additional ‘Ultrasonic Resonation’ above the first affecting an enemy Model, it receives A(-1)</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="d06a-55e3-6416-8a20" name="Cuirassier" hidden="false" targetId="8b34-aa97-b1b2-f4e3" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="3ea1-389a-2550-5d40" name="CAW2500 Enhanced SMG" hidden="false" targetId="50a2-b1ff-a513-1a60" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="c50e-99b3-4c66-d344" name="CAW2500 Enhanced SMG(Hypervelocity Ammo)" hidden="false" targetId="3979-2809-9096-172c" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="e527-fa35-a953-7a11" name="Cybernetic Fist" hidden="false" targetId="ad25-0cb4-e34f-4e91" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="b4c5-c96a-9814-7eac" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="4430-c1af-62b4-5a2f" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="d41d-865f-5f15-9a5d" name="Regeneration(10)" hidden="false" targetId="c2e5-e2d4-4548-101a" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="6605-12c5-5503-edb0" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f56-155c-69ac-f05b" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="7362-5ff9-56c8-c1e3" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="2910-5e44-f035-3665" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e61d-b0f0-deab-5a0b" name="Cuirassier &apos;Atilla&apos; Mk. III" hidden="false" targetId="4eaa-d58a-6991-d6cf" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>

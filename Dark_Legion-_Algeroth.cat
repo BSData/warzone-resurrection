@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="4" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="5" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="5d3b-4ee1-a199-bc2e" name="The Face of the Legion" hidden="false">
@@ -38,85 +38,9 @@
   </categoryEntries>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="6006-688a-db85-889c" name="Undead Legionnaires" page="299" hidden="false" collective="false" type="unit">
-      <profiles>
-        <profile id="ad54-0dd3-d013-3011" name="Undead Legionnaires" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="4"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="11/0"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="11"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="10"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be"/>
-          </characteristics>
-        </profile>
-        <profile id="048a-e1ce-7455-5e04" name="Kratach Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-          </characteristics>
-        </profile>
-        <profile id="38c0-c509-12b6-ff86" name="Corroded Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="d2a9-4941-f555-da4c" name="Brainless" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Undead Legionnaires cannot perform actions that cost AP(2).  Also, Undead Legionnaires do not provide a Resource unless there is a Necromutant in the squad.</description>
-        </rule>
-        <rule id="9cca-e1a4-ac71-c471" name="Black Bullets" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(1): The squad&apos;s ranged weapons gain Deadly.</description>
-        </rule>
-        <rule id="b28c-4d1b-3a7f-c98d" name="Leash" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If this squad commander is a Necromutant, Undead Legionnaires in this squad gain SP(+1).</description>
-        </rule>
-        <rule id="3ecd-a9f2-b48a-2999" name="Swarm" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>At the end of its activation, this squad of only Undead Legionnaires may be merged into another Undead Legionnaire squad within 8&quot; that has already activated this turn as long as the resulting squad does not contain more that 15 Undead Legionnaires.</description>
-        </rule>
-      </rules>
+    <selectionEntry id="6006-688a-db85-889c" name="Undead Legionnaires" page="" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -137,7 +61,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="8d1e-0eb7-6ac1-1a41" name="Necromutant" page="303" hidden="false" collective="false" type="model">
+        <selectionEntry id="8d1e-0eb7-6ac1-1a41" name="Necromutant" page="" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="b63d-2a08-3e12-2958" name="Necromutant" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
               <profiles/>
@@ -219,16 +143,108 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7ae-44c1-cc36-392f" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="f210-c467-1a2b-922d" name="Squad Commander" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ea1-f3cc-709b-5866" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="302e-a2f6-4033-f343" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
         <selectionEntry id="4d76-631c-6018-1b06" name="Legionnaires" hidden="false" collective="false" type="model">
-          <profiles/>
-          <rules/>
+          <profiles>
+            <profile id="e507-5d1d-acff-f3a6" name="Undead Legionnaires" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="4"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="11/0"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="11"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="10"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="10"/>
+              </characteristics>
+            </profile>
+            <profile id="4343-a800-8328-98c6" name="Corroded Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+            <profile id="e077-b441-fe52-677b" name="Kratach Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="230f-47cd-85fb-79f2" name="Black Bullets" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>RES(1): The squad&apos;s ranged weapons gain Deadly.</description>
+            </rule>
+            <rule id="c076-7210-a14b-2966" name="Brainless" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Undead Legionnaires cannot perform actions that cost AP(2).  Also, Undead Legionnaires do not provide a Resource unless there is a Necromutant in the squad.</description>
+            </rule>
+            <rule id="536d-a7e8-2e02-9de5" name="Leash" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If this squad commander is a Necromutant, Undead Legionnaires in this squad gain SP(+1).</description>
+            </rule>
+            <rule id="3025-6715-ad24-77cd" name="Swarm" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>At the end of its activation, this squad of only Undead Legionnaires may be merged into another Undead Legionnaire squad within 8&quot; that has already activated this turn as long as the resulting squad does not contain more that 15 Undead Legionnaires.</description>
+            </rule>
+          </rules>
           <infoLinks/>
           <modifiers/>
           <constraints>
@@ -244,17 +260,87 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="f165-a668-e1af-5ea7" name="" hidden="false" targetId="8931-9bb6-d783-9e18" type="selectionEntryGroup">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5c64-335e-e42b-e2bc" name="Heavy Weapons UL" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="increment" field="82f5-e26f-fd78-cb51" value="2">
+              <repeats>
+                <repeat field="selections" scope="6006-688a-db85-889c" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d76-631c-6018-1b06" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82f5-e26f-fd78-cb51" type="max"/>
+          </constraints>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+          <selectionEntries>
+            <selectionEntry id="47e4-c2e3-0e8f-e7a0" name="Plaguedealer" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8fc1-3fb8-78d0-a710" name="Plaguedealer" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="FT"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ecf1-7f28-f1ce-b83a" name="Valcheck HMG" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="63a5-f33d-4dc4-8c5c" name="Valcheck HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -495,7 +581,7 @@
             <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Deadly"/>
           </characteristics>
         </profile>
-        <profile id="56a1-fd96-a5e9-4352" name="Grenade of Flies" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+        <profile id="ebf2-aa84-1ae2-c772" name="Grenade of Flies" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -505,7 +591,7 @@
             <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="-"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
             <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="If a model is hit, its squads RS and CC are halved."/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="If a model is hit, its squads RS and CC modified by (-4)."/>
           </characteristics>
         </profile>
       </profiles>
@@ -958,7 +1044,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="359c-65af-c4bc-d9a0" name="Distort Foe" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -1036,7 +1124,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -1246,7 +1336,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="f2d0-a49c-8316-8f9b" name="Infernal Shield" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -1284,7 +1376,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -1436,17 +1530,108 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="f255-9e04-c0dc-fd1f" name="New EntryLink" hidden="false" targetId="9c47-4256-fd1b-4e74" type="selectionEntryGroup">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6c26-71fb-f1ad-93ee" name="Razide Weapons" hidden="false" collective="false" defaultSelectionEntryId="2dd2-fe29-8eee-9d00">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="increment" field="2008-0f2c-faa8-daa3" value="1">
+              <repeats>
+                <repeat field="selections" scope="f8e5-8584-7c43-8ee6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91a2-d94a-66c1-9cec" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e863-fd69-04b2-1509" value="1">
+              <repeats>
+                <repeat field="selections" scope="f8e5-8584-7c43-8ee6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91a2-d94a-66c1-9cec" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e863-fd69-04b2-1509" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2008-0f2c-faa8-daa3" type="min"/>
+          </constraints>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+          <selectionEntries>
+            <selectionEntry id="2dd2-fe29-8eee-9d00" name="Plaguedealer HMG" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="0274-d456-7200-4b3f" name="Plaguedealer HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Weapon Mode (Flamer)"/>
+                  </characteristics>
+                </profile>
+                <profile id="1c69-e318-a98d-6391" name="Plaguedealer HMG (Flamer)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="FT"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bb15-de33-d9b8-7735" name="Nazgaroth" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="49b2-c161-acbb-7174" name="Nazgaroth" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(3), Critical Force(2), Slow to Reload"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -2947,7 +3132,10 @@
             </infoLink>
           </infoLinks>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d32-77c0-08a4-664e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2730-041b-53df-08e3" type="min"/>
+          </constraints>
           <categoryLinks>
             <categoryLink id="f9cd-f759-66ce-960c" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
               <profiles/>
@@ -3130,7 +3318,10 @@
             </infoLink>
           </infoLinks>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f17-0551-6794-d494" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89c9-8420-78b0-1058" type="min"/>
+          </constraints>
           <categoryLinks>
             <categoryLink id="b8f7-17bd-ac17-ce4a" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
               <profiles/>
@@ -4382,8 +4573,8 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
             <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="26"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="2"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="85"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="9&quot;"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="85"/>
           </characteristics>
         </profile>
         <profile id="4096-70b6-3499-2ed6" name="Claws/Teeth (Beast)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -4541,7 +4732,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="65.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4585,183 +4776,6 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="8931-9bb6-d783-9e18" name="Heavy Weapons UL" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="70c7-2c9d-0dd3-1e25" value="2">
-          <repeats>
-            <repeat field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d76-631c-6018-1b06" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c7-2c9d-0dd3-1e25" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="976c-64a9-7873-3552" name="Plaguedealer" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="12c2-48da-d2ee-337c" name="Plaguedealer" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="FT"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="64c0-e07c-1788-2ecd" name="Valcheck HMG" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="510e-78af-3233-e4ea" name="Valcheck HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="8.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9c47-4256-fd1b-4e74" name="Razide Weapons" hidden="false" collective="false" defaultSelectionEntryId="2217-a2dd-065e-05a5">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="31c8-9847-c580-8f51" value="1">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="increment" field="ff5d-f1e4-0fb5-fa74" value="1">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31c8-9847-c580-8f51" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff5d-f1e4-0fb5-fa74" type="min"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="2217-a2dd-065e-05a5" name="Plaguedealer HMG" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="31b9-481e-c470-834d" name="Plaguedealer HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Weapon Mode (Flamer)"/>
-              </characteristics>
-            </profile>
-            <profile id="1532-1dca-3542-2f2f" name="Plaguedealer HMG (Flamer)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="FT"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ecb1-3615-6833-9311" name="Nazgaroth" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="2b39-09f7-ecb0-05bf" name="Nazgaroth" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(3), Critical Force(2), Slow to Reload"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-    </selectionEntryGroup>
     <selectionEntryGroup id="1ee5-d5da-ad4b-dd16" name="Nasca Razide Weapons" hidden="false" collective="false" defaultSelectionEntryId="0aeb-9481-9e5f-2859">
       <profiles/>
       <rules/>

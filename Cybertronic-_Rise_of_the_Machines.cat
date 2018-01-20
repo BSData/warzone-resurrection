@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="4" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="d88a-8744-f815-04ab" name="Resistant to Psychic Powers" hidden="false" targetId="68d2-b773-a60a-bc5d" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
@@ -828,9 +835,24 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e97e-df76-851d-4dd6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e97e-df76-851d-4dd6" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="c376-34ff-a52e-4766" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b07a-2695-b5ab-5211" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries/>

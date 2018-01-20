@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ced8-f9cf-6520-5202" name="Cybertronic- Orbital Drop Strike Force" revision="1" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ced8-f9cf-6520-5202" name="Cybertronic- Orbital Drop Strike Force" revision="3" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="b478-f822-bd18-93a5" name="Resistant to Psychic Powers" hidden="false" targetId="68d2-b773-a60a-bc5d" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
@@ -322,7 +329,25 @@
               <constraints/>
             </categoryLink>
           </categoryLinks>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="36cb-a6da-aac2-c16b" name="Advisor" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d503-c52f-866f-3f6a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96fe-0acf-ffda-98f9" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="a13f-382f-c3ee-290b" name="Cybertronic Upgrades" hidden="false" targetId="e898-297d-133a-0584" type="selectionEntryGroup">
@@ -335,7 +360,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -723,7 +748,25 @@
               <constraints/>
             </categoryLink>
           </categoryLinks>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="95ee-0728-128d-8e6d" name="Advisor" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e5-1ab6-3c7a-3b27" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1f2-7acc-6eba-73db" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="a0b3-d922-5dea-fdcf" name="Cybertronic Upgrades" hidden="false" targetId="e898-297d-133a-0584" type="selectionEntryGroup">
@@ -736,7 +779,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

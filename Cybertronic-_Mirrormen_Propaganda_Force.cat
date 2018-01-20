@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="738b-8a53-c002-8d57" name="Cybertronic- Mirrormen Propaganda Force" revision="2" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="738b-8a53-c002-8d57" name="Cybertronic- Mirrormen Propaganda Force" revision="4" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="a6a5-95ae-a134-3a08" name="Resistant to Psychic Powers" hidden="false" targetId="68d2-b773-a60a-bc5d" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>

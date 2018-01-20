@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="3" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="3e26-1f9f-785d-088c" name="Resistant to Psychic Powers" hidden="false" targetId="68d2-b773-a60a-bc5d" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
