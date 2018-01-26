@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="5" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="6" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="5d3b-4ee1-a199-bc2e" name="The Face of the Legion" hidden="false">
@@ -164,7 +164,9 @@
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4d76-631c-6018-1b06" name="Legionnaires" hidden="false" collective="false" type="model">
           <profiles>
@@ -551,8 +553,8 @@
             <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="60"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="50"/>
           </characteristics>
         </profile>
         <profile id="62c4-39cc-0284-972e" name="Enhanced Belzarach Assult Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -830,10 +832,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a190-4d56-f8e4-42b3" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -886,10 +894,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="359c-65af-c4bc-d9a0" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -990,10 +1004,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="665b-2c6c-9084-714f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1023,10 +1043,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a190-4d56-f8e4-42b3" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1063,10 +1089,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="359c-65af-c4bc-d9a0" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1084,9 +1116,7 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-                  </costs>
+                  <costs/>
                 </selectionEntry>
                 <selectionEntry id="665b-2c6c-9084-714f" name="The Devouring Darkness" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -1103,10 +1133,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="665b-2c6c-9084-714f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1155,10 +1191,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="909b-835a-8f31-03ad" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1235,10 +1277,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f2d0-a49c-8316-8f9b" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1315,10 +1363,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="909b-835a-8f31-03ad" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1355,10 +1409,16 @@
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f2d0-a49c-8316-8f9b" type="equalTo"/>
+                            <condition field="selections" scope="cfa7-92d9-26f0-8042" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bfa9-ef4c-b99e-18da" type="greaterThan"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -1985,8 +2045,8 @@
             <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="90"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="90"/>
           </characteristics>
         </profile>
         <profile id="5745-ef0f-4f48-d308" name="Fist of Malice HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -4403,8 +4463,8 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
             <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="-"/>
           </characteristics>
         </profile>
         <profile id="dfbf-3214-54f0-6457" name="Giant Reaper of Semai (Goliath)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">

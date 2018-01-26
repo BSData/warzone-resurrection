@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="5" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="1d05-375c-35c9-32bc" name="Strength in Small Numbers" hidden="false">
@@ -94,15 +94,7 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries>
-    <categoryEntry id="c793-2fda-6bd9-98b2" name="Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-  </categoryEntries>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="c4d1-65e5-7a1a-1d65" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" type="model">
@@ -1764,7 +1756,22 @@ models are placed B2B with him in his front facing and travel the full movement 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b9-81d2-8968-75b7" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b61-99e8-ad63-3058" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="58d0-97dc-cbf0-d133" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8cda-7466-c593-1943" name="New CategoryLink" hidden="false" targetId="c07b-43b8-6d58-ac93" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -3205,19 +3212,13 @@ them in B2B contact with this model, with Morten in their front facing. If you c
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e9-ac13-fea1-7c74" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c99-03b3-9591-740a" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="4d56-18d9-2c51-8165" name="New CategoryLink" hidden="false" targetId="c793-2fda-6bd9-98b2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
