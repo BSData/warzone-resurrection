@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="8" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1245,12 +1245,28 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="1597-2ef8-3b4b-bf7e" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea8c-836e-7995-df26" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88da-170d-eab1-6228" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="a45d-a5f9-fec2-0e9a" name="Tatsumoto" hidden="false" collective="false" type="model">
       <profiles>
@@ -1373,7 +1389,25 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="8bf8-f001-f21f-49e5" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db64-c851-7c65-00c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3235-16a0-2f63-fd49" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="df7d-3db6-cfc3-154a" name="Psychic Mastery(B)" hidden="false" targetId="ee1b-156a-88fb-600a" type="selectionEntry">
@@ -1395,9 +1429,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="ee1b-156a-88fb-600a" name="Psychic Mastery(B)" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1591,7 +1623,25 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="045d-db6a-8ad1-ef77" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d50-7d8e-eaca-c7e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84af-3d5b-cf7e-9fb9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="115.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="7a0f-223b-37b3-009f" name="Psychic Mastery(B)" hidden="false" targetId="ee1b-156a-88fb-600a" type="selectionEntry">
@@ -1613,9 +1663,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="115.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="8581-c041-fa19-f653" name="Chasseurs" page="166" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -2941,12 +2989,28 @@ A(+1).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="4f07-2ff8-9a82-a838" name="Advisor" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="721f-17bf-7630-d594" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122d-7fa6-c9a1-bccf" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="58bf-35c7-abb5-df0e" name="Opresseur Mk.I" page="173" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -6596,7 +6660,25 @@ A(+1).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="073f-704b-6679-3646" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8028-1693-a9ce-67fe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daaf-06be-ee5f-83e4" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b49f-f9bd-d72d-8456" name="Hardware Upgrades(3 Free)" book="small based unit" hidden="false" collective="false">
           <profiles/>
@@ -7034,9 +7116,7 @@ A(+1).</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="d2d5-0630-35f7-211f" name="Enhanced Chasseurs" page="157" hidden="true" collective="false" type="unit">
       <profiles/>
@@ -9842,12 +9922,28 @@ A(+1).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="7c37-dda8-4dbd-8881" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="326a-1166-7b8f-c4a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65c6-ed99-0e06-5e39" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="88c4-1013-986a-0fd5" name="Lieutenant Isaac Alfreds" hidden="false" collective="false" type="model">
       <profiles>
@@ -10016,12 +10112,28 @@ A(+1).</description>
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="6673-3441-b765-fedc" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f008-2ad7-0b5f-579d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d3-bb30-84cf-4345" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="f231-f7b7-0437-7120" name="Wolfbane Commandos" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -10473,12 +10585,28 @@ models are placed B2B with him in his front facing and travel the full movement 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="7943-0bb7-c1ae-a493" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd5e-2ac3-43ab-7440" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fbc-e906-4582-5d4e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="20b0-c043-f9c9-5768" name="Gordon Slythe" hidden="false" collective="false" type="model">
       <profiles>
@@ -10630,12 +10758,28 @@ models are placed B2B with him in his front facing and travel the full movement 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="39f2-2304-1186-e0ec" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b4e-1038-e6f7-0ca7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd6-2d20-4388-d639" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="8135-de88-6d37-a084" name="Sheila McGregor" hidden="false" collective="false" type="model">
       <profiles>
@@ -10833,12 +10977,28 @@ models are placed B2B with him in his front facing and travel the full movement 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="e033-a27c-9621-4eaa" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac29-bf4a-65c2-a845" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d4-14b0-0dd3-3d9f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="72ec-3f60-b80b-5f2d" name="Detective Nathan Castle" hidden="false" collective="false" type="model">
       <profiles>
@@ -11152,12 +11312,28 @@ models are placed B2B with him in his front facing and travel the full movement 
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="92c8-5795-5e51-260e" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74bc-07b1-da36-4e51" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acf4-ae20-2a1d-5bc9" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="0b9e-f1f3-b8f8-3275" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -15064,12 +15240,28 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59f7-4e84-0f58-39dd" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="4d87-a486-cc22-04c9" name="Advisor" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d50-1a54-9a29-e988" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3605-16e2-1937-e856" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="5011-98ee-1b85-6ba1" name="Light Infantry" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -15667,19 +15859,50 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               <constraints/>
             </categoryLink>
           </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="285c-e398-3f09-732d" name="Pride" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef4-f1eb-91d3-a837" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f6-e33a-fc03-56c9" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="a8f3-3d76-a36b-9863" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2149-d540-39da-ecf4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ed-d339-fb92-5063" type="min"/>
+          </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="130.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="130.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="2555-f128-b504-1dfd" name="Captain Vince &apos;Fel&apos; Harland" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -15861,12 +16084,28 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="23a1-456b-5cba-9cdd" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fd1-2833-5cb7-7f51" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec2f-02d4-33b1-8b14" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="f95e-0462-17f1-8d11" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -15995,12 +16234,28 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="6dea-67d3-ad83-4c8d" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8a0-9872-d97d-44ae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f1-671c-0534-554a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="4eaa-d58a-6991-d6cf" name="Cuirassier &apos;Atilla&apos; Mk. III" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -16068,7 +16323,25 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="246c-70ff-4953-6fc3" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="11c1-c259-20bf-74fb" name="Advisor" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c59e-1fc9-7966-ea8e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5096-3318-935e-14e3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="3951-da24-ade5-587b" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
@@ -16080,9 +16353,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="b8c0-0939-eb1d-8ce6" name="Valerie Duval" hidden="false" collective="false" type="model">
       <profiles>
@@ -16259,7 +16530,25 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="3586-a3b6-c42c-e82c" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1658-4572-7429-9737" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3984-0c3b-15c2-8661" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="84be-28dc-d957-94d7" name="Art Powers" hidden="false" collective="false">
           <profiles/>
@@ -16595,12 +16884,28 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="2584-2515-e001-e731" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22ef-051b-d44b-37c3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a90-48cf-896a-2f48" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="9dab-b256-b681-2dd2" name="Bruder Wilhelm" hidden="false" collective="false" type="upgrade">
       <profiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="6" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="7" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="5d3b-4ee1-a199-bc2e" name="The Face of the Legion" hidden="false">
@@ -1116,7 +1116,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="665b-2c6c-9084-714f" name="The Devouring Darkness" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -1696,158 +1698,6 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dabb-b607-0c8d-0a55" name="Alakhai the Cunning" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="ee1f-5ca5-9f1a-37f7" name="Alakhai the Cunning" page="281" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="17/5"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="10"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="12"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="15"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="17"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="17"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="5"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(12)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="160"/>
-          </characteristics>
-        </profile>
-        <profile id="4ccc-f343-9cbf-4f9e" name="Meat Wolfer Battlesword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(5), Headshot, RES(2): ROA +2"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="e76b-bee3-65f6-aa84" name="Bloodbath" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>For each successful CC test made by this model, it gains ST(+2) to a maximum of ST(20). The bonus is lost on an unsuccessful CC test or in the end phase.</description>
-        </rule>
-        <rule id="0b2a-6d5e-5966-9d56" name="Blood Drinker" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Every time this model rolls a 1 when making a Close Combat attack, it gains W(+1) up to the starting number.</description>
-        </rule>
-        <rule id="60f1-af8d-f402-1a41" name="Eternal Rage" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model can ignore the first hit assigned to him each Game Turn</description>
-        </rule>
-        <rule id="871b-0257-6e35-dd2a" name="Master Tactician" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>After Infiltrators are deployed you may re-deploy up to two other squads(or one Squad of Monsters or Vehicles), using their normal deployment rules.</description>
-        </rule>
-        <rule id="29c5-6a2b-41d1-39e8" name="Summoning the Darkness" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(2): No model hal LOS further than 18&quot;.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="5408-28f3-1571-7bdc" name="Fear(6)" hidden="false" targetId="32a1-565d-1482-2ceb" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a2d5-3bbd-7bf3-2ccd" name="Follow Up" hidden="false" targetId="1c99-2d68-2388-51a7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6c78-d20b-627f-8018" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7e2c-4818-ed26-4cd2" name="Initiative(1)" hidden="false" targetId="7de7-41cb-24b1-87cc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c5c1-d747-37e4-c001" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1f8-3ff6-b0ca-df1e" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd0-b141-f37a-1a68" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="dabb-b607-0c8d-0a55-52f1-18fa-f371-f40b" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="d787-57a5-cb99-ca32" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="2f63-0645-37c2-5fa4" name="Dark Symmetry: Algeroth Powers - Free" hidden="false" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc3a-2956-3fb3-cda8" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e3eb-c69b-34e8-2837" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="160.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="1efa-96e4-9ff5-6015" name="Alakhai Ascendant" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="5583-9ead-2773-ae45" name="Alakhai Ascendant" page="281" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
@@ -1980,7 +1830,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="3925-72a7-18c1-c80c" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c493-033a-e04a-3772" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa5f-fbea-9f5b-9a9c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3925-72a7-18c1-c80c" type="max"/>
@@ -4423,6 +4281,14 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="d5a9-a49b-f73a-7321" name="Alakhai the Cunning" hidden="false" targetId="c493-033a-e04a-3772" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="1354-3884-d549-58aa" name="Praetorian Goliath and Imp" hidden="false" collective="false" type="model">
@@ -4832,6 +4698,158 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c493-033a-e04a-3772" name="Alakhai the Cunning" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ab1b-30ef-570f-64c7" name="Alakhai the Cunning" page="281" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="17/5"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="10"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="12"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="15"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="17"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="17"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="5"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(12)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="160"/>
+          </characteristics>
+        </profile>
+        <profile id="7914-4d17-9178-28d4" name="Meat Wolfer Battlesword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(5), Headshot, RES(2): ROA +2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="29c9-4aa9-d402-d7ff" name="Bloodbath" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>For each successful CC test made by this model, it gains ST(+2) to a maximum of ST(20). The bonus is lost on an unsuccessful CC test or in the end phase.</description>
+        </rule>
+        <rule id="e746-ac66-6dab-a015" name="Blood Drinker" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Every time this model rolls a 1 when making a Close Combat attack, it gains W(+1) up to the starting number.</description>
+        </rule>
+        <rule id="70dc-2181-8d77-2976" name="Eternal Rage" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can ignore the first hit assigned to him each Game Turn</description>
+        </rule>
+        <rule id="e34e-aa2c-6786-86d9" name="Master Tactician" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>After Infiltrators are deployed you may re-deploy up to two other squads(or one Squad of Monsters or Vehicles), using their normal deployment rules.</description>
+        </rule>
+        <rule id="da64-3e35-b8e8-e4bf" name="Summoning the Darkness" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(2): No model hal LOS further than 18&quot;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="db0b-f017-0d47-9a1b" name="Fear(6)" hidden="false" targetId="32a1-565d-1482-2ceb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eebd-6385-6061-accc" name="Follow Up" hidden="false" targetId="1c99-2d68-2388-51a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="973b-dcf7-7bb1-65e9" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb02-f973-f63e-3df3" name="Initiative(1)" hidden="false" targetId="7de7-41cb-24b1-87cc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="08ff-5f8e-f625-b817" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3fe-2657-b8f1-e7ea" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d99-c8fd-b5a0-7ebe" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cba0-e09d-a18e-b727" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2c8f-753b-4480-1689" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5d3e-054b-603d-484c" name="Dark Symmetry: Algeroth Powers - Free" hidden="false" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="368e-bd5d-c959-c41b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fb22-28a1-79e8-2b8f" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="160.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
