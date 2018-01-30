@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="5" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7a21-e865-1a7c-36c8" name="Doubtless Precision" hidden="false">
@@ -1439,15 +1439,6 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="decrement" field="547a-ce3f-3831-bc09" value="2">
-              <repeats>
-                <repeat field="selections" scope="377f-462d-e17e-e174" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c18d-4233-a6ef-2eda" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions>
-                <condition field="selections" scope="377f-462d-e17e-e174" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3374-fa5d-055b-4223" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3c1-58fe-3818-eecc" type="max"/>
@@ -1549,17 +1540,649 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0b70-73d7-e4b1-f0ec" name="Doktrin" hidden="false" targetId="3277-a0cc-735f-f3e0" type="selectionEntryGroup">
+        <selectionEntryGroup id="fa91-6903-eaeb-3d8f" name="Doktrin" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="2c5f-a15a-8991-705d" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8ef3-196d-9cf0-9d79" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c5f-a15a-8991-705d" type="max"/>
+          </constraints>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="fe71-7fe0-1e20-49b6" name="Romanov Doktrin" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="edc1-1024-02cf-dff3" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="16e5-7d55-cb5d-b6ba" value="0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="edc1-1024-02cf-dff3" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e5-7d55-cb5d-b6ba" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="25a1-4c5a-d5f7-95d6" name="Eiserner Wille" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="e11c-532f-1174-74e5" name="Eiserner Wille" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>The model gains Fearless(+4).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4bf-d16c-d313-3adb" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4b76-a95e-00bc-9525" name="Schnell! Schnell! Schnell!" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="62d4-240f-e765-11a2" name="Schnell! Schnell! Schnell!" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>The model receives SP(+1).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1508-a6aa-a92d-7cf5" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5748-34b3-9846-a865" name="Smoke Flare" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="87f4-cbf9-bb00-0441" name="Smoke Flare" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>Once per game, the squad (or acting) commander may place a temporary Smoke token within 3” as per the smoke weapon ability.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="497e-7217-f690-4ac6" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f5d5-ffba-24b4-b557" name="Los Jetzt!" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="1f0f-e7fd-4339-3149" name="Los Jetzt!" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>RES(2): All models in this squad gain Ferocity (+2) and when performing a charge action they gain SP(+1).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c3-0267-4f11-b489" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="caee-9861-7e3f-033d" name="Advanced Hand-to-Hand Combat Training" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="b6c9-0411-e7a0-e893" name="Advanced Hand-to-Hand Combat Training" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>RES(1): Close combat weapons from this squad´s models gain ROA(+1).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcd9-322a-2cec-745a" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="bee8-7ae7-0d2b-3f25" name="At Arm´s Reach" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="65e6-f48e-7bbe-ed88" name="At Arm´s Reach" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>This model´s close combat weapons gain R(+0.5) and ST(+1) (Infantry only).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f005-8b29-bd4e-3344" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="6414-828d-5f75-dea1" name="Precise Positioning" hidden="false" targetId="7ddb-92e1-67ad-8cb6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="decrement" field="547a-ce3f-3831-bc09" value="2">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions>
+                        <condition field="selections" scope="377f-462d-e17e-e174" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a16-e360-fe99-f38b" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3755-48fd-9522-0d4c" name="Bernheim Doktrin" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="edc1-1024-02cf-dff3" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="6c2a-a63c-8025-8d2e" value="0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="edc1-1024-02cf-dff3" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c2a-a63c-8025-8d2e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="9d22-dd0e-5284-aecb" name="Marksmanship" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="f64f-87d6-883c-f24e" name="Marksmanship" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>This model gains Crackshot (2).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="100e-1cfb-069b-1e89" name="Crackshot(2)" hidden="false" targetId="b165-7d53-6093-bb07" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0722-a8c0-e8db-8069" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="381b-78ec-957f-7366" name="Special Weapons Training" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="2c43-06f3-43fc-7752" name="Special Weapons Training" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>Models in this squad can re-roll failed ‘Get The Gun’ rolls.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e25-37d9-f23a-2eea" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e88d-297b-7443-c3f0" name="Steady Aim" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="ad96-dc64-817f-92b1" name="Steady Aim" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>RES(2): If no models in the squad are engaged at the beginning of the squad’s activation, all of the squad’s ranged weapons gain R(+6).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5976-7b03-9969-46a2" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3783-3443-30c6-fe0c" name="Motion Beacon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="d450-439e-a7a7-c1e9" name="Motion Beacon" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>RES(1): Spend AP(1): Once per game the squad (or acting) commander may place a permanent ‘Motion Beacon’ token anywhere within 18” and scatter it D20/4”. Friendly models making ranged attacks at enemy models within 3” of the token may ignore all negative modifiers to RS.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2775-04a0-1ac0-eb83" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="976d-c73d-b793-a115" name="Extended Magazines" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="0b8c-7df4-053a-b80f" name="Extended Magazines" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>This model gains Gunslinger.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="704f-8a83-bb4e-3cf9" name="Gunslinger" hidden="false" targetId="ca2b-7c55-cf10-b2c2" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac5-a231-9feb-f837" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6574-83ec-4cfa-42e9" name="Targeting Flare" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="a591-9054-2ecf-c16e" name="Targeting Flare" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>RES(1): Scatter Distance rolls for this squad´s (GR) type weapons may be re-rolled.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0762-0b7c-01cf-687f" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c5fb-38a9-35f6-f852" name="Tarnung" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="09fb-af5f-0c57-a4f2" name="Tarnung" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>This model can perform the Evade Action for AP(0).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="361a-5556-cffc-66b7" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2c57-b032-ff90-bef2" name="Richthausen Doktrin" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="cc87-a300-9381-1691" value="0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc87-a300-9381-1691" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="4285-cbea-3416-1c62" name="Field Repair Kit" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="0006-3d9d-4f66-312e" name="Field Repair Kit" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>RES(1): One model in the squad may spend AP(1) to attempt to repair a damaged location on a vehicle in B2B contact. The model succeeds at restoring W(1) to that location on a D20 roll of 1-10. A vehicle can only regain W(1) per turn in this way. (Troops and Support only)</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a10-2a80-a77d-675a" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5cba-b5bc-709b-6c5b" name="Field Medic Training" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="0f29-b3e4-2d89-ca41" name="Field Medic Training" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>The squad commander gains Medic (4) or (+2) if they already have Medic.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8675-eae6-97c3-e14f" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6db1-d2d6-71f1-3afe" name="Sandsäcke" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules>
+                    <rule id="ad03-f7d8-c005-0395" name="Sandsäcke" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>RES(2): Models from this squad may spend AP(1) to place a permanent ‘Sandbag’ token in B2B with the model placing the token or another ‘Sandbag’ token within 3”.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b0-aca9-98cb-8b7f" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -2801,14 +3424,6 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="1ecf-6504-b0e4-1e96" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="1620-6565-7c1a-b485" name="Doktrin" hidden="false" targetId="2a9f-2dd0-7436-65f1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6315,6 +6930,286 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5891-85b3-5bb9-5033" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="57dc-221a-42d9-bc22" name="“Mancutter” Clearing Blade" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any Difficult Terrain that is 3”x3”x3” or smaller that this model moves through may be removed from the game. Ramming actions add ST(+4) to the autohit against the target model.</description>
+        </rule>
+        <rule id="5d7c-ab75-f6e5-37db" name="Sondereinsatzkommando" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each model may be used as an Open Transport (5) for Venusian Rangers. This does not make this model a Transport Type. Venusian Rangers may Embark for AP(0) and the Wolfclaw may disembark Venusian Rangers for AP(0).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e03b-81a5-5a58-5aaf" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="982a-173f-42a4-b8dd" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9b06-56e5-b557-93ea" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="220e-b01a-5401-8efb" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="cacd-9f4e-e7ec-181e" name="T-32 Wolfclaw JBT" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="6"/>
+                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-/-"/>
+                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
+                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
+                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="16"/>
+                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
+                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/3"/>
+                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="27/3"/>
+                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
+                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
+                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="12&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="100"/>
+              </characteristics>
+            </profile>
+            <profile id="9f87-b05a-7f5a-d465" name="Synchronized Steiner Industries 3CHE-65" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="16"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(4), Slow to Reload, Turret, Weapon Mode(Concentrated Blast)"/>
+              </characteristics>
+            </profile>
+            <profile id="981b-80ab-235c-2a67" name="Synchronized Steiner Industries 3CHE-65 (Concentrated Blast)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24/LE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(4), Concussive(3), Turret"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4503-df70-989c-45ba" name="Bergstahl Stonecleaver LMG" hidden="false" targetId="5ae3-8837-857b-31f6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f64-81ea-f6f3-a9a5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10bd-ee76-0daa-cf3a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="36f3-5c2d-a92d-20a6" name="Doktrin" hidden="false" targetId="f775-41f3-7889-9e10" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f92-e881-b1ea-2418" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="0d39-9ffb-4f00-90c4" name="“Mancutter” Clearing Blade" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any Difficult Terrain that is 3”x3”x3” or smaller that this model moves through may be removed from the game. Ramming actions add ST(+4) to the autohit against the target model.</description>
+        </rule>
+        <rule id="5ffd-af9b-aa0a-2d71" name="Sondereinsatzkommando" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each model may be used as an Open Transport (5) for Venusian Rangers. This does not make this model a Transport Type. Venusian Rangers may Embark for AP(0) and the Wolfclaw may disembark Venusian Rangers for AP(0).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c0de-92e1-1482-386f" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9f1f-b766-4532-9c5a" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fc83-5c22-ec61-48a0" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4a7d-f0d2-b592-2406" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="f086-b43a-dcf8-c905" name="T-32 Wolfclaw JBT" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="6"/>
+                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-/-"/>
+                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
+                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
+                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="16"/>
+                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
+                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/3"/>
+                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="27/3"/>
+                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
+                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
+                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="12&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="100"/>
+              </characteristics>
+            </profile>
+            <profile id="dfba-aad9-92e7-a638" name="Synchronized Steiner Industries 3CHE-65" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="16"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(4), Slow to Reload, Turret, Weapon Mode(Concentrated Blast)"/>
+              </characteristics>
+            </profile>
+            <profile id="24a3-7d24-998b-f395" name="Synchronized Steiner Industries 3CHE-65 (Concentrated Blast)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24/LE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(4), Concussive(3), Turret"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4794-0abb-17ec-e273" name="Bergstahl Stonecleaver LMG" hidden="false" targetId="5ae3-8837-857b-31f6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e4b-f9ab-1c38-3398" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3884-c40b-08c5-50ad" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="adf5-b4b3-c7c1-6258" name="Doktrin" hidden="false" targetId="e847-edf1-2fbe-5750" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="0cbf-19ad-2e74-2ce4" name="Doomtrooper Pair" hidden="false" targetId="ad0a-b36c-b60e-c317" type="selectionEntry">
@@ -6557,29 +7452,6 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e903-d414-ebe6-98e9" name="T-32 Wolfclaw JBT" hidden="false" targetId="0b9e-f1f3-b8f8-3275" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="d9c3-bc7a-3943-28de" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="dd5b-247c-d928-a6d2" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="7a81-89c8-a16a-a607" name="Inquisitor Majoris Hanno Hamilkar" hidden="false" targetId="aeb9-8639-d129-a1cf" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -6778,6 +7650,37 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="c2cf-afc6-5485-3edf" name="Wolfbane Commandos" hidden="false" targetId="f231-f7b7-0437-7120" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8190-bfce-e089-0fa2" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e027-9d2f-0304-a0cb" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -7143,9 +8046,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="612c-a8a4-134b-0ada" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="bc23-0396-da82-7ffc" name="New CategoryLink" hidden="false" targetId="8711-9095-2eb5-1dea" primary="false">
           <profiles/>
@@ -7563,7 +8464,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03f-34f0-b233-6d79" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03f-34f0-b233-6d79" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -8195,7 +9096,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a38c-29fa-cd3e-02db" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a38c-29fa-cd3e-02db" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -8827,7 +9728,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28a-efd4-971a-73f9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28a-efd4-971a-73f9" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -9468,7 +10369,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a38-e266-d1de-24fb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a38-e266-d1de-24fb" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -10068,7 +10969,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a4-0dad-37a4-99fc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a4-0dad-37a4-99fc" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -10689,7 +11590,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="539b-6bf8-af89-b405" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="539b-6bf8-af89-b405" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>

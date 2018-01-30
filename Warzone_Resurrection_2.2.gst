@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -717,7 +717,7 @@
   <selectionEntries/>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="fcf7-8877-2fbc-1eb4" name="Praetorian Behemoth" page="313" hidden="false" collective="false" type="model">
+    <selectionEntry id="fcf7-8877-2fbc-1eb4" name="Praetorian Behemoth" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7212-1fa1-e08b-fce8" name="Monstrous Fists" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
           <profiles/>
@@ -853,7 +853,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad0a-b36c-b60e-c317" name="Doomtrooper Pair" page="282" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ad0a-b36c-b60e-c317" name="Doomtrooper Pair" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1094,7 +1094,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a292-2224-36fc-3534" name="Dominik Kaspernov" page="82" hidden="false" collective="false" type="model">
+    <selectionEntry id="a292-2224-36fc-3534" name="Dominik Kaspernov" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6e39-b5cb-ea42-80a9" name="Dominik Kaspernov" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -1266,7 +1266,9 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a45d-a5f9-fec2-0e9a" name="Tatsumoto" hidden="false" collective="false" type="model">
       <profiles>
@@ -1429,7 +1431,9 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ee1b-156a-88fb-600a" name="Psychic Mastery(B)" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1663,9 +1667,11 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="8581-c041-fa19-f653" name="Chasseurs" page="166" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8581-c041-fa19-f653" name="Chasseurs" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1880,7 +1886,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a14-fa5d-3415-9e96" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" type="model">
+    <selectionEntry id="6a14-fa5d-3415-9e96" name="CTL-422 Mule Armoured Carrier" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="bb45-b764-f77a-7755" name="CTL-422 Mule Armoured Carrier" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
           <profiles/>
@@ -1965,7 +1971,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5806-73b9-30b1-6309" name="CTL-F800 Emancipator Combat Aircraft" page="pdf" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5806-73b9-30b1-6309" name="CTL-F800 Emancipator Combat Aircraft" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
         <rule id="bca3-09f6-455e-133f" name="Aeroplane" hidden="false">
@@ -2202,7 +2208,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0363-58ea-b105-b777" name="John Baptiste" page="75" hidden="false" collective="false" type="model">
+    <selectionEntry id="0363-58ea-b105-b777" name="John Baptiste" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="83ac-d31c-27d2-015e" name="John Baptiste" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -2341,6 +2347,14 @@ A(+1).</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="af7f-602f-e664-1851" name="Ilian Powers" hidden="false" targetId="649a-c3eb-9944-5a6b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2349,7 +2363,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6758-4ffb-6b32-35ac" name="Heretics of Algeroth" page="299" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6758-4ffb-6b32-35ac" name="Heretics of Algeroth" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="140a-1906-ac21-626b" name="Heretic" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -2610,7 +2624,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c51-5244-7098-4d9d" name="Armored Chasseurs" page="167" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0c51-5244-7098-4d9d" name="Armored Chasseurs" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2870,7 +2884,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48c1-b5d7-2f3d-c373" name="Opresseur Mk.I" page="173" hidden="false" collective="false" type="model">
+    <selectionEntry id="48c1-b5d7-2f3d-c373" name="Opresseur Mk.I" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="47e2-4b73-efc3-1e32" name="Opresseur Mk.I" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
           <profiles/>
@@ -3010,9 +3024,11 @@ A(+1).</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="58bf-35c7-abb5-df0e" name="Opresseur Mk.I" page="173" hidden="false" collective="false" type="unit">
+    <selectionEntry id="58bf-35c7-abb5-df0e" name="Opresseur Mk.I" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3154,7 +3170,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9633-c1c5-50d6-b922" name="Machinators Mk.IX" page="168" hidden="false" collective="false" type="unit">
+    <selectionEntry id="9633-c1c5-50d6-b922" name="Machinators Mk.IX" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3452,7 +3468,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="064e-8fc8-0a9c-e334" name="Mirrormen" page="169" hidden="false" collective="false" type="unit">
+    <selectionEntry id="064e-8fc8-0a9c-e334" name="Mirrormen" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3743,7 +3759,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a7f-d4cf-87b2-5193" name="Cuirassiers &apos;Atilla&apos; Mk.III" page="170" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3a7f-d4cf-87b2-5193" name="Cuirassiers &apos;Atilla&apos; Mk.III" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3869,7 +3885,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f669-c13e-228a-4cf5" name="Enhanced Machinators" page="171" hidden="false" collective="false" type="unit">
+    <selectionEntry id="f669-c13e-228a-4cf5" name="Enhanced Machinators" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4103,7 +4119,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d2e-6f59-df90-4160" name="Scorpion" page="172" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6d2e-6f59-df90-4160" name="Scorpion" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4313,7 +4329,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50c1-07e6-af49-2911" name="Exterminateur &apos;Atilla&apos; Mk.I" page="174" hidden="false" collective="false" type="unit">
+    <selectionEntry id="50c1-07e6-af49-2911" name="Exterminateur &apos;Atilla&apos; Mk.I" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4443,7 +4459,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="135.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5bf7-459a-ba1a-d45d" name="Eradicator Death Droid" page="176" hidden="false" collective="false" type="model">
+    <selectionEntry id="5bf7-459a-ba1a-d45d" name="Eradicator Death Droid" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="6a1a-402c-5374-9f68" name="Eradicator Death Droid" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
           <profiles/>
@@ -4582,7 +4598,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68d5-a604-7710-c084" name="Eradicator Death Droids" page="176" hidden="false" collective="false" type="unit">
+    <selectionEntry id="68d5-a604-7710-c084" name="Eradicator Death Droids" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4737,7 +4753,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b1b-9cec-07d5-8bab" name="Voltigeur" page="175" hidden="false" collective="false" type="model">
+    <selectionEntry id="9b1b-9cec-07d5-8bab" name="Voltigeur" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="5a55-dd12-49ae-8bdf" name="Voltigeur" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
           <profiles/>
@@ -4903,7 +4919,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c70-9f05-6107-e7a8" name="The Immortal" page="156" hidden="false" collective="false" type="model">
+    <selectionEntry id="7c70-9f05-6107-e7a8" name="The Immortal" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="066e-6b13-788a-3721" name="The Immortal" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -5073,7 +5089,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ecbb-7f33-71de-5d98" name="Everassur" page="158" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ecbb-7f33-71de-5d98" name="Everassur" page="" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0272-6c9c-135e-181d" name="Everassur" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -5233,7 +5249,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bbb1-a02a-9cfd-c3f9" name="Dr. Diana Neoclone" page="161" hidden="false" collective="false" type="model">
+    <selectionEntry id="bbb1-a02a-9cfd-c3f9" name="Dr. Diana Neoclone" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2a3e-40e0-4b17-2525" name="Dr. Diana Neoclone" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -5348,7 +5364,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3dcb-6999-ed54-fe09" name="Dr. Cynthia Diana" page="162" hidden="false" collective="false" type="model">
+    <selectionEntry id="3dcb-6999-ed54-fe09" name="Dr. Cynthia Diana" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="bbfe-4ef6-53aa-6ac3" name="Dr. Cynthia Diana" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -5575,7 +5591,7 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="73c5-04f4-33ef-8109" name="Dr. Diana Clone" page="161" hidden="false" collective="false" type="model">
+    <selectionEntry id="73c5-04f4-33ef-8109" name="Dr. Diana Clone" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="8611-6c1a-f306-f829" name="Dr. Diana Clone" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -5699,7 +5715,7 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f595-88e1-cc3f-0462" name="Dr. Diana Commander" page="160" hidden="false" collective="false" type="model">
+    <selectionEntry id="f595-88e1-cc3f-0462" name="Dr. Diana Commander" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="5d5e-1b81-f113-950d" name="Dr. Diana Commander" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -5841,7 +5857,7 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77cf-b295-8257-a19e" name="Chasseurs(Free Upgrade)" page="166" hidden="true" collective="false" type="unit">
+    <selectionEntry id="77cf-b295-8257-a19e" name="Chasseurs(Free Upgrade)" page="" hidden="true" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6534,7 +6550,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3562-8b85-1f08-0def" name="Vince Diamond" page="157" hidden="false" collective="false" type="model">
+    <selectionEntry id="3562-8b85-1f08-0def" name="Vince Diamond" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b1df-e559-3860-9870" name="Vince Diamond" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -7116,9 +7132,11 @@ A(+1).</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="d2d5-0630-35f7-211f" name="Enhanced Chasseurs" page="157" hidden="true" collective="false" type="unit">
+    <selectionEntry id="d2d5-0630-35f7-211f" name="Enhanced Chasseurs" page="" hidden="true" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7422,7 +7440,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1705-e526-928f-0cb7" name="Pieter &apos;The Shield&apos; Diamond" page="163" hidden="false" collective="false" type="model">
+    <selectionEntry id="1705-e526-928f-0cb7" name="Pieter &apos;The Shield&apos; Diamond" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="8829-278a-b106-879e" name="Pieter &apos;The Shield&apos; Diamond" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -7577,7 +7595,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d32-483b-c7ce-eb0a" name="Nova" page="pdf" hidden="false" collective="false" type="unit">
+    <selectionEntry id="6d32-483b-c7ce-eb0a" name="Nova" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7712,7 +7730,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bbd-8128-c41c-07e1" name="732-R4-NCE" page="159" hidden="false" collective="false" type="model">
+    <selectionEntry id="9bbd-8128-c41c-07e1" name="732-R4-NCE" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="5bde-7e8b-5d3f-e183" name="732-R4-NCE" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -8274,7 +8292,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d583-c4ff-7850-cf81" name="Chasseur Heavy Weapon Squad" page="153" hidden="false" collective="false" type="unit">
+    <selectionEntry id="d583-c4ff-7850-cf81" name="Chasseur Heavy Weapon Squad" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -8482,7 +8500,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="561b-69db-f089-b2db" name="Chasseur Heavy Weapon Squad" page="153" hidden="false" collective="false" type="unit">
+    <selectionEntry id="561b-69db-f089-b2db" name="Chasseur Heavy Weapon Squad" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -8686,87 +8704,6 @@ A(+1).</description>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7d6c-2ff0-0cc7-0acb" name="Hussars" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="ed20-1717-d985-f968" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="64c6-2954-c28e-78fd" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9dd2-031a-8651-e829" name="Hussars" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="c3fd-0a9b-6eee-ba7c" name="Hussars" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="12/0"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="13"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="c03b-3428-81cc-3e03" name="AG-17 &apos;Panzerknacker&apos; Assault Rifle" hidden="false" targetId="95e8-5aa0-c326-1826" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="5cf7-e1ff-0097-af31" name="AG-17(GW-170 UBGL)" hidden="false" targetId="fcb4-c5de-80de-9faa" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d68-0a6b-9eb0-81eb" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdd8-22cb-3f8f-f4e0" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="13.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -9943,7 +9880,9 @@ A(+1).</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="88c4-1013-986a-0fd5" name="Lieutenant Isaac Alfreds" hidden="false" collective="false" type="model">
       <profiles>
@@ -10133,7 +10072,9 @@ A(+1).</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f231-f7b7-0437-7120" name="Wolfbane Commandos" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -10606,7 +10547,9 @@ models are placed B2B with him in his front facing and travel the full movement 
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="20b0-c043-f9c9-5768" name="Gordon Slythe" hidden="false" collective="false" type="model">
       <profiles>
@@ -10779,7 +10722,9 @@ models are placed B2B with him in his front facing and travel the full movement 
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8135-de88-6d37-a084" name="Sheila McGregor" hidden="false" collective="false" type="model">
       <profiles>
@@ -10998,7 +10943,9 @@ models are placed B2B with him in his front facing and travel the full movement 
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="72ec-3f60-b80b-5f2d" name="Detective Nathan Castle" hidden="false" collective="false" type="model">
       <profiles>
@@ -11328,121 +11275,6 @@ models are placed B2B with him in his front facing and travel the full movement 
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs/>
-    </selectionEntry>
-    <selectionEntry id="0b9e-f1f3-b8f8-3275" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules>
-        <rule id="6e2f-436b-2012-d6a2" name="“Mancutter” Clearing Blade" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Any Difficult Terrain that is 3”x3”x3” or smaller that this model moves through may be removed from the game. Ramming actions add ST(+4) to the autohit against the target model.</description>
-        </rule>
-        <rule id="76ad-39af-037b-6819" name="Sondereinsatzkommando" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each model may be used as an Open Transport (5) for Venusian Rangers. This does not make this model a Transport Type. Venusian Rangers may Embark for AP(0) and the Wolfclaw may disembark Venusian Rangers for AP(0).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="3ad5-32e3-4c6b-beb5" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="6c5e-eb95-fd02-d0ac" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e3bc-5857-2a6a-b4ae" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="c92a-4dfb-3847-46bc" name="T-32 Wolfclaw JBT" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="6"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-/-"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="16"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/3"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="27/3"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="12&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="100"/>
-              </characteristics>
-            </profile>
-            <profile id="5540-6e44-e0ff-eeef" name="Synchronized Steiner Industries 3CHE-65" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="16"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(4), Slow to Reload, Turret, Weapon Mode(Concentrated Blast)"/>
-              </characteristics>
-            </profile>
-            <profile id="6624-338a-886c-fbb4" name="Synchronized Steiner Industries 3CHE-65 (Concentrated Blast)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24/LE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(4), Concussive(3), Turret"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="96f1-68b3-cec8-80be" name="Bergstahl Stonecleaver LMG" hidden="false" targetId="5ae3-8837-857b-31f6" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dbe-93ad-61a6-311b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d26-756f-0411-d9da" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13016,7 +12848,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f73-8eb9-f727-ac1b" name="Golgotha, Mistress of Pain" page="285" hidden="false" collective="false" type="model">
+    <selectionEntry id="4f73-8eb9-f727-ac1b" name="Golgotha, Mistress of Pain" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0517-c11b-0a18-9c8b" name="Golgotha, Mistress of Pain" page="182" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -13335,7 +13167,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e34-3d5d-9729-7b55" name="Heretics of Ilian" page="299" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8e34-3d5d-9729-7b55" name="Heretics of Ilian" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="3bcc-903f-a10e-0ef3" name="Heretic" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -15261,7 +15093,9 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5011-98ee-1b85-6ba1" name="Light Infantry" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -15880,7 +15714,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a8f3-3d76-a36b-9863" name="Doomtrooper" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -15902,7 +15738,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2555-f128-b504-1dfd" name="Captain Vince &apos;Fel&apos; Harland" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -16105,7 +15943,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f95e-0462-17f1-8d11" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -16255,7 +16095,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4eaa-d58a-6991-d6cf" name="Cuirassier &apos;Atilla&apos; Mk. III" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -16353,7 +16195,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b8c0-0939-eb1d-8ce6" name="Valerie Duval" hidden="false" collective="false" type="model">
       <profiles>
@@ -16905,7 +16749,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9dab-b256-b681-2dd2" name="Bruder Wilhelm" hidden="false" collective="false" type="upgrade">
       <profiles>

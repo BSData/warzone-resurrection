@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="830f-2fe2-c162-b926" name="Cybertronic- Battlefield Reclamation Squad" revision="3" battleScribeVersion="2.01" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="830f-2fe2-c162-b926" name="Cybertronic- Battlefield Reclamation Squad" revision="5" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -15,7 +15,7 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="a325-d5b4-39ec-8c60" name="Chasseurs" page="166" hidden="false" collective="false" type="unit">
+    <selectionEntry id="a325-d5b4-39ec-8c60" name="Chasseurs" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="7" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All Brotherhood units have Contempt (Dark Legion).</description>
+    </rule>
+    <rule id="ae9b-7c6d-f323-dcfd" name="The Light Flows Through" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All Brotherhood units have Psychic Mastery (B).</description>
+    </rule>
+    <rule id="a34c-fbef-4ec3-9baf" name="Power of the Art" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All Brotherhood non-vehicle squads and characters must be upgraded with 1 or 2 Art (Psychic) Powers. Each squad may only choose Powers from the same Art Path. Vehicles may be upgraded with 1 or 2 Art Powers.
+Any model in a squad, except attached characters, may attempt to cast any of the squads Art Powers but each power may only be attempted once per squad.
+Characters purchase their own Art Powers and, if attached to a squad, may only use their own Powers. The squad cannot use the Powers purchased by the character.</description>
+    </rule>
+  </rules>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
@@ -5754,6 +5778,37 @@ All friendly models in a squad that successfully wounds with one or more Psychic
           <constraints/>
         </categoryLink>
         <categoryLink id="bec9-5880-a938-340b" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7550-5375-7bbc-1b5f" name="Wolfbane Commandos" hidden="false" targetId="f231-f7b7-0437-7120" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e7c3-7d63-f8f9-41ce" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="62c6-bea5-b6fd-16bb" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>

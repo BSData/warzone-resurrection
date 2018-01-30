@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="4" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="5" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -15,7 +15,7 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="7f49-3183-84b7-3cf0" name="Exterminateur &apos;Atilla&apos; Mk.I" page="174" hidden="false" collective="false" type="model">
+    <selectionEntry id="7f49-3183-84b7-3cf0" name="Exterminateur &apos;Atilla&apos; Mk.I" page="" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -158,7 +158,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c22-9fd0-363b-5a11" name="Cuirassier &apos;Atilla&apos; Mk.III" page="170" hidden="false" collective="false" type="unit">
+    <selectionEntry id="9c22-9fd0-363b-5a11" name="Cuirassier &apos;Atilla&apos; Mk.III" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -285,7 +285,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e63-17e1-f207-85d7" name="Machinators Mk.IX" page="168" hidden="false" collective="false" type="unit">
+    <selectionEntry id="7e63-17e1-f207-85d7" name="Machinators Mk.IX" page="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>

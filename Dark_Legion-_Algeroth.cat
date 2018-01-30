@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="7" battleScribeVersion="2.01" authorName="John C. Smith" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="8" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="5d3b-4ee1-a199-bc2e" name="The Face of the Legion" hidden="false">
@@ -347,7 +347,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48e3-f82e-d2ab-55fd" name="Necromutants" page="303" hidden="false" collective="false" type="unit">
+    <selectionEntry id="48e3-f82e-d2ab-55fd" name="Necromutants" page="" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="b129-9a3f-86a5-72cf" name="Necromutant" page="191" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -535,7 +535,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cfa7-92d9-26f0-8042" name="Necromutant Leader" page="297" hidden="false" collective="false" type="model">
+    <selectionEntry id="cfa7-92d9-26f0-8042" name="Necromutant Leader" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f4f3-b075-510a-41a2" name="Necromutant Leader" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -2335,7 +2335,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a92a-4b82-fb09-c2e0" name="Praetorian Behemoth" page="313" hidden="false" collective="false" type="model">
+    <selectionEntry id="a92a-4b82-fb09-c2e0" name="Praetorian Behemoth" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="74a5-83f4-a056-976a" name="Monstrous Fists" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
           <profiles/>
@@ -3378,7 +3378,7 @@
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d801-fafc-4f29-dfbc" name="Golgotha, Mistress of Pain" page="285" hidden="false" collective="false" type="model">
+    <selectionEntry id="d801-fafc-4f29-dfbc" name="Golgotha, Mistress of Pain" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d0c7-3e4c-9e2d-2fec" name="Golgotha, Mistress of Pain" page="182" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -3720,7 +3720,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b54d-9df4-b6db-0c01" name="John Baptiste" page="75" hidden="false" collective="false" type="model">
+    <selectionEntry id="b54d-9df4-b6db-0c01" name="John Baptiste" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3e84-4281-c155-f541" name="John Baptiste" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -3864,6 +3864,14 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6bbc-130a-e2ce-f45e" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd56-c683-85d6-d17d" name="Ilian Powers" hidden="false" targetId="649a-c3eb-9944-5a6b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
