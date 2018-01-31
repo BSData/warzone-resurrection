@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="5" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ba7-613e-e9a8-a382" name="Cybertronic- Rise of the Machines" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -622,12 +622,28 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b24e-7a4b-645d-5fbc" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="7268-d57e-6b3c-ee10" name="Advisor" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c6f-9e08-5368-d2cb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5675-21ff-d782-957b" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="40.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
         <selectionEntry id="3fa2-4cf5-04eb-e6b7" name="Advanced Riot Shields" hidden="false" collective="false" type="upgrade">
           <profiles>

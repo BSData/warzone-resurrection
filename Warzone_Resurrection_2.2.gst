@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3445,12 +3445,28 @@ A(+1).</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3333-f23a-58aa-d272" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="e60a-4c9a-c3c2-f357" name="Advisor" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba5-6ed2-7ce2-a21a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="250c-07b5-a205-c52e" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="40.0"/>
-          </costs>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3465,7 +3481,7 @@ A(+1).</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="064e-8fc8-0a9c-e334" name="Mirrormen" page="" hidden="false" collective="false" type="unit">
