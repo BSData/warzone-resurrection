@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="10" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c534-748b-2fea-1be3" name="Military Heirarchy" hidden="false">
@@ -411,9 +411,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af3-5a91-2526-1c3c" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="24a9-79a4-8418-e612" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
@@ -549,9 +547,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e2-1382-9d33-6cad" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="7c5b-95dd-f73e-c88c" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
@@ -5032,6 +5028,22 @@ All Traps have 3 attributes:
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="c13f-ea5f-d5b2-5de4" name="Medals of Honor" hidden="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="aa86-7e2c-e32a-fdd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61ee-2fec-e62e-be6a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
@@ -5192,6 +5204,22 @@ All Traps have 3 attributes:
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2561-d6e3-f4ef-9575" name="Medals of Honor" hidden="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0d88-7c7c-d3dc-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f54e-bad1-60a6-e428" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -5383,6 +5411,22 @@ All Traps have 3 attributes:
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5204-661e-0add-64e3" name="Medals of Honor" hidden="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="baec-0cf9-e42d-c757" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e75f-b154-86a0-bcf2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>

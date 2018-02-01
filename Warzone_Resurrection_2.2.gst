@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="13" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="14" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5223,9 +5223,7 @@ A(+1).</description>
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ed-3e29-1765-68af" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="9527-5a34-b2c1-e570" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
@@ -5338,9 +5336,7 @@ A(+1).</description>
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a33e-b316-beb5-8344" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="15ff-8acb-f9d5-5821" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
@@ -5829,9 +5825,7 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e5-5c69-9521-7b47" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="8b1f-c7e5-fa0c-94f9" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
@@ -14259,9 +14253,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="826a-6895-5ef8-6d52" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -14433,19 +14425,21 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1c0b-75a2-1013-e951" name="Dark Symmetry (Squad Commander)" hidden="false" collective="false" type="upgrade">
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="01b4-be1b-2a8b-6486" name="Dark Symmetry (Squad Commander)" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="668f-185c-2c31-3ea2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16cb-e547-7fb6-c825" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="c9e2-51cc-e785-fd50" name="Algeroth Powers" hidden="false" targetId="3e05-1579-3250-a997" type="selectionEntryGroup">
+            <entryLink id="6c01-999b-cd14-b1fc" name="Algeroth Powers" hidden="false" targetId="3e05-1579-3250-a997" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14453,7 +14447,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="4250-4af6-00cb-2173" name="Ilian Powers" hidden="false" targetId="649a-c3eb-9944-5a6b" type="selectionEntryGroup">
+            <entryLink id="b275-2a9b-dc19-1406" name="Ilian Powers" hidden="false" targetId="649a-c3eb-9944-5a6b" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14462,12 +14456,8 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>

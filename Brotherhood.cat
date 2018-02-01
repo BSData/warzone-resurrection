@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="10" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -852,9 +852,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d9-d866-9263-2cf3" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="6a8a-81c0-838c-a383" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
           <profiles/>
@@ -3243,9 +3241,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b43f-39bb-f96e-c378" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="5a56-7a12-3830-7328" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
           <profiles/>
@@ -4063,9 +4059,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a583-1d16-2cac-267f" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="eb4b-583a-91dd-6932" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
           <profiles/>
