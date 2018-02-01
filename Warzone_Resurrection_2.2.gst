@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone Resurrection 2.2" revision="13" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2884,7 +2884,7 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48c1-b5d7-2f3d-c373" name="Opresseur Mk.I" page="" hidden="false" collective="false" type="model">
+    <selectionEntry id="48c1-b5d7-2f3d-c373" name="Opresseur Mk.I" page="" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="47e2-4b73-efc3-1e32" name="Opresseur Mk.I" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
           <profiles/>
@@ -3466,7 +3466,9 @@ A(+1).</description>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -3871,18 +3873,9 @@ A(+1).</description>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="f040-a5c0-2a80-f936" name="Cybertronic Upgrades" hidden="false" targetId="18de-c154-3c3f-67fd" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
+          <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3896,9 +3889,17 @@ A(+1).</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9bee-51a5-0a70-afb3" name="Cybertronic Upgrades" hidden="false" targetId="18de-c154-3c3f-67fd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f669-c13e-228a-4cf5" name="Enhanced Machinators" page="" hidden="false" collective="false" type="unit">
@@ -6140,7 +6141,7 @@ A(+1).</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9625-e095-4d4e-94be" name="Cybertronic Upgrades(1 Free)" book="Small Based unit" hidden="false" collective="false">
+        <selectionEntryGroup id="9625-e095-4d4e-94be" name="Cybertronic Upgrades(1 Free)" book="" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6712,7 +6713,7 @@ A(+1).</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b49f-f9bd-d72d-8456" name="Hardware Upgrades(3 Free)" book="small based unit" hidden="false" collective="false">
+        <selectionEntryGroup id="b49f-f9bd-d72d-8456" name="Hardware Upgrades(3 Free)" book="" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6854,7 +6855,7 @@ A(+1).</description>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b6a5-c385-4e45-56cc" name="Cybertronic Upgrades" book="Medium Based Character" hidden="false" collective="false">
+        <selectionEntryGroup id="b6a5-c385-4e45-56cc" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8285,7 +8286,7 @@ A(+1).</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2158-27c5-ef6c-beb6" name="Cybertronic Upgrades(Free)" hidden="false" targetId="6cf2-0d7b-2ce7-298e" type="selectionEntryGroup">
+        <entryLink id="2158-27c5-ef6c-beb6" name="Free Cybertronic Upgrades" hidden="false" targetId="6cf2-0d7b-2ce7-298e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11958,7 +11959,7 @@ models are placed B2B with him in his front facing and travel the full movement 
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b6a-34b5-0bf0-029e" name="Art Powers" hidden="false" collective="true" type="upgrade">
+    <selectionEntry id="1b6a-34b5-0bf0-029e" name="Art Powers" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17393,7 +17394,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e898-297d-133a-0584" name="Cybertronic Upgrades" book="Small Based Character" hidden="false" collective="false">
+    <selectionEntryGroup id="e898-297d-133a-0584" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17826,7 +17827,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0512-8006-9045-3b19" name="Cybertronic Upgrades" book="Medium Based Character" hidden="false" collective="false">
+    <selectionEntryGroup id="0512-8006-9045-3b19" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -18259,7 +18260,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1852-843d-6339-6ae6" name="Cybertronic Upgrades" book="Small Based unit" hidden="false" collective="false">
+    <selectionEntryGroup id="1852-843d-6339-6ae6" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -18474,7 +18475,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -18544,7 +18545,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -18770,7 +18771,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="18de-c154-3c3f-67fd" name="Cybertronic Upgrades" book="Medium Based Unit" hidden="false" collective="false">
+    <selectionEntryGroup id="18de-c154-3c3f-67fd" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -18817,7 +18818,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -18849,7 +18850,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -18953,7 +18954,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -18985,7 +18986,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -19055,7 +19056,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -19281,7 +19282,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="cbd6-75c7-0c50-3fe1" name="Cybertronic Upgrades" book="Large Based Unit" hidden="false" collective="false">
+    <selectionEntryGroup id="cbd6-75c7-0c50-3fe1" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -19328,7 +19329,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -19360,7 +19361,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -19464,7 +19465,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -19496,7 +19497,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -19566,7 +19567,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
