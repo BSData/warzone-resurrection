@@ -3105,6 +3105,7 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d6-398e-8f8d-c1f5" type="max"/>
       </constraints>
       <categoryLinks>
+<<<<<<< HEAD
         <categoryLink id="0ccb-a367-4ef5-28c3" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
           <rules/>
@@ -3113,6 +3114,9 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
           <constraints/>
         </categoryLink>
         <categoryLink id="a0bb-7f65-bd78-ce40" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+=======
+        <categoryLink id="9792-852e-402b-837b" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+>>>>>>> ee542596b5a1574c013590087fc338e74431b5a4
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3630,6 +3634,7 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
         </infoLink>
       </infoLinks>
       <modifiers/>
+<<<<<<< HEAD
       <constraints/>
       <categoryLinks>
         <categoryLink id="4483-66e2-e0e5-2e08" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -3640,6 +3645,13 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
           <constraints/>
         </categoryLink>
         <categoryLink id="bbe4-4ece-d12c-8d01" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+=======
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d197-7cbb-da41-7ccc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d6de-f0ea-9c4e-3b77" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+>>>>>>> ee542596b5a1574c013590087fc338e74431b5a4
           <profiles/>
           <rules/>
           <infoLinks/>
