@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="7" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7a21-e865-1a7c-36c8" name="Doubtless Precision" hidden="false">
@@ -2182,7 +2182,16 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5dd0-c5ca-570a-0c06" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -8220,7 +8229,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ebd-88ae-3e4c-f43c" name="Los Jetzt!" hidden="false" collective="false" type="upgrade">
@@ -8327,7 +8336,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="0.0">
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
                   <repeats>
                     <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
