@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="7" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -52,14 +52,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="ab3d-0788-4833-98ff" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="a7c3-7821-f7d1-7d7e" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
           <profiles/>
@@ -68,6 +61,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="da9b-6c29-980a-57fb" name="Repair(5)" hidden="false" targetId="59ee-ad15-2e83-26d3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="03d6-9e3b-bf61-451c" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -98,10 +97,26 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d27f-45ec-4454-f2ac" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2db2-cc5f-ef83-8ee8" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -143,14 +158,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="07ab-8658-4248-6c94" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="7c15-8c4d-5f70-f4c4" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
           <profiles/>
@@ -159,6 +167,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="1463-5277-8d6e-b539" name="Repair(5)" hidden="false" targetId="59ee-ad15-2e83-26d3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7574-f776-3694-dfc3" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -189,10 +203,26 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="dc54-3acb-42ee-87ab" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="0c5e-ab9b-9d95-cba6" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -216,7 +246,7 @@
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="120"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="100"/>
           </characteristics>
         </profile>
         <profile id="cb8a-79e2-4a51-7730" name="Cybernetic Arm" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -779,7 +809,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -927,7 +957,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="867d-0864-cf60-5ba1" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
+    <entryLink id="867d-0864-cf60-5ba1" name="Opresseur Mk.I" hidden="false" targetId="58bf-35c7-abb5-df0e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1055,68 +1085,6 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="e51c-a0e3-4fa8-b555" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="bfc8-1571-96d7-8878" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfc8-1571-96d7-8878" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="8350-fb9e-a9f0-e58f" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="c4ba-fad4-547b-cf0b" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ba-fad4-547b-cf0b" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
     <entryLink id="e9d8-e67e-ae01-33c7" name="Machinators Mk.IX" hidden="false" targetId="9633-c1c5-50d6-b922" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -1132,6 +1100,114 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9145-7cae-6b7c-c91d" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f082-79f9-172c-3ecc" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="0fa4-04fc-0545-0ef2" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa4-04fc-0545-0ef2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="56dd-c20e-7361-ad91" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9d8d-447c-b6a2-3d37" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b13e-a6e8-e2f8-5f16" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="4f3e-4b01-208f-04e4" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f3e-4b01-208f-04e4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="10c0-1cd5-a45f-5d75" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d8be-4cff-df01-8679" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>

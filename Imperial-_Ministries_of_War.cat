@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="13" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c534-748b-2fea-1be3" name="Military Heirarchy" hidden="false">
@@ -195,7 +195,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
           <conditionGroups/>
         </modifier>
       </modifiers>
-      <description>ST(+2)</description>
+      <description>SP(+1)</description>
     </rule>
     <rule id="4b12-410f-a053-89c8" name="Clan Marker:" hidden="true">
       <profiles/>
@@ -240,7 +240,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
           <conditionGroups/>
         </modifier>
       </modifiers>
-      <description>LD(+3)</description>
+      <description>(H) and (A) type weapons gain Armour Piercing (+2)</description>
     </rule>
     <rule id="90a9-dbb0-0ca0-dbfb" name="Clan Marker:" hidden="true">
       <profiles/>
@@ -343,7 +343,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="50"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="40"/>
           </characteristics>
         </profile>
       </profiles>
@@ -481,7 +481,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fffa-3b73-8470-04dd" name="NCO" hidden="false" collective="false" type="model">
@@ -503,7 +503,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="21"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="30"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="25"/>
           </characteristics>
         </profile>
       </profiles>
@@ -617,7 +617,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="30.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c858-4ead-31f4-b601" name="Sergeant Benjamin Taylor" hidden="false" collective="false" type="model">
@@ -988,7 +988,7 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="60"/>
           </characteristics>
         </profile>
         <profile id="5295-c697-aa6a-cabc" name="Assailant Sniper Rifle ‘Helena’" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -1139,22 +1139,22 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ca3-cc22-1159-eca0" name="Sergeant Major Levi Murphy" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="74a2-d9f8-c166-71ff" name="Lyons &amp; Atkinson Urban Carbine" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+        <profile id="74a2-d9f8-c166-71ff" name="Levi&apos;s Personal Carbine" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
             <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Short-Ranged Burst"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1), Short-Ranged Burst"/>
           </characteristics>
         </profile>
         <profile id="0233-1ac0-f1cc-27aa" name="The Serenity´s Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -1283,6 +1283,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="0e19-871a-1293-ea2b" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bf71-352b-9ee0-bb3e" name="Urban Combat Specialists" hidden="false" targetId="1447-0426-a820-4a1a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1518,7 +1524,14 @@ All Traps have 3 attributes:
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="66e5-3a64-ca16-cb59" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
+        <categoryLink id="33f7-8fb7-c19a-ce7a" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="99e4-e68e-fa61-29e0" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1647,12 +1660,12 @@ All Traps have 3 attributes:
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="6271-5093-1039-c07e" name="Pattern" hidden="false" collective="false">
+            <selectionEntryGroup id="6271-5093-1039-c07e" name="Pattern" hidden="false" collective="false" defaultSelectionEntryId="b0bb-bf61-74f6-dfd4">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1801,7 +1814,7 @@ All Traps have 3 attributes:
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="31/5"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="29/5"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-5"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
             <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="290"/>
           </characteristics>
@@ -1830,7 +1843,7 @@ All Traps have 3 attributes:
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="31/5"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="29/5"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-5"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
             <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="290"/>
           </characteristics>
@@ -2809,7 +2822,7 @@ All Traps have 3 attributes:
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Gains WP(+2) . Also, enemy models targeting a model with this Specialisation with a Psychic (D) Power suffers WP(-2).</description>
+                  <description>Gains Fear (2). Also all enemy models within 6” must re-roll successful LD tests.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -2991,7 +3004,7 @@ All Traps have 3 attributes:
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Models in this squad equipped with a (H) type weapon performing a Battle Focus Action receive the bonus for all of their shots.</description>
+                  <description>Models in this squad performing a Battle Focus Action receive the bonus for all of their shots.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -3015,372 +3028,45 @@ All Traps have 3 attributes:
                 <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="0d41-bded-3741-40f7" name="Corporation Fighters:" hidden="false" collective="false">
+            <selectionEntry id="55cc-d415-7ce1-ad14" name="Corporation Fighters" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <infoLinks>
+                <infoLink id="48b4-fd03-c3d9-3bb0" name="Fearless(4)" hidden="false" targetId="12ce-6bd4-401a-801f" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="8346-252c-1d6f-426b" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b0-9aa0-6b15-0b2b" type="max"/>
+              </constraints>
               <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="0655-ee04-dc0c-77bc" name="Cybertronic Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="9b60-b8c4-4178-b66d" name="Contempt(Cybertronic)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="6d95-d7c4-705f-1d6c" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b04f-cd30-6b8d-ab7d" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="e15c-6c6e-2bb3-74b8" name="Bauhaus Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="759f-13b3-2fcb-a880" name="Contempt(Bauhaus)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="1b03-493e-1aa4-cdb6" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb3-5f70-4d85-5667" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="5b5e-9e72-8c9e-d31d" name="Capitol Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="6d88-24fe-50c2-90c0" name="Contempt(Capitol)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="cc55-b491-6eae-ece4" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b16a-abea-29a7-efa7" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="dc96-8ce9-11d2-9148" name="Brotherhood Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="d9cf-fb2d-fdfb-11db" name="Contempt(Brotherhood)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="520a-39d2-3a91-57b7" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bab-201f-fc08-23b7" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="5320-7eec-e8dd-cbb5" name="Mishima Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="654b-bcbc-27ba-cc5f" name="Contempt(Mishima)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="13cd-c4f7-15a5-e6ec" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e77-5e8a-6109-e4f5" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="13b5-7791-a1f5-8b04" name="Imperial- MOW Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="c5d3-3bcf-f4f9-4156" name="Contempt(Imperial- MOW)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="82ef-ebfa-dd9c-0dda" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f346-7a66-24e9-4671" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b36d-7424-575e-9c2c" name="Imperial- Wolfbanes Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="7535-e8a8-de5c-2706" name="Contempt(Imperial- Wolfbanes)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="870f-ac05-bdad-07bb" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f495-9c25-b9f8-c44f" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="4ed6-2384-b81d-4ff5" name="Dark Legion- Ilian Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="4373-6123-996e-5322" name="Contempt(Dark Legion- Ilian)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="6b7c-5d8c-37bc-2e16" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a2-d4f5-2523-c66c" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="50e8-d0eb-d750-06e2" name="Dark Legion- Algeroth Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="0900-435d-777d-4cd1" name="Contempt(Dark Legion- Algeroth)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="3850-87af-5b37-d51f" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="f74b-a5d6-7981-5ed5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="454f-c6c5-1c4c-aae5" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1093-dc37-e79f-7fbc" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4268,7 +3954,7 @@ All Traps have 3 attributes:
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Gains WP(+2) . Also, enemy models targeting a model with this Specialisation with a Psychic (D) Power suffers WP(-2).</description>
+                  <description>Gains Fear (2). Also all enemy models within 6” must re-roll successful LD tests.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -4450,7 +4136,7 @@ All Traps have 3 attributes:
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Models in this squad equipped with a (H) type weapon performing a Battle Focus Action receive the bonus for all of their shots.</description>
+                  <description>Models in this squad performing a Battle Focus Action receive the bonus for all of their shots.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -4474,372 +4160,45 @@ All Traps have 3 attributes:
                 <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="3ca7-a185-5ceb-450f" name="Corporation Fighters:" hidden="false" collective="false">
+            <selectionEntry id="ceea-90ee-ef74-616e" name="Corporation Fighters" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <infoLinks>
+                <infoLink id="4679-7297-843b-02c7" name="Fearless(4)" hidden="false" targetId="12ce-6bd4-401a-801f" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="9c03-a917-2a2d-657b" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c62b-7de0-c3ef-6424" type="max"/>
+              </constraints>
               <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="4b5d-b291-5e60-1259" name="Cybertronic Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="7e55-977d-bff8-0528" name="Contempt(Cybertronic)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="ec10-1b6d-104c-fb8b" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134c-4def-b3a0-b6d1" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b62e-43b4-9d10-ef14" name="Bauhaus Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="11ec-6f52-eec0-66c3" name="Contempt(Bauhaus)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="b40d-6034-d04d-5354" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d66-c26e-a454-ac39" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="29a1-ed47-76ef-bb23" name="Capitol Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="f910-9b06-99a3-6523" name="Contempt(Capitol)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="dd6c-f241-5bb7-ecd7" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d0-72f0-42a8-8fea" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c68e-aec0-136e-1e9f" name="Brotherhood Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="72be-b857-0502-189a" name="Contempt(Brotherhood)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="3c2f-9f2f-1d24-9f92" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea4d-08f4-ac1e-ac57" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="56a9-64f1-295a-f604" name="Mishima Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="7d88-658a-0b72-4b68" name="Contempt(Mishima)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="0f2e-6617-30f8-34fa" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d738-63f1-c5f6-5f43" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="ced3-e797-637a-ebe5" name="Imperial- MOW Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="490b-096d-342b-8f63" name="Contempt(Imperial- MOW)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="8a41-fc57-d9ab-9ceb" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4fd-c233-6c6d-6cd3" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="3b66-e29a-68d2-1769" name="Imperial- Wolfbanes Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="2daa-de49-8355-51b5" name="Contempt(Imperial- Wolfbanes)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="86f4-508c-e841-6d79" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c450-1729-3465-7f36" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="9f89-c003-b989-7ca2" name="Dark Legion- Ilian Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="438a-e4d0-4549-99ae" name="Contempt(Dark Legion- Ilian)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="04bc-00be-69e1-2b08" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2630-d42a-206b-1fe4" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="9088-37a1-d171-8bb2" name="Dark Legion- Algeroth Fighters" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules>
-                    <rule id="f1cf-a3f7-55a2-5fac" name="Contempt(Dark Legion- Algeroth)" hidden="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-                    </rule>
-                  </rules>
-                  <infoLinks>
-                    <infoLink id="61b1-f8c7-2b91-15c6" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers>
-                    <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                      <repeats>
-                        <repeat field="selections" scope="3560-3233-21f7-9e7b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ecc9-8ad8-4124-26f3" repeats="1" roundUp="false"/>
-                      </repeats>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca5-a8a8-ea29-b769" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4926,7 +4285,7 @@ All Traps have 3 attributes:
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8652-7ee0-eadc-31a4" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="88e6-e0d8-76f8-4eb2" type="rule">
+        <infoLink id="8652-7ee0-eadc-31a4" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="1d29-9510-e422-3b4b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4975,6 +4334,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="c05f-d4c5-8b39-2a51" name="Scanner" hidden="false" targetId="df8a-ec44-be7f-6610" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9996-8f54-a89a-7ace" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5161,7 +4526,19 @@ All Traps have 3 attributes:
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8077-13f0-1c23-7b8b" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="88e6-e0d8-76f8-4eb2" type="rule">
+        <infoLink id="8077-13f0-1c23-7b8b" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="1d29-9510-e422-3b4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1da2-ba88-75d2-3f16" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b081-35d5-7f98-b24d" name="Scanner" hidden="false" targetId="df8a-ec44-be7f-6610" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5348,7 +4725,7 @@ All Traps have 3 attributes:
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0d82-33f8-8bb3-ad7d" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="88e6-e0d8-76f8-4eb2" type="rule">
+        <infoLink id="0d82-33f8-8bb3-ad7d" name="Booby Traps(1/5&quot;/13)" hidden="false" targetId="1d29-9510-e422-3b4b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5361,6 +4738,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="c9e5-1cc4-82de-1f7d" name="Scanner" hidden="false" targetId="df8a-ec44-be7f-6610" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ada9-5902-16a1-c52b" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5525,6 +4908,13 @@ All Traps have 3 attributes:
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3634-5a9f-1a57-d1d2" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9ed0-8c4f-f2a9-bb3c" name="Heavy Gun Nest" hidden="false" collective="false" type="upgrade">
@@ -5554,7 +4944,7 @@ All Traps have 3 attributes:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5889,6 +5279,13 @@ All Traps have 3 attributes:
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d307-024d-53cd-8c98" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6c9c-c496-5711-19aa" name="Golden Lions" hidden="false" collective="false" type="model">
@@ -6082,7 +5479,7 @@ All Traps have 3 attributes:
               <modifiers/>
               <characteristics>
                 <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
                 <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Short Tanged Burst"/>
@@ -6111,7 +5508,7 @@ All Traps have 3 attributes:
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="16.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="39ff-aef3-948e-7492" name="Incendiary Grenades" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="39ff-aef3-948e-7492" name="Fire Grenades" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="b7b6-f0c9-1b1a-6060" name="Incendiary Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
               <profiles/>
@@ -6128,9 +5525,16 @@ All Traps have 3 attributes:
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="5a3f-3a4b-e1ad-18c2" name="Fire Grenades" hidden="false" targetId="6de5-f7da-64e0-eb96" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
               <repeats>
                 <repeat field="selections" scope="9d27-2e6f-3123-cfe1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8531-8e75-8725-2f79" repeats="1" roundUp="false"/>
               </repeats>
@@ -6358,6 +5762,13 @@ All Traps have 3 attributes:
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1093-614b-353f-8dfc" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1160-72e5-060f-dd16" name="Her Serenity&apos;s Life Dragoons" hidden="false" collective="false" type="model">
@@ -6389,7 +5800,7 @@ All Traps have 3 attributes:
               <modifiers/>
               <characteristics>
                 <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
                 <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Short Tanged Burst"/>
@@ -6418,26 +5829,19 @@ All Traps have 3 attributes:
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="16.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5d1f-d3b8-f85f-723f" name="Incendiary Grenades" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="13c8-cd70-e835-b2b9" name="Incendiary Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+        <selectionEntry id="5d1f-d3b8-f85f-723f" name="Fire Grenades" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e4e0-ab5f-283e-b8c0" name="Fire Grenades" hidden="false" targetId="6de5-f7da-64e0-eb96" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="ST/SE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
               <repeats>
                 <repeat field="selections" scope="b463-e463-708c-914a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1160-72e5-060f-dd16" repeats="1" roundUp="false"/>
               </repeats>
@@ -6618,6 +6022,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="7f0e-8203-0812-0b2f" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2afe-1172-d4e0-1f72" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6877,6 +6287,480 @@ All Traps have 3 attributes:
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="96b9-a252-9da8-f067" name="Wolfbane Commandos" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="63b8-59ba-ac68-90d7" name="Seeking the Best Battles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>1 squad of Wolfbane Commandos may be taken in a Bauhaus, Capitol, or Brotherhood army as a support choice for (+2) PTS each model.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4032-e9dd-0c57-436c" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="61c7-7567-c019-d07f" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="433c-c1f0-56a8-2de4" name="Ferocity(3)" hidden="false" targetId="cede-9206-0c28-b4e1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4001-78db-ffab-c8b6" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8689-5e79-b752-c2aa" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9757-8f5a-0308-0ba6" name="Wolfbane Commandos" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="3e5d-7bb0-472e-1009" name="Wolfbane Commando" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/1"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="11"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="14"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="54db-c411-bb6f-f567" name="Bastard Sword" hidden="false" targetId="cc24-94a0-0e83-2f7a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8327-d75f-8022-eaf8" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eca-71e5-38c5-048d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e8f0-f7f0-cf9a-0f22" name="Charger HMG" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f78c-5461-f152-310c" name="Charger HMG" hidden="false" targetId="a988-31bb-8077-2296" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="a6b8-246e-4796-5dc6" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="96b9-a252-9da8-f067" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9757-8f5a-0308-0ba6" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b8-246e-4796-5dc6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b45d-cf1a-329e-5a8c" name="Agressor Handgun and Handripper" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f409-d716-86b2-75c6" name="Agressor Handgun" hidden="false" targetId="2a93-f72f-c651-73a0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2885-8b33-bf67-1bb5" name="Hand Ripper" hidden="false" targetId="abd6-13bb-417f-02c2" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" field="023e-e223-e0c0-1775" value="1">
+              <repeats>
+                <repeat field="selections" scope="96b9-a252-9da8-f067" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9757-8f5a-0308-0ba6" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="023e-e223-e0c0-1775" value="1">
+              <repeats>
+                <repeat field="selections" scope="96b9-a252-9da8-f067" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9757-8f5a-0308-0ba6" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="023e-e223-e0c0-1775" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7001-c8ce-4262-c7f4" name="Lt. Colonel Timothy McGuire" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="02fd-d52c-ff5c-0ed5" name="Lt. Colonel Timothy McGuire" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="16/3"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="12"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="14"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="100"/>
+          </characteristics>
+        </profile>
+        <profile id="8795-7078-de06-67af" name="The Pride of the Lions" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="25/SE"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Any token within 6” of the template is removed from the game."/>
+          </characteristics>
+        </profile>
+        <profile id="cfab-78db-1362-f294" name="The Mane Claw" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+4"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b4a6-9b03-a1d1-66f5" name="The Fog" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(3): Every model within 8” gains Hard to Hit(4).</description>
+        </rule>
+        <rule id="41c4-53d8-df5e-9727" name="Vesting Haste" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Every friendly model up to SZ(1) within 12” of this model gains SP(+1).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6ddd-bdd1-14e5-58fb" name="Fearless(4)" hidden="false" targetId="12ce-6bd4-401a-801f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1a54-4bb7-38fc-a90a" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d9c6-2d5b-663b-a18c" name="Blood Rage" hidden="false" targetId="e9a0-a969-eab3-b2f9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0ecc-9531-7512-5cd1" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dcea-0a93-4371-dc1d" name="Hunter&apos;s Intuition" hidden="false" targetId="9426-d65f-d37f-c60d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3b51-6149-70f8-54c9" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fd0a-76da-42ed-e430" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c39-fe95-a893-2f25" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5163-1923-f457-2f80" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab40-4160-61ad-c235" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b21-f136-4fa0-06a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4431-dba8-ae6d-6c91" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9c6b-7022-4813-4d33" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6428-ac45-aa09-073d" name="Army Commander" hidden="false" targetId="565c-f642-a319-514a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="27c1-cf49-be25-f641" name="Medals of Honor" hidden="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7001-c8ce-4262-c7f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6428-ac45-aa09-073d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d99-f2a5-dc17-f813" name="Grey Ghosts" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ac78-a9af-e805-f744" name="Camouflage(4)" hidden="false" targetId="043b-f2fd-c2f0-4c5a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5abb-c2fd-200c-9b16" name="Camouflage Experts" hidden="false" targetId="7e7f-9550-ed60-9395" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="58a0-ed5e-8e20-8678" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6f18-0cd2-c7bf-b971" name="Grappling Hooks(5)" hidden="false" targetId="4646-1fc0-260c-3be5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="83a2-550e-2616-b70b" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="084c-0432-f121-0d37" name="Surgical Strike" hidden="false" targetId="788d-9ec5-7d17-2d51" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1857-bc6e-ebdb-1133" name="Countermeasures" hidden="false" targetId="d217-c6cc-4f6a-bf62" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3542-c418-3064-e13c" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a06a-cbb0-95f7-9888" name="Grey Ghosts" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="9a74-8eb8-c146-b496" name="Grey Ghost" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="10/0"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="14&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="25"/>
+              </characteristics>
+            </profile>
+            <profile id="b646-a939-272d-cf7b" name="Assailant Sniper Rifle (Armour Piercing Ammo)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="26"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Pinning, RES(1): Gain ST(+2) and Armour Piercing(4)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="30fa-26be-6b4d-6990" name="Combat Knife" hidden="false" targetId="9351-7193-1f40-4935" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ded-9a9d-acef-aab8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d71-5abd-2609-f030" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="4488-ca8a-659a-0b31" name="Stormtrenchers" hidden="false" targetId="ea26-7439-e7e6-b29d" type="selectionEntry">
@@ -6963,29 +6847,6 @@ All Traps have 3 attributes:
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="215a-5c8b-9a89-fa59" name="Grey Ghosts" hidden="false" targetId="133e-aa65-c7ab-3ca1" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="51c4-3dd9-9a76-c2d7" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="7b02-90f5-e28b-30f1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="d28f-332c-4135-1f00" name="Blood Berets" hidden="true" targetId="2150-6322-9db7-8256" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -7026,6 +6887,13 @@ All Traps have 3 attributes:
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="a861-c042-6f72-13ba" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="cd98-cfca-f443-c57e" name="CTL-422 Mule Armoured Carrier" hidden="false" targetId="06b5-2b56-e69c-2760" type="selectionEntry">
@@ -7050,6 +6918,13 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="4dd7-e269-f488-9723" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e42c-46cd-a21b-9975" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7088,7 +6963,7 @@ All Traps have 3 attributes:
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23bb-006d-a500-104b" type="max"/>
+        <constraint field="selections" scope="ee84-a5cb-eb15-d280" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23bb-006d-a500-104b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="cb54-9c84-4564-6f23" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
@@ -7106,6 +6981,13 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="8464-50e7-9a09-a326" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4129-b45c-4822-4c23" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7144,7 +7026,7 @@ All Traps have 3 attributes:
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56de-da32-eb47-773c" type="max"/>
+        <constraint field="selections" scope="ee84-a5cb-eb15-d280" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56de-da32-eb47-773c" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6d07-d495-6f8d-5f94" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
@@ -7155,6 +7037,13 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="4996-a47c-8347-3ef7" name="New CategoryLink" hidden="false" targetId="79ad-4512-1052-014d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1269-8837-b54b-06ac" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7198,7 +7087,7 @@ All Traps have 3 attributes:
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8033-26ac-036b-3c69" type="max"/>
+        <constraint field="selections" scope="ee84-a5cb-eb15-d280" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8033-26ac-036b-3c69" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="60e1-97cd-3c33-38db" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
@@ -7252,7 +7141,7 @@ All Traps have 3 attributes:
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101d-ac01-17a7-f8d8" type="max"/>
+        <constraint field="selections" scope="ee84-a5cb-eb15-d280" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101d-ac01-17a7-f8d8" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="f7d0-842a-5996-df56" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
@@ -7329,7 +7218,7 @@ All Traps have 3 attributes:
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de71-3611-3528-17a3" type="max"/>
+        <constraint field="selections" scope="ee84-a5cb-eb15-d280" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de71-3611-3528-17a3" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="69cf-fd64-00d7-f0a4" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
@@ -7340,6 +7229,13 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="f48f-f04d-da73-cbbf" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="eaaa-84af-44dc-3cf5" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7416,29 +7312,6 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="2c64-b908-c958-a44f" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="0c15-2507-b4a1-45cc" name="Wolfbane Commandos" hidden="false" targetId="f231-f7b7-0437-7120" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="3fe9-7021-1dd7-9e4e" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="3254-5cbd-4cf3-3f1d" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7541,20 +7414,19 @@ All Traps have 3 attributes:
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-          <repeats>
-            <repeat field="selections" scope="0a27-ccb3-0de1-18f2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86e0-9f5c-29a4-62d8" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa01-ab58-cfba-b673" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="3001-ac12-589e-de4c" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0e84-b6b4-4b6d-7b40" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7567,15 +7439,7 @@ All Traps have 3 attributes:
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-          <repeats>
-            <repeat field="selections" scope="c414-c2d9-aa47-ea6c" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b89c-ea3a-ca2b-3a26" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa3-4f54-41c6-d9eb" type="max"/>
       </constraints>
@@ -7610,6 +7474,13 @@ All Traps have 3 attributes:
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c085-6672-9132-6073" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="dce8-aba8-420d-0442" name="Fury Elite Guard" hidden="true" targetId="f2db-747e-6b50-c270" type="selectionEntry">
@@ -7625,7 +7496,9 @@ All Traps have 3 attributes:
           <conditionGroups/>
         </modifier>
       </modifiers>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="dce8-aba8-420d-0442" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64b1-09be-d8fe-9e6c" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="a43a-bc08-aa3e-1fcd" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
           <profiles/>
@@ -7637,76 +7510,6 @@ All Traps have 3 attributes:
       </categoryLinks>
     </entryLink>
     <entryLink id="374f-8724-135c-c0a2" name="John Baptiste" hidden="false" targetId="0363-58ea-b105-b777" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="3e3d-3bc3-0b7b-4b1f" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="58ee-e6e2-4bde-2f09" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ee-e6e2-4bde-2f09" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="64a1-8648-0797-ae73" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="3d48-d8fb-5987-3668" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d48-d8fb-5987-3668" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="06a0-1895-2542-eadc" name="Lt. Colonel Timothy McGuire" hidden="false" targetId="45c9-5679-4622-bddd" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7729,6 +7532,13 @@ All Traps have 3 attributes:
           <constraints/>
         </categoryLink>
         <categoryLink id="a1b3-e6a9-33c2-906b" name="New CategoryLink" hidden="false" targetId="c07b-43b8-6d58-ac93" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f6dc-5d78-1614-2e72" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7775,6 +7585,13 @@ All Traps have 3 attributes:
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="86b5-31b6-901d-535d" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="2402-abc2-4604-52fc" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" targetId="48c0-a20a-eee7-475a" type="selectionEntry">
@@ -7784,6 +7601,151 @@ All Traps have 3 attributes:
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="994e-1cd7-63f6-cc14" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="5e59-f4e4-aaca-c6f3" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e59-f4e4-aaca-c6f3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="aa13-fcdc-773b-3e94" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9768-2d5c-4ea1-e832" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3329-c4de-d47a-d6c1" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="bcbd-e8ea-7342-1fea" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcbd-e8ea-7342-1fea" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="617a-4685-d676-e333" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a69a-14c2-18ba-1d19" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9013-9028-a1a6-8ee4" name="CTL-422 Mule Armoured Carrier" hidden="false" targetId="06b5-2b56-e69c-2760" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="12d1-e4db-8307-6883" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="29c3-5d72-5999-d5aa" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9204-7147-6675-1c58" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dc55-3704-292d-55b5" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -7840,6 +7802,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="4683-a471-8212-d5e4" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eeee-2796-29e7-15f1" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8058,130 +8026,6 @@ All Traps have 3 attributes:
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="133e-aa65-c7ab-3ca1" name="Grey Ghosts" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="59ff-cc9c-1178-3022" name="Camouflage(4)" hidden="false" targetId="043b-f2fd-c2f0-4c5a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="cf66-dd95-f692-d286" name="Camouflage Experts" hidden="false" targetId="7e7f-9550-ed60-9395" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="34ff-bddc-bb82-b76a" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="f18b-b91d-1939-e8d8" name="Grappling Hooks(5)" hidden="false" targetId="4646-1fc0-260c-3be5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3c08-7215-cf9d-5ac0" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d589-d6f5-d53c-52e6" name="Surgical Strike" hidden="false" targetId="788d-9ec5-7d17-2d51" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3936-c49f-09a6-1bb8" name="Countermeasures" hidden="false" targetId="d217-c6cc-4f6a-bf62" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="6b41-72c0-0d03-aa18" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a07a-ecea-c27a-21db" name="Grey Ghosts" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="15c8-0591-b5f3-9b1d" name="Grey Ghost" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="10/0"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="14&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="25"/>
-              </characteristics>
-            </profile>
-            <profile id="a731-9a2b-fb02-306b" name="Assailant Sniper Rifle (Armour Piercing Ammo)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="26"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Pinning, RES(1): Gain ST(+2) and Armour Piercing(4)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="b0c0-52a4-26d9-22dd" name="Combat Knife" hidden="false" targetId="9351-7193-1f40-4935" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f2-ca12-3186-4e5e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f21-7a6b-3d11-3a97" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8466,12 +8310,12 @@ All Traps have 3 attributes:
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="881d-6066-382d-b70c" name="Pattern" hidden="false" collective="false">
+        <selectionEntryGroup id="881d-6066-382d-b70c" name="Pattern" hidden="false" collective="false" defaultSelectionEntryId="cea9-a666-4b71-bf2e">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8586,12 +8430,6 @@ All Traps have 3 attributes:
         </profile>
       </profiles>
       <rules>
-        <rule id="9d18-c74b-8d0c-be8c" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="7329-2767-08eb-4146" name="Corporate Modifications: Imperial MOW" hidden="false">
           <profiles/>
           <rules/>
@@ -8602,6 +8440,12 @@ All Traps have 3 attributes:
       </rules>
       <infoLinks>
         <infoLink id="4508-7498-b7dd-435e" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="338e-9a0e-6a25-6133" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8621,7 +8465,16 @@ All Traps have 3 attributes:
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2bf7-0238-4e15-b4d3" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -8652,9 +8505,9 @@ All Traps have 3 attributes:
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="27/4"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-5"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="155"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="145"/>
           </characteristics>
         </profile>
         <profile id="25f6-7729-5c58-9bba" name="100mm Rifled Main Gun" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -8720,9 +8573,9 @@ All Traps have 3 attributes:
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="27/4"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-5"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="155"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="145"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8792,181 +8645,7 @@ All Traps have 3 attributes:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="155.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="45c9-5679-4622-bddd" name="Lt. Colonel Timothy McGuire" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="976b-6ff4-47c2-476f" name="Lt. Colonel Timothy McGuire" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="16/3"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="12"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="14"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(10)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="115"/>
-          </characteristics>
-        </profile>
-        <profile id="9346-b8d4-c1fb-8cf2" name="The Pride of the Lions" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="25/SE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Any token within 6” of the template is removed from the game."/>
-          </characteristics>
-        </profile>
-        <profile id="d622-493c-c895-4aaf" name="The Mane Claw" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+4"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="8897-fd12-c35f-64d7" name="The Fog" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(3): Every model within 8” gains Hard to Hit(4).</description>
-        </rule>
-        <rule id="1c54-42af-8f10-f32b" name="Vesting Haste" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Every friendly model up to SZ(1) within 12” of this model gains SP(+1).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="53cb-2a37-d385-5b3b" name="Fearless(4)" hidden="false" targetId="12ce-6bd4-401a-801f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="31d4-7d7f-aa7a-1563" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="06c5-79be-0c71-fe2e" name="Blood Rage" hidden="false" targetId="e9a0-a969-eab3-b2f9" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b133-f6f3-06e7-a850" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9dac-6cb6-3a19-6f27" name="Hunter&apos;s Intuition" hidden="false" targetId="9426-d65f-d37f-c60d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5261-e47c-2d41-bdcf" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b906-f85b-ac01-0246" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="529b-aef9-7703-c284" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b161-4c99-8798-3f96" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d52-b5ea-4bfa-125f" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f9-88e0-13d2-9e94" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="de1e-7377-6339-b533" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="f564-bd4f-d1b0-5857" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="e005-3094-4311-0922" name="Army Commander" hidden="false" targetId="565c-f642-a319-514a" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="497c-2607-b5ce-15a6" name="Medals of Honor" hidden="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="45c9-5679-4622-bddd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e005-3094-4311-0922" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="115.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="565c-f642-a319-514a" name="Army Commander" hidden="false" collective="false" type="upgrade">

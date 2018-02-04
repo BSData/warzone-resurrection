@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="040b-c469-d738-5885" name="Death Before Dishonour" hidden="false">
@@ -84,7 +84,7 @@
                 <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="20"/>
                 <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
                 <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="13"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="12"/>
               </characteristics>
             </profile>
           </profiles>
@@ -113,7 +113,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="13.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a5d3-cd46-d979-ebdd" name="WP (+2)" hidden="false" collective="false" type="upgrade">
@@ -141,7 +141,36 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d14f-4d1b-ee49-cf49" name="Advisors" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4e42-2798-3099-02c6" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1830-5abf-9d09-baef" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3da7-d697-a7eb-8070" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
           <profiles/>
@@ -302,7 +331,36 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="37b1-e5ad-102a-07cf" name="Advisors" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4491-b83e-c380-6d29" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3ec7-cfad-1302-b32a" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="68d6-54bb-d19c-5dc8" name="Psychic Mastery(B)" hidden="false" targetId="ee1b-156a-88fb-600a" type="selectionEntry">
           <profiles/>
@@ -516,7 +574,36 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="73b5-9977-7539-3f71" name="Advisors" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b1b9-a23c-a0bb-da0c" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c46b-5593-9441-04a2" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="59fd-b62f-b907-704a" name="Psychic Mastery(B)" hidden="false" targetId="ee1b-156a-88fb-600a" type="selectionEntry">
           <profiles/>
@@ -640,17 +727,6 @@
               <modifiers/>
               <description>Ignore the effects of &apos;Demonsbreath Gas Grenades&apos;. Count as Gas Masks.</description>
             </rule>
-            <rule id="7376-ca0c-656f-0cd6" name="Traps(1/5/2- Gas)" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model is within a certain distance to the trap (Y), it goes off! On a roll of 1-15, the tripping model receives the described hit (Z). Traps are removed from the board after they have gone off. On a 16-20, nothing happens. Leave the trap in play.
-All Traps have 3 attributes:
-(X) - Amount: This is the number of traps you may place per squad equipped with these traps.
-(Y) - Tripping Range: If an enemy model moves within this range, the trap goes off.
-(Z) - Hit Strength: The tripping model receives a hit with this ST if the trap owning player rolls a 1-15.</description>
-            </rule>
           </rules>
           <infoLinks>
             <infoLink id="2366-7617-4ec9-7cb5" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
@@ -678,6 +754,12 @@ All Traps have 3 attributes:
               <modifiers/>
             </infoLink>
             <infoLink id="aff2-fd19-f3b8-25dd" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="28d6-f431-eb66-0025" name="Gas Traps(1/5/2, Gas)" hidden="false" targetId="37fc-2e5d-cf0e-51f5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -730,16 +812,15 @@ All Traps have 3 attributes:
         </selectionEntry>
         <selectionEntry id="faf2-477c-8e1f-e98f" name="Ki Mirror Generator" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="0177-9e5d-0b36-5e36" name="Ki Mirror Generator" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="7ceb-56cb-2e2e-d2f5" name="Ki Mirror Generator" hidden="false" targetId="ba4d-69af-9f95-00ab" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Squad Commander may use one Ki Power of any (even enemy) Troop squad within 12&quot;.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f68b-834c-61ca-1047" type="max"/>
@@ -754,7 +835,16 @@ All Traps have 3 attributes:
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="4ad0-4076-d50f-bf1e" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -767,7 +857,7 @@ All Traps have 3 attributes:
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>One Demon Hunter per turn may cast Ki as if he was the squad commander.</description>
+          <description>One Demon Hunter per turn may cast Ki instead of the squad commander or acting squad commander.</description>
         </rule>
         <rule id="dd32-1486-2afb-bd33" name="Paired Weapons(CC)" hidden="false">
           <profiles/>
@@ -1036,7 +1126,16 @@ All Traps have 3 attributes:
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="fd13-7eef-be2a-9c33" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -1217,6 +1316,14 @@ All Traps have 3 attributes:
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a54f-d43f-1952-dcc9" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1279,6 +1386,13 @@ All Traps have 3 attributes:
           <infoLinks/>
           <modifiers/>
           <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+        </rule>
+        <rule id="8870-fa49-b6e4-f066" name="Hiroko&apos;s Guns" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Tambu No.1 Shogun Assault rifles in this army are ST(+1) </description>
         </rule>
       </rules>
       <infoLinks>
@@ -1668,6 +1782,14 @@ Samurai squad commander is added. Ashigaru may never use Ki Powers.</description
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="6d80-ff30-896f-95d0" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -1847,13 +1969,6 @@ Samurai squad commander is added. Ashigaru may never use Ki Powers.</description
           <description>RES(1): When making a Charge action,both the Samurai Sword and the Kunshu Dragon Teeth gain
 ROA(+1).</description>
         </rule>
-        <rule id="4b29-77cb-5ca0-50dd" name="Paired Weapons(Tambu No.4, Dragon Flame)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
-        </rule>
       </rules>
       <infoLinks>
         <infoLink id="1778-0e32-f772-051f" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule">
@@ -1869,6 +1984,12 @@ ROA(+1).</description>
           <modifiers/>
         </infoLink>
         <infoLink id="24de-81bb-5556-896a" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1666-0109-bee4-36aa" name="Hard to Hit(3)" hidden="false" targetId="c436-6bd5-cee7-3905" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2094,7 +2215,7 @@ ROA(+1).</description>
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
                 <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="150"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="140"/>
               </characteristics>
             </profile>
             <profile id="1fc9-b6b0-0d56-cae8" name="Edge-Crusher Powerblade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -2195,7 +2316,7 @@ ROA(+1).</description>
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="140.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2387,7 +2508,9 @@ deploy the rest of the squad within 3” of him. The models count as having move
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec1f-baba-1db8-e8a7" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="e938-ec09-9bf4-adb0" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
           <profiles/>
@@ -2406,7 +2529,16 @@ deploy the rest of the squad within 3” of him. The models count as having move
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5430-190d-1cff-32e8" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="95.0"/>
       </costs>
@@ -2502,17 +2634,6 @@ deploy the rest of the squad within 3” of him. The models count as having move
               <modifiers/>
               <description>Ignore the effects of &apos;Demonsbreath Gas Grenades&apos;. Count as Gas Masks.</description>
             </rule>
-            <rule id="d45f-d387-2242-719d" name="Traps(1/5/2- Gas)" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model is within a certain distance to the trap (Y), it goes off! On a roll of 1-15, the tripping model receives the described hit (Z). Traps are removed from the board after they have gone off. On a 16-20, nothing happens. Leave the trap in play.
-All Traps have 3 attributes:
-(X) - Amount: This is the number of traps you may place per squad equipped with these traps.
-(Y) - Tripping Range: If an enemy model moves within this range, the trap goes off.
-(Z) - Hit Strength: The tripping model receives a hit with this ST if the trap owning player rolls a 1-15.</description>
-            </rule>
           </rules>
           <infoLinks>
             <infoLink id="44d2-8f77-5732-6464" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
@@ -2540,6 +2661,12 @@ All Traps have 3 attributes:
               <modifiers/>
             </infoLink>
             <infoLink id="b797-3204-fc12-2bc5" name="Dissention(2)" hidden="false" targetId="e697-95a3-e404-cc1c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="bae8-4c97-c651-a73b" name="Gas Traps(1/5/2, Gas)" hidden="false" targetId="37fc-2e5d-cf0e-51f5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2592,16 +2719,15 @@ All Traps have 3 attributes:
         </selectionEntry>
         <selectionEntry id="55fd-48f1-ce5d-87b1" name="Ki Mirror Generator" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="7f35-e015-b3db-910c" name="Ki Mirror Generator" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="074c-4ed8-6945-f6c0" name="Ki Mirror Generator" hidden="false" targetId="ba4d-69af-9f95-00ab" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Squad Commander may use one Ki Power of any (even enemy) Troop squad within 12&quot;.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f55f-05bc-e983-c889" type="max"/>
@@ -2615,7 +2741,36 @@ All Traps have 3 attributes:
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e097-c898-c69c-ad7c" name="Advisors" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="6518-72d5-ffcb-6d4e" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0427-bf60-2a9c-8110" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -2676,7 +2831,7 @@ All Traps have 3 attributes:
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If attached to a Crimson Devil squad, he gains Preemptive Strike and the Oni Rebreather Mask.</description>
+          <description>If attached to a squad of Ronin Samurai, that squad gains Preemptive Strike. </description>
         </rule>
         <rule id="e625-5d7a-f71f-35e2" name="Iajutsu" hidden="false">
           <profiles/>
@@ -2998,14 +3153,14 @@ All Traps have 3 attributes:
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Friendly models within 6” (12” if this model is the army commander) gain WP(+2).</description>
+          <description>Other Friendly models within 6” (12” if this model is the army commander) gain WP(+2)</description>
         </rule>
         <rule id="d3e3-4fe0-d824-c947" name="Master Teacher" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>This model may cast any Ki Power that any model in the army has as if it he has it himself.</description>
+          <description>This model may cast any Ki Power any friendly model on the board has as if it he has it himself. </description>
         </rule>
         <rule id="af85-c691-561c-1ca6" name="Pure Focus" hidden="false">
           <profiles/>
@@ -3149,7 +3304,7 @@ All Traps have 3 attributes:
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="310"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="140"/>
           </characteristics>
         </profile>
         <profile id="3f27-c7f9-3fac-ce25" name="Zanshato" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -3244,14 +3399,14 @@ All Traps have 3 attributes:
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="93fa-5eff-d97f-7fce" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
+        <categoryLink id="f239-7e55-9bb4-725c" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="f239-7e55-9bb4-725c" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+        <categoryLink id="f577-cec3-a7d4-70e8" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3263,7 +3418,7 @@ All Traps have 3 attributes:
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="140.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="94bc-08f7-ae83-e130" name="Tatsu Gigamek" hidden="false" collective="false" type="upgrade">
@@ -3531,12 +3686,6 @@ All Traps have 3 attributes:
         </profile>
       </profiles>
       <rules>
-        <rule id="9804-c943-4320-58cd" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="980e-3021-f68f-9496" name="Boost(1/2)" hidden="false">
           <profiles/>
           <rules/>
@@ -3547,6 +3696,12 @@ All Traps have 3 attributes:
       </rules>
       <infoLinks>
         <infoLink id="cc10-4c44-aca0-e9ff" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0568-9ddb-5ca9-8d36" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3580,7 +3735,16 @@ All Traps have 3 attributes:
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="527b-8a4c-4583-317f" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -3766,7 +3930,36 @@ All Traps have 3 attributes:
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="76ca-bc8f-f7df-15e8" name="Advisors" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="167d-8a8f-0a11-e83f" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6452-93b7-2e4e-5def" name="Screaming Devil" hidden="false" targetId="61b4-8d9a-0372-8d58" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="665f-efb3-c75f-d285" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
           <profiles/>
@@ -4223,12 +4416,6 @@ All Traps have 3 attributes:
         </profile>
       </profiles>
       <rules>
-        <rule id="7422-93e7-8c62-41b1" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="fb18-6faf-b0fa-bc51" name="Boost(1/2)" hidden="false">
           <profiles/>
           <rules/>
@@ -4239,6 +4426,12 @@ All Traps have 3 attributes:
       </rules>
       <infoLinks>
         <infoLink id="4025-ba65-76fd-cd64" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="88af-4338-8763-2e98" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4272,7 +4465,16 @@ All Traps have 3 attributes:
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="23cf-8cd6-4d0a-7405" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -4514,7 +4716,7 @@ All Traps have 3 attributes:
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(11)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="85"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
           </characteristics>
         </profile>
         <profile id="3385-726b-50cb-d4c5" name="Mishima&apos;s Pledge Power Naginata" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -4655,7 +4857,7 @@ All Traps have 3 attributes:
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1572-4d28-44fa-6c84" name="Screaming Devil" hidden="false" collective="false" type="model">
@@ -4771,8 +4973,18 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="3fbe-bbf7-c44c-401b" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="61b4-8d9a-0372-8d58" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fbe-bbf7-c44c-401b" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="4269-5948-9bb0-979f" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
           <profiles/>
@@ -4867,7 +5079,7 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad1d-17c2-0be8-f6f9" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad1d-17c2-0be8-f6f9" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="120a-04be-f773-28e7" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
@@ -4908,52 +5120,6 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
           <constraints/>
         </categoryLink>
         <categoryLink id="0ae9-87e9-bf82-afb6" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="fbba-064a-56a4-0067" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="ad29-c979-a4e4-75c0" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad29-c979-a4e4-75c0" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="4d02-b4a3-65ed-4fd9" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="398c-1b76-102a-63a3" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5242,25 +5408,87 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7c90-ae7d-0159-83f0" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
+    <entryLink id="1d6c-83ec-2674-105e" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="increment" field="b5c5-9c3b-689f-8387" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="ea4b-1297-d933-6eb3" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea4b-1297-d933-6eb3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a54f-a2d0-d197-c08a" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="10cb-c1a9-33f9-5194" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2354-b2fb-ab67-7e15" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="f908-d8e0-9c85-706c" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
               </conditions>
               <conditionGroups/>
@@ -5269,9 +5497,24 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5c5-9c3b-689f-8387" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f908-d8e0-9c85-706c" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="9f11-d2eb-3fe7-bc79" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8632-c259-b20b-7823" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -5294,7 +5537,7 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(12)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="130"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="110"/>
           </characteristics>
         </profile>
         <profile id="2e8b-190a-e446-f92f" name="Tambu No.3 Silenced Ronin Handgun" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -5339,12 +5582,6 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
           <modifiers/>
           <description>RES(1): Once per game. All successful ranged attacks made against this model must be rerolled.</description>
         </rule>
-        <rule id="6a99-ec61-27ef-60e4" name="Duelist" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="11dd-a98b-385b-13f2" name="Fury of the Black Rose" hidden="false">
           <profiles/>
           <rules/>
@@ -5359,18 +5596,6 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
           <modifiers/>
           <description>One squad of Cybertronic Chasseurs or Armoured Chasseurs may be taken as a Support Choice. Each Hatamoto/Ebon Guard squad may choose one Cybertronic Upgrade at the listed cost.</description>
         </rule>
-        <rule id="287d-9a3a-930c-9919" name="Initiative(2)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="e6d9-a1a8-a9dd-5b7f" name="Leader(2/Ebon Guard)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="6190-d1bb-6f15-eb49" name="Nanocell Replicator" hidden="false">
           <profiles/>
           <rules/>
@@ -5378,20 +5603,27 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
           <modifiers/>
           <description>RES(2): Twice per game, place a &apos;Nanocell Replicator&apos; permanent token within 5&quot; of this model. All friendly models within 5&quot; gain Heal(5) and all friendly vehicles gain Repair(5). All enemy models that end their activation within 5&quot; of this token take a ST(13) autohit.</description>
         </rule>
-        <rule id="f8bc-07a0-b5ff-d19f" name="Unblinking Eye" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="73ca-2031-e7b1-dd3e" name="Unbreakable" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="fefe-86c3-161f-b2e4" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="19a1-ae9e-dd82-b4fd" name="Initiative(2)" hidden="false" targetId="44f4-981b-8b86-6486" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="210e-1027-1eb5-a0f6" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4d9-632a-2b9e-0148" type="max"/>
@@ -5438,7 +5670,7 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="130.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0993-0e5f-d6db-50f4" name="Army Commander" hidden="false" collective="false" type="upgrade">
@@ -5504,6 +5736,164 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="61b4-8d9a-0372-8d58" name="Screaming Devil" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b94-585f-cf6e-9293" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="2da3-f743-33c0-763b" name="Advisor" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="66c8-78a3-3e92-4840" name="Screaming Devil" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/3"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="50"/>
+              </characteristics>
+            </profile>
+            <profile id="240a-0c4a-0574-dbdc" name="Demonsbreath Gas Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="ST/SE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="2"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Gas"/>
+              </characteristics>
+            </profile>
+            <profile id="5975-8b43-02f3-bab5" name="Kunshu Ceremonial Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e538-360c-60bf-e249" name="Dissention(2)" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </rule>
+            <rule id="c046-da5b-cdfc-1b6f" name="Dishonourable Methods" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>RES(3): All Crimson Devil models in this squad suffer RS(-1) until the end of the turn. Their (A) and (H) type weapons gain ROA(+1).</description>
+            </rule>
+            <rule id="b859-67c5-96c9-efb5" name="Oni Rebreather Masks" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Ignore the effects of &apos;Demonsbreath Gas Grenades&apos;. Count as Gas Masks.</description>
+            </rule>
+            <rule id="aef1-c18d-385f-ffe8" name="Feceless Protectors" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If this model is attached to a Crimson Devil squad, the squad gains the Infiltrate Deployment Option. The squad may be deployed within 3” of the squad commander when Infiltrating, even within open terrain.</description>
+            </rule>
+            <rule id="c70f-f97a-b708-139d" name="Oath of Shame" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If this model is not the army commander, she gains Bodyguard. If the army commander is killed, she
+immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</description>
+            </rule>
+            <rule id="c53a-10da-39cf-c411" name="Scream of the Devil" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>RES(1): Fear (5). Any model of SZ(2) and lower failing the Fear test receives a Stun effect.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="b261-f7f8-dcbe-c615" name="Tambu NO.1 Shogun Assault Rifle" hidden="false" targetId="6374-99a6-c027-66bb" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4d0a-03a6-9268-f291" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2cd2-120c-3257-ac25" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4559-9bf9-6b62-88e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e05-5f3a-7867-699e" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="a7e5-b481-6af5-239e" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="e2aa-d4a0-63d6-90e7" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -5520,6 +5910,25 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
       <infoLinks/>
       <modifiers/>
       <description>RES(2): Ronin Samurai in this squad gain SP(+2) and Frenzy until the end of the turn.</description>
+    </rule>
+    <rule id="37fc-2e5d-cf0e-51f5" name="Gas Traps(1/5/2, Gas)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and roll: 
+On a roll of 1-15, remove the trap from the board and the tripping model receives the described hit (Z). 
+On a 16-20, nothing happens. Leave the trap in play. 
+After resolving the trap, the surviving model may continue its activation.
+If a trap goes off and there are multiple targets, the trap´s owner chooses the order in which models are affected. 
+</description>
+    </rule>
+    <rule id="ba4d-69af-9f95-00ab" name="Ki Mirror Generator" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model may use one Ki Power of any (even enemy) Troop squad within 12”.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

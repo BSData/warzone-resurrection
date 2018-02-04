@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb06-1065-ba4a-975d" name="Dark Legion- Ilian" revision="7" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb06-1065-ba4a-975d" name="Dark Legion- Ilian" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="45de-20ed-4b45-2477" name="Void Portal Tokens" hidden="false">
@@ -7,7 +7,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Void Portal tokens have a front and rear arc. Friendly Dark Legion non-vehicle models may move from one Void Portal to another with no penalties. They may shoot through the front or rear arc of any Void Portal, using the same arc of any Void Portal as the exit point. Use the LOS of the exit Void Portal’s arc. Shots made through the Void Portal suffer RS(-2) and range is measured to and from each Void Portal. You cannot place Void Portals within 1” of enemy models.</description>
+      <description>Void Portal tokens have a front and rear arc. Friendly Ilian type non-vehicle models may move from one Void Portal to another with no penalties. They may shoot through the front or rear arc of any Void Portal, using the same arc of any Void Portal as the exit point. Use the LOS of the exit Void Portal’s arc. Shots made through the Void Portal suffer RS(-5) and range is measured to and from each Void Portal. You cannot place Void Portals within 1” of enemy models.</description>
     </rule>
     <rule id="f614-f768-424d-9593" name="The Face of the Legion" hidden="false">
       <profiles/>
@@ -772,7 +772,7 @@
                 <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24"/>
                 <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
                 <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="24"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="28"/>
               </characteristics>
             </profile>
             <profile id="91af-d71a-be3a-a009" name="Templar Mace" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -844,7 +844,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="24.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="28.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="025d-d280-02c9-fe4a" name="Void Cannon" hidden="false" collective="false" type="upgrade">
@@ -1102,7 +1102,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6e0-1032-6d7f-2d29" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0d-64e2-98cf-ebb9" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="ed06-eaa5-2177-a84b" name="3x Triangled Templars" hidden="false" collective="false" type="upgrade">
@@ -2162,6 +2165,13 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="22a2-773a-2b5a-a55b" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="55f6-76a1-aef4-eb42" name="Etheric Cannon" hidden="false" collective="false" type="upgrade">
@@ -2211,12 +2221,15 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="755b-0d76-6f82-72d8" name="Squad Size" hidden="false" collective="false">
+        <selectionEntryGroup id="755b-0d76-6f82-72d8" name="Squad Size" hidden="false" collective="false" defaultSelectionEntryId="4cc5-0cce-0dc9-1227">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd6-dd2f-cc16-7e49" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f81-9bd6-cd9e-cfd0" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="4cc5-0cce-0dc9-1227" name="3x Triangled Templars" hidden="false" collective="false" type="upgrade">
@@ -2303,6 +2316,13 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
           <constraints/>
         </categoryLink>
         <categoryLink id="1592-c839-2e34-def7" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="57d0-cb84-2fec-dde0" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2986,7 +3006,16 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5839-06b0-62ac-7294" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
       </costs>
@@ -3694,6 +3723,230 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="29df-1da1-6923-5520" name="CTL-422 Mule Armoured Carrier" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c1c1-7946-c75f-1141" name="CTL-422 Mule Armoured Carrier" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
+            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
+            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="12"/>
+            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="13"/>
+            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
+            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
+            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
+            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
+            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
+            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="45"/>
+          </characteristics>
+        </profile>
+        <profile id="b00f-76a2-a200-539b" name="MG-40 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a81a-17b1-4dfa-51f2" name="Dissention(1)" hidden="false" targetId="25d4-dc25-fa65-338e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4203-f974-0459-dc8c" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="aa75-dd82-cebb-f32a" name="Regeneration(3)" hidden="false" targetId="6165-cf22-44a9-445f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ae1c-fb7c-d697-508d" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6409-ba1d-b34e-5a4b" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e875-c05f-f854-2e1a" name="New CategoryLink" hidden="false" targetId="240e-01ec-bcac-b018" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7911-9ebe-8693-2a5a" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1e57-517a-ab97-a70c" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="19f7-fb70-72cf-76f9" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="974e-2ba5-8a29-dca5" name="CTL-422 Mule Armoured Carrier" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="20af-c87a-6335-e6a4" name="CTL-422 Mule Armoured Carrier" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
+            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
+            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="12"/>
+            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="13"/>
+            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
+            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
+            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
+            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
+            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
+            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="45"/>
+          </characteristics>
+        </profile>
+        <profile id="c94e-b79d-4d15-c92a" name="MG-40 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="47be-39d3-1d0e-0fc3" name="Dissention(1)" hidden="false" targetId="25d4-dc25-fa65-338e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="209d-105d-5f2f-6e70" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3dfa-8755-aa95-3156" name="Regeneration(3)" hidden="false" targetId="6165-cf22-44a9-445f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ae4d-1c43-b9d1-9032" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a740-722d-4634-c0d3" name="New CategoryLink" hidden="false" targetId="240e-01ec-bcac-b018" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c5fd-3f85-ead7-c247" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="44e1-051c-5ae9-9b4f" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="166f-7808-a4e5-095f" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="791f-51cf-9fc7-5ff6" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="31a9-603c-7a30-71dd" name="Golgotha, Mistress of Pain" hidden="false" targetId="4f73-8eb9-f727-ac1b" type="selectionEntry">
@@ -3920,7 +4173,22 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68c3-8349-2398-c2d8" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="564f-8038-bc5f-fb94" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8a10-46f7-4c09-50d7" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="8" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="10" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="1d05-375c-35c9-32bc" name="Strength in Small Numbers" hidden="false">
@@ -49,7 +49,9 @@ Light Vehicles:
 Necromower: 1SRP
 Fenris Bike: 1SRP
 RITES:
-Wolfbane rites and rituals are often long and difficult to perform ceremonies involving potions, books and stanzas. They usually require long preparation and the presence of those who know how to use them, connection with the lay lines and a lot of alcohol. They result in a higher plane of understanding and a furor for battle. Rites are abilities that squads are upgraded with during army building and affect every model in the squad. A squad can only be upgraded with one rite. At the start of every Control Phase, the controlling player must pay the upkeep cost in Silent Roar points for each rite. If the controlling player does not, the rite is lost for the rest of the game.
+Wolfbane rites and rituals are often long and difficult to perform ceremonies involving potions, books and stanzas. They usually require long preparation and the presence of those who know how to use them, connection with the lay lines and a lot of alcohol. They result in a higher plane of understanding and a furor for battle. 
+Rites are abilities that squads are upgraded with during army building and affect every model in the Squad including attached models. A squad can only be upgraded with one rite and may only benefit from one rite per turn. You can only upgrade squads with Rites if you would be able to generate the total appropriate number of skulls in your army. 
+At the start of every Control Phase, the controlling player must pay the upkeep cost in Silent Roar points for each rite. If the controlling player does not, the rite is lost for the rest of the game.
 4SRP Rite of the Eternal Night:
 Any ranged attack made against this models in this squad receives RS(-4) (or WP in case of Psychic (S) attacks).
 3SRP Rite of the Tempest:
@@ -134,14 +136,7 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="3107-c1e6-9bfd-fada" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="dd76-2628-0bb1-de55" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
           <profiles/>
@@ -150,6 +145,12 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
           <modifiers/>
         </infoLink>
         <infoLink id="02f5-33b6-938a-9dbb" name="Howler Grenade Launcher (Smoke)" hidden="false" targetId="f5e9-d533-327f-c0c2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cfc7-8c3a-c650-8127" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -180,10 +181,26 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5711-086f-d1d4-fe88" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c5a6-0ab0-20b5-6848" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -225,14 +242,7 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="856b-da5f-189b-0a7e" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="27c6-2c49-3e22-254c" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
           <profiles/>
@@ -241,6 +251,12 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
           <modifiers/>
         </infoLink>
         <infoLink id="680b-8037-5c6f-5107" name="Howler Grenade Launcher (Smoke)" hidden="false" targetId="f5e9-d533-327f-c0c2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="be2b-cfee-d49a-0823" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -271,10 +287,26 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="41ef-fbef-51d0-456c" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c8c0-c53e-fdba-5ddf" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -290,7 +322,7 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
             <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
             <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/3"/>
             <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="12"/>
             <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="13"/>
             <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
             <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
@@ -298,7 +330,7 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="100"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="80"/>
           </characteristics>
         </profile>
         <profile id="d92e-357d-be2d-055f" name="Howler Grenade Launcher" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -450,7 +482,7 @@ Each model in the squad may re-roll one failed CC or RS roll per turn.</descript
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d48-15a1-21a6-ee16" name="Pathfinder" hidden="false" collective="false" type="model">
@@ -1214,6 +1246,13 @@ Blood of the Kings: X marker: The model gains critical force (+X). Spend at star
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4383-7c4d-27ae-4b42" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4cc3-1764-3676-c48a" name="Warhounds" hidden="false" collective="false" type="model">
@@ -1335,7 +1374,7 @@ Blood of the Kings: X marker: The model gains critical force (+X). Spend at star
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="21(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="80"/>
           </characteristics>
         </profile>
         <profile id="c96a-9d51-b30e-da98" name="The Blessed´s Claymore" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -1487,7 +1526,7 @@ Blood of the Kings: X marker: The model gains critical force (+X). Spend at star
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4978-6495-4f12-0958" name="Sean Gallagher" hidden="false" collective="false" type="model">
@@ -1509,7 +1548,7 @@ Blood of the Kings: X marker: The model gains critical force (+X). Spend at star
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="120"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="85"/>
           </characteristics>
         </profile>
         <profile id="6d12-aa77-5408-41d7" name="Runestaff" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -1649,7 +1688,7 @@ models are placed B2B with him in his front facing and travel the full movement 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e45-f13f-6a33-bcd9" name="Seamus “Shameless” Fergan" hidden="false" collective="false" type="model">
@@ -1672,7 +1711,7 @@ models are placed B2B with him in his front facing and travel the full movement 
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="100"/>
+            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="90"/>
           </characteristics>
         </profile>
         <profile id="beb8-fd77-c665-863f" name="Fergan&apos;s Ultracharger HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -1685,7 +1724,7 @@ models are placed B2B with him in his front facing and travel the full movement 
             <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="5"/>
             <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1), RES(1): Armour Piercing(5), ROA(1)"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1), Strafe, RES(1): Armour Piercing(5), ROA(1)"/>
           </characteristics>
         </profile>
         <profile id="426a-23f1-870b-3690" name="The Brainer" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -1748,12 +1787,6 @@ models are placed B2B with him in his front facing and travel the full movement 
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9284-8053-057c-972f" name="Spiked!" hidden="false" targetId="3a27-fec2-5ff3-5866" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1775,6 +1808,13 @@ models are placed B2B with him in his front facing and travel the full movement 
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="93c1-c86e-4e75-b580" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1789,7 +1829,7 @@ models are placed B2B with him in his front facing and travel the full movement 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa13-0f47-cb69-8cc0" name="Sheila McGregor" hidden="false" collective="false" type="model">
@@ -1806,12 +1846,12 @@ models are placed B2B with him in his front facing and travel the full movement 
             <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
             <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
             <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
             <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="18(11)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="60"/>
           </characteristics>
         </profile>
         <profile id="8fad-7964-1a32-3b8a" name="Blessed Howler Grenade Launcher" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -2009,7 +2049,7 @@ models are placed B2B with him in his front facing and travel the full movement 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="60.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -2224,29 +2264,6 @@ models are placed B2B with him in his front facing and travel the full movement 
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d5a0-3ca2-fa20-2484" name="Mounring Wolves" hidden="false" targetId="8219-e3e1-58b2-e8dc" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="f749-b3d2-3f11-1cde" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="29fa-b043-6010-6db6" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="60f6-6a2a-ef83-6169" name="Trenchers" hidden="false" targetId="cb6f-31ae-cdc4-5a7b" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -2297,16 +2314,10 @@ models are placed B2B with him in his front facing and travel the full movement 
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-          <repeats>
-            <repeat field="selections" scope="dfa9-eebe-b4bb-8fcd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b89c-ea3a-ca2b-3a26" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5052-88d4-504c-5f8d" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="a976-a83b-a4d8-be77" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
@@ -2328,16 +2339,10 @@ models are placed B2B with him in his front facing and travel the full movement 
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-          <repeats>
-            <repeat field="selections" scope="3ed8-ba28-d7ac-5c89" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86e0-9f5c-29a4-62d8" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cfa-7c69-e3b0-28ee" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="f8c0-c675-f56f-d61b" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
@@ -2422,7 +2427,7 @@ models are placed B2B with him in his front facing and travel the full movement 
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13c-7179-316d-b369" type="max"/>
+        <constraint field="selections" scope="ee84-a5cb-eb15-d280" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13c-7179-316d-b369" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="dae9-b394-7405-4f74" name="New CategoryLink" hidden="false" targetId="c07b-43b8-6d58-ac93" primary="false">
@@ -2433,6 +2438,13 @@ models are placed B2B with him in his front facing and travel the full movement 
           <constraints/>
         </categoryLink>
         <categoryLink id="b171-cafd-e2c7-8f9a" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6247-c82f-7c5e-076f" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2470,7 +2482,7 @@ models are placed B2B with him in his front facing and travel the full movement 
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a65-4e74-e6bf-3c3e" type="max"/>
+        <constraint field="selections" scope="ee84-a5cb-eb15-d280" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a65-4e74-e6bf-3c3e" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b548-50b3-75df-0d26" name="New CategoryLink" hidden="false" targetId="c07b-43b8-6d58-ac93" primary="false">
@@ -2481,6 +2493,13 @@ models are placed B2B with him in his front facing and travel the full movement 
           <constraints/>
         </categoryLink>
         <categoryLink id="845e-f268-5159-7f6c" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0d3f-fd27-2e69-e645" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2556,6 +2575,13 @@ models are placed B2B with him in his front facing and travel the full movement 
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="28e8-f1f9-192d-bef5" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="339d-2f42-15fa-2300" name="Print Silent Roar Rules" hidden="false" targetId="d9c3-03d0-1331-bbd3" type="selectionEntry">
@@ -2565,6 +2591,29 @@ models are placed B2B with him in his front facing and travel the full movement 
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="d0c6-48ee-a4ea-6d12" name="Inquisitor Majoris Hanno Hamilkar" hidden="false" targetId="aeb9-8639-d129-a1cf" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="772e-64d3-aec9-4e30" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8506-ccd2-b7ac-730b" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -2587,7 +2636,7 @@ models are placed B2B with him in his front facing and travel the full movement 
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(11)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="140"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="120"/>
           </characteristics>
         </profile>
         <profile id="5d62-c512-d318-2ac4" name="The Bane of Fukido" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -2728,7 +2777,7 @@ them in B2B contact with this model, with Morten in their front facing. If you c
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="140.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5d6-b4ec-f4ec-4d4f" name="Hedgegog Necromower ATV" hidden="false" collective="false" type="unit">
@@ -2754,12 +2803,6 @@ them in B2B contact with this model, with Morten in their front facing. If you c
           <modifiers/>
         </infoLink>
         <infoLink id="6980-a067-f9ac-1ab0" name="Nitro" hidden="false" targetId="1153-0cc9-8d54-fffb" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5e0c-d662-df7a-7759" name="Spiked!" hidden="false" targetId="3a27-fec2-5ff3-5866" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>

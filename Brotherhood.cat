@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="10" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -70,12 +70,6 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
         </profile>
       </profiles>
       <rules>
-        <rule id="8461-1441-4aab-dd12" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="b0c9-7687-fc8a-3a84" name="Corporate Modifications: Brotherhood" hidden="false">
           <profiles/>
           <rules/>
@@ -86,6 +80,12 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
       </rules>
       <infoLinks>
         <infoLink id="506a-e62c-f1ff-5fde" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="33b9-53fe-c66d-0b6b" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -116,10 +116,26 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="0ce0-1d14-8b18-7517" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d560-34db-6f95-7ecb" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -297,7 +313,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="140.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="130.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d833-80b0-b04f-6ff6" name="Blessed Vestal Laura" hidden="false" collective="false" type="model">
@@ -358,6 +374,13 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <modifiers/>
           <description>Brotherhood Art Powers cast by friendly models within 8” of this model may use her LOS and measure range from her, as if it was her casting the Power.</description>
         </rule>
+        <rule id="88b9-5c11-c87e-49b1" name="Improved Valkyries" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Valkyrie type models in this army gain Follow Up and Preemptive Strike.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="202d-4d98-55df-9280" name="P60 Punisher Handgun" hidden="false" targetId="3f29-c718-8151-83f7" type="profile">
@@ -408,6 +431,18 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="8f7e-10fd-dcd0-7642" name="Valkyrie Deployment" hidden="false" targetId="e3e0-93fa-783a-17d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="32b2-98fd-5533-f8f5" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -448,297 +483,19 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <constraints/>
           <categoryLinks/>
         </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="438b-3178-20a5-d35e" name="Witch Hunter Joseph Fredrickson" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="bce4-56a2-1f62-6e4f" name="Witch Hunter Joseph Fredrickson" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/2"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="75"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="c228-c9e9-171f-194a" name="Benediction" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(1): All friendly models within 10” gain WP(+1)</description>
-        </rule>
-        <rule id="5011-71d2-cefc-7f96" name="Witch Hunt" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>After the initial deployment, select 1 enemy squad on the board or in Reserve. All attacks directed at that squad by this model and the squad he is attached to gain CC and RS(+2), and ST(+2) in close combat. If the chosen squad is removed from the game, you may select a new squad.</description>
-        </rule>
-        <rule id="00ae-cc6c-eca5-8ffc" name="Contempt(Cybertronic)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="0b38-c846-c55b-b7a4" name="AC-40 Justifier" hidden="false" targetId="88da-d1e6-0220-9753" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1862-8f20-5f55-f43b" name="Holy Disemboweller Chainblade" hidden="false" targetId="07fd-a7bc-cee6-6043" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="afa2-83d4-0172-74b7" name="Book of Law" hidden="false" targetId="ee28-46d2-37ae-679e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8446-06cb-aaa4-7f2a" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="02ab-42bf-d172-d73b" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d277-2058-262c-4f5f" name="Execution" hidden="false" targetId="1e08-2eb0-8009-dbd3" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3af0-1186-6ac8-0dec" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="cc0b-1ebb-b581-553a" name="Gunslinger" hidden="false" targetId="ca2b-7c55-cf10-b2c2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="82f2-c684-6a2f-e7c7" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8fd6-56cd-8beb-aaa3" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e07d-31fd-ff03-cbef" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88ff-7aa7-c0e0-a555" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="fcac-c0d5-c1a3-60b5" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="fe69-4455-8ba9-6b1e" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="0016-1acd-a0f0-144d" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="97ed-62ff-412a-6e1a" name="Art Powers" hidden="false" collective="false">
+        <entryLink id="9d9f-6893-61b6-e3af" name="Art of Exorcism" hidden="false" targetId="2cd2-1998-baa8-1168" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ab1-75bc-6c29-0d98" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f0d-abda-06db-31d4" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9c3-28f1-0210-3246" type="max"/>
           </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="b2fb-8b05-4e45-4f9b" name="Art of Changeling" hidden="false" targetId="1389-2404-c736-803d" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="a42c-6671-5d26-ec7a" name="Art of Elements" hidden="false" targetId="6cc0-80f0-0f9c-1de1" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="c461-251c-720b-32fc" name="Art of Exorcism" hidden="false" targetId="7851-8ad5-7e38-5c8c" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="4d7d-9bde-c549-ada4" name="Art of Kinetics" hidden="false" targetId="5e93-4755-5c05-e58f" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="50b2-e49c-5dbd-833e" name="Art of Mentalism" hidden="false" targetId="4221-52e9-d0a7-d4be" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
-                        <condition field="selections" scope="438b-3178-20a5-d35e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2c8f-fcb8-f89c-c23b" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="75.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b505-3468-8280-ca8f" name="Inquisitor Majoris" hidden="false" collective="false" type="model">
@@ -1494,6 +1251,13 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="27af-4e7a-3669-1b8c" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fbb2-8687-4112-1578" name="Mortificators" hidden="false" collective="false" type="model">
@@ -2027,6 +1791,30 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="17.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="3d11-ae3f-2d1b-0b7b" name="Preemptive Strike" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3710-8f61-3502-f16f" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2de6-71c4-12d8-ca8a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71f-47d0-a200-be62" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2124,6 +1912,13 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <constraints/>
         </categoryLink>
         <categoryLink id="cd10-5dc9-0689-dca0" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1a49-ee81-1d30-cd04" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2261,7 +2056,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
     <selectionEntry id="aedd-cfa0-3bf1-082d" name="Visionaries" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
-        <rule id="1cd5-24f4-d02c-05cb" name="Levitation" hidden="false">
+        <rule id="1cd5-24f4-d02c-05cb" name="Ghost Form" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2280,7 +2075,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Visionaries ignore Exploit and may always re-roll failed Armour tests</description>
+          <description>Visionaries ignore Exploit and may always re-roll failed Armour Tests. They cannot gain Impenetrable Armour.</description>
         </rule>
         <rule id="d62b-0171-8f84-969a" name="Punisher Whirlwind" hidden="false">
           <profiles/>
@@ -2622,6 +2417,13 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <modifiers/>
           <description>RES(1): At the end of any action where this model moved more than 8”, all models up to SZ(1) within 8” receive RS(-4) (not cumulative).</description>
         </rule>
+        <rule id="e952-2f5a-9b99-7134" name="Divine Protector" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Brotherhood Trooper type models gain A(+2) within 6” of this model.</description>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="2ea8-1c0b-d6b8-30b7" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule">
@@ -2764,7 +2566,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="125.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="115.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2803,7 +2605,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="30/5"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="30/5"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
             <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="230"/>
           </characteristics>
@@ -2879,6 +2681,12 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <modifiers/>
         </infoLink>
         <infoLink id="9ff2-b741-a528-bc94" name="Hard to Hit(3)" hidden="false" targetId="c436-6bd5-cee7-3905" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a8f8-d32c-c75b-abcf" name="Gunslinger" hidden="false" targetId="ca2b-7c55-cf10-b2c2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2960,7 +2768,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
             <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="27/4"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
             <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
             <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="145"/>
           </characteristics>
@@ -3021,6 +2829,12 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="a4ca-d812-0b4b-b804" name="Gunslinger" hidden="false" targetId="ca2b-7c55-cf10-b2c2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -3076,7 +2890,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="145.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="135.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="40bd-02ce-f464-a975" name="Crucifier" hidden="false" collective="false" type="model">
@@ -3278,7 +3092,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="60.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afdc-22df-1559-cb9e" name="Crucifiers" hidden="false" collective="false" type="unit">
@@ -3482,7 +3296,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="60.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3545,7 +3359,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>RES(1): All models in this squad gain Ranger and SP(+1) when performing Run or Charge Actions. Gaetano Hyginus must perform a Run or Charge Action directly towards the nearest enemy model. This must be used at the beginning of this model´s activation.</description>
+          <description>RES(2): All models in this squad gain Ranger and SP(+1) when performing Run or Charge Actions. Gaetano Hyginus must perform a Run or Charge Action directly towards the nearest enemy model. This must be used at the beginning of this model´s activation.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3883,7 +3697,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per game, this model may spend AP(1) to place a permanent ‘Void Shield’ token within 2”. Friendly Models in B2B with the token cannot receive hits as a result from any ranged attack.</description>
+          <description>Once per game, this model may spend AP(1) to place a permanent ‘Void Shield’ token within 2”. Friendly Models up to SZ(1) in B2B with the token cannot receive hits as a result from any ranged attack.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -4451,7 +4265,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
     <selectionEntry id="2d8a-4413-8925-badd" name="Visionaries" hidden="true" collective="false" type="unit">
       <profiles/>
       <rules>
-        <rule id="a38e-f552-46cf-0b04" name="Levitation" hidden="false">
+        <rule id="a38e-f552-46cf-0b04" name="Ghost Form" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4470,7 +4284,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Visionaries ignore Exploit and may always re-roll failed Armour tests</description>
+          <description>Visionaries ignore Exploit and may always re-roll failed Armour Tests. They cannot gain Impenetrable Armour.</description>
         </rule>
         <rule id="8ac1-7fc0-da4d-f65c" name="Punisher Whirlwind" hidden="false">
           <profiles/>
@@ -4542,6 +4356,13 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <constraints/>
         </categoryLink>
         <categoryLink id="2b10-d8fe-5780-8fce" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="35fe-056c-be65-a330" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4859,12 +4680,6 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
         </profile>
       </profiles>
       <rules>
-        <rule id="17fb-7e6e-f6a2-b22e" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="dc6e-8fd8-a784-ff7b" name="Corporate Modifications: Brotherhood" hidden="false">
           <profiles/>
           <rules/>
@@ -4875,6 +4690,12 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
       </rules>
       <infoLinks>
         <infoLink id="6651-7758-e3bc-66ab" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="75c3-f541-c38a-a7f2" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4905,10 +4726,26 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3d45-8e7f-4f2f-458a" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="970c-a332-6e25-0105" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -5192,6 +5029,136 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="9cf9-c1ff-7422-1d27" name="Frederik´s Finest" hidden="true" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="7642-80b7-846c-7ae7" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="061d-3795-8ea9-7fd4" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="000c-3ce3-3516-00d4" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="061d-3795-8ea9-7fd4" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="000c-3ce3-3516-00d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac97-fa98-1145-2a2e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5afd-65bf-2929-8f69" name="Inquisitor Squad Commander" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="08eb-9bdf-4e0f-0f96" name="Inquisitor" hidden="false" targetId="e80b-2026-09cc-08b9" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fae5-1678-3107-6d8e" name="AC-40 Justifier" hidden="false" targetId="88da-d1e6-0220-9753" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c827-99a6-5075-76dc" name="Holy Disemboweller Chainblade" hidden="false" targetId="07fd-a7bc-cee6-6043" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="223e-0fd2-1fbe-fb94" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8829-25a0-cac0-3aa6" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8fd9-ff6c-4302-d84d" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f67e-6ba1-8230-a54a" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="108b-acc3-946c-045b" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9677-c53b-dc1e-e9dd" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="85d8-03d4-9d29-17b6" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="9d1b-eb13-be6f-d87e" name="Squad Commander" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dac-c4ce-a2e7-8f94" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a7-af89-4f7f-a3d7" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="5f30-6e6c-22ac-9f9b" name="Art Powers" hidden="false" collective="false">
@@ -5334,104 +5301,17 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2d42-98ae-c5b0-2957" name="Advisors" hidden="false" collective="false">
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="83ae-71c0-dc82-b729" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4c-60d8-0162-6ac0" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="ee51-9924-95db-7838" name="Inquisitor Advisor" hidden="false" collective="false" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="2d41-62ae-0c06-8f7e" name="Inquisitor" hidden="false" targetId="e80b-2026-09cc-08b9" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="d95f-3fbf-3888-cd2b" name="AC-40 Justifier" hidden="false" targetId="88da-d1e6-0220-9753" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="f2aa-d81a-f3c7-32bb" name="Holy Disemboweller Chainblade" hidden="false" targetId="07fd-a7bc-cee6-6043" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="b2d3-7eda-2ff0-292e" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="8aeb-8aef-0283-bdd6" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="340b-693f-be2a-ec6a" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="e9f9-2745-8e00-ff42" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="acaf-bb41-cbab-a368" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b42-deaa-eb2d-e5c2" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="1ceb-505a-c8d0-c239" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="35.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="227e-788b-2d52-0c12" name="Varg Rider Advisor" hidden="false" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -5613,6 +5493,431 @@ All friendly models in a squad that successfully wounds with one or more Psychic
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5f56-e6a9-f877-1a8e" name="Valkyries" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="9aab-4447-b8ad-481e" name="Bringers of Light" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Up to 1 squad of Valkyries may be taken in a Capitol, Bauhaus, Imperial: MOW, or Imperial: Wolfbane army as a Support Choice for (+2) PTS per Model. This squad has access to the normal squad options and Art powers.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9797-d325-c0fa-249b" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e40-e480-d721-f509" name="Hard to Hit(1)" hidden="false" targetId="8cb2-8f2a-2e91-5c42" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="aab6-78df-e69d-4e7d" name="Spear Strike" hidden="false" targetId="b4a5-4d9b-a833-ffe7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5155-a2d7-a669-e563" name="Valkyrie Deployment" hidden="false" targetId="e3e0-93fa-783a-17d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0c15-a52c-df8f-c08b" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6a5c-6ad6-72c4-e49e" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="618a-13b9-6586-4b33" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0593-c794-6820-000a" name="Valkyries" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="c616-f441-1f5e-09bf" name="Valkyrie" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="15"/>
+              </characteristics>
+            </profile>
+            <profile id="e7e2-460c-a775-f4e9" name="Castigator Power Spear" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="37c7-c28e-424e-7c45" name="P60 Punisher Handgun" hidden="false" targetId="3f29-c718-8151-83f7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04b3-d32e-b87e-07c2" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4af8-336f-b794-d287" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5657-4f5a-e9d5-ae86" name="AC-31 Cleansing Flamethrower" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7227-f283-6a54-565f" name="AC-31 Cleansing Flamethrower" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="SFT"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F/CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="When used in Close Combat, this model ignores any hits from this weapon."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="9e8a-0c91-06e5-3155" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5f56-e6a9-f877-1a8e" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0593-c794-6820-000a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8a-0c91-06e5-3155" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0b98-8b01-cdc9-9204" name="Art Powers" hidden="false" targetId="dfea-78ad-230c-8341" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2fcd-d570-297b-5cf8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="524b-c833-27f6-c944" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce5a-a8e2-a121-b99a" name="Sebastian Crenshaw" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3769-fba4-f1a0-37f3" name="Sebastian Crenshaw" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="18/4"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="17"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(11)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="115"/>
+          </characteristics>
+        </profile>
+        <profile id="86cd-fc7a-fc70-15f0" name="&apos;Deathdealer&apos; Mortis Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Deadly, Exploit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="730d-0ba0-650e-acae" name="Flash Grenade" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game when a model attempts to perform a Close Combat attack against this model, you may place a ‘Void’ marker on his position and recall him. He is now in ‘Void’.</description>
+        </rule>
+        <rule id="cac1-4627-2c24-326f" name="Master Assassin" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Power Shots by this model gain Critical Force (3).</description>
+        </rule>
+        <rule id="8860-309e-ad18-e376" name="Unseen Assailant" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When not attached to a squad, this model may infiltrate in ‘Void’. Instead of deploying the model, place the ‘Void’ marker anywhere where models could infiltrate. When infiltrating in ‘Void’, the marker may be deployed even within 8” of other infiltrators.</description>
+        </rule>
+        <rule id="7690-c190-b85e-0e20" name="Leader(1/Mortificators)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="92c7-8776-2568-aa4e" name="Nemesis Handgun" hidden="false" targetId="8bcd-c31c-2dc5-47fa" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c02-1b41-c62e-4195" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9d0b-ea1d-6113-f7e0" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3238-a556-d276-f475" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6904-91e8-7035-0ee7" name="Assassinate" hidden="false" targetId="a1e3-9f67-5e58-3ba3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6979-3123-5c6c-dbc8" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c5c4-b49a-64a1-36ce" name="Dodge(8)" hidden="false" targetId="b827-6ef6-648f-95af" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a025-b836-fd46-7d56" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0285-6115-a94e-7194" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0a2e-3e35-d8c6-65b7" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c4fe-d3f5-d265-dc29" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="98da-3c60-48a9-57f8" name="Their Own Way" hidden="false" targetId="46f4-02ba-f35a-04d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="09e7-9765-a60e-13b2" name="Void" hidden="false" targetId="543b-2105-d613-8eb8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4aa-76c9-234a-bed3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebd-04e1-4054-0f7e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="67b5-527d-03df-d0fe" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7422-2ad5-5ee1-5c9f" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7acb-a342-8934-eafa" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="005a-ab3c-1348-8d5d" name="Art Powers" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2429-6e90-95c8-9a6c" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89cc-e3a8-552e-fc09" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4aa3-50f2-3a9f-b7f3" name="Art of Kinetics" hidden="false" targetId="5e93-4755-5c05-e58f" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ce5a-a8e2-a121-b99a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1984-9264-2f85-b5d8" name="Art of Mentalism" hidden="false" targetId="4221-52e9-d0a7-d4be" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ce5a-a8e2-a121-b99a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0c7a-0a08-1c47-b5ee" name="Army Commander" hidden="false" targetId="5612-1151-554b-c2f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="115.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="941c-b414-76c2-188c" name="Corporate Security Agents" hidden="false" targetId="afe7-5da3-ebbf-e831" type="selectionEntry">
@@ -5670,44 +5975,6 @@ All friendly models in a squad that successfully wounds with one or more Psychic
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-    </entryLink>
-    <entryLink id="26de-7631-9154-95b6" name="Sebastian Crenshaw" hidden="false" targetId="33dc-d61e-951f-bd46" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="a0d6-faf3-da03-74a1" name="Valkyries" hidden="false" targetId="a6a9-99e7-8f5d-ab9d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="e013-8285-d943-8c92" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="c0ee-aac2-bdc6-cd71" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="35e8-6549-219d-9ec0" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
     </entryLink>
     <entryLink id="1f91-7193-1da0-6b71" name="Doomtrooper Pair" hidden="false" targetId="ad0a-b36c-b60e-c317" type="selectionEntry">
       <profiles/>
@@ -5784,15 +6051,7 @@ All friendly models in a squad that successfully wounds with one or more Psychic
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="e7c3-7d63-f8f9-41ce" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
@@ -5811,256 +6070,16 @@ All friendly models in a squad that successfully wounds with one or more Psychic
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="46a1-736c-9ddf-04e3" name="Witch Hunter Joseph Fredrickson" hidden="false" targetId="061d-3795-8ea9-7fd4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="33dc-d61e-951f-bd46" name="Sebastian Crenshaw" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="0e65-6988-bba9-fd7f" name="Sebastian Crenshaw" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="18/4"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="17"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(11)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="125"/>
-          </characteristics>
-        </profile>
-        <profile id="784f-7f24-17d1-68c5" name="&apos;Deathdealer&apos; Mortis Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Deadly, Exploit"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="5613-ec4a-365f-982e" name="Flash Grenade" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Once per game when a model attempts to perform a Close Combat attack against this model, you may place a ‘Void’ marker on his position and recall him. He is now in ‘Void’.</description>
-        </rule>
-        <rule id="0bbc-6163-22a7-b89f" name="Master Assassin" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Power Shots by this model gain Critical Force (3).</description>
-        </rule>
-        <rule id="297f-e095-4dea-cec2" name="Unseen Assailant" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>When not attached to a squad, this model may infiltrate in ‘Void’. Instead of deploying the model, place the ‘Void’ marker anywhere where models could infiltrate. When infiltrating in ‘Void’, the marker may be deployed even within 8” of other infiltrators.</description>
-        </rule>
-        <rule id="1278-b1e6-24f4-3e7d" name="Leader(1/Mortificators)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="795d-9106-8f4e-0acb" name="Nemesis Handgun" hidden="false" targetId="8bcd-c31c-2dc5-47fa" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e84d-bcb9-fbf1-c875" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b4f1-ba56-09de-9c7e" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4fd3-197a-1f5e-68c7" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ff14-32fa-7d4e-0683" name="Assassinate" hidden="false" targetId="a1e3-9f67-5e58-3ba3" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="dfca-babc-2d29-d8dc" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b895-5463-f453-4aec" name="Dodge(8)" hidden="false" targetId="b827-6ef6-648f-95af" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="59b9-0f40-a635-d526" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3d4c-74ac-6cfe-c79d" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="fb44-7567-1e82-5ad6" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3b8f-1c97-6449-efb3" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ca14-3276-5b67-2383" name="Their Own Way" hidden="false" targetId="46f4-02ba-f35a-04d5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9fe4-6b28-967c-96b0" name="Void" hidden="false" targetId="543b-2105-d613-8eb8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5038-f881-da8b-5641" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a90f-4553-0a6d-917a" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="3d5d-c727-04ca-28b9" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5ae2-856c-89bd-2873" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e744-9c5c-e051-1640" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3077-5b61-fc8e-3535" name="Art Powers" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b24d-fbfa-6d79-6611" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a0a7-73f2-bb63-cdbf" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="0109-cde4-fa42-f50c" name="Art of Kinetics" hidden="false" targetId="5e93-4755-5c05-e58f" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="33dc-d61e-951f-bd46" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="c1ef-4a5e-ce15-0e1b" name="Art of Mentalism" hidden="false" targetId="4221-52e9-d0a7-d4be" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition field="selections" scope="33dc-d61e-951f-bd46" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="f585-b738-2228-1a2b" name="Army Commander" hidden="false" targetId="5612-1151-554b-c2f8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="125.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="e717-b8f3-a973-1203" name="Ava “Indigo” Jasco" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="c6f2-9273-7e1f-5761" name="Ava “Indigo” Jasco" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
@@ -6537,6 +6556,294 @@ All friendly models in a squad that successfully wounds with one or more Psychic
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="061d-3795-8ea9-7fd4" name="Witch Hunter Joseph Fredrickson" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2d55-32aa-cfd1-fbbf" name="Witch Hunter Joseph Fredrickson" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/2"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="75"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ff8d-a47e-0718-6d0d" name="Benediction" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>RES(1): All friendly models within 10” gain WP(+1)</description>
+        </rule>
+        <rule id="4b01-4812-e3c2-be70" name="Witch Hunt" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>After the initial deployment, select 1 enemy squad on the board or in Reserve. All attacks directed at that squad by this model and the squad he is attached to gain CC and RS(+2), and ST(+2) in close combat. If the chosen squad is removed from the game, you may select a new squad.</description>
+        </rule>
+        <rule id="44bf-8665-4707-6a8d" name="Contempt(Cybertronic)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3cfb-05fb-0737-48c0" name="AC-40 Justifier" hidden="false" targetId="88da-d1e6-0220-9753" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="73f4-3da9-4720-7ac9" name="Holy Disemboweller Chainblade" hidden="false" targetId="07fd-a7bc-cee6-6043" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ceed-8111-07ce-0e11" name="Book of Law" hidden="false" targetId="ee28-46d2-37ae-679e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b755-fd07-b919-177d" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1a8c-9233-2cfd-34af" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2733-0031-a4fb-5641" name="Execution" hidden="false" targetId="1e08-2eb0-8009-dbd3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2193-ea54-cdf8-7d64" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1bd4-a41a-a048-f941" name="Gunslinger" hidden="false" targetId="ca2b-7c55-cf10-b2c2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ecc7-9607-dd4a-8f67" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0da-4eb0-8c51-8ad7" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6136-cefa-8bb8-b904" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c98-5ee1-5374-0003" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3125-b8f3-1226-268e" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b5e3-d11e-af0a-22f9" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ca5c-0f0d-2882-6a85" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c33a-dfbb-9a3e-343f" name="Art Powers" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7c9-d54f-adfb-f2ff" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b64d-a9e3-b823-c616" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="78a1-d9d2-8d00-b1ac" name="Art of Changeling" hidden="false" targetId="1389-2404-c736-803d" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a737-d701-9dac-d323" name="Art of Elements" hidden="false" targetId="6cc0-80f0-0f9c-1de1" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e37b-3018-f3c6-cd1b" name="Art of Exorcism" hidden="false" targetId="7851-8ad5-7e38-5c8c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3b03-3fcb-a26b-769f" name="Art of Kinetics" hidden="false" targetId="5e93-4755-5c05-e58f" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4221-52e9-d0a7-d4be" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4812-d849-906d-ab08" name="Art of Mentalism" hidden="false" targetId="4221-52e9-d0a7-d4be" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6cc0-80f0-0f9c-1de1" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e93-4755-5c05-e58f" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7851-8ad5-7e38-5c8c" type="greaterThan"/>
+                        <condition field="selections" scope="061d-3795-8ea9-7fd4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1389-2404-c736-803d" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="814a-e15d-9539-7979" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="75.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

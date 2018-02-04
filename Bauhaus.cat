@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7a21-e865-1a7c-36c8" name="Doubtless Precision" hidden="false">
@@ -54,12 +54,6 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="3107-c1e6-9bfd-fada" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="15c9-9e6d-ace4-7812" name="Corporate Modifications: Bauhaus" hidden="false">
           <profiles/>
           <rules/>
@@ -70,6 +64,12 @@
       </rules>
       <infoLinks>
         <infoLink id="dd76-2628-0bb1-de55" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a0cd-b367-2995-2b8d" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -100,10 +100,26 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6f29-ec6e-5310-10ef" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="ae9f-2dfa-861a-7b03" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -146,12 +162,6 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="856b-da5f-189b-0a7e" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="ccfb-c15f-487a-a3f7" name="Corporate Modifications: Bauhaus" hidden="false">
           <profiles/>
           <rules/>
@@ -162,6 +172,12 @@
       </rules>
       <infoLinks>
         <infoLink id="27c6-2c49-3e22-254c" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9bf0-bb6f-65f2-309b" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -192,10 +208,26 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c0f9-6e68-1f75-8104" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d6c8-3b53-e2cb-7627" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -464,6 +496,13 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <infoLinks/>
           <modifiers/>
           <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+        </rule>
+        <rule id="8e5f-6550-6e7a-7876" name="Rapid Deploy with Etoiles Mortant" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>May deploy via Rapid Deployment if attached to Etoiles Mortant squad with Rapid Deployment</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1168,7 +1207,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="13.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1236,7 +1275,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2242,15 +2281,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="cfac-b5c7-767c-ab8b" name="Contempt(Imperial)" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks>
             <infoLink id="0a4e-2a4e-1805-6db1" name="MP-103 Hellblazer SMG" hidden="false" targetId="4acc-7a0d-b0db-c31f" type="profile">
               <profiles/>
@@ -2295,6 +2326,18 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <modifiers/>
             </infoLink>
             <infoLink id="43a7-8413-b34c-3a16" name="Weg Damit" hidden="false" targetId="35ee-1c07-6562-d4e9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="09ec-41a0-f707-58c6" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d575-bf39-a394-db48" name="Welche Deckung?" hidden="false" targetId="0110-a61e-1bdd-01d5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2491,6 +2534,24 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <infoLinks/>
               <modifiers/>
             </infoLink>
+            <infoLink id="f720-2da0-ce83-f2d5" name="Sturmblitzer Infiltration" hidden="false" targetId="a301-7027-0a2b-26c5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6cde-9f62-1105-9f36" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c307-56ac-ec72-8c08" name="Welche Deckung?" hidden="false" targetId="0110-a61e-1bdd-01d5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
           </infoLinks>
           <modifiers/>
           <constraints>
@@ -2664,6 +2725,12 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
               <infoLinks/>
               <modifiers/>
             </infoLink>
+            <infoLink id="6266-d0f5-aa3a-a222" name="Sturmblitzer Infiltration" hidden="false" targetId="a301-7027-0a2b-26c5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
           </infoLinks>
           <modifiers>
             <modifier type="set" field="fad0-ebc3-2cfb-f35b" value="2">
@@ -2798,7 +2865,7 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
                 <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="5"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Strafe"/>
               </characteristics>
             </profile>
             <profile id="8917-bf97-be2a-4146" name="Light Gun Shield" hidden="false" profileTypeId="7225-7dbb-bfa5-5cbb" profileTypeName="Shield">
@@ -2819,7 +2886,7 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>For every W this model loses, it suffers SP(-2) and its Ranged Weapon suffers ROA(-1).</description>
+              <description>When reduced to W(1), this model suffers SP(-2) and its Ranged Weapon suffers ROA(-1).</description>
             </rule>
             <rule id="0ade-9f16-729e-ff7a" name="Einsame Wölfe" hidden="false">
               <profiles/>
@@ -2875,6 +2942,12 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
               <modifiers/>
             </infoLink>
             <infoLink id="1025-c33e-4fa2-0a28" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="53b7-00ca-fec4-0278" name="Sturmblitzer Infiltration" hidden="false" targetId="a301-7027-0a2b-26c5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3224,6 +3297,13 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="6c55-5089-c21e-4ded" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="eed4-2b3c-ce94-97ca" name="Venusian Rangers" hidden="false" collective="false" type="model">
@@ -3488,7 +3568,7 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
                 <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
                 <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
                 <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
                 <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
                 <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
                 <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
@@ -3508,7 +3588,7 @@ team and is only used as a marker to represent the extra wound. LOS can not be t
                 <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Strafe"/>
               </characteristics>
             </profile>
             <profile id="13d4-28f1-5f39-d80e" name="JS66 Flamethrower" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -3668,6 +3748,13 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="d1a5-0fa8-03c0-989f" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="757c-1b7b-f4d4-9189" name="Armoured Hussar Juggernauts" hidden="false" collective="false" type="model">
@@ -3682,7 +3769,7 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
                 <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
                 <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
                 <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
                 <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
                 <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
                 <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
@@ -3702,7 +3789,7 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
                 <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Strafe"/>
               </characteristics>
             </profile>
             <profile id="aa48-fedb-db63-f487" name="JS66 Flamethrower" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -4209,7 +4296,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="95.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4480,7 +4567,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="105.0"/>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="90.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4656,7 +4743,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <modifiers/>
           <characteristics>
             <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30/LE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
             <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
             <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Mortar, Turret"/>
@@ -5024,7 +5111,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23(12)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="110"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="95"/>
           </characteristics>
         </profile>
         <profile id="b8b8-e875-b706-7231" name="MP-25 Equalizer Handgun" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -5081,6 +5168,12 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <infoLinks/>
           <modifiers/>
           <description>RES(1): Place an ‘Energiser’ marker next to a non-vehicle model within this model´s CCWR. The affected model is ST(-2) and this model gains ST(+2). Remove the markers only when the affected model is removed from play. (cumulative).</description>
+        </rule>
+        <rule id="0e01-e393-a499-c061" name="To Fear is to Respect" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
         </rule>
       </rules>
       <infoLinks>
@@ -5167,7 +5260,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25d7-6719-365d-3205" name="Count Enrico Valmonte" hidden="false" collective="false" type="model">
@@ -5198,11 +5291,11 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="26"/>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30"/>
             <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
             <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Exploit"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Exploit, When using Battle Focus, gain Critical Force (2)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5212,7 +5305,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>RES(2): This model gains DEF(+3), Hard to Hit (4), and IA(10)</description>
+          <description>RES(2): This model gains DEF(+3), Hard to Hit (4), and IA(10). May also be activated between the actions of any model.</description>
         </rule>
         <rule id="9acd-6a7f-3f49-c510" name="Reposition" hidden="false">
           <profiles/>
@@ -5480,13 +5573,6 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
         </profile>
       </profiles>
       <rules>
-        <rule id="23de-e2af-930b-b83d" name="Waffenbrüder" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>One model in Meier’s squad gains Medic (4)</description>
-        </rule>
         <rule id="1602-c81d-21c2-b818" name="Zielwasser" hidden="false">
           <profiles/>
           <rules/>
@@ -5563,6 +5649,18 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <modifiers/>
         </infoLink>
         <infoLink id="ee6f-6db3-94bb-758c" name="Leise Solhen" hidden="false" targetId="0b8d-5199-0cd8-f711" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bd26-28c4-a024-3a6a" name="Sturmblitzer Infiltration" hidden="false" targetId="a301-7027-0a2b-26c5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e281-2494-f8a4-aaaa" name="Medic(4)" hidden="false" targetId="3691-3ba8-4ee2-1be6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5648,7 +5746,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When attached to a Bauhaus Artillery Korps, this model provides one resource card. One Heavy Gun in this squad may use this model´s RS.</description>
+          <description>When attached to a Bauhaus Artillery Korps, this model provides one resource card. One Heavy Gun in this squad may use this model´s RS. Any model in the attached squad this model is attached to gains Target Sense.</description>
         </rule>
         <rule id="cbc2-94ac-b7f3-2f77" name="Show Them Hans" hidden="false">
           <profiles/>
@@ -5792,7 +5890,7 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>One squad of Hussars not led by a Venusian Marshal or Kapitan may deploy via Infiltrate.</description>
+          <description>One squad consisting only of Hussar type models may deploy via Infiltrate.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5876,7 +5974,7 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bfd-cf29-cfe8-6443" name="Kapitan&apos;s Hussars" hidden="true" collective="false" type="unit">
@@ -5993,7 +6091,7 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="13.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6061,7 +6159,7 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6120,6 +6218,13 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
           <constraints/>
         </categoryLink>
         <categoryLink id="8783-97b9-3160-8446" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d91a-dadd-0b1a-529c" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6397,6 +6502,13 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2f23-ccd0-bb25-ffba" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2947-c5fc-bcb3-b411" name="Vorreiters" hidden="false" collective="false" type="model">
@@ -6628,7 +6740,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="105.0"/>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="90.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6676,6 +6788,13 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <constraints/>
       <categoryLinks>
         <categoryLink id="e55d-28f8-73a5-513c" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c383-e754-f932-0ffc" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6788,7 +6907,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="95.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6837,7 +6956,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <modifiers/>
           <characteristics>
             <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30/LE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
             <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
             <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Mortar, Turret"/>
@@ -6914,6 +7033,13 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <constraints/>
         </categoryLink>
         <categoryLink id="9226-64b1-563e-067a" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4989-2e70-f288-cd7a" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7121,6 +7247,13 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <constraints/>
         </categoryLink>
         <categoryLink id="fc83-5c22-ec61-48a0" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e45f-9d15-917e-6c7d" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7471,15 +7604,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="0.0">
-          <repeats>
-            <repeat field="selections" scope="6f87-1846-a445-e5d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="86e0-9f5c-29a4-62d8" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3211-85d9-5728-a4af" type="max"/>
       </constraints>
@@ -7504,15 +7629,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-          <repeats>
-            <repeat field="selections" scope="06ff-758c-6b61-b537" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b89c-ea3a-ca2b-3a26" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a8-32cc-04ad-e318" type="max"/>
       </constraints>
@@ -7537,13 +7654,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="547a-ce3f-3831-bc09" value="95">
-          <repeats/>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="259d-1fa5-615d-60d5" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
@@ -7554,86 +7665,6 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <constraints/>
         </categoryLink>
         <categoryLink id="35ac-797f-bf3d-cd8d" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e71f-b9af-50e4-196d" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2787-a898-de08-f299" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="de73-e5f4-fe63-0cc9" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2787-a898-de08-f299" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de73-e5f4-fe63-0cc9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="e701-effb-3447-c677" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5f3c-fde4-0f6d-d217" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5977-1396-232a-7d31" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2787-a898-de08-f299" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="6014-db7d-c193-ccfb" value="1">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2787-a898-de08-f299" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6014-db7d-c193-ccfb" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="426d-ba06-ee39-1ad1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="c7de-3e16-623b-2687" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7662,15 +7693,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="8190-bfce-e089-0fa2" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
@@ -7681,6 +7704,112 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <constraints/>
         </categoryLink>
         <categoryLink id="e027-9d2f-0304-a0cb" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1a39-e40c-4dae-ee04" name="Heretics of Algeroth" hidden="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="3921-5a7f-d1e1-79e3" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e34-3d5d-9729-7b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3921-5a7f-d1e1-79e3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0801-9179-8575-ff75" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ead8-c028-03c8-96eb" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="365f-e68b-8e6a-de2b" name="Heretics of Ilian" hidden="true" targetId="8e34-3d5d-9729-7b55" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="f8dd-bd59-1578-fafa" value="1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0363-58ea-b105-b777" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6758-4ffb-6b32-35ac" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8dd-bd59-1578-fafa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fe55-6f19-2bc3-1a36" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6c7d-ab75-f7eb-0e63" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11900,6 +12029,20 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <modifiers/>
       <description>If this model is in B2B contact with a token or trap marker, it may spend AP(2) to attempt to remove
 it. The model must pass a (-2)LD test. If the test is failed, it loses W(1) and all other models within 3” suffer a ST(11) autohit.</description>
+    </rule>
+    <rule id="a301-7027-0a2b-26c5" name="Sturmblitzer Infiltration" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May use the Infiltration deployment option, but may deploy in open terrain.</description>
+    </rule>
+    <rule id="0110-a61e-1bdd-01d5" name="Welche Deckung?" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When shooting at targets in cover, this model gains RS(+3). </description>
     </rule>
   </sharedRules>
   <sharedProfiles>

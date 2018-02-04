@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="738b-8a53-c002-8d57" name="Cybertronic- Mirrormen Propaganda Force" revision="5" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="738b-8a53-c002-8d57" name="Cybertronic- Mirrormen Propaganda Force" revision="6" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -45,7 +45,7 @@
           <characteristics>
             <characteristic name="+ARM" characteristicTypeId="6758-24d0-9c9d-2ed4" value="3"/>
             <characteristic name="+DEF" characteristicTypeId="b603-6489-772a-c092" value="2"/>
-            <characteristic name="RULES" characteristicTypeId="f03f-1c6a-5b9c-49f8"/>
+            <characteristic name="RULES" characteristicTypeId="f03f-1c6a-5b9c-49f8" value="Whenever this model successfully passes an armour test against a non-template Ranged attack, he may reflect it back at the attacker. The shooting model receives an autohit at the ST of the attack on a roll of 1-10."/>
           </characteristics>
         </profile>
       </profiles>
@@ -56,13 +56,6 @@
           <infoLinks/>
           <modifiers/>
           <description>When this model is attached to a squad of Mirrormen, all Mirrormen in that squad receive Hard to hit (+2).</description>
-        </rule>
-        <rule id="0ff4-3eba-6c1c-7560" name="Mirrorshard Shield" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Whenever this model successfully passes an armour test against a non-template Ranged attack, he may reflect it back at the attacker. The shooting model receives an autohit at the ST of the attack on a roll of 1-10.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -126,7 +119,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8c8d-696b-17b3-7a42" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+        <infoLink id="67d0-8aee-ebfc-031b" name="Paired Weapons(CC/HG)" hidden="false" targetId="3cee-077d-9c75-2399" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -212,7 +205,7 @@
                 <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23"/>
                 <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
                 <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="11&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="20"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="18"/>
               </characteristics>
             </profile>
             <profile id="6643-a4af-f26e-eac0" name="CSA400 Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -339,7 +332,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="3e33-298a-8df2-62f4" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+            <infoLink id="9d10-7eda-27ee-de9a" name="Paired Weapons(CC/HG)" hidden="false" targetId="3cee-077d-9c75-2399" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -356,7 +349,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f07a-055e-e636-4f3a" name="CSA404 Heat Sword" hidden="false" collective="false" type="upgrade">
@@ -480,7 +473,7 @@
                 <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23"/>
                 <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
                 <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="11&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="20"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="18"/>
               </characteristics>
             </profile>
             <profile id="8d66-c55c-c2e9-fb04" name="CSA400 Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -607,7 +600,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="b6eb-05f5-5110-9282" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+            <infoLink id="b9c3-c942-a701-6e99" name="Paired Weapons(CC/HG)" hidden="false" targetId="3cee-077d-9c75-2399" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -624,7 +617,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eaec-8736-aea2-dd09" name="CSA404 Heat Sword" hidden="false" collective="false" type="upgrade">
@@ -725,7 +718,7 @@
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="120"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="100"/>
           </characteristics>
         </profile>
         <profile id="3bad-ae5e-f60b-0fda" name="Cybernetic Arm" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -1280,7 +1273,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="120.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

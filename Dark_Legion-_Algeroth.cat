@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="8" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="10" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristopehrsmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="5d3b-4ee1-a199-bc2e" name="The Face of the Legion" hidden="false">
@@ -223,7 +223,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>RES(1): The squad&apos;s ranged weapons gain Deadly.</description>
+              <description>RES(1): Undead Legionnaire´s ranged weapons in this squad gain Deadly.</description>
             </rule>
             <rule id="c076-7210-a14b-2966" name="Brainless" hidden="false">
               <profiles/>
@@ -1548,7 +1548,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="671a-bb51-7f9d-0d4e" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
+        <infoLink id="671a-bb51-7f9d-0d4e" name="Gunslinger" hidden="false" targetId="ca2b-7c55-cf10-b2c2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2667,14 +2667,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="eac7-1df3-201c-5a78" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="9588-355d-2c26-36dc" name="Dissention(1)" hidden="false" targetId="25d4-dc25-fa65-338e" type="rule">
           <profiles/>
@@ -2689,6 +2682,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="0341-5719-479c-68b8" name="Regeneration(3)" hidden="false" targetId="6165-cf22-44a9-445f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e2b6-ad78-7218-37dd" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2719,10 +2718,26 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3601-f416-b4c3-954a" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="4704-451f-5364-8860" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -2835,6 +2850,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1094-4293-683a-b966" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="68f2-21b6-787e-e429" name="Praetorian Stalker" hidden="false" collective="false" type="model">
@@ -2924,6 +2946,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="9668-f956-c809-b2c1" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="11ac-aa85-f7af-3386" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3110,6 +3139,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="3118-3f94-e8cb-d649" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0737-18e5-4996-424c" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3318,14 +3354,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="2822-3d62-fd97-4015" name="Transport(10)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="f888-2d73-7db4-56ab" name="Dissention(1)" hidden="false" targetId="25d4-dc25-fa65-338e" type="rule">
           <profiles/>
@@ -3340,6 +3369,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="850a-f7c4-c13c-8787" name="Regeneration(3)" hidden="false" targetId="6165-cf22-44a9-445f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="977e-5cd9-3c0e-eeec" name="Tough" hidden="false" targetId="60a5-e766-f929-e7ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3370,10 +3405,26 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8206-fef4-0c7e-183f" name="New CategoryLink" hidden="false" targetId="a2fc-1002-b884-917b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5571-862c-0c49-ddc6" name="Type" hidden="false" targetId="a1b4-d2bc-530a-0bf3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
       </costs>
@@ -4264,6 +4315,13 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="eb8d-d719-7c1d-475c" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="881a-0960-6ccd-6c08" name="Mercurian Maculators" hidden="false" targetId="1e37-ca47-1681-5420" type="selectionEntry">
@@ -4281,6 +4339,13 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
           <constraints/>
         </categoryLink>
         <categoryLink id="3a28-f698-624b-cfe8" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6bb6-68be-f248-5899" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
