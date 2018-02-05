@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="16" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3309,10 +3309,10 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           </infoLinks>
           <modifiers>
             <modifier type="increment" field="b675-1958-8295-3b11" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fdf8-42a8-9353-52a6" type="instanceOf"/>
-              </conditions>
+              <repeats>
+                <repeat field="selections" scope="9633-c1c5-50d6-b922" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fdf8-42a8-9353-52a6" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -7077,16 +7077,10 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3562-8b85-1f08-0def" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="184d-2652-54c4-8533" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="05ed-47a9-ab99-8ebd" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
           <profiles/>
@@ -7436,6 +7430,14 @@ A(+1).</description>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="309f-a203-8816-0f7a" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5155-9111-43ef-d92f" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13002,11 +13004,11 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="20/SE"/>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="20/LE"/>
             <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
             <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="ML"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6)"/>
           </characteristics>
         </profile>
         <profile id="65fe-097b-2e68-c7aa" name="Giant Fists" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -16654,7 +16656,7 @@ A(+1).</description>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Models in this squad gain ST(+2).</description>
+                  <description>Models in this squad gain CC(+2).</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -26449,7 +26451,9 @@ A(+1).</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9f54-6348-ccce-20e1" name="Enclosed" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -26468,7 +26472,9 @@ A(+1).</description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
