@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="13" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="14" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7a21-e865-1a7c-36c8" name="Doubtless Precision" hidden="false">
@@ -4687,9 +4687,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb6-9afb-a57b-b0a8" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="2bc3-5d99-c158-aaf6" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true">
           <profiles/>
@@ -4711,122 +4709,6 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="340.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f8eb-c9cd-266d-3774" name="GBT-47 Kodiak Tank" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="43b0-311a-139e-e650" name="GBT-47 Kodiak Tank" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="4"/>
-            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
-            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
-            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
-            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
-            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
-            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="28/4"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/4"/>
-            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="26/4"/>
-            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
-            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="150"/>
-          </characteristics>
-        </profile>
-        <profile id="0887-54e9-f183-66cb" name="230mm Mortar Turret Weapon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30/LE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Mortar, Turret"/>
-          </characteristics>
-        </profile>
-        <profile id="b5b4-dbf1-5bfe-6c55" name="8 Bergstahl Stonecleaver LMG&apos;s" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Left, Front or Right Facing depending on where the weapon is mounted."/>
-          </characteristics>
-        </profile>
-        <profile id="b14a-5c55-3d2c-9c9b" name="2 Mini-Turret Mounted 45mm Cannons" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12/SE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Rear Facing."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="fd39-4763-bdc8-d0c6" name="Fahrende Festung" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model can establish LOS in a side or rear facing when firing a weapon that is restricted to attacking in that facing.</description>
-        </rule>
-        <rule id="18ff-7641-d711-fd61" name="A Lot of Barrels" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>For each Hull (W) lost on this model, roll D20, on a 1-8, an LMG on the facing the attack came from is also hit and destroyed. If all LMG’s in a facing are destroyed, ignore this rule.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89c7-c314-1c5d-d840" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="90cd-c569-ce82-d751" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="8d9f-7b74-a832-b92a" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="2314-fad7-2ea2-d0da" name="Doktrin" hidden="false" targetId="f775-41f3-7889-9e10" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9223-d171-cca7-1d5b" name="Artillery Korps" hidden="false" collective="false" type="unit">
@@ -6941,143 +6823,6 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9709-1bd2-6e61-5e73" name="GBT-47 Kodiak Tank" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="aa5d-ea29-4169-e6f3" name="GBT-47 Kodiak Tank" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="4"/>
-            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
-            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
-            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
-            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
-            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
-            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="28/4"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/4"/>
-            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="26/4"/>
-            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
-            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="150"/>
-          </characteristics>
-        </profile>
-        <profile id="ddbb-0fd0-81f3-94c4" name="230mm Mortar Turret Weapon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30/LE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Mortar, Turret"/>
-          </characteristics>
-        </profile>
-        <profile id="4b0b-3f5d-1e2e-bd29" name="8 Bergstahl Stonecleaver LMG&apos;s" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Left, Front or Right Facing depending on where the weapon is mounted."/>
-          </characteristics>
-        </profile>
-        <profile id="36f7-1c1d-f1b5-eede" name="2 Mini-Turret Mounted 45mm Cannons" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12/SE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Rear Facing."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="b7d5-0027-6cff-289c" name="Fahrende Festung" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model can establish LOS in a side or rear facing when firing a weapon that is restricted to attacking in that facing.</description>
-        </rule>
-        <rule id="6ceb-8535-ef9d-e3f0" name="A Lot of Barrels" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>For each Hull (W) lost on this model, roll D20, on a 1-8, an LMG on the facing the attack came from is also hit and destroyed. If all LMG’s in a facing are destroyed, ignore this rule.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19fd-2c31-63b2-6fac" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="fb40-6d10-6b65-d0ad" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="9226-64b1-563e-067a" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="4989-2e70-f288-cd7a" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="e78b-3326-45de-a2a7" name="Doktrin" hidden="false" targetId="e847-edf1-2fbe-5750" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="5891-85b3-5bb9-5033" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
@@ -7364,6 +7109,287 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="8b9f-ba21-61ec-e721" name="GBT-47 Kodiak Tank" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f9aa-410e-e614-6674" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1f4b-d245-dd60-0780" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="350b-5c46-f87d-d0f5" name="GBT-47 Kodiak Tank" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="c7a7-b1b2-3003-ea95" name="GBT-47 Kodiak Tank" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="4"/>
+                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
+                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
+                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
+                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
+                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
+                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="28/4"/>
+                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/4"/>
+                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="26/4"/>
+                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
+                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="150"/>
+              </characteristics>
+            </profile>
+            <profile id="5c5d-bd41-100a-7f5b" name="230mm Mortar Turret Weapon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30/LE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Mortar, Turret"/>
+              </characteristics>
+            </profile>
+            <profile id="7a0b-e6d6-c54a-afe5" name="8 Bergstahl Stonecleaver LMG&apos;s" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Left, Front or Right Facing depending on where the weapon is mounted."/>
+              </characteristics>
+            </profile>
+            <profile id="dfb5-ae44-9681-2c55" name="2 Mini-Turret Mounted 45mm Cannons" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12/SE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Rear Facing."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="07c4-027e-8a0d-bfad" name="Fahrende Festung" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This model can establish LOS in a side or rear facing when firing a weapon that is restricted to attacking in that facing.</description>
+            </rule>
+            <rule id="68a8-6fb0-7e28-cc12" name="A Lot of Barrels" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>For each Hull (W) lost on this model, roll D20, on a 1-8, an LMG on the facing the attack came from is also hit and destroyed. If all LMG’s in a facing are destroyed, ignore this rule.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c13-0dba-359b-14af" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5fc-ecec-a6a5-9f2c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2b97-4269-a95e-74aa" name="Doktrin" hidden="false" targetId="f775-41f3-7889-9e10" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="949e-1c07-01dd-23d4" name="GBT-47 Kodiak Tank" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="75f2-a04b-6aea-99cf" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="af3e-bdb3-6999-8f3f" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a476-0188-cd20-5821" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d7ff-f55a-52d8-3f24" name="GBT-47 Kodiak Tank" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="ebb2-a73c-7638-aa90" name="GBT-47 Kodiak Tank" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="4"/>
+                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
+                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
+                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
+                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
+                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
+                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="28/4"/>
+                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/4"/>
+                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="26/4"/>
+                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
+                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="150"/>
+              </characteristics>
+            </profile>
+            <profile id="8ac2-aed7-f1c2-7449" name="230mm Mortar Turret Weapon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30/LE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Mortar, Turret"/>
+              </characteristics>
+            </profile>
+            <profile id="7df4-494d-be20-862a" name="8 Bergstahl Stonecleaver LMG&apos;s" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Left, Front or Right Facing depending on where the weapon is mounted."/>
+              </characteristics>
+            </profile>
+            <profile id="ce1b-c314-f0e7-d83d" name="2 Mini-Turret Mounted 45mm Cannons" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12/SE"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May only be fired in the Rear Facing."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="7cef-0f18-851e-b39c" name="Fahrende Festung" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This model can establish LOS in a side or rear facing when firing a weapon that is restricted to attacking in that facing.</description>
+            </rule>
+            <rule id="f84f-769c-5491-b615" name="A Lot of Barrels" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>For each Hull (W) lost on this model, roll D20, on a 1-8, an LMG on the facing the attack came from is also hit and destroyed. If all LMG’s in a facing are destroyed, ignore this rule.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58e-ca6b-0585-cdd8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b409-6a08-2b30-9d8f" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="26b9-f876-2ec8-ce5e" name="Doktrin" hidden="false" targetId="e847-edf1-2fbe-5750" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

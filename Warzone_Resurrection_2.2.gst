@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="19" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2397,26 +2397,6 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
             <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
           </characteristics>
         </profile>
-        <profile id="cae2-72f3-e704-4e5b" name="Necromutant" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="13/1"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="19"/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules>
         <rule id="007a-e876-3733-167f" name="The Apostle&apos;s Reward" hidden="false">
@@ -2479,7 +2459,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9a47-b6d5-f6e1-3915" name="Initiate" page="" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9a47-b6d5-f6e1-3915" name="Initiate (upgrade one Heretic)" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="e39f-317c-3d79-5ef2" name="Initiate" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
               <profiles/>
@@ -12770,7 +12750,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="dba4-4cae-b418-0952" name="Initiate" page="303" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="dba4-4cae-b418-0952" name="Initiate (upgrade one Heretic)" page="303" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="e03c-7ae6-b56b-a4c3" name="Initiate" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
               <profiles/>
@@ -12892,81 +12872,6 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
           <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="9.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fc45-f365-2db1-5d77" name="Templar" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="067d-c49c-9d8f-fcda" name="Templar" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/1"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="11"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="24"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="67f3-f6e1-395d-8ead" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="b9be-3928-729c-dfb8" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="fb43-13c8-cc84-9dee" name="Regeneration(5)" hidden="false" targetId="ce58-f484-9adf-edc6" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="5151-f048-0ec9-c4ab" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="51ab-8d5d-9616-d7e4" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="e836-860f-87f4-671a" name="Undying" hidden="false" targetId="c46a-f12d-107d-3b2e" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaac-5700-b57b-2b54" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="172c-ab4b-5937-afd3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14671,7 +14576,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4081-11a5-8274-aa09" name="Veteran Sergeant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4081-11a5-8274-aa09" name="Veteran Sergeant (upgrade one Light Infantry)" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="72bc-fcec-ab4b-e4e1" name="Veteran Sergeant" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
               <profiles/>
@@ -28758,8 +28663,8 @@ If a trap goes off and there are multiple targets, the trap´s owner chooses the
         <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
         <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
         <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-        <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
-        <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="17"/>
+        <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="17"/>
+        <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
         <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
         <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24"/>
         <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>

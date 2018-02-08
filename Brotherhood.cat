@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="14" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -2313,7 +2313,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
                       <characteristics>
                         <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
                         <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="4"/>
-                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
                         <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="PSY"/>
                         <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6)"/>
                       </characteristics>
@@ -4546,7 +4546,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
                       <characteristics>
                         <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
                         <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="4"/>
-                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
                         <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="PSY"/>
                         <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6)"/>
                       </characteristics>
@@ -5547,6 +5547,13 @@ All friendly models in a squad that successfully wounds with one or more Psychic
           <constraints/>
         </categoryLink>
         <categoryLink id="618a-13b9-6586-4b33" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ae80-4fc2-f7a4-c43a" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>

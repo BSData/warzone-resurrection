@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4381-7033-27e5-f55b" name="Capitol- Armoured Battalion" revision="9" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4381-7033-27e5-f55b" name="Capitol- Armoured Battalion" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -1840,7 +1840,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="21.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1886,7 +1886,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="21.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d508-ea24-7cda-8eeb" name="Light Infantry" hidden="false" collective="false" type="unit">
@@ -2007,7 +2007,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8012-f7d3-3778-4df5" name="Veteran Sergeant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8012-f7d3-3778-4df5" name="Veteran Sergeant (upgrade one Light Infantry)" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="8175-deff-d63b-ea95" name="Veteran Sergeant" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
               <profiles/>
@@ -2115,27 +2115,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       <selectionEntries>
         <selectionEntry id="1a4f-6838-d0f2-215e" name="Martian Banshees" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="d6c9-8041-4981-cc4e" name="Martain Banshee" book="" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="14/2"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe"/>
-              </characteristics>
-            </profile>
             <profile id="2bc2-83b4-243b-64fe" name="Banshee Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
               <profiles/>
               <rules/>
@@ -2197,6 +2176,34 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
                 <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(3)"/>
+              </characteristics>
+            </profile>
+            <profile id="41c4-2120-a5ec-7353" name="Martain Banshee" book="" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="14/4">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="7262-4cac-4cbd-bbcc" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="80f4-6439-4beb-ebd4" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="21"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="20"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2433,27 +2440,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       <selectionEntries>
         <selectionEntry id="6285-53a9-1f8b-6222" name="Martian Banshees" hidden="false" collective="false" type="model">
           <profiles>
-            <profile id="95d6-02d8-6825-df37" name="Martain Banshee" book="" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="14/2"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe"/>
-              </characteristics>
-            </profile>
             <profile id="3292-199f-ad23-0caa" name="Banshee Blade" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
               <profiles/>
               <rules/>
@@ -2515,6 +2501,34 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
                 <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(3)"/>
+              </characteristics>
+            </profile>
+            <profile id="af58-39ac-5eb6-c98e" name="Martain Banshee" book="" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="14/4">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="48d2-e395-aa3f-a911" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7da0-7a7a-dfe0-8bb3" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="21"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="20"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3056,7 +3070,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0177-ca6d-bf6a-d98a" name="Veteran Sergeant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="0177-ca6d-bf6a-d98a" name="Veteran Sergeant (upgrade one Heavy Infantry)" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="d98f-4570-47c3-9061" name="Veteran Sergeant" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
               <profiles/>
@@ -3519,165 +3533,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6548-fbe3-2296-6a5d" name="AFT-210 Leviathan" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="0326-d23c-d5d9-bb07" name="AFT-210 Leviathan" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
-            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
-            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
-            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="16"/>
-            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
-            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="32/6"/>
-            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="32/6"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="31/6"/>
-            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="31/5"/>
-            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
-            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="320"/>
-          </characteristics>
-        </profile>
-        <profile id="62e4-04f7-6418-9367" name="Turret-mounted Twin Mk. XLVIII Ultracannon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="18"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing (6), Slow to Reload, Turret, Weapon Mode (Executioner Ammo) RES(2): Critical Force(3)"/>
-          </characteristics>
-        </profile>
-        <profile id="8d4d-6641-fcd7-90d8" name="Turret-mounted Twin Mk. XLVIII Ultracannon (Executioner Ammo)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="8"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Gunslinger, Precision(4), Turret"/>
-          </characteristics>
-        </profile>
-        <profile id="0915-923b-b12a-d485" name="Turret-Mounted M606 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Turret, Strafe"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="240f-5af9-7932-1d0e" name="Crushing Advance" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model does not take autohits for moving through difficult terrain.</description>
-        </rule>
-        <rule id="2127-34c9-5d07-b56c" name="Electrified Hull" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Any models in B2B with this model at the end of their activation take a ST(6) autohit.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="3a50-72d2-5431-f69a" name="M606 LMG" hidden="false" targetId="c6e5-5c66-ce8c-7020" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4465-3357-ca6c-441d" name="M606 LMG" hidden="false" targetId="c6e5-5c66-ce8c-7020" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a659-72c4-f95d-275c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="1317-49d3-d3f8-7f65" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="f8d0-9c78-a1af-2a16" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f5ad-a8fa-16bf-b9a5" name="Battalion Enhanced Tactics" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9de-d8de-b573-8734" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="c457-24de-d3a1-1e82" name="Call the Shot" hidden="false" targetId="415b-1ce4-52e1-1e65" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="7da8-41b5-95b5-2108" name="Overcharge" hidden="false" targetId="dcb3-7dbd-7ccf-c3a3" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="ba19-7a2e-3f1b-a501" name="Spall Lining" hidden="false" targetId="3f49-1e85-837c-eab7" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="320.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a36a-6260-57c7-0acf" name="Wolverine" hidden="false" collective="false" type="model">
@@ -5207,6 +5062,32 @@ Smoke Bombardment.</description>
                 <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Turret, Strafe"/>
               </characteristics>
             </profile>
+            <profile id="5e9c-ee33-73a6-5dc4" name="M606 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Strafe"/>
+              </characteristics>
+            </profile>
+            <profile id="7d12-1bea-8d26-114e" name="M606 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Strafe"/>
+              </characteristics>
+            </profile>
           </profiles>
           <rules>
             <rule id="4b89-537f-81e9-b3e1" name="Crushing Advance" hidden="false">
@@ -5226,18 +5107,6 @@ Smoke Bombardment.</description>
           </rules>
           <infoLinks>
             <infoLink id="381a-99a9-af93-9eb1" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="c9e4-be5c-fa3d-b109" name="M606 LMG" hidden="false" targetId="c6e5-5c66-ce8c-7020" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="b87b-f49b-934b-427a" name="M606 LMG" hidden="false" targetId="c6e5-5c66-ce8c-7020" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5317,6 +5186,192 @@ Smoke Bombardment.</description>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1b63-9acc-7233-07cc" name="AFT-210 Leviathan" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="bf69-272b-2548-d66d" name="AFT-210 Leviathan" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="3a0b-cd4e-df46-fa3d" name="AFT-210 Leviathan" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
+                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-"/>
+                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
+                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="16"/>
+                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
+                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="32/6"/>
+                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="32/6"/>
+                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="31/6"/>
+                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="31/5"/>
+                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
+                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
+                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="-"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="320"/>
+              </characteristics>
+            </profile>
+            <profile id="6f29-c355-4846-03c0" name="Turret-mounted Twin Mk. XLVIII Ultracannon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="18"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing (6), Slow to Reload, Turret, Weapon Mode (Executioner Ammo) RES(2): Critical Force(3)"/>
+              </characteristics>
+            </profile>
+            <profile id="1433-b92b-78ee-b0f3" name="Turret-mounted Twin Mk. XLVIII Ultracannon (Executioner Ammo)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="8"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Gunslinger, Precision(4), Turret"/>
+              </characteristics>
+            </profile>
+            <profile id="566a-3481-4bb4-9962" name="Turret-Mounted M606 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Turret, Strafe"/>
+              </characteristics>
+            </profile>
+            <profile id="49ab-699d-a68c-f8c2" name="M606 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Strafe"/>
+              </characteristics>
+            </profile>
+            <profile id="a89b-c094-3ff8-175a" name="M606 LMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Strafe"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="0b4c-c262-2635-79d8" name="Crushing Advance" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This model does not take autohits for moving through difficult terrain.</description>
+            </rule>
+            <rule id="350c-f967-99bb-c0f2" name="Electrified Hull" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any models in B2B with this model at the end of their activation take a ST(6) autohit.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42da-c4e6-7a20-5b1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a40-9a86-b65e-7bd4" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="c006-37ce-14bb-d261" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="1dc4-afe3-19ad-1509" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="320.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8c35-7c28-fd35-b399" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6656-6dcb-dad5-5885" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b8a3-4ce1-524f-9272" name="Call the Shot" hidden="false" targetId="415b-1ce4-52e1-1e65" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="58a7-06cd-1969-7109" name="Overcharge" hidden="false" targetId="dcb3-7dbd-7ccf-c3a3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2cdc-8f87-515f-63d2" name="Spall Lining" hidden="false" targetId="3f49-1e85-837c-eab7" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
