@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="11" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="1d05-375c-35c9-32bc" name="Strength in Small Numbers" hidden="false">
@@ -2839,7 +2839,7 @@ them in B2B contact with this model, with Morten in their front facing. If you c
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
                 <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="8&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="75"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="65"/>
               </characteristics>
             </profile>
             <profile id="8104-02ca-2c3a-2178" name="Ultracharger HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -2921,7 +2921,7 @@ them in B2B contact with this model, with Morten in their front facing. If you c
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="75.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="65.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="46da-2c00-7fd1-a252" name="Brainburster Grenade Launcher" hidden="false" collective="false" type="upgrade">

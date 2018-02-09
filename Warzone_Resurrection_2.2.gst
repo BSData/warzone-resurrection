@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="19" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="20" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3273,7 +3273,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="11.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f91f-aa8c-180c-2628" name="CAW1800 SMG" hidden="false" collective="false" type="upgrade">
@@ -3448,9 +3448,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="11.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="064e-8fc8-0a9c-e334" name="Mirrormen" page="" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -13975,7 +13973,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
                 <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="8&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="75"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="65"/>
               </characteristics>
             </profile>
             <profile id="29d3-079c-26f2-363c" name="Ultracharger HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">

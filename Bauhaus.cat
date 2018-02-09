@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="14" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="15" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7a21-e865-1a7c-36c8" name="Doubtless Precision" hidden="false">
@@ -6825,30 +6825,8 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
     </selectionEntry>
     <selectionEntry id="5891-85b3-5bb9-5033" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules>
-        <rule id="57dc-221a-42d9-bc22" name="“Mancutter” Clearing Blade" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Any Difficult Terrain that is 3”x3”x3” or smaller that this model moves through may be removed from the game. Ramming actions add ST(+4) to the autohit against the target model.</description>
-        </rule>
-        <rule id="5d7c-ab75-f6e5-37db" name="Sondereinsatzkommando" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each model may be used as an Open Transport (5) for Venusian Rangers. This does not make this model a Transport Type. Venusian Rangers may Embark for AP(0) and the Wolfclaw may disembark Venusian Rangers for AP(0).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="e03b-81a5-5a58-5aaf" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -6918,9 +6896,30 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
               </characteristics>
             </profile>
           </profiles>
-          <rules/>
+          <rules>
+            <rule id="35d1-9942-0473-4cc2" name="Sondereinsatzkommando" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Each model may be used as an Open Transport (5) for Venusian Rangers. This does not make this model a Transport Type. Venusian Rangers may Embark for AP(0) and the Wolfclaw may disembark Venusian Rangers for AP(0).</description>
+            </rule>
+            <rule id="d17d-08bd-73ed-d4de" name="“Mancutter” Clearing Blade" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any Difficult Terrain that is 3”x3”x3” or smaller that this model moves through may be removed from the game. Ramming actions add ST(+4) to the autohit against the target model.</description>
+            </rule>
+          </rules>
           <infoLinks>
             <infoLink id="4503-df70-989c-45ba" name="Bergstahl Stonecleaver LMG" hidden="false" targetId="5ae3-8837-857b-31f6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2d4d-53f9-96d5-6f4e" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6958,30 +6957,8 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
     </selectionEntry>
     <selectionEntry id="2f92-e881-b1ea-2418" name="T-32 Wolfclaw JBT" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules>
-        <rule id="0d39-9ffb-4f00-90c4" name="“Mancutter” Clearing Blade" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Any Difficult Terrain that is 3”x3”x3” or smaller that this model moves through may be removed from the game. Ramming actions add ST(+4) to the autohit against the target model.</description>
-        </rule>
-        <rule id="5ffd-af9b-aa0a-2d71" name="Sondereinsatzkommando" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each model may be used as an Open Transport (5) for Venusian Rangers. This does not make this model a Transport Type. Venusian Rangers may Embark for AP(0) and the Wolfclaw may disembark Venusian Rangers for AP(0).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="c0de-92e1-1482-386f" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <rules/>
+      <infoLinks/>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
@@ -7072,9 +7049,30 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
               </characteristics>
             </profile>
           </profiles>
-          <rules/>
+          <rules>
+            <rule id="5d8a-6ed1-d3b2-3577" name="Sondereinsatzkommando" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Each model may be used as an Open Transport (5) for Venusian Rangers. This does not make this model a Transport Type. Venusian Rangers may Embark for AP(0) and the Wolfclaw may disembark Venusian Rangers for AP(0).</description>
+            </rule>
+            <rule id="660a-d54c-5401-3042" name="“Mancutter” Clearing Blade" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any Difficult Terrain that is 3”x3”x3” or smaller that this model moves through may be removed from the game. Ramming actions add ST(+4) to the autohit against the target model.</description>
+            </rule>
+          </rules>
           <infoLinks>
             <infoLink id="4794-0abb-17ec-e273" name="Bergstahl Stonecleaver LMG" hidden="false" targetId="5ae3-8837-857b-31f6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="84b2-c032-e8de-0a62" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7221,30 +7219,46 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="2b97-4269-a95e-74aa" name="Doktrin" hidden="false" targetId="f775-41f3-7889-9e10" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
+          <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
-      <costs/>
+      <entryLinks>
+        <entryLink id="5f2b-d7a1-3b59-fc9b" name="Doktrin" hidden="false" targetId="f775-41f3-7889-9e10" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="949e-1c07-01dd-23d4" name="GBT-47 Kodiak Tank" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="75f2-a04b-6aea-99cf" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false">
@@ -7350,21 +7364,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
             </rule>
           </rules>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1550-44d5-3e0d-13b1" type="greaterThan"/>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7799-7eab-ccab-b996" type="greaterThan"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58e-ca6b-0585-cdd8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b409-6a08-2b30-9d8f" type="min"/>
@@ -7372,24 +7372,26 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="26b9-f876-2ec8-ce5e" name="Doktrin" hidden="false" targetId="e847-edf1-2fbe-5750" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
+          <entryLinks/>
           <costs>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="150.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
-      <costs/>
+      <entryLinks>
+        <entryLink id="976b-ab29-ca31-76cf" name="Doktrin" hidden="false" targetId="e847-edf1-2fbe-5750" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
