@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="20" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="21" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3448,7 +3448,9 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="064e-8fc8-0a9c-e334" name="Mirrormen" page="" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -15585,17 +15587,260 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="3951-da24-ade5-587b" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fc5a-260d-aae8-4a4c" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+          <selectionEntries>
+            <selectionEntry id="bdee-dcd6-46cf-4124" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="70e0-70c6-9373-b392" name="Cell Neogenesis Accelleration" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The model gains Heal (2).</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6602-0e2b-8764-d844" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dbe1-01c5-dea2-5f47" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="3d08-1b70-8d5d-f8b8" name="Dermal Mirror shards" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The model gains Camouflage (2).</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabb-59fb-1c3b-f860" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="967a-57e6-7ffd-734f" name="Filter Systems" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="373b-954e-03b7-d9a5" name="Filter Systems" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The model gains Gas Mask as Equipment.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e1e-7ec7-67e1-f9aa" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78b4-bfcd-283b-e39c" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="671b-f3b8-3b46-4cc0" name="Quadriplegic Retro-Enhancement" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The model gains Leap(4).</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3232-8578-5adc-b1c2" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="62ba-c1fe-e4fc-64c9" name="Hardware Upgrades" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afec-60fe-e8b2-ef14" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="866a-5c21-b4d5-64eb" name="SP(+1)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d4e-78a9-97d3-181d" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="93c5-048f-ba9a-2196" name="ST(+2)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c20a-a5b2-7e97-3fdb" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="dc9c-47c9-2566-9a52" name="A(+1)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afed-c653-d26b-4720" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="549a-52d6-a39d-efb6" name="CC(+2)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e24-253c-6558-ad48" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d2f2-5197-509a-e963" name="RS(+2)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9e0-54ef-e40e-a31c" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e27f-07b6-936b-4dfb" name="CON(+2)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0e-b8ab-1551-a82b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="853e-a461-2339-68d3" name="WP(+2)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa34-44b3-a886-c0fa" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4a3c-de44-8a64-086d" name="LD(+2)" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ac-a117-4983-f7b9" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -20857,7 +21102,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -20881,7 +21126,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -20905,7 +21150,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -20929,7 +21174,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -20953,7 +21198,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -20977,7 +21222,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -21001,7 +21246,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -21025,7 +21270,7 @@ A(+1).</description>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
               <repeats>
-                <repeat field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>

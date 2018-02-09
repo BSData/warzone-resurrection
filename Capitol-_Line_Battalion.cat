@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5b55-a7c9-a9f8-de85" name="Capitol- Line Battalion" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5b55-a7c9-a9f8-de85" name="Capitol- Line Battalion" revision="13" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -5623,7 +5623,9 @@ Smoke Bombardment.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -5942,7 +5944,15 @@ Smoke Bombardment.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="9049-edfd-ed73-edb9" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="34e9-7a80-072e-9632" name="John Baptiste" hidden="false" targetId="0363-58ea-b105-b777" type="selectionEntry">
       <profiles/>
