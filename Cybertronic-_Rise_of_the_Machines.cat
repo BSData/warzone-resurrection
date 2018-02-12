@@ -768,6 +768,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="44fe-e634-629f-30c4" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </entryLink>
     <entryLink id="6da0-4fbd-88f6-22bd" name="Opresseur Mk.I" hidden="false" targetId="58bf-35c7-abb5-df0e" type="selectionEntry">
