@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="15" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="16" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -5182,7 +5182,15 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="e491-a29e-3e66-6764" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ecb8-8c23-aea0-cacf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9e71-2572-572e-d8f5" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2a0e-20f4-e536-6cde" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e491-a29e-3e66-6764" type="min"/>

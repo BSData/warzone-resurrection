@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="22" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="23" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -11283,7 +11283,15 @@ models are placed B2B with him in his front facing and travel the full movement 
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="f8e3-e360-4b68-7a69" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ffb6-51f1-f713-0fae" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f84d-75c9-a336-ba5e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c58a-6e00-de4c-8c3d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f8e3-e360-4b68-7a69" type="min"/>
@@ -25694,9 +25702,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="753b-6563-9ad9-2ec1" name="Purifying Aura" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25726,9 +25732,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -25786,9 +25790,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -25846,9 +25848,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="621b-dcb4-ca3c-7312" name="Exorcise Wound" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25870,9 +25870,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="54bb-fbda-3f3d-aafb" name="Fortitude of the Penitent" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25894,9 +25892,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="2fd3-b470-46f8-bca6" name="Healing Hand" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25918,9 +25914,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="27b1-7b5c-4a1d-a04c" name="Hymn of Durand" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25942,9 +25936,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -26002,11 +25994,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
-            <selectionEntry id="1ba4-a0cf-9dd2-cff1" name="Levitation" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="1ba4-a0cf-9dd2-cff1" name="Ghost Form" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules>
                 <rule id="74d1-e224-b4a7-64f6" name="Levitation" hidden="false">
@@ -26026,9 +26016,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="ec6c-eefc-cda3-d72e" name="Striking" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26050,9 +26038,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -26110,9 +26096,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="15fc-1b20-b13a-ddf6" name="Might of Reckoning" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26134,9 +26118,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="7345-b73a-fb27-74ed" name="Sacred Supremacy" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26158,9 +26140,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
             <selectionEntry id="55e6-4deb-7f9b-87d2" name="Spiritual Resilience" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26182,9 +26162,7 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
