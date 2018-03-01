@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="23" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="24" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -16761,6 +16761,132 @@ A(+1).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c610-6995-7548-e098" name="Rob Yourstand" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2551-eecf-4e00-c65c" name="Rob Yourstand" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="21(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="35"/>
+          </characteristics>
+        </profile>
+        <profile id="bb4d-c866-e065-7e22" name="Silenced P-60 &quot;Punisher&quot; Handgun" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="HG"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Exploit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="18cd-9fd8-b68c-8419" name="Brazen Thief" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When engaged with an enemy Character and after successfully hitting in CC, instead of inflicting damage, this model may instead take one Resource of its choosing from the opponent. If this model is killed, return the Resource to the original owner. This ability may be used once per game.</description>
+        </rule>
+        <rule id="31f9-e23b-18a3-e2eb" name="For the Corporation" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This squad uses the army rules of its army commander.</description>
+        </rule>
+        <rule id="f7cc-d2fe-91f1-cbf3" name="Misdirection" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If engaged with an enemy model, make a WP test before making a Close Combat attack against that model. If successful, the first CC attack made this turn is an autohit, and at the end of the turn this model may make a Move action for AP(0) that is immune to free slashes.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d056-9626-1335-0f6f" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c017-361d-1ff7-4cbb" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4a64-ad77-54f3-406d" name="Espionage" hidden="false" targetId="9964-22c6-ef0c-0c9f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="40b6-6538-5287-c39a" name="Leap(6)" hidden="false" targetId="c086-06eb-8daf-f4c8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f40f-d30c-696a-5b7d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9474-8bb2-cef3-feec" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3b7d-273b-637b-7ff6" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9cc8-beb7-0a22-6cac" name="New CategoryLink" hidden="false" targetId="240e-01ec-bcac-b018" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="18ca-c552-70e5-54f4" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="35.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e892-61af-a7aa-8501" name="Ki Powers" hidden="false" collective="false">
@@ -25702,7 +25828,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="753b-6563-9ad9-2ec1" name="Purifying Aura" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25732,7 +25860,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -25790,7 +25920,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -25848,7 +25980,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="621b-dcb4-ca3c-7312" name="Exorcise Wound" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25870,7 +26004,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="54bb-fbda-3f3d-aafb" name="Fortitude of the Penitent" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25892,7 +26028,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2fd3-b470-46f8-bca6" name="Healing Hand" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25914,7 +26052,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="27b1-7b5c-4a1d-a04c" name="Hymn of Durand" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -25936,7 +26076,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -25994,7 +26136,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1ba4-a0cf-9dd2-cff1" name="Ghost Form" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26016,7 +26160,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ec6c-eefc-cda3-d72e" name="Striking" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26038,7 +26184,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -26096,7 +26244,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="15fc-1b20-b13a-ddf6" name="Might of Reckoning" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26118,7 +26268,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7345-b73a-fb27-74ed" name="Sacred Supremacy" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26140,7 +26292,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="55e6-4deb-7f9b-87d2" name="Spiritual Resilience" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -26162,7 +26316,9 @@ A(+1).</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -28130,6 +28286,13 @@ If a trap goes off and there are multiple targets, the trap´s owner chooses the
       <infoLinks/>
       <modifiers/>
       <description>RES(1): Once per turn during the (acting) squad commander’s activation place one Mirage Generator Mk.I permanent token within 2” of him. Every friendly non-vehicle model within 6” of the token gains A(+2) against ranged attacks. Each additional Mirage Generator in range of a model affected by a different one increases A(+1) to a maximum of (+5). Models inside the affected area count as having Gas Masks.</description>
+    </rule>
+    <rule id="c086-06eb-8daf-f4c8" name="Leap(6)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Leap (X) – This model can be placed without any negative movement modifiers within (X) inches. This counts as a Walk action but cannot be used to pass impassable terrain higher than (X/2)” with a minimum of 2”.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
