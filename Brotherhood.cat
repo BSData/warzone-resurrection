@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="17" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -475,7 +475,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2ad5-0fcb-8c45-57f8" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+        <entryLink id="2ad5-0fcb-8c45-57f8" name="Army Commander" hidden="false" targetId="2fcd-edf9-c6cc-3af0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5508,190 +5508,6 @@ All friendly models in a squad that successfully wounds with one or more Psychic
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f56-e6a9-f877-1a8e" name="Valkyries" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules>
-        <rule id="9aab-4447-b8ad-481e" name="Bringers of Light" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Up to 1 squad of Valkyries may be taken in a Capitol, Bauhaus, Imperial: MOW, or Imperial: Wolfbane army as a Support Choice for (+2) PTS per Model. This squad has access to the normal squad options and Art powers.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="9797-d325-c0fa-249b" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1e40-e480-d721-f509" name="Hard to Hit(1)" hidden="false" targetId="8cb2-8f2a-2e91-5c42" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="aab6-78df-e69d-4e7d" name="Spear Strike" hidden="false" targetId="b4a5-4d9b-a833-ffe7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5155-a2d7-a669-e563" name="Valkyrie Deployment" hidden="false" targetId="e3e0-93fa-783a-17d5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0c15-a52c-df8f-c08b" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="6a5c-6ad6-72c4-e49e" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="618a-13b9-6586-4b33" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ae80-4fc2-f7a4-c43a" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0593-c794-6820-000a" name="Valkyries" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="c616-f441-1f5e-09bf" name="Valkyrie" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="15"/>
-              </characteristics>
-            </profile>
-            <profile id="e7e2-460c-a775-f4e9" name="Castigator Power Spear" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="37c7-c28e-424e-7c45" name="P60 Punisher Handgun" hidden="false" targetId="3f29-c718-8151-83f7" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04b3-d32e-b87e-07c2" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4af8-336f-b794-d287" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5657-4f5a-e9d5-ae86" name="AC-31 Cleansing Flamethrower" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="7227-f283-6a54-565f" name="AC-31 Cleansing Flamethrower" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="SFT"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F/CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="When used in Close Combat, this model ignores any hits from this weapon."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="9e8a-0c91-06e5-3155" value="2">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5f56-e6a9-f877-1a8e" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0593-c794-6820-000a" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e8a-0c91-06e5-3155" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="0b98-8b01-cdc9-9204" name="Art Powers" hidden="false" targetId="dfea-78ad-230c-8341" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2fcd-d570-297b-5cf8" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="524b-c833-27f6-c944" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ce5a-a8e2-a121-b99a" name="Sebastian Crenshaw" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3769-fba4-f1a0-37f3" name="Sebastian Crenshaw" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
@@ -6107,6 +5923,62 @@ All friendly models in a squad that successfully wounds with one or more Psychic
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="2f99-f1d5-2b2f-2f9f" name="Valkyries" hidden="false" targetId="012f-bfd7-83e6-8ee3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="00bc-fec5-77ba-1273" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ec3b-29ef-2c3a-06fa" name="Valkyries" hidden="true" targetId="012f-bfd7-83e6-8ee3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2fcd-edf9-c6cc-3af0" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="4f93-16b1-3508-ac2b" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2fcd-edf9-c6cc-3af0" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="645b-adc7-9bb9-5d5e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f93-16b1-3508-ac2b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8371-43f2-b233-a535" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c961-e6fd-4dcd-a3d7" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -6904,6 +6776,215 @@ All friendly models in a squad that successfully wounds with one or more Psychic
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2fcd-edf9-c6cc-3af0" name="Army Commander" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="df8e-2f3a-8943-1847" name="Leader(2/Valkyries)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="967c-73bb-73ff-8f0c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b9e2-510a-5fdc-0710" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="012f-bfd7-83e6-8ee3" name="Valkyries" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="f6b1-9556-e4b7-2525" name="Bringers of Light" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Up to 1 squad of Valkyries may be taken in a Capitol, Bauhaus, Imperial: MOW, or Imperial: Wolfbane army as a Support Choice for (+2) PTS per Model. This squad has access to the normal squad options and Art powers.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8e95-a077-7585-7f6d" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e7e4-a509-21b0-8e05" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9efe-1f7b-bb5a-00aa" name="Spear Strike" hidden="false" targetId="b4a5-4d9b-a833-ffe7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="74ed-6ba6-c1db-5830" name="Valkyrie Deployment" hidden="false" targetId="e3e0-93fa-783a-17d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b948-6f39-d3a8-fa91" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="595c-3e2b-76ea-6fe6" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a566-b435-548e-8e49" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="68c7-8341-7a40-83fd" name="Valkyries" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="b7f1-baf7-2b49-2cf4" name="Valkyrie" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/4"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="13"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10&quot;"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="15"/>
+              </characteristics>
+            </profile>
+            <profile id="502d-99dd-770a-a5e4" name="Castigator Power Spear" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="da6c-d43e-b363-bffb" name="P60 Punisher Handgun" hidden="false" targetId="3f29-c718-8151-83f7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b9-8cc9-5de8-3944" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86ed-9d00-c210-a918" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2138-e70a-01d8-4e8e" name="AC-31 Cleansing Flamethrower" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="be3e-567e-3cea-9570" name="AC-31 Cleansing Flamethrower" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="SFT"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F/CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="When used in Close Combat, this model ignores any hits from this weapon."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="e7fd-79f4-8d34-f1d9" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="012f-bfd7-83e6-8ee3" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="68c7-8341-7a40-83fd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7fd-79f4-8d34-f1d9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0389-663d-b94c-b007" name="Art Powers" hidden="false" targetId="dfea-78ad-230c-8341" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="70c8-6ce8-e5c0-5d59" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2434-4bd2-1c3c-9d0e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="15" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="16" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c534-748b-2fea-1be3" name="Military Heirarchy" hidden="false">
@@ -4391,7 +4391,15 @@ All Traps have 3 attributes:
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="0c67-8513-e44a-5e40" name="New CategoryLink" hidden="false" targetId="96ae-f0ce-a737-564d" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
         </entryLink>
         <entryLink id="c13f-ea5f-d5b2-5de4" name="Medals of Honor" hidden="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
           <profiles/>
@@ -4795,7 +4803,15 @@ All Traps have 3 attributes:
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="4f9f-a602-ccb9-4669" name="New CategoryLink" hidden="false" targetId="96ae-f0ce-a737-564d" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
         </entryLink>
         <entryLink id="5204-661e-0add-64e3" name="Medals of Honor" hidden="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
           <profiles/>

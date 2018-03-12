@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="24" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="25" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -191,35 +191,42 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="535d-cd4a-ce1e-a8e1" name="Art of Mentalism" hidden="false">
+    <categoryEntry id="535d-cd4a-ce1e-a8e1" name="Art of Mentalism" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="e823-907c-7f0d-755d" name="Art of Kinetics" hidden="false">
+    <categoryEntry id="e823-907c-7f0d-755d" name="Art of Kinetics" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="bee5-5d00-2292-c95e" name="Art of Elements" hidden="false">
+    <categoryEntry id="bee5-5d00-2292-c95e" name="Art of Elements" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="03d4-ecab-4846-42e6" name="Art of Changeling" hidden="false">
+    <categoryEntry id="03d4-ecab-4846-42e6" name="Art of Changeling" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="10d8-fc94-6145-4119" name="Art of Exorcism" hidden="false">
+    <categoryEntry id="10d8-fc94-6145-4119" name="Art of Exorcism" hidden="true">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="96ae-f0ce-a737-564d" name="Lose Doomtrooper" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -466,7 +473,7 @@
             </modifier>
             <modifier type="increment" field="9b60-5a78-9072-a233" value="1">
               <repeats>
-                <repeat field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4338-a89f-9b9e-92a2" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="a0eb-bdb5-0f40-3b6d" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4338-a89f-9b9e-92a2" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -690,7 +697,7 @@
             </modifier>
             <modifier type="increment" field="85d0-4e59-2ee0-5e0b" value="1">
               <repeats>
-                <repeat field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4338-a89f-9b9e-92a2" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="a0eb-bdb5-0f40-3b6d" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4338-a89f-9b9e-92a2" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -1700,7 +1707,64 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3768-6078-db80-1336" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a3c-de44-8a64-086d" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f414-0e71-0fad-08da" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="579a-7bbd-a6e5-2e8f" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="431b-3260-c50e-5c8e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c936-c3d2-be0d-8998" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f927-63b8-5afd-6ce1" value="20">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c04-ff59-77bb-344e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="14/0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
                 <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="12/0"/>
@@ -1741,7 +1805,29 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0441-24e9-1f1c-b027" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="7b46-4c5a-4616-884e" name="Enhanced Mirage Generator Mk. I" hidden="false" targetId="2823-9938-4aab-61f2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0441-24e9-1f1c-b027" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
           </infoLinks>
           <modifiers/>
@@ -1857,13 +1943,231 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="3efe-e419-de92-964a" name="Cybertronic Upgrade(1 Free)" book="" hidden="true" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="400b-61e9-71a2-3d8d" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84c8-ae57-ef2c-36c4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c935-a560-ff47-bc60" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="073a-7199-7a79-6b13" name="Hardware Upgrades" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="8c58-7bc9-f3d2-ca34" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="f169-5763-9e43-b0f1" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="40a5-a3cf-9394-74c6" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="a003-fb08-ed5c-6f44" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="64d2-409a-0dcb-b699" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8fa1-e699-08d6-ac2c" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0dcc-df76-46c7-4df2" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="8c9b-dc83-5dc0-fafa" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="86c1-9d9c-9707-1f0f" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c978-bcac-c017-733b" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="26e9-5cfa-b0ab-321c" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6572-ddae-1521-0dd3" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2286-5d5d-8598-9c6c" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e707-addc-5d0a-d055" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e14e-bce8-5027-30b1" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="129d-0cf8-0126-255a" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="99ad-fe99-5948-a35c" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5447-fb05-d4fe-56df" name="Weapons Overhaul" hidden="false" targetId="f594-0588-68cd-835c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c51e-64c5-0cc4-bba5" name="Cybertronic Upgrades" hidden="false" targetId="1852-843d-6339-6ae6" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="6241-fb4f-d372-d68f" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="8581-c041-fa19-f653" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3efe-e419-de92-964a" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6241-fb4f-d372-d68f" type="max"/>
           </constraints>
@@ -2282,11 +2586,26 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-5d2b-c36d-3ad6" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad0a-b36c-b60e-c317" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e037-5697-20b3-aa48" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9b0c-159b-6eb1-d78d" type="greaterThan"/>
               </conditions>
-              <conditionGroups/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96ae-f0ce-a737-564d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-5d2b-c36d-3ad6" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96ae-f0ce-a737-564d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-5d2b-c36d-3ad6" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -2619,7 +2938,64 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3768-6078-db80-1336" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9efe-5c69-9a0a-394f" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f414-0e71-0fad-08da" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="431b-3260-c50e-5c8e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="579a-7bbd-a6e5-2e8f" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c936-c3d2-be0d-8998" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f927-63b8-5afd-6ce1" value="27">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c04-ff59-77bb-344e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="15/1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0c51-5244-7098-4d9d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
                 <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="13/1"/>
@@ -2694,6 +3070,34 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
               <infoLinks/>
               <modifiers/>
             </infoLink>
+            <infoLink id="e233-189d-7914-69e1" name="Fearless(1)" hidden="false" targetId="7a31-2091-c190-5d4e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e387-b2a8-59c2-5454" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="37a1-8ead-193a-33c7" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e387-b2a8-59c2-5454" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <modifiers/>
           <constraints>
@@ -2736,7 +3140,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
             <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e739-8d81-9cdc-8e73" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c6a-487d-c6c7-db98" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2744,6 +3148,254 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="970b-017a-1e1c-f4f1" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d589-7bed-a338-bf69" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ef2c-079d-171b-3ee0" name="Dr. Diana Neoclone" page="161" hidden="true" collective="false" type="model">
+          <profiles>
+            <profile id="2a8b-9d3c-ab75-0a1d" name="Dr. Diana Neoclone" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4959-aeeb-0687-dafe" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b12f-ff0e-4ca1-6f42" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ce5f-3e9d-5802-708b" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7c13-ec67-9100-dda0" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a948-304e-1770-df7e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2a28-43dc-25f6-7f92" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="13/1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="413a-1cb8-0e42-00f0" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f927-63b8-5afd-6ce1" value="27">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ef2c-079d-171b-3ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bbc3-06cb-afb0-7863" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="11/1"/>
+                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="12"/>
+                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
+                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
+                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
+                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
+                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
+                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="26"/>
+                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="15"/>
+              </characteristics>
+            </profile>
+            <profile id="ea6b-f63b-d15b-acf7" name="Auto-Injector Mk.0" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Armour-Piercing(2), RES(1): ST(2), Deadly, Poison"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="5342-d758-c24d-99c6" name="Advanced Medical Protocol" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Troop type models in this model´s squad gains Heal (+4).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="924b-1592-5a88-2b0b" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="e740-4fc9-f0bd-bc9d" name="Oh, She&apos;s Lovely" hidden="false" targetId="d774-240a-40cc-2394" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f476-58bc-29d6-ea69" name="Power Blink" hidden="false" targetId="ea7b-74d5-ab9a-a2dc" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6d33-295c-edd9-c18c" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f30e-b3bf-2b1e-2089" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7780-436d-166f-ab80" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1eba-c0fe-2bdb-b361" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e387-b2a8-59c2-5454" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a88-70a0-ed2a-b9b3" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="7fea-e62c-7a24-f7ac" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="ce20-7952-dcbb-8578" name="Advisor" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2aa-9239-a98b-97c4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e945-8634-449f-543e" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="9473-eb6c-9cd0-0b68" name="Cybertronic Upgrades" hidden="false" targetId="5d98-f0ec-51ee-208c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3119-6b50-477a-c15a" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c87-7d62-5bc4-27fb" name="Anti Vehicle Grenades" hidden="true" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d072-288b-bfcc-af16" name="Anti Vehicle Grenades" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(8)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+              <repeats>
+                <repeat field="selections" scope="0c51-5244-7098-4d9d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42fd-0f9b-073a-de8e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e387-b2a8-59c2-5454" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2a0-558f-24aa-1073" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -2841,7 +3493,15 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e387-b2a8-59c2-5454" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2850,7 +3510,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48c1-b5d7-2f3d-c373" name="Opresseur Mk.I" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="48c1-b5d7-2f3d-c373" name="Opresseur Mk.I" page="" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="47e2-4b73-efc3-1e32" name="Opresseur Mk.I" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
           <profiles/>
@@ -2949,7 +3609,22 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0ab-0685-332d-e2d2" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="18bd-6ea2-9e20-d9df" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e387-b2a8-59c2-5454" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4579-e52c-8438-fdd6" type="max"/>
       </constraints>
@@ -2994,3486 +3669,70 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58bf-35c7-abb5-df0e" name="Opresseur Mk.I" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="a08e-9675-a1b8-1ca2" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="a7f7-baa8-ba94-5f0a" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ed80-a624-5928-a59a" name="Opresseur Mk.I" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="d6b3-3f03-3936-c0ca" name="Opresseur Mk.I" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="9/0"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="14"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/2"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/2"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/3"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="29/2"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="2"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="50"/>
-              </characteristics>
-            </profile>
-            <profile id="bccb-c074-32f4-c2f3" name="Riot Control Device" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/SE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="2"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Gas, Weapon Mode(Anit-Personnel/ Smoke), Place a temporary token where the Grenade hits. Any model ending its activation within 3&quot; of the token receives a ST(2) Gas autohit."/>
-              </characteristics>
-            </profile>
-            <profile id="8905-f1e2-06e7-9155" name="Riot Control Device(Smoke)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/SE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="-"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Smoke"/>
-              </characteristics>
-            </profile>
-            <profile id="7313-7244-83ff-55ad" name="Riot Control Device(Anti-Personnel)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/LE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-            <profile id="cf9d-2377-7c70-7eb6" name="Tazerator" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="-"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="dd61-9dbc-4420-74a5" name="Proximity Alarm" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any enemy model deploying or redeploying within 8” from this model must pass a CON test. If failed, the model immediately receives a stun effect.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="8f9c-97dc-6b48-faf3" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="ba19-560b-3391-66f1" name="Receiver" hidden="false" targetId="d423-d31e-ab1a-f2b3" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071e-9dd9-a841-14ec" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e75-c473-7956-7a51" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9633-c1c5-50d6-b922" name="Machinators Mk.IX" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5dcd-bc46-8397-5c53" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="eabf-c94a-0561-2ec1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="fdf8-42a8-9353-52a6" name="Machinators Mk.IX" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="7d7f-367e-2500-9f7c" name="Machinator Mk.IX" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="12/0"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="11"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="11"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="12"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="9"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="19"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="11"/>
-              </characteristics>
-            </profile>
-            <profile id="1d6e-6959-87a0-ca9f" name="Arm-Mounted P1000" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="HG"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-            <profile id="8966-2d2c-d473-073d" name="Electric Stun-Baton" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+1"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(4)"/>
-              </characteristics>
-            </profile>
-            <profile id="ad41-b680-82f2-7883" name="Machinators Mk.IX" hidden="false" profileTypeId="7225-7dbb-bfa5-5cbb" profileTypeName="Shield">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="+ARM" characteristicTypeId="6758-24d0-9c9d-2ed4" value="4"/>
-                <characteristic name="+DEF" characteristicTypeId="b603-6489-772a-c092" value="1"/>
-                <characteristic name="RULES" characteristicTypeId="f03f-1c6a-5b9c-49f8"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="b84b-c923-25c7-fe12" name="Core-Powered Weapons" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>You may modify the model’s close combat weapon´s ST(+4).The Model takes a ST(9) autohit (on its rear arc) at the end of its activation.</description>
-            </rule>
-            <rule id="3191-d945-16b9-6538" name="Mass Produced" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This model cannot take any Cybertronic Enhancements, except Hardware Upgrades.</description>
-            </rule>
-            <rule id="0cbe-be2b-273a-168d" name="Overclock" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1): All Machinator Mk.IX in this squad gain SP(+1), but take a ST(2) autohit from the rear at the end of their activation.</description>
-            </rule>
-            <rule id="b4cc-e947-9358-1d0f" name="Simple AI" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This squad cannot be joined by any other model except an Oppresseur Mk.I.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="7812-43b7-5813-9bfc" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="1ee5-da7d-7a92-ddd5" name="Receiver" hidden="false" targetId="d423-d31e-ab1a-f2b3" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7150-11d7-4c2f-5793" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ea-e9d2-6b7f-f47c" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="11.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f91f-aa8c-180c-2628" name="CAW1800 SMG" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="94bf-6bc1-120b-9220" name="CAW1800 SMG" hidden="false" targetId="d338-347d-bd17-55bb" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="increment" field="b675-1958-8295-3b11" value="1">
-              <repeats>
-                <repeat field="selections" scope="9633-c1c5-50d6-b922" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fdf8-42a8-9353-52a6" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b675-1958-8295-3b11" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="04f6-bc0d-cb7a-a85d" name="Opresseur Mk.I" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="89de-91bc-d619-24c8" name="Opresseur Mk.I" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="9/0"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="14"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/2"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/2"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/3"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="29/2"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="2"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="50"/>
-              </characteristics>
-            </profile>
-            <profile id="a39a-f876-fbc4-7741" name="Riot Control Device" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/SE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="2"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Gas, Weapon Mode(Anit-Personnel/ Smoke), Place a temporary token where the Grenade hits. Any model ending its activation within 3&quot; of the token receives a ST(2) Gas autohit."/>
-              </characteristics>
-            </profile>
-            <profile id="d2d1-dee4-86bd-061f" name="Riot Control Device(Smoke)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/SE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="-"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Smoke"/>
-              </characteristics>
-            </profile>
-            <profile id="360d-06b8-fbfd-60cb" name="Riot Control Device(Anti-Personnel)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/LE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-            <profile id="b844-c50a-c934-548c" name="Tazerator" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="-"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="2bf8-d3e3-d17f-9a5b" name="Proximity Alarm" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any enemy model deploying or redeploying within 8” from this model must pass a CON test. If failed, the model immediately receives a stun effect.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="9827-8cc3-1c76-3ae9" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="3b05-6e81-b809-6115" name="Receiver" hidden="false" targetId="d423-d31e-ab1a-f2b3" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3333-f23a-58aa-d272" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="e60a-4c9a-c3c2-f357" name="Advisor" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba5-6ed2-7ce2-a21a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="250c-07b5-a205-c52e" type="min"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="40.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="a849-ced0-9bd5-471d" name="Hardware Upgrades" hidden="false" targetId="904b-4990-ea1c-a079" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="064e-8fc8-0a9c-e334" name="Mirrormen" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="f98c-1794-6c54-3bb0" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="df13-d357-f83d-d61a" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f266-c91c-5933-e121" name="Mirrormen" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="3e9b-a4ef-82cf-c71e" name="Mirrorman" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/3"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="23"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="11&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="18"/>
-              </characteristics>
-            </profile>
-            <profile id="f6a3-2832-53e2-74af" name="CSA400 Sword" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions/>
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4ec-2109-1bab-73dc" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4ec-2109-1bab-73dc" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4ec-2109-1bab-73dc" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4ec-2109-1bab-73dc" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="7.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4ec-2109-1bab-73dc" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-                            <condition field="selections" scope="064e-8fc8-0a9c-e334" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4ec-2109-1bab-73dc" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="480a-d163-7468-c877" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="911a-b814-81e5-4536" name="Camouflaged Suit" hidden="false" targetId="d688-f7fd-9055-6654" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="55e3-02b8-8df5-b825" name="Disorientating Reflection" hidden="false" targetId="b4f3-aa27-29d2-3a69" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="d3d7-3ea6-4a6e-c457" name="Poster Boys" hidden="false" targetId="1460-687b-8e31-9da8" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="f06a-582b-c704-f4eb" name="Chrome-Mirrored Suit" hidden="false" targetId="75cc-7fff-d54f-5e99" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="9621-bfc4-b797-9b33" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="064e-8fc8-0a9c-e334" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3d6-817b-bf71-7b9c" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </infoLink>
-            <infoLink id="41ea-b2c2-b022-3388" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="a35b-011e-9be6-30b0" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="f121-9e2e-5a21-5fc8" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="e4b9-f324-8509-fb4c" name="Paired Weapons(CC/HG)" hidden="false" targetId="3cee-077d-9c75-2399" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3cd-5c12-c2d0-95cc" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc57-32a5-0054-db76" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="18.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e4ec-2109-1bab-73dc" name="CSA404 Heat Sword" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="ef1b-4d13-0392-aa0d" name="CSA404 Heat Sword" hidden="false" targetId="d7ad-616c-4ab1-de2b" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="increment" field="cd09-ade9-ef79-d150" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd09-ade9-ef79-d150" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bf4b-048a-7718-a063" name="Infiltrate" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="064e-8fc8-0a9c-e334" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3d6-817b-bf71-7b9c" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e85a-1f7e-fd12-ccbd" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="47ff-d69e-a53d-9611" name="Cybertronic Upgrades" hidden="false" targetId="1852-843d-6339-6ae6" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="d3d6-817b-bf71-7b9c" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="064e-8fc8-0a9c-e334" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf4b-048a-7718-a063" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3a7f-d4cf-87b2-5193" name="Cuirassiers &apos;Atilla&apos; Mk.III" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="924c-45a7-9cc3-2a84" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="8d86-6290-83d6-7ae9" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="eca7-4275-799e-0655" name="Cuirassier &apos;Atilla&apos; Mk. III" hidden="false" collective="false" type="model">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d6ec-2dc5-c0bc-2798" name="Cuirassier" hidden="false" targetId="8b34-aa97-b1b2-f4e3" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="34c1-9f53-e27f-5ba5" name="CAW2500 Enhanced SMG" hidden="false" targetId="50a2-b1ff-a513-1a60" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="15c4-74f5-508e-a8ba" name="CAW2500 Enhanced SMG(Hypervelocity Ammo)" hidden="false" targetId="3979-2809-9096-172c" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="7140-9809-ff4e-1377" name="Cybernetic Fist" hidden="false" targetId="ad25-0cb4-e34f-4e91" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="a73c-6bb9-8f42-2e21" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="0cfc-51a1-cf8f-218a" name="Receiver" hidden="false" targetId="d423-d31e-ab1a-f2b3" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="0c81-880b-1a75-ad43" name="Ultrasonic Resonation" hidden="false" targetId="7a05-2e67-c868-33bc" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="65ad-4d6f-12a2-15d0" name="Regeneration(10)" hidden="false" targetId="c2e5-e2d4-4548-101a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="4351-6d03-86c8-9938" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="73da-eb11-4ef9-76f1" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdb5-99ff-b150-fac1" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dec9-da3d-7c05-724f" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="f744-0859-c60e-a08e" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9bee-51a5-0a70-afb3" name="Cybertronic Upgrades" hidden="false" targetId="18de-c154-3c3f-67fd" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f669-c13e-228a-4cf5" name="Enhanced Machinators" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="c87d-7b1c-0098-3f42" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="2630-11ed-c159-cbec" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="7e34-90cb-f20d-ff8f" name="Enhanced Machinators" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="cd71-377e-4117-04c2" name="Enhanced Machinator" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="13/1"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="14"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="14"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="10"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="45"/>
-              </characteristics>
-            </profile>
-            <profile id="98b5-85de-293c-04ef" name="AR3501 &apos;Striker&apos; Assault Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions/>
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54c9-9ed1-6512-ab8e" type="equalTo"/>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e34-90cb-f20d-ff8f" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e34-90cb-f20d-ff8f" type="equalTo"/>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54c9-9ed1-6512-ab8e" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e34-90cb-f20d-ff8f" type="equalTo"/>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54c9-9ed1-6512-ab8e" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54c9-9ed1-6512-ab8e" type="equalTo"/>
-                            <condition field="selections" scope="f669-c13e-228a-4cf5" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e34-90cb-f20d-ff8f" type="equalTo"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="38b1-e37a-e5e0-ee21" name="Predatory Leap" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1): All Enhanced Machinators in this Squad are able to move over any terrain equal to or less than 4“ high (including Impassable) with no penalties.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="c8a4-3ddf-6c0e-7dff" name="Cybernetic Fist" hidden="false" targetId="ad25-0cb4-e34f-4e91" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="1fa8-4ac4-fbc8-dd9e" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="bea4-f136-b395-ea04" name="Receiver" hidden="false" targetId="d423-d31e-ab1a-f2b3" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="d505-45da-87cc-a4ae" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="f669-c13e-228a-4cf5" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8db8-edfe-cfaf-abcc" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </infoLink>
-            <infoLink id="fdd9-0a58-9425-dc24" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="8fed-9690-9811-b289" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="45ec-f5df-934f-711b" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="24e6-d9d6-f05b-6b4d" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="e1c3-44a7-321d-f2f3" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6228-4d65-8f4a-4dc4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="948c-9156-f845-42e7" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="54c9-9ed1-6512-ab8e" name="SSW4200P &apos;Supressor&apos; HMG" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="1071-584d-17d9-d5bd" name="SSW4200P &apos;Supressor&apos; HMG" hidden="false" targetId="511e-af02-006f-468f" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="increment" field="1e4e-fb1e-0cd9-6c6d" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7e34-90cb-f20d-ff8f" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e4e-fb1e-0cd9-6c6d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="8db8-edfe-cfaf-abcc" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0821-b9c7-3a55-1d90" name="Cybertronic Upgrades" hidden="false" targetId="18de-c154-3c3f-67fd" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6d2e-6f59-df90-4160" name="Scorpion" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="c7eb-2b9c-f39f-5311" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="7ac5-9d80-ccae-3b7c" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0791-1063-4fd6-841d" name="Scorpion" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="ec71-d862-61a2-46dd" name="Scorpion" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="7"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="13/1"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="12"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="2"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="90"/>
-              </characteristics>
-            </profile>
-            <profile id="1279-8cfd-8ab1-075d" name="RP12-19V Dart Cannon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="6"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Slow to Reload"/>
-              </characteristics>
-            </profile>
-            <profile id="775a-5d37-6574-dc6d" name="Pneumatic Claws" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+4"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Armour Piercing(5)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="0acf-5935-e102-172c" name="Avalanche" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(2): Paired Weapons (CAW2000, RP12-19v). This can be combined with “Binary Weapon Systems” for AP(2) total.</description>
-            </rule>
-            <rule id="c230-e63f-a2f3-cd5b" name="Unburrow" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This model´s deployment point for Rapid Deployment may be placed within open or difficult terrain. If this model scatters during Rapid Deployment, it only scatters half the rolled distance. If it scatters onto impassable terrain, off of the board or onto a model, reduce the scatter distance as much as needed to legally place it.</description>
-            </rule>
-            <rule id="0d18-2e13-d1c5-cc25" name="Underground Attack" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any enemy model within the CCWR of a Scorpion arriving via ‘Rapid Deployment’ receives a ST(13) autohit.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="6772-a107-57ac-9930" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="6d2e-6f59-df90-4160" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4349-fd55-eee6-842c" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </infoLink>
-            <infoLink id="78a5-2b33-9b72-d9b2" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="6d2e-6f59-df90-4160" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4349-fd55-eee6-842c" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </infoLink>
-            <infoLink id="d903-a381-1671-6147" name="CAW2000 &apos;Nailgun&apos; SMG" hidden="false" targetId="50e8-3881-c78c-5933" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="56f3-1370-61de-4d65" name="CAW2000 &apos;Nailgun&apos; SMG (UBS)" hidden="false" targetId="c535-3646-b6bf-186f" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="20d2-1b12-9b09-127b" name="Binary Weapon System" hidden="false" targetId="af45-1fde-871c-6e12" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="9a45-37ec-7eb5-6d27" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="7bdb-4a25-8068-57b4" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="e828-6846-cc8b-c464" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="7ae9-2d14-0660-c48b" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="d4ce-5928-9191-9bce" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb8d-e51a-1256-0440" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7424-3163-506b-4657" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="90.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="e709-42eb-f6ed-b6fd" name="Cybertronic Upgrades" hidden="false" targetId="cbd6-75c7-0c50-3fe1" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4349-fd55-eee6-842c" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="50c1-07e6-af49-2911" name="Exterminateur &apos;Atilla&apos; Mk.I" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="f928-2b2b-9b25-6dad" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="8752-f05c-3f2e-0892" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="869c-3e3a-1df9-885a" name="Exterminateur &apos;Atilla&apos; Mk.I" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="db18-47da-f932-7595" name="Exterminateur &apos;Atilla&apos; Mk.I" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="5"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="13/1"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="14"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="18"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="28/3"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="28/3"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="29/4"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="2"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="135"/>
-              </characteristics>
-            </profile>
-            <profile id="6708-9641-fac0-da16" name="SSW4200A HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H,R"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(3)"/>
-              </characteristics>
-            </profile>
-            <profile id="e01a-4215-3700-edd4" name="Head Butt" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(3)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="86ab-59c6-baed-894b" name="Power Cell Discharge" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1): Each other model within 6” receives a ST(15) autohit. At the end of this model´s activation, roll a D20. On a roll of 1-10 this model loses W(2) from its Core Location.</description>
-            </rule>
-            <rule id="5cba-3b29-8cd3-419b" name="Ultrasonic Resonation Device" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The range of the Ultrasonic Resonation ability skill for friendly Cuirassier ‘Attila’ MK.III is increased to 24”.</description>
-            </rule>
-            <rule id="a080-c147-a079-590a" name="Overcharge" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1). You may increase the SSW4200A HMG ROA by up to 3. For each ROA increased by Overcharge, this model receives a ST(14) autohit on its Core location.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="5b95-3b1c-b822-7ef8" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="f9c3-26fe-4909-cb23" name="Repair(8)" hidden="false" targetId="c485-bbf9-ed33-4afc" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4c6-b701-bae3-02db" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e5e-79ee-39f3-ecf8" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="135.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5bf7-459a-ba1a-d45d" name="Eradicator Death Droid" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="6a1a-402c-5374-9f68" name="Eradicator Death Droid" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="6"/>
-            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="15/2"/>
-            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="15"/>
-            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="16"/>
-            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="17"/>
-            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="29/4"/>
-            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="29/4"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="29/4"/>
-            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="30/4"/>
-            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
-            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="15&quot;"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="160"/>
-          </characteristics>
-        </profile>
-        <profile id="127a-6377-7f10-6c68" name="Magmascorcher" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24/LE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6), Critical Force(2), Weapon Mode(Flamethrower)"/>
-          </characteristics>
-        </profile>
-        <profile id="9bff-17d6-adc1-24b1" name="Magmascorcher(Flamethrower)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="FT"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="FT"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6)"/>
-          </characteristics>
-        </profile>
-        <profile id="e18c-2be6-9d58-d0cf" name="SSW6000 Rocket Launcher" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="8"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="ML"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Weapon Mode(Blast Mode)"/>
-          </characteristics>
-        </profile>
-        <profile id="6d8f-e41d-fe12-7efa" name="SSW6000 Rocket Launcher(Blast Mode)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="6-24/SE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="ML"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-          </characteristics>
-        </profile>
-        <profile id="83f4-084b-2ccd-291a" name="Gigadeath Chainripper" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="3"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(8), Critical Force(2)"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="914b-1108-a958-995a" name="Don&apos;t Make it Angry" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Any non-vehicle model without Target Sense that attempts to make a ranged attack against this model must pass a LD test at LD(-2), or else lose the AP.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="472d-efe2-8dc2-1e11" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b593-25dd-640c-3bce" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d30-5942-ef9e-a652" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="0a65-5bc1-aa9f-6054" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5604-2fa4-f807-98c4" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="6765-aefe-7cbd-f9ea" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="160.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="68d5-a604-7710-c084" name="Eradicator Death Droids" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="1466-34ea-e3c9-c20a" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ba52-8810-1a08-e00b" name="New CategoryLink" hidden="false" targetId="e389-b9f1-21c2-115c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5fc5-4b6c-4004-a241" name="Eradicator Death Droid" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="eaa3-1452-1a7d-6bc9" name="Eradicator Death Droid" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="6"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="15/2"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="15"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="16"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="17"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="29/4"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="29/4"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="29/4"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="30/4"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="15&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="160"/>
-              </characteristics>
-            </profile>
-            <profile id="a5a7-1648-9743-6586" name="Magmascorcher" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24/LE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6), Critical Force(2), Weapon Mode(Flamethrower)"/>
-              </characteristics>
-            </profile>
-            <profile id="90f5-086a-3ace-dae6" name="Magmascorcher(Flamethrower)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="FT"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="FT"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6)"/>
-              </characteristics>
-            </profile>
-            <profile id="afea-6fea-5111-14f7" name="SSW6000 Rocket Launcher" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="8"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="ML"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Weapon Mode(Blast Mode)"/>
-              </characteristics>
-            </profile>
-            <profile id="e1d1-e0b0-5915-d332" name="SSW6000 Rocket Launcher(Blast Mode)" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="6-24/SE"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="ML"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-            <profile id="8f0e-489e-4595-4350" name="Gigadeath Chainripper" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="3"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(8), Critical Force(2)"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="8892-b1d4-6287-ee32" name="Don&apos;t Make it Angry" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any non-vehicle model without Target Sense that attempts to make a ranged attack against this model must pass a LD test at LD(-2), or else lose the AP.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="cafc-d6ab-0a97-7eaa" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="ad1b-13df-5e86-9267" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdc2-0280-5abc-b638" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d33-2082-8a51-08bc" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="160.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9b1b-9cec-07d5-8bab" name="Voltigeur" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5a55-dd12-49ae-8bdf" name="Voltigeur" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="6"/>
-            <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="12/1"/>
-            <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
-            <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="14"/>
-            <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="16"/>
-            <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/5"/>
-            <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/2"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/4"/>
-            <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
-            <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
-            <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
-            <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="15&quot;"/>
-            <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="110"/>
-          </characteristics>
-        </profile>
-        <profile id="5740-81bb-f0ca-99bb" name="LVSW 1200" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="30"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H/R"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6)"/>
-          </characteristics>
-        </profile>
-        <profile id="ed1f-bcfb-0bcf-7b56" name="Vehicle Repair Tools" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(3), Concussive(2)"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="f0ac-8a27-c0ee-e15d" name="Repurposed Alloys" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>At the beginning of this model´s activation, it may attempt to repair a vehicle (including itself) within 6”. On a D20 roll of 1-8, that vehicle regains W(1) in the location of your choice.</description>
-        </rule>
-        <rule id="b58c-a362-46bd-80e5" name="Release the Drones" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>AP(1): If the Voltigeur has more than 2 Hull W, it may release up to 4 Drones but suffers W(1) on its hull location afterwards. Place the Drones in B2B to the Voltigeur. On the turn they are released, the Drones must be activated immediately after the Voltigeur, and begin their activation with AP(1). No more than 4 drones per Voltigeur can be in play at any one time.</description>
-        </rule>
-        <rule id="cb7f-c27b-ff66-c341" name="Targeting System" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(1): This model gains RS(+2)</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="43cb-45b1-705f-3616" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2292-f463-0969-7468" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="8ec8-6fb1-6e7f-bc20" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="954a-c904-770d-8cd5" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="02a9-2069-3133-182e" name="Drones" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="4c9f-04ab-a50b-680b" name="Drones" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="8"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="8/0"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="8"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="6"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="18"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="-"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="92ef-701a-321f-7983" name="BMB-42 Obliteration Device" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1): At the end of this models activation, you may choose to trigger the device. Centre a SE template over the drone. All models within the template receive a ST(12) autohit. Remove the drone afterwards.</description>
-            </rule>
-            <rule id="032c-f9e7-fd7c-c4f4" name="D.I.G. Protocol" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Remove the Drone model to remove any token within 1” of the drone.</description>
-            </rule>
-            <rule id="1b47-c5f5-8910-0fb9" name="Voltigeur Squad" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The Voltigeur and its Drones count a Squad, with the Voltigeur as the Squad Commander. Drones have 0 Body Count Value. If the Voltigeur is removed from play, so are its Drones.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="326c-fb0d-bf6f-6601" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ac-7a3c-b3fa-b053" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="110.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7c70-9f05-6107-e7a8" name="The Immortal" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="066e-6b13-788a-3721" name="The Immortal" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="16/2"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="17"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="12"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="15"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="18"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="18"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="5"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="25(12)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="145"/>
-          </characteristics>
-        </profile>
-        <profile id="fe43-b82a-210d-af99" name="RB12-19A" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="26"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Weapon Mode(Plasma Flamer), Slow to Reload, For every model hit by this weapon, choose any model within 5&quot; of that model to receive a ST(10) autohit."/>
-          </characteristics>
-        </profile>
-        <profile id="77d9-ab4e-346b-fc7f" name="Plasma Flamer" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="FT"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="F"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-          </characteristics>
-        </profile>
-        <profile id="9a11-3532-a90c-d7b9" name="Servomotor Fist" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="a5a6-d6a9-82f4-d9a2" name="Electric Feedback Generator" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each model that causes a hit against this model in a Close Combat action receives a ST(11) autohit at the end of the action.</description>
-        </rule>
-        <rule id="ea4b-113d-a3d6-46ea" name="The HQ" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(X): (X) is the current turn number. Spend AP(1) to nominate one friendly squad within 12”. The new squad is activated directly after the character’s activation ends unless the squad has already been activated this game turn. This cannot be done in a turn where the character attaches to a squad.</description>
-        </rule>
-        <rule id="d5a7-178e-cb17-5a04" name="Mirage Generator Mk.0" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(1); Place one Mirage generator MK.0 permanent token within 2” of this model. Every friendly non-vehicle model within 3” of the token gains A(+3) against ranged attacks. Each additional Mirage Generator in range of a model affected by a different one increases A(+1) to a maximum of (+5).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="a513-fffb-9f9b-11c3" name="Power Blink" hidden="false" targetId="ea7b-74d5-ab9a-a2dc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="87fd-ab66-380a-5dd8" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="34bb-00df-28c6-9e59" name="Enhanced Unblinking Eye" hidden="false" targetId="ce93-f9c7-c9e4-c0c5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4ac4-5e36-0217-c463" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5623-3939-8b5a-f06c" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7108-0f43-31f5-f817" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2712-ee54-1bb8-9214" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e0-5cac-1255-f21b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="6a30-78b3-cc6e-232b" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="f7ff-e5e6-ca7f-3e53" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="ffb7-ec10-108c-fbc7" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cda-d4ab-543b-2c1c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="ccb6-a367-bdc3-c3d8" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="145.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ecbb-7f33-71de-5d98" name="Everassur" page="" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="0272-6c9c-135e-181d" name="Everassur" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="13/2"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="16"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="11"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="13"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="115"/>
-          </characteristics>
-        </profile>
-        <profile id="d7a5-4440-6dcf-5a5f" name="STR3-X" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(5), Slow to Reload, Weapon Mode(Shooting Star)"/>
-          </characteristics>
-        </profile>
-        <profile id="43a9-94ef-5839-a15d" name="Shooting Star" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/LE"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="May be fired without LOS"/>
-          </characteristics>
-        </profile>
-        <profile id="7f79-1e55-9cb3-9065" name="Servomotor Fist" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(2), Concussive(4)"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="f348-45ab-6665-665a" name="Enhanced Unblinking Eye" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="0924-751c-eeb7-41a7" name="Fearless(5)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="ea07-2491-731d-c8fc" name="Ground Tremor Device" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(2) Place a temporary token within 18” and LOS of this model. Models of SZ(0) and (1) starting their activation within 3” of the token receive SP(-3) and receive a ST(8) autohit if they finish their activation within this zone.</description>
-        </rule>
-        <rule id="e0ae-c43e-d5dd-e8fa" name="Heal(3)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="fd38-6cc3-9dc7-6f0a" name="Everassur" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="587a-1684-1d74-2967" name="Pound the Earth" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(1): All other models of SZ(0) and (1) within 2” of this model automatically receive a ‘stun’ effect.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="3114-5c4d-38a4-9254" name="Controller" hidden="false" targetId="cd89-2bdd-e050-28d5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7e59-3ba3-9700-3a63" name="Power Blink" hidden="false" targetId="ea7b-74d5-ab9a-a2dc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="9527-5a34-b2c1-e570" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="7d95-2d0f-c909-1341" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="7b27-6846-d55a-642e" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="8887-095e-00ce-899f" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="115.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bbb1-a02a-9cfd-c3f9" name="Dr. Diana Neoclone" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="2a3e-40e0-4b17-2525" name="Dr. Diana Neoclone" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="11/1"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="12"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="19"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="15"/>
-          </characteristics>
-        </profile>
-        <profile id="def4-3553-ade7-00b1" name="Auto-Injector Mk.0" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Armour-Piercing(2), RES(1): ST(2), Deadly, Poison"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="8996-35f8-abca-9cea" name="Advanced Medical Protocol" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Troop type models in this model´s squad gains Heal (+4).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="e628-c964-62ac-19ee" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c3d4-262a-c6ec-efb7" name="Oh, She&apos;s Lovely" hidden="false" targetId="d774-240a-40cc-2394" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2fd0-7710-68b0-c25e" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4780-4906-48d2-c9e8" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="15ff-8acb-f9d5-5821" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="6a75-eb9d-97c7-f54c" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="57df-5fc4-e281-1672" name="Cybertronic Upgrades" hidden="false" targetId="e898-297d-133a-0584" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2cc0-ebb8-b029-7ccb" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3dcb-6999-ed54-fe09" name="Dr. Cynthia Diana" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="bbfe-4ef6-53aa-6ac3" name="Dr. Cynthia Diana" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/1"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="10&quot;"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="55"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="cedf-66a3-a2ba-7994" name="Master Mechanic" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>RES(1): Spend AP(1) when Dr. Cynthia Diana is in base contact with a friendly vehicle. Choose one effect:
-• On a D20 Roll of 1-5 the vehicle gains a wound in a random location (above starting value). Each vehicle may only gain W(+1) per game this way.
-• On a D20 roll of 1-14, the vehicle regains its last lost wound. On a roll of 1, the vehicle regains W +2).
-Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclone within 8” of Dr. Cynthia Diana to a maximum modifier of (-10).</description>
-        </rule>
-        <rule id="8a98-3a8f-83e8-44c7" name="Neoclone Commander" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model may be joined by up to 4 Dr. Diana Neoclones for 15 points per model. For each Neoclone in the squad, all models in the squad gain Heal (+1). The squad does not take up an additional slot on the OOC, but counts as Support type for the purposes of enhancements, cards, and all other effects. When part of this squad, Dr. Cynthia Diana and the rest of the squad must take the same enhancements.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="2099-fcd7-c983-7b7f" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="bdae-a407-cbba-aa92" name="Auto-Injector" hidden="false" targetId="2b30-ff7a-64e0-fa99" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0e0f-1518-c71b-5374" name="Controller" hidden="false" targetId="cd89-2bdd-e050-28d5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e8e4-76c3-4ae4-d425" name="Oh, She&apos;s Lovely" hidden="false" targetId="d774-240a-40cc-2394" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="605f-4213-afaf-14f1" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0b90-2202-eb16-a5f0" name="Heal(6)" hidden="false" targetId="f662-acd9-4217-10c2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b24a-6010-9db6-8678" name="Medic(4)" hidden="false" targetId="3691-3ba8-4ee2-1be6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6c52-87bc-3be5-3f52" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5941-9bf0-6d90-47de" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="a838-ef75-ca6b-6a0d" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2b58-5835-e858-18e0" name="Dr. Diana Neoclone" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="2162-fd4c-87c8-26c4" name="Dr. Diana Neoclone" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="11/1"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="12"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="8"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="8"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="2"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="19"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="15"/>
-              </characteristics>
-            </profile>
-            <profile id="b3a5-a279-f084-47b0" name="Auto-Injector Mk.0" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Armour-Piercing(2), RES(1): ST(2), Deadly, Poison"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="fcf9-a3e4-a825-23ab" name="Advanced Medical Protocol" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Troop type models in this model´s squad gains Heal (+4).</description>
-            </rule>
-            <rule id="40d4-4ef6-0226-7417" name="Ranger" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </rule>
-            <rule id="dfc6-8805-387f-ee9c" name="Heal(4)" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </rule>
-            <rule id="17e4-1b97-3440-2025" name="Ranger" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="3045-1df8-ceed-d702" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="a4ea-b48a-8adc-6f22" name="Oh, She&apos;s Lovely" hidden="false" targetId="d774-240a-40cc-2394" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c36-dca9-43cd-c20d" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="713a-a369-31b0-2a4f" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="8b1c-51c3-716e-f224" name="Cybertronic Upgrades" hidden="false" targetId="18de-c154-3c3f-67fd" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f763-ee80-ebe3-b493" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="da5b-8db0-99e9-013a" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="73c5-04f4-33ef-8109" name="Dr. Diana Clone" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="8611-6c1a-f306-f829" name="Dr. Diana Clone" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="13/1"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="14"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22(10)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="35"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="6e65-1529-68b2-51f6" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5289-3dbd-f62f-f1a4" name="Auto-Injector" hidden="false" targetId="2b30-ff7a-64e0-fa99" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c742-bd0e-f372-7ed9" name="Controller" hidden="false" targetId="cd89-2bdd-e050-28d5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ae86-845b-2f9a-688f" name="Oh, She&apos;s Lovely" hidden="false" targetId="d774-240a-40cc-2394" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="765b-2102-0e82-421d" name="Stimulants" hidden="false" targetId="697b-2b06-f6d9-d196" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a926-172d-d9c1-cfea" name="Heal(6)" hidden="false" targetId="f662-acd9-4217-10c2" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2f59-798f-a82f-6797" name="Medic(4)" hidden="false" targetId="3691-3ba8-4ee2-1be6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8ae5-ad8f-6bd9-e9e6" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9917-c1ab-1b89-9158" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5408-4d86-4965-3d96" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="fa3f-7816-4559-114f" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="74fa-ca46-4ac6-0646" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf8-06f6-cdce-bdf7" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="c2d6-6348-7240-1ab0" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="35.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f595-88e1-cc3f-0462" name="Dr. Diana Commander" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5d5e-1b81-f113-950d" name="Dr. Diana Commander" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="90"/>
-          </characteristics>
-        </profile>
-        <profile id="f65d-c879-a5c7-7347" name="Enhanced Auto-Injector" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Armour Piercing(3), RES(1): ST(2), Deadly, Poison"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="8448-f5f2-d6fe-9958" name="Healing Nanobots" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>All friendly non-vehicle models within 12” of this model gain Heal (+2) and A(+1).</description>
-        </rule>
-        <rule id="7ac3-0fb1-6009-0db4" name="Oh, She&apos;s Lovely...or Not?" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Models not within 12” of this model wishing to target this model with a ranged attack must first make an LD test. If failed, they cannot target her and the AP is lost.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="36bb-42b3-ee8a-72e0" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0cbb-f71a-c4f6-6f00" name="Controller" hidden="false" targetId="cd89-2bdd-e050-28d5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e852-75ba-582e-f299" name="Stimulants" hidden="false" targetId="697b-2b06-f6d9-d196" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="170c-730c-a459-bfe6" name="Heal(8)" hidden="false" targetId="d8b4-b5ec-7e71-1006" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="670d-a8b8-2557-e3ee" name="Initiative(2)" hidden="false" targetId="44f4-981b-8b86-6486" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1cb1-d3d0-f412-af50" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="be15-4447-bed6-adff" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="8b1f-c7e5-fa0c-94f9" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ece0-d58a-d8f3-d607" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="6573-36db-cf1a-219b" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3b0-188f-e81a-fdc0" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="050b-18eb-898e-9157" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="90.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="77cf-b295-8257-a19e" name="Chasseurs(Free Upgrade)" page="" hidden="true" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f595-88e1-cc3f-0462" type="greaterThan"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="1022-9528-2456-7d73" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="cb10-7ca7-bb09-e28e" name="Chasseurs" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="3f9c-b7b1-a284-f0d4" name="Chasseur" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-                <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="12/0"/>
-                <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="12"/>
-                <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="9"/>
-                <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-                <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
-                <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-                <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="1"/>
-                <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="19"/>
-                <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-                <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="8&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="12"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="ffc5-93dd-a2a4-da57" name="AR3501 Chain Carbine" hidden="false" targetId="36b5-4ec4-35cd-93a8" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="518b-80b1-d9f0-54ce" name="Electric Fist" hidden="false" targetId="cf03-5744-a54e-3704" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="1c02-6b8f-81ca-16cb" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="60b0-d5b0-8689-6c0b" name="Mirage Generator Mk. I" hidden="false" targetId="68d8-2342-bff0-275e" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095b-0936-b4b2-a035" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="829b-e132-7eff-09e1" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="12.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5a35-2442-a328-c8ec" name="Heavy Weapons" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="9dca-b9e9-7953-e8c6" value="4">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dca-b9e9-7953-e8c6" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="7d6f-2fc9-a491-e0d6" name="SSW550 Rocket Launcher" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="599c-a4be-7857-b8d7" name="SSW5500 Rocket Launcher" hidden="false" targetId="8f9f-adce-5fd5-5abf" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="188c-27f6-7761-001f" name="SSW5500 Rocket Launcher(Anti-Personnel)" hidden="false" targetId="6a59-925c-e80a-1759" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="588a-d895-a308-de39" name="PR4000 Blaster" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="ea98-4fd4-ecb2-3a18" name="PR4000 Blaster" hidden="false" targetId="3023-2cb5-1106-3943" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="89a0-86a2-a3e8-023a" name="Advisor" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="72ef-6af7-e2c6-f31e" name="Opresseur Mk.I" hidden="false" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="18a5-313c-9c75-e883" name="Cuirassier &apos;Atilla&apos; Mk. III" hidden="false" targetId="4eaa-d58a-6991-d6cf" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="9625-e095-4d4e-94be" name="Cybertronic Upgrades(1 Free)" book="" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9946-05af-193b-f658" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="2cdc-d99e-c97d-2115" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="285a-b48d-6165-7479" name="Artificial Intelligence Implant" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2c-d479-4ec7-9ed8" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2812-b920-961a-549a" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="65e7-ad5d-9859-d67d" name="Cell Neogenesis Accelleration" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Heal (2).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1f7-f5aa-1c6e-673c" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c4f4-cb8f-a9e3-b377" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="9d7f-4981-ce9a-d858" name="Dermal Mirror shards" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Camouflage (2).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8338-a7e9-ebf8-b2ff" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cdbb-9f25-bdff-ee62" name="Early Warning System" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="5c01-dca1-1dc8-3b51" name="Early Warning System" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd7-91c3-c1e7-1eb4" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="aa3a-b3b5-7f8c-7137" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="4051-6a43-f034-b1f7" name="EMP Overload Device" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3016-eb5d-5672-972b" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8731-ff6d-3256-44b4" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="411d-3233-87e6-7571" name="Enhanced Sensor Array" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bad0-32e2-5a27-e8c2" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2cbe-aedc-0f8b-06e8" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="3ff6-7ae8-3376-ec53" name="Filter Systems" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Gas Mask as Equipment.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d8-c16c-8052-aa70" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9d59-2752-1078-53ad" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="cee1-0ed0-9668-6536" name="Quadriplegic Retro-Enhancement" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Leap(4).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fc3-d604-385a-e2f2" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1196-d0f7-1cff-5634" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="8b72-d9cc-70a5-2d78" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="9456-5889-1020-57b6" name="Stinger Implant System" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e76-2ca6-9340-808a" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6ca3-a757-f005-efc4" name="Weapons Overhaul" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="1712-e493-c434-a7ab" name="Weapons Overhaul" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>All of the model’s weapons receive ST(+1).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a960-0ce7-b0b9-1ca7" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e879-089b-6384-789e" name="Hardware Upgrades" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="6ec5-b8ba-8df1-3f00" name="SP(+1)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8761-11b2-48b8-cdd2" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="3927-482d-5060-5f1a" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf3c-5984-2ef0-15fd" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="7a0a-7020-3ef4-4f72" name="A(+1)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="102b-3766-79a3-e7f9" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="061e-04b7-0bc2-baa5" name="CC(+2)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ce0-91f6-a356-1a3b" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="360f-cbe5-8998-ff2a" name="RS(+2)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0d-3a26-b8f1-b569" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2f62-b997-dc6b-d7a1" name="CON(+2)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701d-7ab3-3d84-b9f5" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="85b3-6eab-2418-3293" name="WP(+2)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="234a-e552-b3a0-18b2" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="480e-1611-5644-48e3" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c554-8d0a-d28c-6eda" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks/>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="2167-9a8c-e979-4ac8" name="Cybertronic Upgrades" hidden="false" targetId="1852-843d-6339-6ae6" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c75a-7d48-2825-c4d4" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3562-8b85-1f08-0def" name="Vince Diamond" page="" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b1df-e559-3860-9870" name="Vince Diamond" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3768-6078-db80-1336" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9efe-5c69-9a0a-394f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f414-0e71-0fad-08da" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="579a-7bbd-a6e5-2e8f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c936-c3d2-be0d-8998" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="431b-3260-c50e-5c8e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f927-63b8-5afd-6ce1" value="25(10)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c04-ff59-77bb-344e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="8dd8-6dd1-452d-e93d" value="17/2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3562-8b85-1f08-0def" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
             <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/2"/>
@@ -6567,7 +3826,6 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3e2-ab08-777f-5957" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e25-68a4-cce4-168e" type="max"/>
       </constraints>
       <categoryLinks>
@@ -6622,138 +3880,74 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4246-002d-1415-77bc" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="48de-ebce-70c4-4d0e" name="SP(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bda-f77f-54cc-28ba" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bcf9-e83a-4f23-6c11" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b5-d101-4614-dd3d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9641-5335-4871-1b61" name="A(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ba-341d-4f4d-29cd" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dccc-b6a1-a454-2b50" name="CC(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a9-52ff-078a-f333" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f3d0-ca4e-499c-2cd7" name="RS(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2ae-0d90-d476-d8e8" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5b04-f9ff-97b4-e3bb" name="CON(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="572c-e4d8-a2f7-cc36" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="054b-59db-da62-219b" name="WP(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca6f-2fc2-2aee-f8f6" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4baa-36ec-51d7-1563" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16cc-b729-1dc4-107a" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="2f51-68ae-e9b3-1328" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="26a5-5098-2fc1-91ad" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="82b8-66a4-cf2a-158b" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d8d8-e42c-356f-d1cc" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b2e6-1f17-7844-304b" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f217-8cad-cbcf-cbcd" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2ac0-5ce8-054a-a39e" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="24c2-91fa-9e01-f254" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b6a5-c385-4e45-56cc" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
           <profiles/>
@@ -6764,288 +3958,122 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ef-35a7-fea1-e311" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="49f1-150d-3887-c781" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="336b-b9bf-cb74-79d7" name="Artificial Intelligence Implant" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc7d-f143-b3c3-e032" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cd83-3062-4e12-c289" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="6620-7c26-f46c-6987" name="Cell Neogenesis Accelleration" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Heal (2).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0e7-48e6-81b4-a544" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="46cd-55ff-b267-f5a7" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="0ba4-cf64-3bd0-1c79" name="Dermal Mirror shards" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Camouflage (2).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d4-682a-02a6-690d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6181-5fa6-1510-80a7" name="Early Warning System" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="4ed5-1343-d3d0-ac88" name="Early Warning System" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0745-24a6-bfd2-7bd7" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a7f7-7bcb-75f1-fc6e" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="c693-d238-9fc4-e5fd" name="EMP Overload Device" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03d2-ad1e-b6ad-c784" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1e77-0a9e-ebcf-d406" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="fee0-c0a5-f4e9-1080" name="Enhanced Sensor Array" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3020-fc51-d0db-e76f" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8f83-3594-4ff1-0d27" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="2a64-a636-a117-f8a4" name="Filter Systems" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Gas Mask as Equipment.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e1-2bb7-bf85-4e69" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f1f9-db0a-18c7-8a92" name="Rerouted Transmissions" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="7829-4203-7359-14f9" name="Rerouted Transmissions" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Army commander only. When this model is removed from play as a casualty, nominate any friendly non-vehicle squad commander. You do not have to remove any Resource Cards from play due to losing your army commander. If the nominated squad commander is removed from play, you remove from play Resource cards as if you just lost your army commander.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d793-cec5-26d5-1225" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9406-6ffe-51ed-9648" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="6850-b32d-7492-009e" name="Quadriplegic Retro-Enhancement" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Leap(4).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d547-4f33-cfce-dde5" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c814-aaf0-1d6f-abf2" name="Satellite Uplink" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="cb10-f038-a1a1-a79a" name="Satellite Uplink" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The character gains controller.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c9-24e8-a4a1-a4af" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6c13-850a-fc90-06de" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="e4a7-836d-3bec-c508" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="759f-e0c2-31f0-f062" name="Stinger Implant System" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf3-cddc-dc0c-4908" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="85d8-17e6-fb66-82ab" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a2f3-7d1c-211c-c561" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="cf8d-ac0b-6525-8f97" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d293-1c3e-c605-1057" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="196d-e90f-76ce-3695" name="Rerouted Transmissions" hidden="false" targetId="84b1-c1de-2fd6-42ef" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="25d6-7fdf-8463-8952" name="Satellite Uplink" hidden="false" targetId="a457-28ff-895a-f9b4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9066-a91d-be43-0eb6" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="68ac-9187-e952-c37e" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="5b18-a811-ee81-a624" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="098a-b8c0-fac2-8e64" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="3">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0a47-1835-ede0-fbeb" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
@@ -7057,7 +4085,21 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="48a1-7687-17e1-7aab" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3562-8b85-1f08-0def" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="184d-2652-54c4-8533" type="max"/>
       </constraints>
@@ -7078,7 +4120,7 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fbe1-af69-e9af-fcf1" name="Chasseurs" hidden="false" collective="false" type="model">
+        <selectionEntry id="fbe1-af69-e9af-fcf1" name="Enhanced Chasseurs" hidden="false" collective="false" type="model">
           <profiles>
             <profile id="c3b1-9094-7da2-1c81" name="Enhanced Chasseur" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
               <profiles/>
@@ -7101,16 +4143,7 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="37df-0f25-44ea-c051" name="Mirage Generator Mk. I" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1): During the (acting) squad commander’s activation place one Mirage Generator Mk.I permanent token within 2” of him. Every friendly non-vehicle model within 3” of the token gains A(+2) against ranged attacks. During the squad’s activation, the token can be removed from the table by spending RES(1). It can then be re-deployed in a later turn unless it was destroyed. Each additional Mirage Generator Mk.I in range of a model affected by a different one increases
-A(+1).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks>
             <infoLink id="6bbf-dbf6-1303-7714" name="AR3501 Chain Carbine" hidden="false" targetId="36b5-4ec4-35cd-93a8" type="profile">
               <profiles/>
@@ -7129,6 +4162,34 @@ A(+1).</description>
               <rules/>
               <infoLinks/>
               <modifiers/>
+            </infoLink>
+            <infoLink id="5267-e8a4-a595-6cdb" name="Mirage Generator Mk. I" hidden="false" targetId="68d8-2342-bff0-275e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0441-24e9-1f1c-b027" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="7566-47f4-737a-af63" name="Enhanced Mirage Generator Mk. I" hidden="false" targetId="2823-9938-4aab-61f2" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0441-24e9-1f1c-b027" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
           </infoLinks>
           <modifiers/>
@@ -7272,859 +4333,6 @@ A(+1).</description>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1705-e526-928f-0cb7" name="Pieter &apos;The Shield&apos; Diamond" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="8829-278a-b106-879e" name="Pieter &apos;The Shield&apos; Diamond" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/3"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="10"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="9"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="50"/>
-          </characteristics>
-        </profile>
-        <profile id="7cd5-9806-8af0-84a9" name="Mirrorshard Shield" hidden="false" profileTypeId="7225-7dbb-bfa5-5cbb" profileTypeName="Shield">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="+ARM" characteristicTypeId="6758-24d0-9c9d-2ed4" value="3"/>
-            <characteristic name="+DEF" characteristicTypeId="b603-6489-772a-c092" value="2"/>
-            <characteristic name="RULES" characteristicTypeId="f03f-1c6a-5b9c-49f8" value="Whenever this model successfully passes an armour test against a non-template Ranged attack, he may reflect it back at the attacker. The shooting model receives an autohit at the ST of the attack on a roll of 1-10."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="bca6-b27f-9d53-f5b3" name="Master of Mirrors" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>When this model is attached to a squad of Mirrormen, all Mirrormen in that squad receive Hard to hit (+2).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="2713-7b46-1ccb-7ad8" name="CSA404 Heat Sword" hidden="false" targetId="d7ad-616c-4ab1-de2b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e924-7307-f41d-3a60" name="Camouflaged Suit" hidden="false" targetId="d688-f7fd-9055-6654" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="368e-02e3-7468-ca86" name="Chrome-Mirrored Suit" hidden="false" targetId="75cc-7fff-d54f-5e99" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="58a2-65eb-974b-652a" name="Disorientating Reflection" hidden="false" targetId="b4f3-aa27-29d2-3a69" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2fc9-741d-a932-78bc" name="Poster Boys" hidden="false" targetId="1460-687b-8e31-9da8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a033-bfdd-7d69-e682" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="68ac-e6b7-89ed-b066" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5c00-93e9-8377-8702" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e2e7-7cce-a9eb-f9df" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2928-ff9b-d611-7bf9" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ad37-4954-197a-bc1f" name="Paired Weapons(CC/HG)" hidden="false" targetId="3cee-077d-9c75-2399" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ab-4589-b4ab-636b" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4981-4f52-ecc6-7625" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="3061-778a-e8ab-597a" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="f00b-a0e0-6c4d-fad2" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="309f-a203-8816-0f7a" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5155-9111-43ef-d92f" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="50.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6d32-483b-c7ce-eb0a" name="Nova" page="" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="b0ed-4a3a-d4fd-7252" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="f6c8-8a0a-4b12-a871" name="New CategoryLink" hidden="false" targetId="79ad-4512-1052-014d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b81e-1e16-64dc-2c2e" name="Nova" hidden="false" collective="false" type="model">
-          <profiles>
-            <profile id="7f00-9b82-8319-8a51" name="Nova" hidden="false" profileTypeId="69ff-8e30-647f-0835" profileTypeName="Vehicle">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="SP" characteristicTypeId="3d64-19d9-c140-f3c2" value="8"/>
-                <characteristic name="CC" characteristicTypeId="c5ce-8266-81a1-3b22" value="-/-"/>
-                <characteristic name="RS" characteristicTypeId="2449-66df-7dc8-fb0f" value="13"/>
-                <characteristic name="WP" characteristicTypeId="ed65-33f8-601a-60f7" value="15"/>
-                <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="18"/>
-                <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="26/3"/>
-                <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="26/2"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/2"/>
-                <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="26/2"/>
-                <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
-                <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
-                <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="18&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="80"/>
-              </characteristics>
-            </profile>
-            <profile id="6007-c722-39f3-c2f1" name="Twin-Mounted SSW4200P &apos;Supressor&apos; HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="6"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Pinning"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="8f4c-6ed2-06ea-c813" name="Mirrorman Uplink" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Before the game starts, one Mirrorman squad per Nova model may gain teh Stalk Deployment.</description>
-            </rule>
-            <rule id="68ff-2273-0674-5cd9" name="Optical Camouflage" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>This model may not be targeted by Ranged Attacks using Battle Focus.</description>
-            </rule>
-            <rule id="2ab5-628d-b7a2-aadc" name="Shimmering Armour" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1): Medels targeting this model with a Ranged attach receive R(-6) to all Ranged Weapons. The model loses Optical Camouflage while this ability is active.</description>
-            </rule>
-          </rules>
-          <infoLinks>
-            <infoLink id="de91-1dc8-87a7-0049" name="SSW5500 Rocket Launcher" hidden="false" targetId="8f9f-adce-5fd5-5abf" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="2aee-081c-69c8-0514" name="SSW5500 Rocket Launcher(Anti-Personnel)" hidden="false" targetId="6a59-925c-e80a-1759" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="7af0-c4b8-1f5f-b0a9" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="3e12-c2d1-b448-6efc" name="Hard to Hit(3)" hidden="false" targetId="c436-6bd5-cee7-3905" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="8870-0718-064e-735b" name="Repair(4)" hidden="false" targetId="303a-b5da-7439-fefb" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d80-68dd-c343-73ce" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd88-39e8-70e6-085e" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9bbd-8128-c41c-07e1" name="732-R4-NCE" page="" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="5bde-7e8b-5d3f-e183" name="732-R4-NCE" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="6"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="16/3"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="15"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="14"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="13"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="16"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="18"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="26(11)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="105"/>
-          </characteristics>
-        </profile>
-        <profile id="5ffb-4771-9179-817d" name="SSW3200P HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-          </characteristics>
-        </profile>
-        <profile id="8350-ab2e-9079-7460" name="Head Butt" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour-Piercing(3), Concussive(2), Slow to Reload, RES(1): Critical Force(2), This model receives a ST(12) autohit."/>
-          </characteristics>
-        </profile>
-        <profile id="c7c3-84ec-2b8a-4101" name="Cybernetic Fists" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="f1e3-2827-82f2-f6ef" name="Backup Systems" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If removed as a casualty, replace the model with a &apos;Backup Marker&apos;. In the next control phase, make a Regeneration roll. If successful, replace the marker with this model with W(1). Remove the marker regardless of the Regeneration result.</description>
-        </rule>
-        <rule id="9142-b0fe-7db0-7f14" name="High Impace Shocks" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Does not take any damage when jumping or falling from height.</description>
-        </rule>
-        <rule id="e9fb-860b-c053-3e87" name="Prototype Core" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The model counts as having The Core, but may Heal. RES(2): Gain AP(+1), but take a ST(12) autohit at the end of activation.</description>
-        </rule>
-        <rule id="a1cc-26d8-0669-324d" name="Paired Weapons(CC)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="ba2e-acf5-40f8-097b" name="Receiver" hidden="false" targetId="d423-d31e-ab1a-f2b3" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="474d-1f17-fe14-5074" name="Ultrasonic Resonation" hidden="false" targetId="7a05-2e67-c868-33bc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b00e-2c58-4ebb-64f5" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1e9c-28d0-d4ab-a1b2" name="Enhanced Unblinking Eye" hidden="false" targetId="ce93-f9c7-c9e4-c0c5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="472e-bc08-5ef8-56f2" name="Regeneration(10)" hidden="false" targetId="c2e5-e2d4-4548-101a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8414-aeac-f079-51d2" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="feb9-b515-8afd-9194" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d254-4db0-81e5-4242" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b086-0a69-3f7b-a614" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de88-3baa-1a2f-fa8e" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="49b9-f954-e06a-6405" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="a787-28e2-775d-567a" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="cd00-e047-b8c0-bbfb" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cf1-e1ba-e65e-7021" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="8b64-ec78-0d4a-5fa5" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="105.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e739-8d81-9cdc-8e73" name="Coral Beach" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="a7d2-da4e-7e38-b99b" name="Coral Beach" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="26(9)"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="85"/>
-          </characteristics>
-        </profile>
-        <profile id="0950-db19-0aaf-dd72" name="SR3500" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="28"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Pinning, Precision(5), Gains Critical Force(2) when using Battle Focus"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="1936-67d3-76a4-519e" name="Iron Mind" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Immune to all Psychic (D) Powers</description>
-        </rule>
-        <rule id="ade5-6b22-39bf-bd03" name="Commando Unit 525" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If Coral Beach is included in an army, one unit of Armored Chasseurs may be upgraded with Infiltrate Deploymnet and Ranger for (+2)PTS per model.</description>
-        </rule>
-        <rule id="2a8f-0c76-a01a-3520" name="Contempt(Cartel Agent)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
-        </rule>
-        <rule id="5ebb-0e91-8557-1bd2" name="Paired Weapons(CAW2000)" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="1e3a-43c9-d39d-2c1c" name="CSA404 Heat Sword" hidden="false" targetId="d7ad-616c-4ab1-de2b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c109-7775-2681-27a1" name="CAW2000 &apos;Nailgun&apos; SMG" hidden="false" targetId="50e8-3881-c78c-5933" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5b90-dc03-c328-6233" name="CAW2000 &apos;Nailgun&apos; SMG (UBS)" hidden="false" targetId="c535-3646-b6bf-186f" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="936e-3964-f32d-5e2d" name="Sonic Grenade" hidden="false" targetId="c2ee-b621-c1a2-bd84" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="31c6-2293-1e2b-c579" name="CAW2000 &apos;Nailgun&apos; SMG" hidden="false" targetId="50e8-3881-c78c-5933" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="913f-9960-d830-7b5d" name="Power Blink" hidden="false" targetId="ea7b-74d5-ab9a-a2dc" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ec80-722c-0e44-77f6" name="Binary Weapon System" hidden="false" targetId="af45-1fde-871c-6e12" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c18f-7757-b94e-12dc" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ffe0-fb61-2603-f816" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4e64-9b28-7b0b-0941" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5ecb-0e5c-3d17-019f" name="Enhanced Unblinking Eye" hidden="false" targetId="ce93-f9c7-c9e4-c0c5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0927-f093-e5fd-f682" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9b45-d069-6f10-da0f" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="f0fb-4cfd-6d4d-8cc5" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4888-970a-57e8-2c7c" name="Sniper" hidden="false" targetId="fd54-d28e-f8b4-60aa" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="545e-477d-4aeb-f62b" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6f9f-0f30-3cc8-a81b" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589d-30a6-9d24-b7cf" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc5-6506-8925-d914" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="10b1-a42f-fdc1-d11f" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="f3b3-2a85-e7d2-5302" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="e3f1-bc25-6cb2-9aa3" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcbf-5b79-7d64-87eb" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="4a90-91be-dc69-db72" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b015-dd52-a579-601f" name="Dick Howkins" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="a343-9185-8e4b-a32a" name="Dick Howkins" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
-            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/0"/>
-            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="13"/>
-            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
-            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
-            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="14"/>
-            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
-            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
-            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22"/>
-            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
-            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="55"/>
-          </characteristics>
-        </profile>
-        <profile id="9f22-40ae-cd42-a57b" name="AR3501P &apos;Chain Carbine&apos;" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="24"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="A"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Headshot, Short-Ranged Burst"/>
-          </characteristics>
-        </profile>
-        <profile id="88d0-b138-453b-f1f1" name="Titanium-Plated Electric Fists" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
-            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
-            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="1718-794c-ed49-b668" name="Accelerated Asset" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model may take up to 2 Cybertronic Enhancements for free</description>
-        </rule>
-        <rule id="188a-08ba-550a-abbf" name="Subreal Resource Download" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>As long as this model is in play, you have one additional Resource Card</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="17f9-f871-e37a-eea2" name="Crackshot(3)" hidden="false" targetId="7cb4-b902-b94d-e214" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="dfb8-381b-c9f5-d5e2" name="Enhanced Unblinking Eye" hidden="false" targetId="ce93-f9c7-c9e4-c0c5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8dc4-1f2e-85ba-a45e" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e9fa-096b-b102-6d59" name="Heal(3)" hidden="false" targetId="ed02-6c40-c93e-df4c" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8fdd-21e9-427e-594d" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1698-517a-9846-15c7" name="Sniper" hidden="false" targetId="fd54-d28e-f8b4-60aa" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0d63-f0b3-d292-56c5" name="Target Identifier(4)" hidden="false" targetId="c12f-2b96-a676-ff19" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d6-2ee6-3b29-1536" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aff-c986-9ff5-b73a" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="0f62-e6ec-2c33-1b87" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ab1e-87ec-ff96-c787" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="2158-27c5-ef6c-beb6" name="Free Cybertronic Upgrades" hidden="false" targetId="6cf2-0d7b-2ce7-298e" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cb3-ae69-98a6-0f6d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0d29-68c2-ab9b-f6f3" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb6f-31ae-cdc4-5a7b" name="Trenchers" hidden="false" collective="false" type="unit">
@@ -10751,7 +6959,7 @@ models are placed B2B with him in his front facing and travel the full movement 
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7c88-f758-67e7-1a12" name="Hard to Hit(1)" hidden="false" targetId="8cb2-8f2a-2e91-5c42" type="rule">
+        <infoLink id="7c88-f758-67e7-1a12" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11861,11 +8069,11 @@ All friendly models in a squad that successfully wounds with one or more Psychic
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+4"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(6), Concussive(1), Deadly"/>
               </characteristics>
             </profile>
           </profiles>
@@ -15358,7 +11566,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f95e-0462-17f1-8d11" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f95e-0462-17f1-8d11" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f081-20fc-0f59-5d58" name="Lt. Col. Mike Sanders (Infantry)" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
           <profiles/>
@@ -15522,12 +11730,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="f05d-f3e6-7da8-1080" name="Cuirassier" hidden="false" targetId="8b34-aa97-b1b2-f4e3" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="32d3-4244-ef95-62b1" name="CAW2500 Enhanced SMG" hidden="false" targetId="50a2-b1ff-a513-1a60" type="profile">
           <profiles/>
           <rules/>
@@ -15570,6 +11772,69 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="7845-65f2-31e2-e8aa" name="Cuirassier" hidden="false" targetId="8b34-aa97-b1b2-f4e3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e27f-07b6-936b-4dfb" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a3c-de44-8a64-086d" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d2f2-5197-509a-e963" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="866a-5c21-b4d5-64eb" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="93c5-048f-ba9a-2196" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="853e-a461-2339-68d3" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f927-63b8-5afd-6ce1" value="25(9)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc9c-47c9-2566-9a52" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="8dd8-6dd1-452d-e93d" value="17/2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4eaa-d58a-6991-d6cf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="549a-52d6-a39d-efb6" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -15601,115 +11866,18 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a361-a667-e4b2-5ed6" type="max"/>
+          </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="bdee-dcd6-46cf-4124" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="70e0-70c6-9373-b392" name="Cell Neogenesis Accelleration" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Heal (2).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6602-0e2b-8764-d844" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dbe1-01c5-dea2-5f47" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="3d08-1b70-8d5d-f8b8" name="Dermal Mirror shards" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Camouflage (2).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabb-59fb-1c3b-f860" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="967a-57e6-7ffd-734f" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="373b-954e-03b7-d9a5" name="Filter Systems" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Gas Mask as Equipment.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e1e-7ec7-67e1-f9aa" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="78b4-bfcd-283b-e39c" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules>
-                <rule id="671b-f3b8-3b46-4cc0" name="Quadriplegic Retro-Enhancement" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The model gains Leap(4).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3232-8578-5adc-b1c2" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="62ba-c1fe-e4fc-64c9" name="Hardware Upgrades" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afec-60fe-e8b2-ef14" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="866a-5c21-b4d5-64eb" name="SP(+1)" hidden="false" collective="false" type="upgrade">
@@ -15845,7 +12013,50 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               <entryLinks/>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="236a-a694-40b7-4276" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fa43-04ef-18cf-a2f8" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="3">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="969a-df50-6600-2e6f" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
@@ -16550,13 +12761,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="91f5-7fd1-d7ae-8142" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="7954-ef74-c18c-b83a" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
           <profiles/>
           <rules/>
@@ -16572,7 +12776,64 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3768-6078-db80-1336" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9efe-5c69-9a0a-394f" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f414-0e71-0fad-08da" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="579a-7bbd-a6e5-2e8f" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="431b-3260-c50e-5c8e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c936-c3d2-be0d-8998" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f927-63b8-5afd-6ce1" value="20">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c04-ff59-77bb-344e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="14/0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4338-a89f-9b9e-92a2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
                 <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="12/0"/>
@@ -16589,16 +12850,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="afde-f55d-5501-2fbf" name="Enhanced Mirage Generator Mk. I" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>RES(1): During the (acting) squad commander’s activation place one Mirage Generator Mk.I permanent token within 2” of him. Every friendly non-vehicle model within 6” of the token gains A(+2) against ranged attacks and cousts as having a Gas Mask. During the squad’s activation, the token can be removed from the table by spending RES(1). It can then be re-deployed in a later turn unless it was destroyed. Each additional Mirage Generator Mk.I in range of a model affected by a different one increases
-A(+1).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks>
             <infoLink id="1394-9e02-2bc1-cac0" name="AR3501 Chain Carbine" hidden="false" targetId="36b5-4ec4-35cd-93a8" type="profile">
               <profiles/>
@@ -16622,13 +12874,29 @@ A(+1).</description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0441-24e9-1f1c-b027" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
             <infoLink id="2c63-0783-0f65-2ba4" name="Enhanced Mirage Generator Mk. I" hidden="false" targetId="2823-9938-4aab-61f2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0441-24e9-1f1c-b027" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
           </infoLinks>
           <modifiers/>
@@ -16885,6 +13153,1449 @@ A(+1).</description>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c6a-487d-c6c7-db98" name="Coral Beach" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5225-2bc5-448b-c5e5" name="Coral Beach" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0c6a-487d-c6c7-db98" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3768-6078-db80-1336" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0c6a-487d-c6c7-db98" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4a3c-de44-8a64-086d" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0c6a-487d-c6c7-db98" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f414-0e71-0fad-08da" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0c6a-487d-c6c7-db98" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="579a-7bbd-a6e5-2e8f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0c6a-487d-c6c7-db98" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="431b-3260-c50e-5c8e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0c6a-487d-c6c7-db98" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c936-c3d2-be0d-8998" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f927-63b8-5afd-6ce1" value="27(9)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0c6a-487d-c6c7-db98" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c04-ff59-77bb-344e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="8dd8-6dd1-452d-e93d" value="16/2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="15"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="26(9)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="85"/>
+          </characteristics>
+        </profile>
+        <profile id="06b7-b06f-2790-630c" name="SR3500" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="28"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Pinning, Precision(5), Gains Critical Force(2) when using Battle Focus"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="368b-f4a4-2fa2-4eb0" name="Iron Mind" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Immune to all Psychic (D) Powers</description>
+        </rule>
+        <rule id="6b4a-eeb0-987d-09de" name="Commando Unit 525" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Coral Beach is included in an army, one unit of Armored Chasseurs may be upgraded with Infiltrate Deploymnet and Ranger for (+2)PTS per model.</description>
+        </rule>
+        <rule id="1278-5b3f-f7b7-c3c7" name="Contempt(Cartel Agent)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Contempt (X) – This model may reroll pinning, break and fear tests if caused by a model of the type (X).</description>
+        </rule>
+        <rule id="af93-baa2-e322-5aae" name="Paired Weapons(CAW2000)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="45b3-9ad3-aa6a-2d89" name="CSA404 Heat Sword" hidden="false" targetId="d7ad-616c-4ab1-de2b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f7b5-8a36-3d61-653b" name="CAW2000 &apos;Nailgun&apos; SMG" hidden="false" targetId="50e8-3881-c78c-5933" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="765b-4f0d-046d-51c3" name="CAW2000 &apos;Nailgun&apos; SMG (UBS)" hidden="false" targetId="c535-3646-b6bf-186f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2e27-752a-18ec-2282" name="Sonic Grenade" hidden="false" targetId="c2ee-b621-c1a2-bd84" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9503-0711-c3a9-136c" name="CAW2000 &apos;Nailgun&apos; SMG" hidden="false" targetId="50e8-3881-c78c-5933" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9ea3-b5b5-366e-792e" name="Power Blink" hidden="false" targetId="ea7b-74d5-ab9a-a2dc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="77a5-aa5f-171b-5efc" name="Binary Weapon System" hidden="false" targetId="af45-1fde-871c-6e12" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bfc5-6585-1575-879b" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b47f-0b9d-8c33-1ad4" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0c20-4250-315d-7ee8" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="af3f-b5a6-648e-5d4d" name="Enhanced Unblinking Eye" hidden="false" targetId="ce93-f9c7-c9e4-c0c5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="68ba-b95c-7ac4-88de" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fc03-7764-f239-fc5d" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9c39-35c1-2458-e8b2" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5523-7346-73ee-64df" name="Sniper" hidden="false" targetId="fd54-d28e-f8b4-60aa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c723-b143-2904-c4d8" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="61c6-7f72-ede4-89f5" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a302-d406-e8ce-ce77" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74a9-73fa-a733-a720" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8b5b-8386-d8dc-4937" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3bb5-9ca0-46e0-81e1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f8ab-9d86-8a8c-cc6f" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122c-e40f-070c-d222" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="22fa-bfee-3c7d-74ed" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48a1-7687-17e1-7aab" name="Vince Diamond" page="" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f6a5-6abe-c002-24ed" name="Vince Diamond" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3768-6078-db80-1336" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9efe-5c69-9a0a-394f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f414-0e71-0fad-08da" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="579a-7bbd-a6e5-2e8f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c936-c3d2-be0d-8998" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="431b-3260-c50e-5c8e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f927-63b8-5afd-6ce1" value="25(10)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c04-ff59-77bb-344e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="8dd8-6dd1-452d-e93d" value="17/2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="48a1-7687-17e1-7aab" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="15/2"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="13"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="13"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="13"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="4"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="1"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="100"/>
+          </characteristics>
+        </profile>
+        <profile id="3efd-8a58-1739-455c" name="Cybernetic Arm" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+4"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Armour Piercing(2), RES(2): Critical Force(2)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="636a-7d96-bc5f-ddeb" name="About Those Test Results..." hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can be upgraded with 3 Cybertronic Hardware Upgrades for free. He may also take up to 2 more Cybertronic Upgrades (not Hardware Upgrades) for the points listed.</description>
+        </rule>
+        <rule id="9e3c-b4bc-7515-e8fc" name="Enhanced" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model is the army commander, one squad of Chasseurs can be upgraded to Enhanced Chasseurs for (+3) PTS per model. Enhanced Chasseurs gain RS(+2), CC(+2) and A(+2), but cannot purchase any Cybertronic Upgrades.</description>
+        </rule>
+        <rule id="52e7-0e77-40bb-3659" name="Icon of Advertisement" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each time this model removes any enemy model from the game, place a Propaganda marker next to him. The player may remove any number of Propaganda markers from any friendly squad before the initiative roll to add the number of removed markers to that roll.</description>
+        </rule>
+        <rule id="58b1-b1e6-b85e-38cf" name="Improved Resistance" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model would be affected by any Psychic Power, roll a D20. On a roll of 1-10, he is not affected.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="410c-dbbc-24b9-6b8b" name="SSW4200P &apos;Supressor&apos; HMG" hidden="false" targetId="511e-af02-006f-468f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="58f1-cf4c-da90-804a" name="Crackshot(4)" hidden="false" targetId="5d25-116e-69ba-8970" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8639-2776-ef10-963f" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f0be-378c-5c42-378c" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dff8-9e99-d8a8-169a" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa9f-0aba-0a04-6293" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="196f-341b-1186-8ea8" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8b47-f13d-6009-0007" name="New CategoryLink" hidden="false" targetId="a519-5d2b-c36d-3ad6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="24b1-71c2-2c41-3a60" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5c3d-fa2d-8d20-3117" name="Hardware Upgrades(3 Free)" book="" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bc6-c41b-9dfa-8cb0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2726-1ed9-1376-1af9" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ce87-c2b7-7fe8-c9b3" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="be82-fe17-0bf4-83b9" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7def-2006-257f-deff" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="23e6-dbce-16dc-cb9f" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f675-082f-864d-359e" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9983-68ae-990d-3bca" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="512d-c227-716e-813b" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="68c0-7295-b9f7-46c1" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf08-eec3-c296-9192" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="10cb-c587-3f1a-923d" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d875-86d5-3f8e-45b7" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="35e7-0605-7a64-4b79" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="286b-1a7a-1f31-5294" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="636a-2d7c-ff78-a972" name="Rerouted Transmissions" hidden="false" targetId="84b1-c1de-2fd6-42ef" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0bd3-07ac-d1e7-7331" name="Satellite Uplink" hidden="false" targetId="a457-28ff-895a-f9b4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8aba-a0e9-5e09-c378" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="efdb-324a-d553-2eec" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b5d1-c1ed-06c6-d973" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a829-052c-763b-6bd3" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="3">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d758-a089-6be9-9728" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="805e-b852-6402-2786" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="f112-0b3c-6292-56cd" name="New CategoryLink" hidden="false" targetId="96ae-f0ce-a737-564d" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0ab-0685-332d-e2d2" name="Enhanced Formation" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8b-7e67-b1af-2353" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c12-f20b-6f81-b9a0" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5dd2-ff36-9bcc-5e0e" name="Enhanced Formations" book="" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e19-98be-c2bb-4e3f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="0441-24e9-1f1c-b027" name="Battlefield Reclamation Squad" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e59-9ead-ae56-e0da" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e387-b2a8-59c2-5454" name="Orbital Drop Strike Force" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3892-d409-b686-3510" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e8b-919d-b69e-c4f3" name="Rise of the Machines" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9222-e437-bd81-0b25" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="18bd-6ea2-9e20-d9df" name="Mirrormen Propaganda Force" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8da0-5d89-f608-142f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="400b-61e9-71a2-3d8d" name="Dr. Diana Commander" page="" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5e52-86ac-0de6-f915" name="Dr. Diana Commander" hidden="false" profileTypeId="dc7a-aa36-153f-b01a" profileTypeName="Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="ff87-4cb9-ec9b-2197" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3768-6078-db80-1336" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="2186-73a8-0c4c-e706" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9efe-5c69-9a0a-394f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a1a2-a898-3ad0-0eed" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f414-0e71-0fad-08da" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="9db2-e73d-81c4-7e5e" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="579a-7bbd-a6e5-2e8f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="db0e-37dd-158d-c429" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c936-c3d2-be0d-8998" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="5f3f-d57f-4147-a808" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="431b-3260-c50e-5c8e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="f927-63b8-5afd-6ce1" value="25(10)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9c04-ff59-77bb-344e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="8dd8-6dd1-452d-e93d" value="16/2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="400b-61e9-71a2-3d8d" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
+            <characteristic name="CC" characteristicTypeId="8dd8-6dd1-452d-e93d" value="14/2"/>
+            <characteristic name="RS" characteristicTypeId="a1a2-a898-3ad0-0eed" value="14"/>
+            <characteristic name="ST" characteristicTypeId="5f3f-d57f-4147-a808" value="10"/>
+            <characteristic name="CON" characteristicTypeId="ff87-4cb9-ec9b-2197" value="10"/>
+            <characteristic name="WP" characteristicTypeId="db0e-37dd-158d-c429" value="15"/>
+            <characteristic name="LD" characteristicTypeId="2186-73a8-0c4c-e706" value="16"/>
+            <characteristic name="W" characteristicTypeId="0ee7-d56e-e406-04e8" value="3"/>
+            <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="24(10)"/>
+            <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
+            <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="90"/>
+          </characteristics>
+        </profile>
+        <profile id="174e-35ea-ccfd-b162" name="Enhanced Auto-Injector" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1.5"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+2"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="4"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="RES(1): Armour Piercing(3), RES(1): ST(2), Deadly, Poison"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="af55-0535-ebed-00b7" name="Healing Nanobots" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All friendly non-vehicle models within 12” of this model gain Heal (+2) and A(+1).</description>
+        </rule>
+        <rule id="1854-af88-7515-5f79" name="Oh, She&apos;s Lovely...or Not?" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models not within 12” of this model wishing to target this model with a ranged attack must first make an LD test. If failed, they cannot target her and the AP is lost.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ee47-68fd-e494-c4f3" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3937-5b74-0293-1045" name="Controller" hidden="false" targetId="cd89-2bdd-e050-28d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9c55-592f-2a69-2f71" name="Stimulants" hidden="false" targetId="697b-2b06-f6d9-d196" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="20d5-a20b-9528-c57c" name="Heal(8)" hidden="false" targetId="d8b4-b5ec-7e71-1006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0c41-fe97-1de5-8e29" name="Initiative(2)" hidden="false" targetId="44f4-981b-8b86-6486" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7620-22a0-e0da-b8c2" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3518-b2cf-0bc3-1997" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="71e2-e6e0-e8fe-35c4" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bb16-5077-46c7-8495" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f1c6-0d31-b42a-a7c3" name="Cybertronic Upgrades" hidden="false" targetId="0512-8006-9045-3b19" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413d-9e57-f4eb-0e1a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8cc8-d109-87d5-5508" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c04-ff59-77bb-344e" name="A(+1)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f3-3bf6-d1f9-0e32" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4c2-be83-5488-4f00" name="CC(+2)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01cd-488b-e42e-c36a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3768-6078-db80-1336" name="CON(+2)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5792-d332-3706-dc14" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9efe-5c69-9a0a-394f" name="LD(+2)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc74-5a1f-3742-87e1" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f414-0e71-0fad-08da" name="RS(+2)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5527-f625-2f33-2a11" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="579a-7bbd-a6e5-2e8f" name="SP(+1)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ff-67ff-beeb-b9a5" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="431b-3260-c50e-5c8e" name="ST(+2)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8399-e3e7-093d-e18e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c936-c3d2-be0d-8998" name="WP(+2)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8f-da2d-0e16-7d3f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="34ce-2501-6280-7612" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="afdd-14c1-db21-e240" name="Artificial Intelligence Implant" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a161-b6a7-b4ab-df83" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c898-ed34-a1c5-0640" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="3fb5-c2a3-e0c8-e69f" name="Cell Neogenesis Accelleration" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model gains Heal (2).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e86a-ac4f-f692-87c4" name="Heal(2)" hidden="false" targetId="b265-ed18-d8c6-a7eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ace-e2de-6a53-7063" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b235-7296-f783-12c3" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="0ef0-a26b-c65f-f166" name="Dermal Mirror shards" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model gains Camouflage (2).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7e28-688d-148b-b759" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63b5-10fb-45cc-9831" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2be-c385-1c29-36c8" name="Early Warning System" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="2ebd-bedf-82ef-a4c2" name="Early Warning System" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="842c-2a34-22b0-6ac3" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="058d-363d-53d0-5949" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="61f4-9f41-7d58-0645" name="EMP Overload Device" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f14-a1ad-c2fa-f4bf" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5fa7-4156-098e-67fd" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="ba47-3668-bc9f-946d" name="Enhanced Sensor Array" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc63-1905-9410-45d9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fea1-29be-b4c3-5291" name="Filter Systems" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="c473-89f3-f6c7-98b2" name="Filter Systems" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model gains Gas Mask as Equipment.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="95a6-3e29-d091-a2e0" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb7-cf7d-5d2d-7b54" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="978f-93c5-1356-33df" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="df2e-2afa-b7d5-05f9" name="Quadriplegic Retro-Enhancement" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model gains Leap(4).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b717-2345-6dcd-6701" name="Leap(4)" hidden="false" targetId="4e6b-2b56-cfe0-1b4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267e-d5a2-b9d3-d4fb" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed79-00ab-e1ea-7ea3" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8c3f-0f50-4e49-1a23" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4f20-8283-aab3-1318" name="Stinger Implant System" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9014-6b4f-eaf5-7755" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f594-0588-68cd-835c" name="Weapons Overhaul" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="af04-3574-d063-f5e1" name="Weapons Overhaul" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All of the model’s weapons receive ST(+1).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb7-cb50-87a0-4d11" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84b1-c1de-2fd6-42ef" name="Rerouted Transmissions" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9ba5-ce53-f60c-86ee" name="Rerouted Transmissions" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Army commander only. When this model is removed from play as a casualty, nominate any friendly non-vehicle squad commander. You do not have to remove any Resource Cards from play due to losing your army commander. If the nominated squad commander is removed from play, you remove from play Resource cards as if you just lost your army commander.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc9a-305d-bfa8-54a2" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a457-28ff-895a-f9b4" name="Satellite Uplink" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="411e-1626-7e19-f29a" name="Satellite Uplink" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The character gains controller.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="80ed-5e5b-bd4f-8a4c" name="Controller" hidden="false" targetId="cd89-2bdd-e050-28d5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9944-b854-1b1c-a12d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -17382,286 +15093,7 @@ A(+1).</description>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="ea58-e5de-b525-1003" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="10b7-0e1b-f898-78f7" name="Artificial Intelligence Implant" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ee-153e-3137-6830" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1eae-46bc-69ac-e9d2" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="72d0-c0dd-9dff-5306" name="Cell Neogenesis Accelleration" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Heal (2).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4cd-7a81-70b9-e517" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8116-61b0-2eaf-1444" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="c458-f36f-96cf-a2e7" name="Dermal Mirror shards" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Camouflage (2).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac4-2658-8013-0775" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="be87-4aa0-fab0-c731" name="Early Warning System" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="c7ec-eac3-28d8-9121" name="Early Warning System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e780-c37a-a964-ca8f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="812f-8ecf-d185-d103" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="f7e0-c8b7-04a1-b2d1" name="EMP Overload Device" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f17-626b-88dd-57d1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c46e-e079-35cb-ad64" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="30f8-e50e-1fb0-1c7c" name="Enhanced Sensor Array" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43c7-27c2-e6c5-6b0d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="be4a-4581-f55f-cdfe" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="b217-4903-bbe6-d1bb" name="Filter Systems" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Gas Mask as Equipment.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21b0-e64d-c48b-680b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c329-ecad-54ba-b665" name="Rerouted Transmissions" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="211f-aa57-adc5-a247" name="Rerouted Transmissions" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Army commander only. When this model is removed from play as a casualty, nominate any friendly non-vehicle squad commander. You do not have to remove any Resource Cards from play due to losing your army commander. If the nominated squad commander is removed from play, you remove from play Resource cards as if you just lost your army commander.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6c-d5e9-eb76-d62b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e2d2-f473-f427-6ad6" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="88b7-38eb-0535-333d" name="Quadriplegic Retro-Enhancement" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Leap(4).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e301-13f8-9e32-1e60" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bbe1-5b74-0769-4f35" name="Satellite Uplink" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="da8d-4f9a-735c-98ea" name="Satellite Uplink" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The character gains controller.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1479-3b8e-f121-79eb" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9b0f-df22-9d22-8c0e" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="101e-4dcf-cb18-1951" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="0840-cb8d-e902-90f5" name="Stinger Implant System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4107-ebbc-8894-c081" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="3bdd-d0b9-2d0e-a18b" name="Hardware Upgrades" hidden="false" collective="false">
           <profiles/>
@@ -17672,141 +15104,238 @@ A(+1).</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb0d-70a9-aa77-2597" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="bc36-3900-449b-c37f" name="SP(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb05-b5a1-dc37-a389" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2ecd-527e-9dbd-4a4d" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9889-bec9-fdf8-10cf" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f9d0-9254-ada5-b97b" name="A(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d96-ab41-79e9-e859" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4cf9-6c7f-e1a6-ced2" name="CC(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7934-f554-9091-95af" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b802-4e0c-09b3-3ad1" name="RS(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33a2-37dd-015b-b7ab" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5393-0c2c-3b4c-6221" name="CON(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d933-c497-0a90-df5b" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ebe6-a6bd-b625-7f5d" name="WP(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5c0-0fe7-45b3-0578" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7bb2-caf7-6527-54c3" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dda-2911-ca80-0d27" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="22e4-faf6-2ee1-7dbb" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1e4e-293c-346a-015f" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="02b5-83ba-cf31-0dbf" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="06ae-ff73-17c2-23c7" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a606-47f5-39d8-0d29" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c783-7f06-e1e3-454a" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a72f-2c15-d2ba-876c" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c5e2-fe87-c070-d098" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c2c9-a6f6-3f82-ca17" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c733-06d8-b679-4d45" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6e5f-28a2-6021-0612" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5f1f-0546-e2c5-a692" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e892-eab9-fb6e-5b05" name="Rerouted Transmissions" hidden="false" targetId="84b1-c1de-2fd6-42ef" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ab6b-301c-4a6b-a3dd" name="Satellite Uplink" hidden="false" targetId="a457-28ff-895a-f9b4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d42e-c4b1-8b5a-f4ac" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f364-4624-8e73-dbe0" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3007-387d-5d83-1c28" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="016a-b8fb-0424-9c19" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="731a-32d1-30c5-26e6" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0512-8006-9045-3b19" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
@@ -17815,286 +15344,7 @@ A(+1).</description>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="e440-f749-113e-6d2a" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="2953-0304-0c11-53ee" name="Artificial Intelligence Implant" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2816-69e7-1a48-80db" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="055b-9c1b-53a8-fc74" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="bd88-ded4-cc73-0cc8" name="Cell Neogenesis Accelleration" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Heal (2).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5557-2757-9eb0-7fef" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="cbae-a970-6493-e6df" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="8037-e26a-a4c1-c87d" name="Dermal Mirror shards" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Camouflage (2).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e530-3ae2-50ee-9418" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9361-0b2a-8ed6-2230" name="Early Warning System" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="9239-a5c6-e90d-1cb8" name="Early Warning System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb7c-0618-329e-4125" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3601-4cd9-bc4f-38bf" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="be6c-749c-7720-b343" name="EMP Overload Device" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c322-b4e1-aad9-8ee3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="aac2-2de2-8c46-83b6" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="2636-7167-2a9b-f1a9" name="Enhanced Sensor Array" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6942-c083-7136-db3f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0a58-cb0a-d065-9f7b" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="1d4a-fe5a-1f97-d5f0" name="Filter Systems" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Gas Mask as Equipment.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f8a-0d69-7357-8bd1" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4926-1743-9431-9c00" name="Rerouted Transmissions" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="5738-6201-0733-a0cc" name="Rerouted Transmissions" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Army commander only. When this model is removed from play as a casualty, nominate any friendly non-vehicle squad commander. You do not have to remove any Resource Cards from play due to losing your army commander. If the nominated squad commander is removed from play, you remove from play Resource cards as if you just lost your army commander.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb0-f298-d777-08af" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1f35-bc7f-983e-b9d9" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="e4c5-caa1-1aea-cf7f" name="Quadriplegic Retro-Enhancement" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Leap(4).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff7-a44a-a9cb-d135" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8e5d-8867-fa76-1d2d" name="Satellite Uplink" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="26fe-965e-96a0-7b74" name="Satellite Uplink" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The character gains controller.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="206b-0180-f324-2738" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d290-51b3-78c3-555b" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="05bb-04da-2acd-f9d7" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="484a-9fc9-8c64-79ab" name="Stinger Implant System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="807c-1695-b6a4-19af" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="3b2f-4f15-4f22-6af8" name="Hardware Upgrades" hidden="false" collective="false">
           <profiles/>
@@ -18105,141 +15355,238 @@ A(+1).</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3789-5d00-7bfe-dfd6" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="f035-2b2c-c0e8-6480" name="SP(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e4-d94b-387a-715d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6b83-b5a4-6833-2203" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7290-ce50-c62b-3d65" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b79d-cee3-5b27-f0bf" name="A(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e634-03b7-4c13-4c97" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="220e-2dd4-a10c-12b9" name="CC(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fc5-eb41-01dc-d73d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="520e-7684-6c04-0bf7" name="RS(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab09-3e09-534a-976a" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="b78f-90fc-9a66-8780" name="CON(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f895-4d16-6f84-8a88" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="114f-004f-4e4e-76f0" name="WP(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07d9-6cc2-5162-f9e2" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="35f2-5bdf-15a9-c6ce" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1835-73a5-dd30-6bf3" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="c0a0-2e67-6d7e-386b" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3175-e19d-c7dd-08a2" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ead3-c1ed-2e99-158d" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="df3c-7366-078e-a3da" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="da53-f317-8fe0-fa90" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2216-c1db-a083-91ff" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9d77-7ed5-dce4-30f0" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a0ec-1fe8-a255-b660" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a3aa-4fc5-eb76-aed8" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e8b7-0dc4-b2ea-15ff" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="896b-b16e-0738-3b7b" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0213-a87c-4b78-33b0" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="79eb-6dc0-76fb-6b84" name="Rerouted Transmissions" hidden="false" targetId="84b1-c1de-2fd6-42ef" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b8cc-9d55-f2fe-b796" name="Satellite Uplink" hidden="false" targetId="a457-28ff-895a-f9b4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="17d8-2a5e-e775-fe5d" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="364f-b944-c858-dc44" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="5">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2ac5-8b6e-11c1-7109" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="4">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8d54-5b1c-7cb6-aa71" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="3">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="71bc-47d0-6bbc-0d4c" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1852-843d-6339-6ae6" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
@@ -18248,42 +15595,193 @@ A(+1).</description>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="ba78-f0d9-1a84-dd59" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cd22-9950-8fa6-3da2" name="Hardware Upgrades" hidden="false" collective="false">
           <profiles/>
-          <rules>
-            <rule id="136f-4c13-e755-d754" name="Artificial Intelligence Implant" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f458-90df-030f-c5c6" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e6bc-14ee-ad6b-340e" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="87ab-237b-d97a-fa52" name="Cell Neogenesis Accelleration" hidden="false">
+          <entryLinks>
+            <entryLink id="f4c2-ac1f-d683-a35c" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <description>The model gains Heal (2).</description>
-            </rule>
-          </rules>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fe1b-70a9-c5fa-c519" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="965e-1695-9d31-13c0" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f488-07d8-fd96-0473" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f513-b1f1-9162-b2f8" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="fc2f-2409-25cf-aca3" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6177-752f-6e8c-ef83" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7a45-3417-cdf1-f7f1" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b25e-9936-79a0-c751" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bddf-c27a-5f9e-8c61" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6bfe-2525-981b-9371" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9122-cc3c-15a1-2be1" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f9cd-9c1f-f9bf-cb4d" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5946-6438-8b18-318f" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+          <profiles/>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
@@ -18294,28 +15792,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fb7-4ef5-c17e-ba0e" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0786-d82e-7dc9-73ec" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="716b-ef72-c0ba-aed4" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="19f5-e1d0-872d-b26e" name="Dermal Mirror shards" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Camouflage (2).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
@@ -18326,100 +15808,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d57f-924e-becf-5df3" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3327-4448-d9f3-8121" name="Early Warning System" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="1377-0cf8-863a-b7a2" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="59b3-a8cb-3aab-9613" name="Early Warning System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccb6-6f78-84be-fe06" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c860-011d-fa56-f409" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="98f8-e984-9cfe-2093" name="EMP Overload Device" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901a-3804-96c3-44dc" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3e21-db32-d3cc-ab4e" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="1bfd-75f9-6012-e2a8" name="Enhanced Sensor Array" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed76-82e5-ddd2-15d0" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ed61-a082-b1d7-3721" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="a959-5ec5-a90f-6d0c" name="Filter Systems" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Gas Mask as Equipment.</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
@@ -18430,28 +15824,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e7-d4d4-5981-4454" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="07f8-cf8c-0453-0dcb" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="f907-454d-6eca-9e51" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="527f-52e8-8225-9b70" name="Quadriplegic Retro-Enhancement" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Leap(4).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
@@ -18462,66 +15840,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cb-68a5-16d6-f0d9" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d023-2ac2-033e-71ac" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="db59-edf8-f4a5-3ea9" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="8e2b-bd08-a7a1-29c7" name="Stinger Implant System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0384-83cb-65c1-d607" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="76e0-3c36-94cf-d3d4" name="Weapons Overhaul" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="a379-c95f-957d-1bd0" name="Weapons Overhaul" hidden="false" targetId="f594-0588-68cd-835c" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="b82d-bf02-26f9-3a13" name="Weapons Overhaul" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>All of the model’s weapons receive ST(+1).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
@@ -18532,225 +15856,10 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bc3-4bdb-4411-e2d9" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cd22-9950-8fa6-3da2" name="Hardware Upgrades" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="2e31-aff3-4fff-0eed" name="SP(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ec-cfc6-2fe4-d788" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0cc1-fbad-b86a-d31a" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac0-a028-2d37-ab9a" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e2cf-6fcb-91df-d706" name="A(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ac-2806-6976-3891" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d9c6-4fe9-9b1c-74eb" name="CC(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4234-b665-2a81-7e3c" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8069-bbdf-48b8-4a35" name="RS(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e12e-c95f-e9f9-b398" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c108-e0dd-9c93-c48c" name="CON(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da1-f449-fe8c-20c8" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ac96-d622-5e83-d207" name="WP(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb40-ad0e-e36c-2e87" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c1d6-0e23-ea68-0d2e" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e44-55c9-1bc0-9ce1" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="18de-c154-3c3f-67fd" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
@@ -18759,302 +15868,7 @@ A(+1).</description>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="194e-c0a5-96ce-4da4" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="860c-e50a-d816-f077" name="Artificial Intelligence Implant" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f921-a070-833f-53ae" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e64c-a2e7-9646-dedb" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="73ef-5b49-a036-395f" name="Cell Neogenesis Accelleration" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Heal (2).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d8-b6bb-bde5-e4ed" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ca1e-028d-7fad-1814" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="ee0b-ae77-16da-c09e" name="Dermal Mirror shards" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Camouflage (2).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1011-d5d2-ee94-7d9c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c6a6-5813-2c49-472f" name="Early Warning System" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="b200-c30b-0d40-700f" name="Early Warning System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b46-f749-e42c-9787" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0266-c7d4-b0dd-fb5c" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="65e2-9d89-274c-ad32" name="EMP Overload Device" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7f9-8ad7-1922-5fc4" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4f69-21d2-d6f1-82ba" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="ac5c-9bb7-6bc7-017d" name="Enhanced Sensor Array" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73c7-815f-d7eb-4f69" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2102-86e5-5579-2b31" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="a6f2-e549-8cda-3197" name="Filter Systems" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Gas Mask as Equipment.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbed-524e-a661-8e23" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="62f2-a1aa-23ca-007b" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="c66c-2a36-60aa-5bf9" name="Quadriplegic Retro-Enhancement" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Leap(4).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a1-28fb-acb9-4eeb" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e716-69d7-2732-9327" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="0e53-ced5-1134-7e94" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="2aca-8c5c-1e18-5cd2" name="Stinger Implant System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b246-7956-6d69-1e64" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fa51-2a4d-637d-2d06" name="Weapons Overhaul" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="ea87-d646-a390-d10b" name="Weapons Overhaul" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>All of the model’s weapons receive ST(+1).</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f1-1414-20f7-d295" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="fc06-e06a-97d0-6d8d" name="Hardware Upgrades" hidden="false" collective="false">
           <profiles/>
@@ -19063,249 +15877,184 @@ A(+1).</description>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="972c-8341-a7c7-24a3" name="SP(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d09-d054-a027-b510" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="a080-995d-5206-0b5a" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4c-e519-9e1d-9e18" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e031-faaa-fdf4-9019" name="A(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f779-a170-adcd-d490" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="66c5-20a5-f464-bf16" name="CC(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4cc-cbbc-0960-bc1f" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="962d-ef58-6981-c571" name="RS(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe9-228f-c267-b777" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cac9-afae-ad85-4023" name="CON(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e4e-82a1-fcb2-54aa" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f3bb-d077-9103-2160" name="WP(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d3-2e66-687c-43af" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d03a-b6c8-76e7-eb44" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="382a-029c-d41f-a997" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="cbd6-75c7-0c50-3fe1" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="6e57-a693-cfa9-7831" name="Artificial Intelligence Implant" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="ffe4-7d43-a4e4-f00e" name="Artificial Intelligence Implant" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model generates one additional resource card per turn. Character / squad leader only.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad86-3206-86ec-ef10" type="max"/>
-          </constraints>
-          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b478-2d7d-c845-c398" name="Cell Neogenesis Accelleration" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="1abd-55b7-2900-502c" name="Cell Neogenesis Accelleration" hidden="false">
+          <entryLinks>
+            <entryLink id="4188-b7c9-334c-3b82" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <description>The model gains Heal (2).</description>
-            </rule>
-          </rules>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e356-91cc-0463-a428" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6b03-5aca-ca74-b942" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0ca7-a566-44ac-4957" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d382-05f2-fc5e-4de5" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0878-7499-4d53-3fae" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7fbf-e7a5-b72b-6fe8" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="15c9-eb41-74fd-6f45" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="22a6-da34-fe34-1581" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="72b0-9b41-edba-79d0" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3e90-78be-dcab-9448" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="967c-d119-d2e3-a6e1" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c7e-4803-59af-972b" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5d2c-8236-b799-2e5a" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+          <profiles/>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
@@ -19316,28 +16065,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7ae-c60f-93b7-2e94" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a357-cf38-6e43-1fa0" name="Dermal Mirror shards" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="9475-1376-3521-947d" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="462c-54e4-3139-0912" name="Dermal Mirror shards" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Camouflage (2).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
@@ -19348,100 +16081,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f437-d38a-1047-fb3b" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6c0e-2194-cb92-276c" name="Early Warning System" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="474e-a369-4233-6490" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="2a2b-2777-5148-33d6" name="Early Warning System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. Once per turn, the model may immediately use an action point as if it was on Sentry (even if the model has been activated earlier in the turn) for free immediately after any enemy model is deployed within 12” of this model’s base. This cannot be used if the Model is stunned, or is pinned or broken.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b4-90ae-150c-62d7" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bbec-cfdf-0317-d7b9" name="EMP Overload Device" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="a416-a1b8-aceb-3b13" name="EMP Overload Device" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. RES(2): Once per game per EMP Overload Device, all vehicles within 12” of this model begin their next activation with 2AP less than normal, to a minimum of 1. Additionally, any permanent tokens within 12” lose W(1). Temporary tokens are removed.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deaf-9f50-d78b-ca7b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6caa-f9f3-6ddd-bb4c" name="Enhanced Sensor Array" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="2e40-69a0-26e9-dc1d" name="Enhanced Sensor Array" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Any character or a troop or support squad commander. The model can make a target identify roll on each mission objective marker within 6”, exactly as though it were in base contact. The model still needs to be in base contact with the marker to interact with it in any other way.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8f0-e523-f5df-b591" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b202-516d-c2e2-8e5e" name="Filter Systems" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="162b-d4f1-8665-b96c" name="Filter Systems" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Gas Mask as Equipment.</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
@@ -19452,28 +16097,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="706c-76b5-defc-5c74" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e1ee-aead-b1be-6383" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="e661-ac21-6f2a-54d9" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="a2c6-48de-91a4-e6b6" name="Quadriplegic Retro-Enhancement" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>The model gains Leap(4).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
@@ -19484,66 +16113,12 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b47c-a672-28f6-c556" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="434b-e1ee-f327-58e7" name="Stinger Implant System" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="5615-7e06-63bf-ad70" name="Stinger Implant System" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="12"/>
-                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
-                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
-                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="S"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value=""/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="1ff3-1bd0-6a50-bf15" name="Stinger Implant System" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Character or a troop or support squad commander. The model receives an additional ranged weapon with the below profile. The weapon can be used between the actions of any model once per game and its use does not count as any action.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cbf-bcef-ca1b-89af" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d478-83d1-4889-c25c" name="Weapons Overhaul" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="335c-2515-e8af-109e" name="Weapons Overhaul" hidden="false" targetId="f594-0588-68cd-835c" type="selectionEntry">
           <profiles/>
-          <rules>
-            <rule id="0c2c-de92-7dcf-7673" name="Weapons Overhaul" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>All of the model’s weapons receive ST(+1).</description>
-            </rule>
-          </rules>
+          <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
@@ -19554,18 +16129,19 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e77-ebc2-718b-73ee" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cbd6-75c7-0c50-3fe1" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="55a7-8264-dfdf-ced4" name="Hardware Upgrades" hidden="false" collective="false">
           <profiles/>
@@ -19574,205 +16150,262 @@ A(+1).</description>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="46a8-1b67-6d24-6228" name="SP(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="6">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e257-6174-748e-3b39" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="aa94-1022-eb8d-30b2" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="6">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a62a-2bd9-d6b6-cce5" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4a4b-4bf8-7756-51d1" name="A(+1)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="6">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="162e-77d2-0164-2e58" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bdfd-f06a-c9ed-4c80" name="CC(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="8">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8143-9b9c-550d-51a0" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5f70-c4be-fa37-2fed" name="RS(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="8">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3659-a24b-63cc-4eef" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e3c3-d2a9-86d2-726b" name="CON(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77ad-8b33-be7d-5713" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="99f0-f787-0fe0-7f09" name="WP(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6b4-aaa3-b2ac-b6a8" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d2fc-a380-6e8a-a24b" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a9-5202-279c-e822" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="25a5-a67a-7ac0-6e3e" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e02c-61a4-5673-8954" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2c00-7d75-8447-c1f1" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="47a1-1631-0a23-cb01" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="93ab-d7d1-404f-4ae6" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3d9b-4348-ec2b-8333" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2fb5-3585-d04f-0499" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f645-e3b4-42fc-c265" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="493a-2d08-3092-1aa7" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6a65-4bfd-07e8-ff74" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0b92-8205-e4cf-154d" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="287b-b96d-06bc-5d48" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ff1-2433-a04d-3fed" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b4e9-291b-6d8e-bd17" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7326-c8e0-7cf7-72f5" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3598-600c-f8dc-e575" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d20a-c7f6-96c7-2e1e" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1394-527e-dbcc-d90a" name="Weapons Overhaul" hidden="false" targetId="f594-0588-68cd-835c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="8ff2-dc9d-8ee7-9c03" name="Free Ki Powers" book="FREE" hidden="false" collective="false">
       <profiles/>
@@ -21228,8 +17861,10 @@ A(+1).</description>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="8605-c0c2-a71f-af97" name="SP(+1)" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9400-3a87-84f3-2ccd" name="A(+1)" hidden="false" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21242,66 +17877,10 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5609-6aae-b21b-227d" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="11cf-4523-b0ae-f924" name="ST(+2)" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c25-5f13-69be-e278" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2447-3ba5-c020-4cec" name="A(+1)" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f82-cc75-fe17-278f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d0e6-ebbb-ec06-066f" name="CC(+2)" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="2c98-af9b-818e-d494" name="CC(+2)" hidden="false" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21314,18 +17893,26 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c500-df46-206e-f984" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e98b-0e78-8d1e-2ea0" name="RS(+2)" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="c130-8443-2dc2-a6c8" name="CON(+2)" hidden="false" targetId="3768-6078-db80-1336" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a2f3-67e3-e106-0abf" name="RS(+2)" hidden="false" targetId="f414-0e71-0fad-08da" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21338,18 +17925,42 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4072-086a-307b-d78b" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="16dd-4fe8-2131-930d" name="CON(+2)" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="4531-015a-f584-d44f" name="SP(+1)" hidden="false" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2f9e-5af7-2cd9-f6f7" name="ST(+2)" hidden="false" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fa5f-af6e-6446-0128" name="LD(+2)" hidden="false" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21362,18 +17973,10 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a64c-39bb-b9bb-3568" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9b9a-da8a-3f5c-9811" name="WP(+2)" hidden="false" collective="false" type="upgrade">
+        </entryLink>
+        <entryLink id="63a3-abce-65cd-897c" name="WP(+2)" hidden="false" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -21386,44 +17989,10 @@ A(+1).</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07de-6d1c-f850-8beb" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a66b-63eb-aed9-0364" name="LD(+2)" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="1">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db43-2a40-3d23-8c41" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6cf2-0d7b-2ce7-298e" name="Free Cybertronic Upgrades" book="Medium Based Character" hidden="false" collective="false">
       <profiles/>
@@ -22547,7 +19116,7 @@ A(+1).</description>
         <selectionEntry id="2199-d777-6ed7-8c59" name="Ghost Form" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="c82d-4b75-b722-9112" name="Levitation" hidden="false">
+            <rule id="c82d-4b75-b722-9112" name="Ghost Form" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -25434,7 +22003,7 @@ A(+1).</description>
         <selectionEntry id="85d2-85ee-ceea-5b61" name="Ghost Form" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="8d2e-939b-f59a-b823" name="Levitation" hidden="false">
+            <rule id="8d2e-939b-f59a-b823" name="Ghost Form" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -26761,6 +23330,273 @@ A(+1).</description>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5d98-f0ec-51ee-208c" name="Cybertronic Upgrades" book="" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="30f6-3961-f68a-b056" name="Hardware Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e91-1438-d440-23ef" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bbc3-06cb-afb0-7863" name="A(+1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9239-43e3-e55a-d9b3" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="413a-1cb8-0e42-00f0" name="CC(+2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4497-535c-324c-e3d1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ce5f-3e9d-5802-708b" name="CON(+2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b2d-f100-7f94-2550" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2a28-43dc-25f6-7f92" name="LD(+2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2261-1367-a8dd-2985" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b12f-ff0e-4ca1-6f42" name="RS(+2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ee-e7fa-f8c2-f8c8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4959-aeeb-0687-dafe" name="SP(+1)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf9e-88c8-f9bb-5284" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a948-304e-1770-df7e" name="ST(+2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3102-e001-9c19-21ea" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7c13-ec67-9100-dda0" name="WP(+2)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d35-0f2f-b22f-8779" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4b30-9853-6869-ae97" name="Artificial Intelligence Implant" hidden="false" targetId="34ce-2501-6280-7612" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f5a6-747a-5291-0cb8" name="Early Warning System" hidden="false" targetId="a2be-c385-1c29-36c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5a26-3bb3-43d9-29bd" name="EMP Overload Device" hidden="false" targetId="058d-363d-53d0-5949" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b63e-a7de-71d0-897b" name="Enhanced Sensor Array" hidden="false" targetId="5fa7-4156-098e-67fd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bf7f-f41a-040a-10c9" name="Rerouted Transmissions" hidden="false" targetId="84b1-c1de-2fd6-42ef" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="97fa-7abe-2f66-b546" name="Satellite Uplink" hidden="false" targetId="a457-28ff-895a-f9b4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aaac-d826-f99b-b1a1" name="Stinger Implant System" hidden="false" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b1ac-415f-9137-c8f8" name="Cell Neogenesis Accelleration" hidden="false" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4a4b-a852-b779-e879" name="Dermal Mirror shards" hidden="false" targetId="b235-7296-f783-12c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1479-71b3-c1ab-8016" name="Filter Systems" hidden="false" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ec20-e20b-2319-5065" name="Quadriplegic Retro-Enhancement" hidden="false" targetId="978f-93c5-1356-33df" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="547a-ce3f-3831-bc09" value="2">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
