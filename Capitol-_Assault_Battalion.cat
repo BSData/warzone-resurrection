@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0703-de87-e7f0-2fb8" name="Capitol- Assault Battalion" revision="12" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0703-de87-e7f0-2fb8" name="Capitol- Assault Battalion" revision="13" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -2176,7 +2176,46 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e3e-05de-0cfc-487c" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="4bd3-b1aa-fbd1-41e2" name="Knife Fighters" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d24b-2113-a9b5-b6cf" name="Combat Knife" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="B2B"/>
+                    <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+1"/>
+                    <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                    <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                    <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="7e10-ca8f-70fa-054d" name="Paired Weapons(Combat Knife)" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="873b-d4bb-863a-1bcb" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="7cf8-6c91-d73e-b72f" name="Go For Broke" hidden="false" targetId="5a0e-3a8b-41ea-0d59" type="selectionEntry">
@@ -8088,7 +8127,7 @@ Smoke Bombardment.</description>
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa54-00f6-37e2-8afe" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa54-00f6-37e2-8afe" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>

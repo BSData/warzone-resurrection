@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="16" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="17" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="040b-c469-d738-5885" name="Death Before Dishonour" hidden="false">
@@ -318,6 +318,13 @@
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="increment" field="db0e-37dd-158d-c429" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0535-52af-28cc-9d92" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2219-596b-d97d-0fb6" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
               <characteristics>
                 <characteristic name="SP" characteristicTypeId="9db2-e73d-81c4-7e5e" value="5"/>
@@ -615,6 +622,13 @@
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="4f31-18de-79c3-0033" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4c2-be83-5488-4f00" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="db0e-37dd-158d-c429" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4f31-18de-79c3-0033" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e8e6-3b26-bd78-01f5" type="greaterThan"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>

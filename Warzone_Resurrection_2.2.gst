@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="25" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="26" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -25611,7 +25611,7 @@ If a trap goes off and there are multiple targets, the trap´s owner chooses the
         <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+3"/>
         <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
         <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
+        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4), DEF(+2)"/>
       </characteristics>
     </profile>
     <profile id="9351-7193-1f40-4935" name="Combat Knife" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -25637,10 +25637,10 @@ If a trap goes off and there are multiple targets, the trap´s owner chooses the
         <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="+4"/>
         <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="3"/>
         <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4)"/>
+        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(4), DEF(+3)"/>
       </characteristics>
     </profile>
-    <profile id="b227-f007-b3ca-f098" name="Lyons &amp; Atkinson Plasma Carbing" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+    <profile id="b227-f007-b3ca-f098" name="Lyons &amp; Atkinson Plasma Carbine" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
