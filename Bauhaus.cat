@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="20" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="21" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7a21-e865-1a7c-36c8" name="Doubtless Precision" hidden="false">
@@ -3996,6 +3996,19 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
                 <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="105"/>
               </characteristics>
             </profile>
+            <profile id="0441-7a35-7da1-9c1e" name="Exo-Mech Legs" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
+              </characteristics>
+            </profile>
           </profiles>
           <rules>
             <rule id="e71a-62d8-3ffc-69f5" name="Brawler" hidden="true">
@@ -6163,6 +6176,19 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
                 <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="10&quot;"/>
                 <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="105"/>
+              </characteristics>
+            </profile>
+            <profile id="1232-8fe9-9be2-0d39" name="Exo-Mech Legs" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="1"/>
+                <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="12"/>
+                <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="1"/>
+                <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
               </characteristics>
             </profile>
           </profiles>

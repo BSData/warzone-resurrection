@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="15" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="16" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="1d05-375c-35c9-32bc" name="Strength in Small Numbers" hidden="false">
@@ -3787,7 +3787,7 @@ them in B2B contact with this model, with Morten in their front facing. If you c
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="b6df-f92e-cd38-a097" name="Army Commander" hidden="false" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+        <entryLink id="b6df-f92e-cd38-a097" name="Army Commander" hidden="false" targetId="fb4d-74ba-cd47-dd66" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3914,7 +3914,7 @@ them in B2B contact with this model, with Morten in their front facing. If you c
                 <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="11"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="5"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="H"/>
-                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1)"/>
+                <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Concussive(1), Strafe"/>
               </characteristics>
             </profile>
             <profile id="175c-8744-ba48-dc01" name="Clansman&apos;s Claymore" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
