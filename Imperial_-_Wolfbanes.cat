@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="14" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="15" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="1d05-375c-35c9-32bc" name="Strength in Small Numbers" hidden="false">
@@ -51,7 +51,9 @@ Fenris Bike: 1SRP
 RITES:
 Wolfbane rites and rituals are often long and difficult to perform ceremonies involving potions, books and stanzas. They usually require long preparation and the presence of those who know how to use them, connection with the lay lines and a lot of alcohol. They result in a higher plane of understanding and a furor for battle. 
 Rites are abilities that squads are upgraded with during army building and affect every model in the Squad including attached models. A squad can only be upgraded with one rite and may only benefit from one rite per turn. You can only upgrade squads with Rites if you would be able to generate the total appropriate number of skulls in your army. 
-At the start of every Control Phase, the controlling player must pay the upkeep cost in Silent Roar points for each rite. If the controlling player does not, the rite is lost for the rest of the game.
+At the start of the first Control Phase, the controlling player MUST pay the upkeep cost in Silent Roar points for each Rite taken.
+At the start of each Control Phase after the first, the controlling player may choose to pay the upkeep for a Rite or not pay the
+upkeep and loose it for the remainder of the game.
 4SRP Rite of the Eternal Night:
 Any ranged attack made against this models in this squad receives RS(-4) (or WP in case of Psychic (S) attacks).
 3SRP Rite of the Tempest:

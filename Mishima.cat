@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="17" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="040b-c469-d738-5885" name="Death Before Dishonour" hidden="false">
@@ -6068,12 +6068,11 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and roll: 
-On a roll of 1-15, remove the trap from the board and the tripping model receives the described hit (Z). 
-On a 16-20, nothing happens. Leave the trap in play. 
-After resolving the trap, the surviving model may continue its activation.
-If a trap goes off and there are multiple targets, the trap´s owner chooses the order in which models are affected. 
-</description>
+      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and for each enemy model in range that has not already rolled for that trap this turn, the trap&apos;s owner rolls a D20:
+1-15 - The model receives the described hit (Z).
+16-20 - Nothing happens.
+After resolving the trap, remove it if at least one model rolled a 1-15. The surviving model may then continue its activation or
+movement. </description>
     </rule>
     <rule id="ba4d-69af-9f95-00ab" name="Ki Mirror Generator" hidden="false">
       <profiles/>

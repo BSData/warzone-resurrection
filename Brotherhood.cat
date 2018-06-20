@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="19" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -21,7 +21,8 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>All Brotherhood non-vehicle squads and characters must be upgraded with 1 or 2 Art (Psychic) Powers. Each squad may only choose Powers from the same Art Path. Vehicles may be upgraded with 1 or 2 Art Powers.
+      <description>All Brotherhood non-vehicle squads and characters must be upgraded with 1 or 2 Art (Psychic) Powers. A squad that already has
+1 or more &apos;free&apos; Art powers on it&apos;s profile is not required to purchase additional Art powers. Each squad may only choose Powers from the same Art Path. Vehicles may be upgraded with 1 or 2 Art Powers.
 Any model in a squad, except attached characters, may attempt to cast any of the squads Art Powers but each power may only be attempted once per squad.
 Characters purchase their own Art Powers and, if attached to a squad, may only use their own Powers. The squad cannot use the Powers purchased by the character.</description>
     </rule>

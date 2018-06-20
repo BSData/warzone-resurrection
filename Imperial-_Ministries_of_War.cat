@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="19" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c534-748b-2fea-1be3" name="Military Heirarchy" hidden="false">
@@ -1192,17 +1192,6 @@ A Clan marker affects all models in the chosen squad with the specified effect. 
         </profile>
       </profiles>
       <rules>
-        <rule id="519c-0839-fb16-8cfc" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model is within a certain distance to the trap (Y), it goes off! On a roll of 1-15, the tripping model receives the described hit (Z). Traps are removed from the board after they have gone off. On a 16-20, nothing happens. Leave the trap in play.
-All Traps have 3 attributes:
-(X) - Amount: This is the number of traps you may place per squad equipped with these traps.
-(Y) - Tripping Range: If an enemy model moves within this range, the trap goes off.
-(Z) - Hit Strength: The tripping model receives a hit with this ST if the trap owning player rolls a 1-15.</description>
-        </rule>
         <rule id="7ff1-5286-7905-3cfb" name="Act of Valor" hidden="false">
           <profiles/>
           <rules/>
@@ -1289,6 +1278,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="bf71-352b-9ee0-bb3e" name="Urban Combat Specialists" hidden="false" targetId="1447-0426-a820-4a1a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="92cb-a42e-dd99-1edc" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false" targetId="ad95-2413-3631-2ce8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1460,7 +1455,7 @@ All Traps have 3 attributes:
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="6-18/SE"/>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18/SE"/>
                 <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="10"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="GR"/>
@@ -1473,7 +1468,7 @@ All Traps have 3 attributes:
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="6-18"/>
+                <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="18"/>
                 <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="13"/>
                 <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
                 <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="ML"/>
@@ -5435,19 +5430,7 @@ All Traps have 3 attributes:
     </selectionEntry>
     <selectionEntry id="9d27-2e6f-3123-cfe1" name="Her Serenity&apos;s Life Dragoons" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules>
-        <rule id="f267-c398-0dee-8c7d" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model is within a certain distance to the trap (Y), it goes off! On a roll of 1-15, the tripping model receives the described hit (Z). Traps are removed from the board after they have gone off. On a 16-20, nothing happens. Leave the trap in play.
-All Traps have 3 attributes:
-(X) - Amount: This is the number of traps you may place per squad equipped with these traps.
-(Y) - Tripping Range: If an enemy model moves within this range, the trap goes off.
-(Z) - Hit Strength: The tripping model receives a hit with this ST if the trap owning player rolls a 1-15.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="2991-150c-e0f0-f8be" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
           <profiles/>
@@ -5486,6 +5469,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="f8eb-3820-af70-7b75" name="Urban Combat Specialists" hidden="false" targetId="1447-0426-a820-4a1a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2583-1686-4e9d-f4a8" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false" targetId="ad95-2413-3631-2ce8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5725,19 +5714,7 @@ All Traps have 3 attributes:
     </selectionEntry>
     <selectionEntry id="b463-e463-708c-914a" name="Her Serenity&apos;s Life Dragoons" hidden="true" collective="false" type="unit">
       <profiles/>
-      <rules>
-        <rule id="06d3-0961-b4c2-4882" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model is within a certain distance to the trap (Y), it goes off! On a roll of 1-15, the tripping model receives the described hit (Z). Traps are removed from the board after they have gone off. On a 16-20, nothing happens. Leave the trap in play.
-All Traps have 3 attributes:
-(X) - Amount: This is the number of traps you may place per squad equipped with these traps.
-(Y) - Tripping Range: If an enemy model moves within this range, the trap goes off.
-(Z) - Hit Strength: The tripping model receives a hit with this ST if the trap owning player rolls a 1-15.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="bb33-9c24-fa7a-e375" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
           <profiles/>
@@ -5776,6 +5753,12 @@ All Traps have 3 attributes:
           <modifiers/>
         </infoLink>
         <infoLink id="b77b-ffc9-ccdd-4cdd" name="Urban Combat Specialists" hidden="false" targetId="1447-0426-a820-4a1a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f06e-97fb-c001-d5bc" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false" targetId="ad95-2413-3631-2ce8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9168,6 +9151,18 @@ All Traps have 3 attributes:
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="ad95-2413-3631-2ce8" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model.If an enemy model moves or activates within a certain distance to the trap (Y) 󰀀, it goes off! Immediately suspend play and for each enemy model in range that has not already rolled for that trap this turn, the trap&apos;s owner rolls a D20:
+1-15 - The model receives the described hit (Z).
+16-20 - Nothing happens.
+After resolving the trap, remove it if at least one model rolled a 1-15. The surviving model may then continue its activation or
+movement.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </catalogue>

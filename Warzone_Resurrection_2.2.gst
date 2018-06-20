@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="26" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="27" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4726,7 +4726,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When an enemy model declares a charge action against any other character within 4” of this model, the charging model receives a ST(6)concussive(1) autohit after completing the Charge action.</description>
+          <description>When an enemy model declares a charge action against any other character within 4” of this model, the charging model receives a ST(6) Concussive(1) autohit after completing the Charge action.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -23706,8 +23706,11 @@ Mirrormen squads to gain RES(+X) or Initiative (3*X) for the next turn.</descrip
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>RES(2): Between the actions of any model, select 1 unengaged Mirrorman. 
-All enemy models making any shooting action within 18” in this turn that could target this Mirrorman (regardless of their facing) must first pass a LD test at LD/2. If the test is failed, the Model receives RS (-6) and must make that shooting action against any Mirrorman using Camouflaged Suit if able. No secondary targets may be chosen. Enemy models can be affected only once per turn.</description>
+      <description>RES(2): Between the actions of any model, select 1 unengaged Mirrorman.
+All enemy models making any shooting action within 18” in this turn that could target this Mirrorman (regardless of their
+facing) must first pass a LD test at LD/2. If the test is failed, the Model receives RS (-6) and must make that shooting action
+against any Mirrorman using Chrome-Mirrored Suit if able. No secondary targets may be chosen. Enemy models can be
+affected only once per turn.</description>
     </rule>
     <rule id="cd89-2bdd-e050-28d5" name="Controller" hidden="false">
       <profiles/>
@@ -23838,7 +23841,7 @@ number of markers to get one of these effects. All effects last until the beginn
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When trying to ‘spot’ a stalking marker, this model uses its full LD. </description>
+      <description>Enemy stalk markers within 6&quot; are automatically flipped even if they are not in LOS.</description>
     </rule>
     <rule id="e9a0-a969-eab3-b2f9" name="Blood Rage" hidden="false">
       <profiles/>
@@ -24792,12 +24795,11 @@ autohit.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and roll: 
-On a roll of 1-15, remove the trap from the board and the tripping model receives the described hit (Z). 
-On a 16-20, nothing happens. Leave the trap in play. 
-After resolving the trap, the surviving model may continue its activation.
-If a trap goes off and there are multiple targets, the trap´s owner chooses the order in which models are affected. 
-</description>
+      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and for each enemy model in range that has not already rolled for that trap this turn, the trap&apos;s owner rolls a D20:
+1-15 - The model receives the described hit (Z).
+16-20 - Nothing happens.
+After resolving the trap, remove it if at least one model rolled a 1-15. The surviving model may then continue its activation or
+movement. </description>
     </rule>
     <rule id="4106-15e9-10b3-55c9" name="Leap(5)" hidden="false">
       <profiles/>
@@ -25076,23 +25078,22 @@ may place a ‘Blend In’ marker next to the squad. Every Sea Lion in this squa
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and roll: 
-On a roll of 1-15, remove the trap from the board and the tripping model receives the described hit (Z). 
-On a 16-20, nothing happens. Leave the trap in play. 
-After resolving the trap, the surviving model may continue its activation.
-If a trap goes off and there are multiple targets, the trap´s owner chooses the order in which models are affected. 
-</description>
+      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and for each enemy model in range that has not already rolled for that trap this turn, the trap&apos;s owner rolls a D20:
+1-15 - The model receives the described hit (Z).
+16-20 - Nothing happens.
+After resolving the trap, remove it if at least one model rolled a 1-15. The surviving model may then continue its activation or
+movement. </description>
     </rule>
     <rule id="1d29-9510-e422-3b4b" name="Booby Traps(1/5&quot;/13)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and roll: 
-On a roll of 1-15, remove the trap from the board and the tripping model receives the described hit (Z). 
-On a 16-20, nothing happens. Leave the trap in play. 
-After resolving the trap, the surviving model may continue its activation.
-If a trap goes off and there are multiple targets, the trap´s owner chooses the order in which models are affected. 
+      <description>Traps (X/Y/Z) - After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model. If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and for each enemy model in range that has not already rolled for that trap this turn, the trap&apos;s owner rolls a D20:
+1-15 - The model receives the described hit (Z).
+16-20 - Nothing happens.
+After resolving the trap, remove it if at least one model rolled a 1-15. The surviving model may then continue its activation or
+movement. 
 </description>
     </rule>
     <rule id="e3e0-93fa-783a-17d5" name="Valkyrie Deployment" hidden="false">

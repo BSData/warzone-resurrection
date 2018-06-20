@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="15" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="16" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -2246,7 +2246,9 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c949-d14f-4d70-32e8" name="Machinators Mk.IX" page="" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -3262,12 +3264,6 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="aa7e-f6fe-f577-2278" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
             <infoLink id="c516-7af9-c69d-045c" name="Hard to Hit(3)" hidden="false" targetId="c436-6bd5-cee7-3905" type="rule">
               <profiles/>
               <rules/>
@@ -3293,6 +3289,33 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
           <costs>
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="d031-de68-7955-f22d" name="Flank Deployment" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3cae-2006-ff20-035e" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="0.0">
+              <repeats>
+                <repeat field="selections" scope="f8aa-741b-b9bb-06c2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e11-f7cf-9081-659e" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="20" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="7a21-e865-1a7c-36c8" name="Doubtless Precision" hidden="false">
@@ -3998,22 +3998,45 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
             </profile>
           </profiles>
           <rules>
-            <rule id="e71a-62d8-3ffc-69f5" name="Brawler" hidden="false">
+            <rule id="e71a-62d8-3ffc-69f5" name="Brawler" hidden="true">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4f3e-a5db-1f8b-e917" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="931f-ba04-ddec-928d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <description>Vulkans equipped with a pair of Hydraulic Powered Fists gain DEF(+2) and always start their Activation with at least AP(2).</description>
             </rule>
-            <rule id="743e-0c9d-e937-0d9f" name="Paired Weapons(Hydraulic Powered Fist)" hidden="false">
+            <rule id="743e-0c9d-e937-0d9f" name="Paired Weapons(Hydraulic Powered Fist)" hidden="true">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="4f3e-a5db-1f8b-e917" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="931f-ba04-ddec-928d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="cfbd-c443-a19e-d627" name="Repair(5)" hidden="false" targetId="59ee-ad15-2e83-26d3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6893-64fc-4fff-fcd0" type="min"/>
@@ -4033,36 +4056,6 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="2582-bbd9-49b1-4ab9" name="Hydraulic Powered Fist" hidden="false" collective="false" type="upgrade">
-                  <profiles>
-                    <profile id="9b84-e00c-925a-a5cc" name="Hydraulic Powered Fist" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <characteristics>
-                        <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
-                        <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                        <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(10), Critical Force(2)"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e5c-abab-96b3-8ab9" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="a327-243b-4a32-fb19" name="JS66 ‘Prometheus’ Flamethrower" hidden="false" collective="false" type="upgrade">
                   <profiles>
                     <profile id="8856-d681-21fa-cd28" name="JS66 ‘Prometheus’ Flamethrower" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -4095,7 +4088,16 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="dca1-1027-905c-6100" name="Hydraulic Powered Fist" hidden="false" targetId="931f-ba04-ddec-928d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="c7ce-aa1c-62a2-9bbf" name="Left Arm" hidden="false" collective="false" defaultSelectionEntryId="3f92-b01b-8d7c-9fa8">
               <profiles/>
@@ -4108,36 +4110,6 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="1a0b-ca9d-e95e-53a4" name="Hydraulic Powered Fist" hidden="false" collective="false" type="upgrade">
-                  <profiles>
-                    <profile id="799c-7cbc-655f-48d6" name="Hydraulic Powered Fist" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <characteristics>
-                        <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
-                        <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                        <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(10), Critical Force(2)"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7c4-7455-5255-886e" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="3f92-b01b-8d7c-9fa8" name="MG-80 HMG" hidden="false" collective="false" type="upgrade">
                   <profiles>
                     <profile id="bfad-9a85-0906-1eb0" name="MG-80 HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -4183,7 +4155,16 @@ side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="e5d8-3e01-2500-13b2" name="Hydraulic Powered Fist" hidden="false" targetId="931f-ba04-ddec-928d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
@@ -5204,7 +5185,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
             <characteristic name="A" characteristicTypeId="f927-63b8-5afd-6ce1" value="22"/>
             <characteristic name="SZ" characteristicTypeId="1a02-1e97-71e4-e658" value="0"/>
             <characteristic name="COH" characteristicTypeId="05da-39a2-c9de-de6f" value="-"/>
-            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="80"/>
+            <characteristic name="PTS" characteristicTypeId="1b37-c4b7-2c11-f4be" value="70"/>
           </characteristics>
         </profile>
         <profile id="9e53-c1f5-792f-aea9" name="PSG-99 Sniper Rifle" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -5334,7 +5315,7 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="80.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ced-78f7-aa0d-cb58" name="Colonel Herbert B. Marbach" hidden="false" collective="false" type="model">
@@ -6186,22 +6167,45 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
             </profile>
           </profiles>
           <rules>
-            <rule id="1176-7bff-0456-c3cc" name="Brawler" hidden="false">
+            <rule id="1176-7bff-0456-c3cc" name="Brawler" hidden="true">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="278d-32a1-eb0f-9367" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="931f-ba04-ddec-928d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <description>Vulkans equipped with a pair of Hydraulic Powered Fists gain DEF(+2) and always start their Activation with at least AP(2).</description>
             </rule>
-            <rule id="f2bd-a7a6-914f-efed" name="Paired Weapons(Hydraulic Powered Fist)" hidden="false">
+            <rule id="f2bd-a7a6-914f-efed" name="Paired Weapons(Hydraulic Powered Fist)" hidden="true">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="278d-32a1-eb0f-9367" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="931f-ba04-ddec-928d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="8a93-fdd0-cd4a-b226" name="Repair(5)" hidden="false" targetId="59ee-ad15-2e83-26d3" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb80-838c-e95d-3c75" type="min"/>
@@ -6221,36 +6225,6 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="50a2-4afa-f2a5-6cfb" name="Hydraulic Powered Fist" hidden="false" collective="false" type="upgrade">
-                  <profiles>
-                    <profile id="12ef-fc69-bc1f-7e83" name="Hydraulic Powered Fist" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <characteristics>
-                        <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
-                        <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                        <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(10), Critical Force(2)"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5f8-75e3-c721-5a4d" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="9536-8838-3496-0636" name="JS66 ‘Prometheus’ Flamethrower" hidden="false" collective="false" type="upgrade">
                   <profiles>
                     <profile id="3ae5-caf6-bad6-5cd5" name="JS66 ‘Prometheus’ Flamethrower" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -6283,7 +6257,16 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="db33-8da7-e86a-2b9b" name="Hydraulic Powered Fist" hidden="false" targetId="931f-ba04-ddec-928d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="a802-03ee-437f-b96a" name="Left Arm" hidden="false" collective="false" defaultSelectionEntryId="b1dc-f002-15fa-38a3">
               <profiles/>
@@ -6296,36 +6279,6 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
               </constraints>
               <categoryLinks/>
               <selectionEntries>
-                <selectionEntry id="22f7-88ad-d366-90da" name="Hydraulic Powered Fist" hidden="false" collective="false" type="upgrade">
-                  <profiles>
-                    <profile id="018c-ce76-b574-4f11" name="Hydraulic Powered Fist" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <characteristics>
-                        <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
-                        <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
-                        <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
-                        <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
-                        <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(10), Critical Force(2)"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ea1-350c-8fe6-15e3" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="b1dc-f002-15fa-38a3" name="MG-80 HMG" hidden="false" collective="false" type="upgrade">
                   <profiles>
                     <profile id="3013-8233-cef3-8be3" name="MG-80 HMG" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
@@ -6371,7 +6324,16 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="b19a-1633-c327-dd3f" name="Hydraulic Powered Fist" hidden="false" targetId="931f-ba04-ddec-928d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
@@ -8295,6 +8257,36 @@ roll a d20/2. Move the model directly away from the Strike Skimmer, up to the di
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="931f-ba04-ddec-928d" name="Hydraulic Powered Fist" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8048-2f15-936a-aa66" name="Hydraulic Powered Fist" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="R" characteristicTypeId="bf81-58c8-2998-0bac" value="2"/>
+            <characteristic name="ST" characteristicTypeId="6897-944f-c8fe-4c3c" value="14"/>
+            <characteristic name="ROA" characteristicTypeId="230e-bcc1-5de9-c333" value="2"/>
+            <characteristic name="TYPE" characteristicTypeId="d9f6-13bc-ea9c-edf7" value="CC"/>
+            <characteristic name="RULES" characteristicTypeId="9f21-2671-81ec-316a" value="Armour Piercing(10), Critical Force(2)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="931f-ba04-ddec-928d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d53d-3b06-537a-4a93" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
