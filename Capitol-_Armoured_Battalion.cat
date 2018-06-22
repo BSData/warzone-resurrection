@@ -3088,7 +3088,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5270-4fc7-5dc0-7346" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -7583,7 +7585,7 @@ Smoke Bombardment.</description>
       </rules>
       <infoLinks/>
       <modifiers>
-        <modifier type="increment" field="547a-ce3f-3831-bc09" value="0.0">
+        <modifier type="increment" field="547a-ce3f-3831-bc09" value="20">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -7599,7 +7601,7 @@ Smoke Bombardment.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="20.0"/>
+        <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1860-a48c-d7fa-8429" name="Up Close and Personal" hidden="false" collective="false" type="upgrade">
