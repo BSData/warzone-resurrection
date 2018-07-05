@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="18" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="19" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="040b-c469-d738-5885" name="Death Before Dishonour" hidden="false">
@@ -938,7 +938,7 @@
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="faf2-477c-8e1f-e98f" name="Ki Mirror Generator" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="faf2-477c-8e1f-e98f" name="Ki Mirror Generator (SC)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1261,6 +1261,16 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b8a0-fe06-2c46-617a" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1d28-18c3-6473-23d7" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2845,7 +2855,7 @@ deploy the rest of the squad within 3” of him. The models count as having move
             <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="55fd-48f1-ce5d-87b1" name="Ki Mirror Generator" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="55fd-48f1-ce5d-87b1" name="Ki Mirror Generator (SC)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3544,7 +3554,18 @@ deploy the rest of the squad within 3” of him. The models count as having move
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="146f-3055-6eba-11e8" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b1f9-93a1-29a2-f490" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="140.0"/>
       </costs>
@@ -3771,7 +3792,18 @@ deploy the rest of the squad within 3” of him. The models count as having move
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e747-c22f-6d31-44b4" name="Ki Powers" hidden="false" targetId="e892-61af-a7aa-8501" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d28-495a-b7a1-f9f4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" costTypeId="547a-ce3f-3831-bc09" value="310.0"/>
       </costs>
@@ -5125,6 +5157,20 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="3fbe-bbf7-c44c-401b" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="61b4-8d9a-0372-8d58" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="61b4-8d9a-0372-8d58" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fbe-bbf7-c44c-401b" type="max"/>
@@ -5892,9 +5938,17 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1572-4d28-44fa-6c84" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b94-585f-cf6e-9293" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6b94-585f-cf6e-9293" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>

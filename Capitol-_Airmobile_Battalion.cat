@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d03a-8dea-c83c-de83" name="Capitol- Airmobile Battalion" revision="15" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d03a-8dea-c83c-de83" name="Capitol- Airmobile Battalion" revision="16" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="b51a-ddc5-b733-731b" name="M50 Grenade Launcher" hidden="false">
@@ -31,7 +31,7 @@
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
@@ -137,7 +137,7 @@
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
@@ -809,7 +809,60 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9514-7c4b-ed1e-d379" name="Battalion Enhanced Tactics" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cac-dda1-2ab2-4032" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e4d1-9ac3-b875-a2c9" name="CAS Helicopter Missile Strike" hidden="false" targetId="4173-1358-1638-d5f4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3afb-884a-1268-7add" name="Evac Chopper" hidden="false" targetId="bab5-6baf-137e-85ee" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="50f8-623d-d3da-cca3" name="Eyes in the Sky" hidden="false" targetId="e326-43a4-ed05-73b1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1ca3-1407-54fc-213d" name="On Target Drop" hidden="false" targetId="e571-43ca-f81b-e9a8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="547a-ce3f-3831-bc09" value="50">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="ab49-0dfa-4441-1ba4" name="Army Commander" hidden="false" targetId="4fdc-9f23-f47a-f0b6" type="selectionEntry">
           <profiles/>
@@ -2849,7 +2902,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="14"/>
                 <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="25/2"/>
                 <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="25/2"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="25/3"/>
+                <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="25/3"/>
                 <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="25/2"/>
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
@@ -3670,7 +3723,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="14"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="28/3"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/4"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
@@ -5244,7 +5297,7 @@ Smoke Bombardment.</description>
                 <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="14"/>
                 <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="25/2"/>
                 <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="25/2"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="25/3"/>
+                <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="25/3"/>
                 <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="25/2"/>
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
@@ -5338,7 +5391,7 @@ Smoke Bombardment.</description>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="29/4"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="29/4"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="28/4"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="28/4"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
@@ -5516,7 +5569,7 @@ Smoke Bombardment.</description>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="-"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="32/6"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="32/6"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="31/6"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="31/6"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="31/5"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="5"/>
@@ -7466,7 +7519,7 @@ Smoke Bombardment.</description>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="16"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="30/4"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/3"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="28/4"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="28/4"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/4"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>

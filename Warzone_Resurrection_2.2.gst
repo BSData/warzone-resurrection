@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="28" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="29" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -32,7 +32,7 @@
         <characteristicType id="3fb5-dad5-a441-ec28" name="LD"/>
         <characteristicType id="e459-2a09-f6a4-5d56" name="HULL"/>
         <characteristicType id="0d7a-4494-01c9-424c" name="WPNS"/>
-        <characteristicType id="f4a6-4f0b-6075-23b0" name="LEGS"/>
+        <characteristicType id="f4a6-4f0b-6075-23b0" name="MOV"/>
         <characteristicType id="da22-92fc-ab52-ecb7" name="ENG"/>
         <characteristicType id="1627-198e-001c-8872" name="A-REAR"/>
         <characteristicType id="2021-cb5b-54b1-82b3" name="SZ"/>
@@ -2193,7 +2193,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/3"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/2"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="27/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="28/3"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
@@ -2351,7 +2351,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
                 <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
                 <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/4"/>
                 <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/3"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="28/3"/>
+                <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="28/3"/>
                 <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="27/3"/>
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-3"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="4"/>
@@ -3525,7 +3525,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="28/2"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="27/2"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/3"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="26/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="29/2"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="2"/>
@@ -10186,7 +10186,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
                 <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="14"/>
                 <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="26/3"/>
                 <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="25/3"/>
-                <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="23/3"/>
+                <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="23/3"/>
                 <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="25/3"/>
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
@@ -10365,7 +10365,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
             <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="15"/>
             <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="27/3"/>
             <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="26/3"/>
-            <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="24/3"/>
+            <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="24/3"/>
             <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="26/3"/>
             <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
             <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
@@ -14613,7 +14613,16 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7e49-16a1-2920-2ae0" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f022-671f-613a-e078" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
@@ -14817,7 +14826,16 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7e49-16a1-2920-2ae0" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3cf6-1ef5-fa20-c2fc" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
@@ -14925,7 +14943,16 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f022-671f-613a-e078" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3cf6-1ef5-fa20-c2fc" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
@@ -16407,7 +16434,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8ff2-dc9d-8ee7-9c03" name="Free Ki Powers" book="FREE" hidden="false" collective="false">
+    <selectionEntryGroup id="8ff2-dc9d-8ee7-9c03" name="Free Ki Powers" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16420,7 +16447,16 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6253-bae1-7071-3e42" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1969-10f4-c2c6-fa41" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
@@ -16623,7 +16659,16 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6253-bae1-7071-3e42" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e933-fc99-b87e-5732" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
@@ -16731,7 +16776,16 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1969-10f4-c2c6-fa41" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e933-fc99-b87e-5732" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
@@ -16892,7 +16946,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3e05-1579-3250-a997" name="Algeroth Powers" page="278" hidden="false" collective="false">
+    <selectionEntryGroup id="3e05-1579-3250-a997" name="Algeroth Powers" page="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17373,7 +17427,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="367e-588c-6f67-0e5d" name="Free Algeroth Powers" page="278" hidden="false" collective="false">
+    <selectionEntryGroup id="367e-588c-6f67-0e5d" name="Free Algeroth Powers" page="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17854,7 +17908,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="904b-4990-ea1c-a079" name="Hardware Upgrades" book="small based unit" hidden="false" collective="false">
+    <selectionEntryGroup id="904b-4990-ea1c-a079" name="Hardware Upgrades" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -17994,7 +18048,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6cf2-0d7b-2ce7-298e" name="Free Cybertronic Upgrades" book="Medium Based Character" hidden="false" collective="false">
+    <selectionEntryGroup id="6cf2-0d7b-2ce7-298e" name="Free Cybertronic Upgrades" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -26923,7 +26977,7 @@ movement.
         <characteristic name="LD" characteristicTypeId="3fb5-dad5-a441-ec28" value="12"/>
         <characteristic name="HULL" characteristicTypeId="e459-2a09-f6a4-5d56" value="25/3"/>
         <characteristic name="WPNS" characteristicTypeId="0d7a-4494-01c9-424c" value="24/3"/>
-        <characteristic name="LEGS" characteristicTypeId="f4a6-4f0b-6075-23b0" value="24/3"/>
+        <characteristic name="MOV" characteristicTypeId="f4a6-4f0b-6075-23b0" value="24/3"/>
         <characteristic name="ENG" characteristicTypeId="da22-92fc-ab52-ecb7" value="24/3"/>
         <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-2"/>
         <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="2"/>

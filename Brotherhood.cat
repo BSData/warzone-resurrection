@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="20" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="21" battleScribeVersion="2.01" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -1799,8 +1799,8 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2de6-71c4-12d8-ca8a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71f-47d0-a200-be62" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2de6-71c4-12d8-ca8a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e71f-47d0-a200-be62" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -2480,7 +2480,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
                 <characteristic name="A-REAR" characteristicTypeId="1627-198e-001c-8872" value="-4"/>
                 <characteristic name="SZ" characteristicTypeId="2021-cb5b-54b1-82b3" value="3"/>
                 <characteristic name="COH" characteristicTypeId="ae91-11e5-e284-db0f" value="10&quot;"/>
-                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="125"/>
+                <characteristic name="PTS" characteristicTypeId="8be6-7199-1e47-dafe" value="115"/>
               </characteristics>
             </profile>
             <profile id="c6a4-c016-cc5f-131e" name="AC-100 Crusader Cannon" hidden="false" profileTypeId="e757-f9ad-a515-2a17" profileTypeName="Weapon">
