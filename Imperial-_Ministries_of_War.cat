@@ -4732,7 +4732,7 @@ All Traps have 3 attributes:
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="ad95-2413-3631-2ce8" name="Claymore Mines(2/5&quot;/10 Armor Piercing(5))" hidden="false">
-      <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model.If an enemy model moves or activates within a certain distance to the trap (Y) 󰀀, it goes off! Immediately suspend play and for each enemy model in range that has not already rolled for that trap this turn, the trap&apos;s owner rolls a D20:
+      <description>Traps (X/Y/Z) - There are a multitude of traps that can be found on the battlefield. All traps are placed the same way, but may have different effects on models tripping them. After deployment, but before infiltrators have been placed, you may place your traps on the board. A trap is always represented by (X) 30mm markers. Place them anywhere, but not within 12” of an enemy model.If an enemy model moves or activates within a certain distance to the trap (Y), it goes off! Immediately suspend play and for each enemy model in range that has not already rolled for that trap this turn, the trap&apos;s owner rolls a D20:
 1-15 - The model receives the described hit (Z).
 16-20 - Nothing happens.
 After resolving the trap, remove it if at least one model rolled a 1-15. The surviving model may then continue its activation or
