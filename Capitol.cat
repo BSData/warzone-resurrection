@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0963-20c9-361a-288f" name="Capitol" revision="2" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0963-20c9-361a-288f" name="Capitol" revision="3" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c4d1-65e5-7a1a-1d65" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1714,13 +1714,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               </characteristics>
             </profile>
             <profile id="c0e3-1876-02e3-26e2" name="Martain Banshee" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
-              <modifiers>
-                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="14/4">
-                  <conditions>
-                    <condition field="selections" scope="7262-4cac-4cbd-bbcc" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="80f4-6439-4beb-ebd4" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <characteristics>
                 <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
                 <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/2</characteristic>
@@ -1765,7 +1758,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         </selectionEntry>
         <selectionEntry id="80f4-6439-4beb-ebd4" name="Linebreakers" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5.0">
               <repeats>
                 <repeat field="selections" scope="7262-4cac-4cbd-bbcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1a4f-6838-d0f2-215e" repeats="1" roundUp="false"/>
               </repeats>
@@ -1922,7 +1915,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fdc-9f23-f47a-f0b6" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="0b06-a8c9-535b-aa6d" value="2">
+        <modifier type="set" field="0b06-a8c9-535b-aa6d" value="2.0">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4fdc-9f23-f47a-f0b6" type="greaterThan"/>
           </conditions>
@@ -1992,13 +1985,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
               </characteristics>
             </profile>
             <profile id="dace-5116-04c5-e927" name="Martain Banshee" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
-              <modifiers>
-                <modifier type="set" field="8dd8-6dd1-452d-e93d" value="14/4">
-                  <conditions>
-                    <condition field="selections" scope="48d2-e395-aa3f-a911" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7da0-7a7a-dfe0-8bb3" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <characteristics>
                 <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
                 <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/2</characteristic>
@@ -6858,7 +6844,7 @@ Smoke Bombardment.</description>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="1d66-3cce-6f4b-7b53" name="Serrated Punisher Short Sword" hidden="false" targetId="2d49-aed8-ce13-0d2c" type="profile"/>
+            <infoLink id="1d66-3cce-6f4b-7b53" name="Serrated Punisher Short Sword" hidden="false" targetId="bf0a-8543-7d50-42c1" type="profile"/>
             <infoLink id="c7dc-4a65-a389-79b4" name="Cooperation" hidden="false" targetId="3e75-701f-faba-28d6" type="rule"/>
             <infoLink id="b74e-60db-899d-cf49" name="Camouflage(3)" hidden="false" targetId="6820-f692-cda2-ce29" type="rule"/>
             <infoLink id="4696-3969-0606-08d7" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule"/>
@@ -8755,6 +8741,15 @@ Smoke Bombardment.</description>
         <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
         <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">ML</characteristic>
         <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf0a-8543-7d50-42c1" name="Serrated Punisher Short Sword" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+      <characteristics>
+        <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
+        <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+        <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+        <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Exploit</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
