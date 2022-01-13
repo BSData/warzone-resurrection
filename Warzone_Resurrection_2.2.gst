@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="30" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="31" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -3940,13 +3940,6 @@ All friendly models in a squad that successfully wounds with one or more Psychic
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7bfd-f31f-1f7a-fb24" name="Fury Elite Guard Pair" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="4045-1f20-f98c-aa7e" value="1">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="48c0-a20a-eee7-475a" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d73-f046-19db-d27d" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4045-1f20-f98c-aa7e" type="max"/>
@@ -5412,103 +5405,6 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
       </selectionEntries>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="48c0-a20a-eee7-475a" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f9-58e7-5bcd-58d6" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8172-e98d-74bf-bce9" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="9cca-522f-6ac3-f955" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
-          <characteristics>
-            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
-            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">13/1</characteristic>
-            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">16</characteristic>
-            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
-            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
-            <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
-            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">17</characteristic>
-            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
-            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">23(10)</characteristic>
-            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
-            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
-            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">90</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="516e-08f1-06bf-36de" name="Interceptor SMG &apos;The Blessed&apos;" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-          <characteristics>
-            <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
-            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
-            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
-            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
-            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Short Ranged Burst</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="2bb3-98ec-1b02-e224" name="Ceremonial Sabre &apos;Loughton&apos;s Pride&apos;" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-          <characteristics>
-            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
-            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
-            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
-            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="af73-3af6-7e38-e0a6" name="Friends in High Places" hidden="false">
-          <description>If this model is the army commander, a squad of exactly 2 Brotherhood Fury Elite Guards may be included in your army as a Support Choice.</description>
-        </rule>
-        <rule id="033c-e2b4-a0c1-cad0" name="Stay on Target" hidden="false">
-          <description>Friendly squads deploying via Rapid Deployment can reroll any Rapid Deployment test roll if their Deployment Point is within LoS of this model.</description>
-        </rule>
-        <rule id="cec1-830c-fcb1-bc1b" name="Toxins Away" hidden="false">
-          <description>RES(2): Place a temporary ‘Toxin Canister’ token anywhere on the battlefield in LOS of this model
-and scatter it D20/4”. Any model finishing its activation within 3” of the token receives a ST(2) Gas autohit. Instead of removing the token in the end phase, roll a D20 for each token. On a roll 1-10, the token stays in game for another Game Turn. Up to 5 tokens can be in play at any time.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="c894-39de-961e-37ca" name="Rally Point" hidden="false" targetId="cd65-532d-b999-d81b" type="rule"/>
-        <infoLink id="f4a4-7570-cbd1-0853" name="Ammo Dump" hidden="false" targetId="45c6-9831-bd09-ccc7" type="rule"/>
-        <infoLink id="d969-a2dd-90f7-4d83" name="Crackshot(2)" hidden="false" targetId="b165-7d53-6093-bb07" type="rule"/>
-        <infoLink id="92dd-6ff3-5b9e-2ccb" name="Execution" hidden="false" targetId="1e08-2eb0-8009-dbd3" type="rule"/>
-        <infoLink id="2192-44ae-dd7a-8339" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
-        <infoLink id="6f03-34f1-ab55-ae83" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
-        <infoLink id="9f34-3283-af40-c5a2" name="Initiative(1)" hidden="false" targetId="7de7-41cb-24b1-87cc" type="rule"/>
-        <infoLink id="a0e9-e62c-f95d-0efa" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
-        <infoLink id="c9c3-fcff-c5cf-f50d" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="1cd1-b90e-ca60-1426" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
-        <categoryLink id="85f0-2eaa-1ae0-dcbd" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b187-b54a-b1d9-da97" name="Imperial Banner" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4859-fa36-601d-ca12" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="b486-dc32-5707-1d15" name="Imperial Banner" hidden="false" targetId="2c5f-d123-35c5-b35a" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="76f9-26ff-b47f-54e0" name="Army Commander" hidden="false" collective="false" import="true" targetId="d8e2-117c-71bb-0969" type="selectionEntry"/>
-        <entryLink id="a5c6-9734-779a-a281" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="48c0-a20a-eee7-475a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="76f9-26ff-b47f-54e0" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb04-51cd-f09d-5780" name="Colonel Mitch Hunter" hidden="false" collective="false" import="true" type="model">
@@ -9462,7 +9358,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </constraints>
           <rules>
             <rule id="91ab-a789-9614-239d" name="Rushing Tide" hidden="false">
-              <description>v</description>
+              <description>Psychic (D). The caster may move all models of SZ(0) in this squad 6” (as far as possible) in a direct line away from the Caster.</description>
             </rule>
           </rules>
           <costs>
@@ -9752,18 +9648,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="390c-0146-57a9-5d3d" name="Medals of Honor" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6335-03b7-99d2-1794" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="9f9e-fc1d-f5d4-ae09" name="Asteroid Belt Medal of Honor" hidden="false" collective="false" import="true" targetId="20fc-9e39-f442-7a58" type="selectionEntry"/>
-        <entryLink id="eb3b-13be-556f-be3a" name="Frontier Medal of Honor" hidden="false" collective="false" import="true" targetId="e41b-003e-48f7-8738" type="selectionEntry"/>
-        <entryLink id="4734-e14f-c554-20bf" name="Martian Medal of Honor" hidden="false" collective="false" import="true" targetId="b622-7b53-9c56-0bd5" type="selectionEntry"/>
-        <entryLink id="ee1c-2610-0a32-4cef" name="Venusian Medal of Honor" hidden="false" collective="false" import="true" targetId="db84-977d-3009-b8d8" type="selectionEntry"/>
-        <entryLink id="acea-0477-2bd8-e472" name="Mercurian Medal of Honor" hidden="false" collective="false" import="true" targetId="ddcd-01cf-62b4-cc36" type="selectionEntry"/>
-      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="9e34-b68a-c409-cd52" name="Art Powers" hidden="false" collective="false" import="true">
       <entryLinks>
@@ -13225,11 +13109,11 @@ movement.
     </profile>
     <profile id="ab82-79b7-4e49-cdea" name="Demontooth Katana" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
       <characteristics>
-        <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
-        <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
-        <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+        <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
+        <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
+        <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
         <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(8), Concussive(5), Critical Force(2)</characteristic>
+        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
       </characteristics>
     </profile>
     <profile id="50e8-3881-c78c-5933" name="CAW2000 &apos;Nailgun&apos; SMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
@@ -13637,7 +13521,7 @@ movement.
         <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
         <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
         <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
-        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">When firing at targets within 6”, the weapon is ST(+2), RES(1): ST(+2)</characteristic>
+        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(4). When firing at targets within 6”, the weapon is ST(+2), RES(1): ST(+2)</characteristic>
       </characteristics>
     </profile>
     <profile id="07fd-a7bc-cee6-6043" name="Holy Disemboweller Chainblade" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">

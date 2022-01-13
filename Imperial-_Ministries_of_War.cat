@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="19" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="20" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="06ba-8c0a-a32c-28c8" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -50,12 +50,12 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="3946-f8e0-748e-d38e" name="Army Commander" hidden="false" collective="false" import="true" targetId="d8e2-117c-71bb-0969" type="selectionEntry"/>
-        <entryLink id="1abe-3a58-202b-a047" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="3946-f8e0-748e-d38e" name="Army Commander" hidden="false" collective="false" import="true" targetId="b40f-c641-1471-88bf" type="selectionEntry"/>
+        <entryLink id="1abe-3a58-202b-a047" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="06ba-8c0a-a32c-28c8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3946-f8e0-748e-d38e" type="equalTo"/>
+                <condition field="selections" scope="06ba-8c0a-a32c-28c8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40f-c641-1471-88bf" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -110,12 +110,12 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="82c3-9693-4c1f-9765" name="Army Commander" hidden="false" collective="false" import="true" targetId="d8e2-117c-71bb-0969" type="selectionEntry"/>
-        <entryLink id="e5b4-efd7-0f4d-0d6b" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="82c3-9693-4c1f-9765" name="Army Commander" hidden="false" collective="false" import="true" targetId="b40f-c641-1471-88bf" type="selectionEntry"/>
+        <entryLink id="e5b4-efd7-0f4d-0d6b" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="fffa-3b73-8470-04dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="82c3-9693-4c1f-9765" type="equalTo"/>
+                <condition field="selections" scope="fffa-3b73-8470-04dd" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40f-c641-1471-88bf" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -185,12 +185,12 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="85d6-97c0-51e1-c2c2" name="Army Commander" hidden="false" collective="false" import="true" targetId="d8e2-117c-71bb-0969" type="selectionEntry"/>
-        <entryLink id="5c80-d0d7-579a-1e23" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="85d6-97c0-51e1-c2c2" name="Army Commander" hidden="false" collective="false" import="true" targetId="b40f-c641-1471-88bf" type="selectionEntry"/>
+        <entryLink id="5c80-d0d7-579a-1e23" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="c858-4ead-31f4-b601" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="85d6-97c0-51e1-c2c2" type="equalTo"/>
+                <condition field="selections" scope="c858-4ead-31f4-b601" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40f-c641-1471-88bf" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -359,12 +359,12 @@
         <categoryLink id="f2fc-7860-1b23-092f" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="202d-3b64-4b39-6fcd" name="Army Commander" hidden="false" collective="false" import="true" targetId="d8e2-117c-71bb-0969" type="selectionEntry"/>
-        <entryLink id="2ce7-d7d7-1f5b-cf70" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="202d-3b64-4b39-6fcd" name="Army Commander" hidden="false" collective="false" import="true" targetId="b40f-c641-1471-88bf" type="selectionEntry"/>
+        <entryLink id="2ce7-d7d7-1f5b-cf70" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="f766-f7bc-abe8-3cf9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="202d-3b64-4b39-6fcd" type="equalTo"/>
+                <condition field="selections" scope="f766-f7bc-abe8-3cf9" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40f-c641-1471-88bf" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -451,11 +451,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="5c3e-544e-d3b2-20d9" name="Army Commander" hidden="false" collective="false" import="true" targetId="0ec3-812f-9bc7-1583" type="selectionEntry"/>
-        <entryLink id="0a15-2d44-ac77-9766" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="0a15-2d44-ac77-9766" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="4ca3-cc22-1159-eca0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5c3e-544e-d3b2-20d9" type="equalTo"/>
+                <condition field="selections" scope="4ca3-cc22-1159-eca0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ec3-812f-9bc7-1583" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2120,16 +2120,16 @@
         <categoryLink id="40d3-09fd-4135-9eba" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="61ee-2fec-e62e-be6a" name="Army Commander" hidden="false" collective="false" import="true" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+        <entryLink id="61ee-2fec-e62e-be6a" name="Army Commander" hidden="false" collective="false" import="true" targetId="b40f-c641-1471-88bf" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="0c67-8513-e44a-5e40" name="New CategoryLink" hidden="false" targetId="96ae-f0ce-a737-564d" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="c13f-ea5f-d5b2-5de4" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="c13f-ea5f-d5b2-5de4" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="aa86-7e2c-e32a-fdd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61ee-2fec-e62e-be6a" type="equalTo"/>
+                <condition field="selections" scope="aa86-7e2c-e32a-fdd7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40f-c641-1471-88bf" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2194,11 +2194,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="f54e-bad1-60a6-e428" name="Army Commander" hidden="false" collective="false" import="true" targetId="5851-936b-ca73-40c0" type="selectionEntry"/>
-        <entryLink id="2561-d6e3-f4ef-9575" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="2561-d6e3-f4ef-9575" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="e0ce-23ab-622e-5d40" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="0d88-7c7c-d3dc-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f54e-bad1-60a6-e428" type="equalTo"/>
+                <condition field="selections" scope="0d88-7c7c-d3dc-bf35" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5851-936b-ca73-40c0" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2285,16 +2285,16 @@
         <categoryLink id="6b4a-1077-40a5-92b3" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e75f-b154-86a0-bcf2" name="Army Commander" hidden="false" collective="false" import="true" targetId="d8e2-117c-71bb-0969" type="selectionEntry">
+        <entryLink id="e75f-b154-86a0-bcf2" name="Army Commander" hidden="false" collective="false" import="true" targetId="b40f-c641-1471-88bf" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="4f9f-a602-ccb9-4669" name="New CategoryLink" hidden="false" targetId="96ae-f0ce-a737-564d" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink id="5204-661e-0add-64e3" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="5204-661e-0add-64e3" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="baec-0cf9-e42d-c757" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e75f-b154-86a0-bcf2" type="equalTo"/>
+                <condition field="selections" scope="baec-0cf9-e42d-c757" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40f-c641-1471-88bf" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2515,7 +2515,7 @@
     </selectionEntry>
     <selectionEntry id="423a-6156-0639-83b1" name="Golden Lions" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="dcf9-06c6-7a17-bc20" value="1">
+        <modifier type="set" field="dcf9-06c6-7a17-bc20" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="565c-f642-a319-514a" type="greaterThan"/>
           </conditions>
@@ -3260,11 +3260,11 @@ All Traps have 3 attributes:
       </categoryLinks>
       <entryLinks>
         <entryLink id="6428-ac45-aa09-073d" name="Army Commander" hidden="false" collective="false" import="true" targetId="565c-f642-a319-514a" type="selectionEntry"/>
-        <entryLink id="27c1-cf49-be25-f641" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="390c-0146-57a9-5d3d" type="selectionEntryGroup">
+        <entryLink id="27c1-cf49-be25-f641" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="e0ce-23ab-622e-5d40" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="7001-c8ce-4262-c7f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6428-ac45-aa09-073d" type="equalTo"/>
+                <condition field="selections" scope="7001-c8ce-4262-c7f4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="565c-f642-a319-514a" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3330,6 +3330,103 @@ All Traps have 3 attributes:
       </selectionEntries>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dbfd-8768-61d3-cb67" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a49-ce25-528e-51d3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47eb-ba68-b75e-a00a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d7cc-a951-fce4-8083" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">13/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">16</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">17</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">23(10)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">90</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4d25-ae2e-551e-332e" name="Interceptor SMG &apos;The Blessed&apos;" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Short Ranged Burst</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e7c-562c-aa45-2cdc" name="Ceremonial Sabre &apos;Loughton&apos;s Pride&apos;" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7562-2d7d-f7ec-a06c" name="Friends in High Places" hidden="false">
+          <description>If this model is the army commander, a squad of exactly 2 Brotherhood Fury Elite Guards may be included in your army as a Support Choice.</description>
+        </rule>
+        <rule id="ed95-e98a-4209-f9e0" name="Stay on Target" hidden="false">
+          <description>Friendly squads deploying via Rapid Deployment can reroll any Rapid Deployment test roll if their Deployment Point is within LoS of this model.</description>
+        </rule>
+        <rule id="f029-ad2d-2874-4d3c" name="Toxins Away" hidden="false">
+          <description>RES(2): Place a temporary ‘Toxin Canister’ token anywhere on the battlefield in LOS of this model
+and scatter it D20/4”. Any model finishing its activation within 3” of the token receives a ST(2) Gas autohit. Instead of removing the token in the end phase, roll a D20 for each token. On a roll 1-10, the token stays in game for another Game Turn. Up to 5 tokens can be in play at any time.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="eabb-999c-31ea-ca7a" name="Rally Point" hidden="false" targetId="cd65-532d-b999-d81b" type="rule"/>
+        <infoLink id="f52c-0453-8318-c31c" name="Ammo Dump" hidden="false" targetId="45c6-9831-bd09-ccc7" type="rule"/>
+        <infoLink id="52aa-f8b7-27ce-0f54" name="Crackshot(2)" hidden="false" targetId="b165-7d53-6093-bb07" type="rule"/>
+        <infoLink id="0aac-a73f-2db7-6686" name="Execution" hidden="false" targetId="1e08-2eb0-8009-dbd3" type="rule"/>
+        <infoLink id="0ca9-93f2-13aa-eb64" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="63b4-877c-f681-0524" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
+        <infoLink id="0620-c8ff-1755-0fe5" name="Initiative(1)" hidden="false" targetId="7de7-41cb-24b1-87cc" type="rule"/>
+        <infoLink id="8711-0f43-f673-441f" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="ace1-fecf-1d7f-e291" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d543-4b1c-9949-8d70" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="580b-8cc5-0c39-3b3f" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="50f4-3893-9bdc-3987" name="Imperial Banner" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8095-84a0-eaa5-c856" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4293-5d40-e94c-58c9" name="Imperial Banner" hidden="false" targetId="2c5f-d123-35c5-b35a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f3e3-4355-dcd9-f39e" name="Army Commander" hidden="false" collective="false" import="true" targetId="1757-e5d6-5376-a8c3" type="selectionEntry"/>
+        <entryLink id="ed28-3d85-3e79-ae99" name="Medals of Honor" hidden="true" collective="false" import="true" targetId="9e8b-6884-6321-1556" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="dbfd-8768-61d3-cb67" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1757-e5d6-5376-a8c3" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="90.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3626,9 +3723,14 @@ All Traps have 3 attributes:
     <entryLink id="dce8-aba8-420d-0442" name="Fury Elite Guard" hidden="true" collective="false" import="true" targetId="f2db-747e-6b50-c270" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2402-abc2-4604-52fc" type="greaterThan"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1757-e5d6-5376-a8c3" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbfd-8768-61d3-cb67" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3668,7 +3770,6 @@ All Traps have 3 attributes:
         <categoryLink id="86b5-31b6-901d-535d" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2402-abc2-4604-52fc" name="Brigadier Sir P.D. &apos;Righteous&apos; Rist K.I." hidden="false" collective="false" import="true" targetId="48c0-a20a-eee7-475a" type="selectionEntry"/>
     <entryLink id="994e-1cd7-63f6-cc14" name="Heretics of Algeroth" hidden="true" collective="false" import="true" targetId="6758-4ffb-6b32-35ac" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
@@ -4563,6 +4664,33 @@ All Traps have 3 attributes:
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1757-e5d6-5376-a8c3" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea07-92d6-2a4e-732d" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="dc83-cd50-a77c-abe0" name="Friends in High Places" hidden="false">
+          <description>If this model is the army commander, a squad of exactly 2 Brotherhood Fury Elite Guards may be included in your army as a Support Choice.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4b37-8bf5-f4fa-e185" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b40f-c641-1471-88bf" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d868-8d55-94a5-f8f2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a6d7-d790-e7ad-2ca3" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d129-6de6-097c-1caa" name="Clan Markers" hidden="false" collective="false" import="true">
@@ -4728,6 +4856,28 @@ All Traps have 3 attributes:
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9e8b-6884-6321-1556" name="Medals of Honor" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cf0-b9b6-cc25-e2ac" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e6f9-b9c7-f9e6-9644" name="Asteroid Belt Medal of Honor" hidden="false" collective="false" import="true" targetId="20fc-9e39-f442-7a58" type="selectionEntry"/>
+        <entryLink id="2d4b-cb94-8e1a-db97" name="Frontier Medal of Honor" hidden="false" collective="false" import="true" targetId="e41b-003e-48f7-8738" type="selectionEntry"/>
+        <entryLink id="acae-8025-a1e7-50cb" name="Martian Medal of Honor" hidden="false" collective="false" import="true" targetId="b622-7b53-9c56-0bd5" type="selectionEntry"/>
+        <entryLink id="ef6a-d11f-20da-06ba" name="Venusian Medal of Honor" hidden="false" collective="false" import="true" targetId="db84-977d-3009-b8d8" type="selectionEntry"/>
+        <entryLink id="8600-062c-74fc-8c03" name="Mercurian Medal of Honor" hidden="false" collective="false" import="true" targetId="ddcd-01cf-62b4-cc36" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e0ce-23ab-622e-5d40" name="Medals of Honor" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d27e-6a23-263e-5e30" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9611-f375-6f47-4a41" name="Frontier Medal of Honor" hidden="false" collective="false" import="true" targetId="e41b-003e-48f7-8738" type="selectionEntry"/>
+        <entryLink id="87f9-1814-be5c-a37f" name="Martian Medal of Honor" hidden="false" collective="false" import="true" targetId="b622-7b53-9c56-0bd5" type="selectionEntry"/>
+        <entryLink id="dfbf-93eb-370d-5ea7" name="Mercurian Medal of Honor" hidden="false" collective="false" import="true" targetId="ddcd-01cf-62b4-cc36" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
