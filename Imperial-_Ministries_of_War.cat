@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="20" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="21" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="06ba-8c0a-a32c-28c8" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -3429,6 +3429,201 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="90.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ca75-6ce9-5ab1-2589" name="Fury Elite Guard" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1757-e5d6-5376-a8c3" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbfd-8768-61d3-cb67" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac80-022b-e4fa-c81f" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f8b2-58f0-373c-f914" name="All Seeing" hidden="false">
+          <description>This model automatically succeeds when trying to spot stalking models.</description>
+        </rule>
+        <rule id="f26e-cfd8-4411-098f" name="As One With the Commander" hidden="false">
+          <description>Your army commander starts the game attached to this squad and cannot leave it.</description>
+        </rule>
+        <rule id="f244-cf14-c9b6-bc62" name="Holy Vengeance" hidden="false">
+          <description>If your army commander is removed as a casualty, this squad gains Brutal, Frenzy, and Unbreakable until the end of the Game and loses Hidden Agenda.</description>
+        </rule>
+        <rule id="4010-b235-4bea-36bf" name="Paired Weapons(A/F)" hidden="false">
+          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5dc8-c2c3-dfd5-ff02" name="Bodyguard" hidden="false" targetId="55fc-36d2-10ca-d2dc" type="rule"/>
+        <infoLink id="ac75-4013-fb1f-eeb2" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="054c-9c3e-82c1-e764" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule"/>
+        <infoLink id="a716-06ee-de21-3c65" name="Hidden Agenda" hidden="false" targetId="1ae7-3924-fd11-d673" type="rule"/>
+        <infoLink id="7318-95d9-6023-9fde" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule"/>
+        <infoLink id="45e4-2e16-b644-70e5" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8709-29a1-8da3-33e4" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="2372-d288-8675-07ad" name="Support" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3ff3-4ed5-5380-e751" name="Fury Elite Guard Pair" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f52b-5dfe-fa79-9e9d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fb4-5fda-5b96-1c8a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="34ae-3921-02c8-074b" name="Fury Elite Guard" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">16/4</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">11</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">18</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26(10)</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">55</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="71ce-5f5c-9d93-3394" name="Heavy Carbine" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(5), Critical Force(2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8466-0467-80f2-8b29" name="Purifier Incinerator" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Exploit</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3804-9cab-bce1-5706" name="Judgement Hammer" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+4</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(6), Concussive(1), Deadly</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="5060-51fb-691f-7f9f" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="110.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="31c8-1f31-734f-66fc" name="Art Powers" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7246-e862-739a-cb0d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be58-ae19-65d0-0a69" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7c9f-d0ba-9ac7-cd81" name="Art of Changeling" hidden="false" collective="false" import="true" targetId="1389-2404-c736-803d" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a912-a57f-19a9-11e7" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f70b-f376-43d9-eec0" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="862f-9278-7656-ead6" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0d5-c2cf-9cea-2866" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="768d-6913-8bd7-89bf" name="Art of Elements" hidden="false" collective="false" import="true" targetId="6cc0-80f0-0f9c-1de1" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="862f-9278-7656-ead6" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0d5-c2cf-9cea-2866" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6156-42a0-f038-e870" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a912-a57f-19a9-11e7" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7f2a-c5d6-39d8-560b" name="Art of Exorcism" hidden="false" collective="false" import="true" targetId="7851-8ad5-7e38-5c8c" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f70b-f376-43d9-eec0" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0d5-c2cf-9cea-2866" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a912-a57f-19a9-11e7" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6156-42a0-f038-e870" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3ebf-b7f8-758c-d04d" name="Art of Kinetics" hidden="false" collective="false" import="true" targetId="5e93-4755-5c05-e58f" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6156-42a0-f038-e870" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f70b-f376-43d9-eec0" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a912-a57f-19a9-11e7" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="862f-9278-7656-ead6" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="78cb-2b86-697a-4ca1" name="Art of Mentalism" hidden="false" collective="false" import="true" targetId="4221-52e9-d0a7-d4be" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f70b-f376-43d9-eec0" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="862f-9278-7656-ead6" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0d5-c2cf-9cea-2866" type="greaterThan"/>
+                        <condition field="selections" scope="ca75-6ce9-5ab1-2589" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6156-42a0-f038-e870" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="4488-ca8a-659a-0b31" name="Stormtrenchers" hidden="false" collective="false" import="true" targetId="ea26-7439-e7e6-b29d" type="selectionEntry">
@@ -3718,26 +3913,6 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
       <categoryLinks>
         <categoryLink id="dc6d-a7e0-5088-4494" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
         <categoryLink id="c085-6672-9132-6073" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="dce8-aba8-420d-0442" name="Fury Elite Guard" hidden="true" collective="false" import="true" targetId="f2db-747e-6b50-c270" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1757-e5d6-5376-a8c3" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbfd-8768-61d3-cb67" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="dce8-aba8-420d-0442" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="64b1-09be-d8fe-9e6c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a43a-bc08-aa3e-1fcd" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="374f-8724-135c-c0a2" name="John Baptiste" hidden="false" collective="false" import="true" targetId="0363-58ea-b105-b777" type="selectionEntry"/>
