@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="17" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5729-aca3-941a-2ece" name="Imperial - Wolfbanes" revision="18" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c4d1-65e5-7a1a-1d65" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -259,6 +259,25 @@ This model may spend ‘Severed Head’ markers for the following effects:
 Battle Hymn: 1 marker: This model may reroll any failed dodge rolls. Use at any time.
 Blood of the Kings: X marker: The model gains critical force (+X). Spend at start of activation.</description>
         </rule>
+        <rule id="57f0-26e4-108b-ceca" name="Ferocity(1)" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="edcd-356d-afed-5934" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="759e-60d9-ea31-1cdc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <description>Ferocity (X) – This model adds ST(+X) in a turn where it performs a charge action. In the case of a Cavalry model, only the rider gains the bonus.</description>
+        </rule>
+        <rule id="3fc0-5bfd-2638-bbe1" name="Deployment: Stalk" hidden="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="edcd-356d-afed-5934" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="759e-60d9-ea31-1cdc" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </rule>
       </rules>
       <infoLinks>
         <infoLink id="1be6-fc11-4917-3a29" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
@@ -325,7 +344,7 @@ Blood of the Kings: X marker: The model gains critical force (+X). Spend at star
         </selectionEntry>
         <selectionEntry id="96b5-73bc-23a3-322c" name="Severed Head Tokens" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="ac6f-1562-cf92-c071" value="3">
+            <modifier type="increment" field="ac6f-1562-cf92-c071" value="3.0">
               <repeats>
                 <repeat field="selections" scope="edcd-356d-afed-5934" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33c7-ae40-7e7f-2230" repeats="1" roundUp="false"/>
               </repeats>
@@ -339,6 +358,9 @@ Blood of the Kings: X marker: The model gains critical force (+X). Spend at star
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="863b-c9f8-dae1-9efa" name="Chieftain Fiona Kingsfield [K]" hidden="false" collective="false" import="true" targetId="759e-60d9-ea31-1cdc" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -1466,6 +1488,716 @@ models are placed B2B with him in his front facing and travel the full movement 
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cb22-68d6-1b93-b9a0" name="Berserkers [K]" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="9b07-f014-68b5-475c" name="Frightening Howl" hidden="false">
+          <description>When performing a Charge action, this unit causes Fear (0).</description>
+        </rule>
+        <rule id="081c-800f-3bd0-bb0b" name="Tattoo Protection" hidden="false">
+          <description>This model may make a CON test for every would it suffers. If successful, the wound is ignored. Deadly, Poison, and Gas attacks negate this ability.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4c08-e5d0-31bc-e2c2" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule"/>
+        <infoLink id="fcc4-9cce-cfd2-c85c" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="8280-4143-0d10-39ae" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+        <infoLink id="ffbe-a797-b280-8403" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="9292-46e8-6f61-9647" name="Ferocity(3)" hidden="false" targetId="cede-9206-0c28-b4e1" type="rule"/>
+        <infoLink id="f6f9-148b-b57a-6768" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9b0e-a468-25d0-fb75" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="a2d9-0027-f1e3-32d1" name="Support" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b1fa-d735-a91a-ee79" name="Berserkers [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5de-2348-1915-19e5" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e15-66d8-babb-b161" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="080b-9bc5-b815-aa7d" name="Berserkers [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/0</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">12</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">9</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">12</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">18</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">20</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="813d-3ccb-9728-3a4d" name="Titanium Throwing Axes" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">12</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">HG</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Precision (2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0c9e-fe15-8022-9e92" name="Two-handed Runic Axe" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9235-660d-c856-6442" name="Banner Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c9-4bae-7935-26d7" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e73f-c2b2-57d9-84ae" name="Banner Bearer" hidden="false">
+              <description>This squad gains Contempt (All) while this model is alive.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9aef-a7d3-3ce4-b322" name="Chieftain Dunnagh McKenzie [K]" hidden="false" collective="false" import="true" targetId="b830-e96a-2971-2b0a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d102-3016-6598-4ff4" name="Chieftain Dunnagh McKenzie [K]" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b830-e96a-2971-2b0a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="682c-d2d1-8c66-2a7b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32e4-b8ea-a2af-cd2f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f127-af5a-c68e-e4c7" name="Chieftain Dunnagh McKenzie [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">16/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">14</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">18</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7f49-36f0-64dc-555e" name="Titanium Throwing Axes" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">12</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">HG</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Precision (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c756-5cee-8d66-ba6e" name="Murtair" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, Headshot, Weapon Mode (Thrash) RES(1): Critical Force (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf61-5b74-b172-fc0c" name="Murtair (Trash)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+0</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">5</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, Headshot RES(1): ROA(2), Slow to Reload, Sweep</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a0a8-aac2-9835-e346" name="Frightening Howl" hidden="false">
+          <description>When performing a Charge action, this unit causes Fear (0).</description>
+        </rule>
+        <rule id="5020-73f5-33e7-5033" name="Tattoo Protection" hidden="false">
+          <description>This model may make a CON test for every would it suffers. If successful, the wound is ignored. Deadly, Poison, and Gas attacks negate this ability.</description>
+        </rule>
+        <rule id="7960-6f76-d35c-41b9" name="Warcharge" hidden="false">
+          <description>When this model charges, all friendly Berserkers within 12” gain Ferocity (+1) if they also perform a Charge action this turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3364-2414-5bbb-c8b2" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule"/>
+        <infoLink id="10bc-18fa-3e9b-4a8c" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="6c1f-fe1f-b912-fe29" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+        <infoLink id="4b51-750a-d8e5-1a17" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="fd4f-8900-7588-9e04" name="Ferocity(3)" hidden="false" targetId="cede-9206-0c28-b4e1" type="rule"/>
+        <infoLink id="ae84-bed3-0f80-5174" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule"/>
+        <infoLink id="2570-7c98-b10f-825d" name="Hurricane of Destruction" hidden="false" targetId="4573-f110-b75c-d96c" type="rule"/>
+        <infoLink id="a3a9-6de5-9bb2-5472" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0db1-3f72-123e-649d" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="8e15-b520-b89e-9c9a" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fc2b-5cf4-2a75-2f4c" name="Army Commander" hidden="false" collective="false" import="true" targetId="cd49-70f6-8d67-b34c" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb54-bd5e-e72b-8577" name="Berserkers [K]" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="ae21-c668-ed4b-8e2c" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd49-70f6-8d67-b34c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cd49-70f6-8d67-b34c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae21-c668-ed4b-8e2c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="ba2d-9a85-708d-a976" name="Frightening Howl" hidden="false">
+          <description>When performing a Charge action, this unit causes Fear (0).</description>
+        </rule>
+        <rule id="0c88-05a8-e69d-b021" name="Tattoo Protection" hidden="false">
+          <description>This model may make a CON test for every would it suffers. If successful, the wound is ignored. Deadly, Poison, and Gas attacks negate this ability.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="09f2-4ea4-10e2-d1de" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule"/>
+        <infoLink id="9a70-c672-06da-ae49" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="06b3-612b-1e42-57ca" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+        <infoLink id="fb6b-8224-b7fc-8e5a" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="fad2-c265-14de-507f" name="Ferocity(3)" hidden="false" targetId="cede-9206-0c28-b4e1" type="rule"/>
+        <infoLink id="2691-ae1b-d531-45b7" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="32d6-08e7-16cb-6f4d" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="90f4-611d-9c3e-00f7" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0da0-0b43-21cd-ecd1" name="Berserkers [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f7-6ce9-aadd-8adf" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19ba-6b99-fccb-6b97" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="48d8-a253-8f77-33e5" name="Berserkers [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/0</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">12</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">9</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">12</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">18</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">20</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5bfe-0255-614d-1162" name="Titanium Throwing Axes" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">12</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">HG</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Precision (2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a46d-a320-4208-abcc" name="Two-handed Runic Axe" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7003-b4a1-33e3-ddc6" name="Banner Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80fc-a191-37de-26f9" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="0f02-8a52-7462-ffd8" name="Banner Bearer" hidden="false">
+              <description>This squad gains Contempt (All) while this model is alive.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a020-85b5-4c4d-9109" name="Chieftain Fiona Kingsfield [K]" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="759e-60d9-ea31-1cdc" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a12f-0825-eee9-d756" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7c3-3101-4d4f-038b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f246-544d-21ee-19d5" name="Chieftain Fiona Kingsfield [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">6</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">15/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">70</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="32ae-5712-8485-aa50" name="Imbued Screaming Skulls" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">ST/SE</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Concussive(1), Pinning</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="98e0-665a-b6de-467a" name="Legionbane Battleaxe" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+4</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, Headshot, Precision (2), CC rolls of 1-3 count as power shots</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5886-b100-15e3-908e" name="Grisly Trophies" hidden="false">
+          <description>For every non-vehicle model removed by this model in Close Combat, place a ‘Severed Head’ marker next to this model. For every marker, the model gains Heal (+1) and Fear (+1).
+This model may spend ‘Severed Head’ markers for the following effects:
+Battle Hymn: 1 marker: This model may reroll any failed dodge rolls. Use at any time.
+Blood of the Kings: X marker: The model gains critical force (+X). Spend at start of activation.</description>
+        </rule>
+        <rule id="f6f8-c650-4e1f-ef5c" name="Skulltakers" hidden="false">
+          <description>If attached to a Headhunter squad, that squad gains Ferocity (1) and Stalk.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9d4c-b247-80fe-5265" name="Agressor Handgun" hidden="false" targetId="2a93-f72f-c651-73a0" type="profile"/>
+        <infoLink id="70b8-0102-3775-e327" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="7fe5-7904-da4e-8c8f" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="3e81-894b-43d5-30ed" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule"/>
+        <infoLink id="ea77-09fe-b45b-5bfa" name="Dissention(2)" hidden="false" targetId="e697-95a3-e404-cc1c" type="rule"/>
+        <infoLink id="4b6e-fb4b-4116-84d1" name="Dodge(5)" hidden="false" targetId="a418-85b9-3f4f-7e34" type="rule"/>
+        <infoLink id="b19b-d8c7-2a9a-ce0a" name="Fear(1)" hidden="false" targetId="5c7c-1161-71c3-7fec" type="rule"/>
+        <infoLink id="e9c1-694c-6c4d-b171" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="5c99-11d6-fbed-a657" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule"/>
+        <infoLink id="5daa-42e0-6121-6fa6" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+        <infoLink id="4245-cb92-5de6-ccc5" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3aa8-99c1-18a6-8b72" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="ab87-f4c9-84fc-184d" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c019-d8cb-acfe-f11b" name="Army Commander" hidden="false" collective="false" import="true" targetId="17ac-ddbd-2bdf-fb0b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56ad-a47f-a31d-7c65" name="Headhunters" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="6c5a-6473-83f9-dce9" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17ac-ddbd-2bdf-fb0b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17ac-ddbd-2bdf-fb0b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c5a-6473-83f9-dce9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8f68-bf3d-dce0-ade5" name="Grisly Trophies" hidden="false">
+          <description>For every non-vehicle model removed by this model in Close Combat, place a ‘Severed Head’ marker next to this model. For every marker, the model gains Heal (+1) and Fear (+1).
+This model may spend ‘Severed Head’ markers for the following effects:
+Battle Hymn: 1 marker: This model may reroll any failed dodge rolls. Use at any time.
+Blood of the Kings: X marker: The model gains critical force (+X). Spend at start of activation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ba11-58af-b521-9739" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="dea5-7343-87df-d45e" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule"/>
+        <infoLink id="ed15-1454-6057-ef6a" name="Fear(1)" hidden="false" targetId="5c7c-1161-71c3-7fec" type="rule"/>
+        <infoLink id="f4ce-e542-ab6e-afed" name="Dissention(3)" hidden="false" targetId="ed9b-b5fe-1699-6fda" type="rule"/>
+        <infoLink id="8e0c-d91c-3d7c-5586" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="f781-bb64-5b4b-29cf" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule"/>
+        <infoLink id="cd24-1b53-44f2-fe10" name="Dodge(5)" hidden="false" targetId="a418-85b9-3f4f-7e34" type="rule"/>
+        <infoLink id="9b06-e03e-7b80-6344" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="60f4-aadc-723f-bbb1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="7e89-0570-e739-2e28" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eef9-4e2b-6003-6313" name="Headhunters" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e04-d4a7-740f-0968" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f20-bdf2-f6d5-a02d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="57f2-8f8a-fcd5-ed7b" name="Headhunter" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">15/4</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">10</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">15</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">9&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">35</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="219f-1b64-739e-01f1" name="Headhunter&apos;s Battleaxe" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+4</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Headshot, CC rolls of 1-3 counts as power shots</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8417-3afe-6122-9436" name="Screaming Skulls" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">ST/SE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Concussive(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="86b2-8e38-3c60-e696" name="Agressor Handgun" hidden="false" targetId="2a93-f72f-c651-73a0" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0f2c-dda6-fc18-3f0d" name="Severed Head Tokens" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="6819-72db-347f-3ffd" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="56ad-a47f-a31d-7c65" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eef9-4e2b-6003-6313" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6819-72db-347f-3ffd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca0e-8ceb-ffb3-3ff7" name="Huginn Helicopter [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cfc-77f0-0c7e-e320" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7e81-6eeb-2c14-a489" name="Huginn Helicopter [K]" hidden="false" typeId="69ff-8e30-647f-0835" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="SP" typeId="3d64-19d9-c140-f3c2">6</characteristic>
+            <characteristic name="CC" typeId="c5ce-8266-81a1-3b22">-/-</characteristic>
+            <characteristic name="RS" typeId="2449-66df-7dc8-fb0f">12</characteristic>
+            <characteristic name="WP" typeId="ed65-33f8-601a-60f7">14</characteristic>
+            <characteristic name="LD" typeId="3fb5-dad5-a441-ec28">14</characteristic>
+            <characteristic name="HULL" typeId="e459-2a09-f6a4-5d56">28/4</characteristic>
+            <characteristic name="WPNS" typeId="0d7a-4494-01c9-424c">28/4</characteristic>
+            <characteristic name="MOV" typeId="f4a6-4f0b-6075-23b0">28/4</characteristic>
+            <characteristic name="ENG" typeId="da22-92fc-ab52-ecb7">28/4</characteristic>
+            <characteristic name="A-REAR" typeId="1627-198e-001c-8872">-4</characteristic>
+            <characteristic name="SZ" typeId="2021-cb5b-54b1-82b3">4</characteristic>
+            <characteristic name="COH" typeId="ae91-11e5-e284-db0f">-</characteristic>
+            <characteristic name="PTS" typeId="8be6-7199-1e47-dafe">100</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="29c7-6924-3bd7-cb64" name="2 Ultracharger HMGs" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">11</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">5</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Concussive (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6c86-1e62-8fd3-85ff" name="Smoke Launcher" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Smoke</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9a66-a057-5fce-3bbd" name="Rappelling Ropes" hidden="false">
+          <description>This model may disembark any Wolfbane models for AP(0). It does not need to land to perform this action.</description>
+        </rule>
+        <rule id="d26b-432f-6179-3079" name="Boost(1/2)" hidden="false">
+          <description>Boost (X/Y): RES (X): The model gains SP(+Y).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="26c2-6fdf-b76f-e3dc" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="27fc-07b7-40ba-61b2" name="Transport(10)" hidden="false" targetId="166f-26cb-c572-8470" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6668-40f5-2b87-5ecc" name="Flyer" hidden="false" targetId="79ad-4512-1052-014d" primary="false"/>
+        <categoryLink id="cd7d-90ef-498f-58a5" name="Transport Vehicle" hidden="false" targetId="a2fc-1002-b884-917b" primary="false"/>
+        <categoryLink id="795a-6e85-9cff-8221" name="Monster/ Light Vehicle" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a29-ec8d-7e14-90f0" name="Wolfbairns [K]" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="0480-18a8-cad9-51ad" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule"/>
+        <infoLink id="4b0f-3e4d-cc79-aa72" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="be7f-3480-e291-c3c8" name="Ferocity(1)" hidden="false" targetId="44dc-bca0-18ec-fd2d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6139-d68e-ee34-5e6d" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+        <categoryLink id="2f36-61e9-553c-336d" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="08f1-1ea3-7a25-9051" name="Wolfbairns [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af4b-4c09-8c18-5284" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f046-a8cb-e13f-e453" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5bda-b002-695e-55ee" name="Wolfbairns [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">12/1</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">12</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">9</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">13</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">12</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">8&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">12</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1dbb-593a-02c3-0e03" name="Combat Knife" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5827-63d7-4d7a-70e6" name="Invader Assault Rifle" hidden="false" targetId="2719-e685-3d95-0803" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="63db-bbf6-a45e-6218" name="Wolfbane Commando Squad Commander" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32d8-bf97-0b40-cb7b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bd9a-db31-697f-8135" name="Wolfbane Commando Squad Commander" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">11</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">15</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">8&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">14</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="79be-8888-6e15-e544" name="Seeking the Best Battles" hidden="false">
+              <description>1 squad of Wolfbane Commandos may be taken in a Bauhaus, Capitol, or Brotherhood army as a support choice for (+2) PTS each model.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="ece9-ee3c-30a8-5fc6" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule"/>
+            <infoLink id="74a2-56ea-6a31-a2f1" name="Ferocity(3)" hidden="false" targetId="cede-9206-0c28-b4e1" type="rule"/>
+            <infoLink id="634c-01fe-cd95-fdf0" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e9d1-2b9b-be03-30ac" name="Weapon Option" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c1-3aaf-fda3-6e48" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb68-ae7c-d173-f71b" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="d78b-65c8-e4ec-4afd" name="Agressor Handgun and Handripper" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9344-9906-ce9e-c9ce" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a695-f839-58ec-42c9" name="Agressor Handgun" hidden="false" targetId="2a93-f72f-c651-73a0" type="profile"/>
+                    <infoLink id="4bbd-ce1d-4774-6f93" name="Hand Ripper" hidden="false" targetId="abd6-13bb-417f-02c2" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="547a-ce3f-3831-bc09" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ac3b-aa3c-af66-54f4" name="Bastard Sword (free)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23c4-c8b3-c690-7d5c" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="0b0b-8751-47d0-ddff" name="Bastard Sword" hidden="false" targetId="cc24-94a0-0e83-2f7a" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="220f-ee6b-5ddd-a1c0" name="Squad Options" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="74b3-548b-9689-4af4" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="9a29-ec8d-7e14-90f0" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="08f1-1ea3-7a25-9051" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b3-548b-9689-4af4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8a7d-c3c9-9a4e-9650" name="Mandible Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="075f-5868-d4bb-9f54" name="Mandible Auto Shotgun" hidden="false" targetId="b014-ee29-75e5-6f43" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f3ef-3eeb-7a84-041a" name="GehennaPuker Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2dcf-c5b3-d42f-854c" name="Gehenna Puker" hidden="false" targetId="fba5-c945-3467-ed11" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b39d-63fe-ae7b-ab9a" name="Southpaw Rocket Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c595-7bf1-f3ef-9db0" name="Southpaw Rocket Launcher" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="R" typeId="bf81-58c8-2998-0bac">18/SE</characteristic>
+                    <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
+                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                    <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                    <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Weapon Mode (Bear Claw Rockets)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="9ad7-f6c1-7f0d-7ad1" name="Southpaw Rocket Launcher (Bear Claw Rockets)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+                    <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">3</characteristic>
+                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                    <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">ML</characteristic>
+                    <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour-Piercing (7)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="0cbf-19ad-2e74-2ce4" name="Doomtrooper Pair" hidden="false" collective="false" import="true" targetId="ad0a-b36c-b60e-c317" type="selectionEntry">
@@ -1616,7 +2348,6 @@ models are placed B2B with him in his front facing and travel the full movement 
         <categoryLink id="28e8-f1f9-192d-bef5" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="339d-2f42-15fa-2300" name="Print Silent Roar Rules" hidden="false" collective="false" import="true" targetId="d9c3-03d0-1331-bbd3" type="selectionEntry"/>
     <entryLink id="d0c6-48ee-a4ea-6d12" name="Inquisitor Majoris Hanno Hamilkar" hidden="false" collective="false" import="true" targetId="aeb9-8639-d129-a1cf" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="772e-64d3-aec9-4e30" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
@@ -1624,6 +2355,10 @@ models are placed B2B with him in his front facing and travel the full movement 
       </categoryLinks>
     </entryLink>
     <entryLink id="293e-5932-1495-7ed3" name="Rob Yourstand" hidden="false" collective="false" import="true" targetId="c610-6995-7548-e098" type="selectionEntry"/>
+    <entryLink id="836e-03dc-a04e-c994" name="Cartel Freelancer [K]" hidden="false" collective="false" import="true" targetId="fc30-6657-3aca-5471" type="selectionEntry"/>
+    <entryLink id="67a3-4e42-b669-7831" name="Cartel Freelancers [K]" hidden="false" collective="false" import="true" targetId="5c2f-f2ae-5701-ab39" type="selectionEntry"/>
+    <entryLink id="34d2-8ded-d014-99e9" name="Lane Chung [K]" hidden="false" collective="false" import="true" targetId="4269-e79d-6174-2797" type="selectionEntry"/>
+    <entryLink id="4ec7-1d51-43a1-d6c0" name="Pam Afton [K]" hidden="false" collective="false" import="true" targetId="e907-50e6-7829-d512" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="1d05-375c-35c9-32bc" name="Strength in Small Numbers" hidden="false">
@@ -1635,71 +2370,72 @@ models are placed B2B with him in his front facing and travel the full movement 
     <rule id="4e5a-4098-2511-6d2d" name="Our Own Way!" hidden="false">
       <description>Wolfbane squads may not be joined by MOW characters.</description>
     </rule>
-    <rule id="ebe1-1b91-fd8d-c608" name="Silent Roar" hidden="true">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="339d-2f42-15fa-2300" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <description>Silent Roar: Each Wolfbane squad deployed on the battlefield generates the number of Silent Roar points listed below. During the Control Phase calculate how many Silent Roar Points you have for this turn. The points can be used to activate Rites or Howls as described in the Rites and Howl sections. Only models from squads able to generate Silent Roar points can use a Rite or Howl. These markers are generated even if the squad is in stalk.
+    <rule id="ebe1-1b91-fd8d-c608" name="Silent Roar" hidden="false">
+      <description>
+Silent Roar: 
+Each Wolfbane squad deployed on the battlefield generates the number of Silent Roar points listed below. During the Control Phase calculate how many Silent Roar Points you have for this turn. The points can be used to activate Rites or Howls as described in the Rites and Howl sections. Only models from squads able to generate Silent Roar points can use a Rite or Howl. These markers are generated even if the squad is in stalk. 
+Wolfbairns [K] unit does not generate Silent Roar points and may not benefit from Rites or Howls.
+
 Characters: 2SRP
+
 Troops:
 Wolfbane Commandos: 1SRP
 Mourning Wolves: 1SRP
+
 Support:
 Headhunters: 2SRP
 Warhounds: 1SRP
 Strathgordon Varg Riders: 1SRP
+Berserkers [K]: 1SRP
+
 Light Vehicles:
 Necromower: 1SRP
 Fenris Bike: 1SRP
+Huginn Helicopter [K]: 1SRP</description>
+    </rule>
+    <rule id="05de-0958-de03-eb61" name="Silent Roar - Rites" hidden="false">
+      <description>
 RITES:
 Wolfbane rites and rituals are often long and difficult to perform ceremonies involving potions, books and stanzas. They usually require long preparation and the presence of those who know how to use them, connection with the lay lines and a lot of alcohol. They result in a higher plane of understanding and a furor for battle. 
 Rites are abilities that squads are upgraded with during army building and affect every model in the Squad including attached models. A squad can only be upgraded with one rite and may only benefit from one rite per turn. You can only upgrade squads with Rites if you would be able to generate the total appropriate number of skulls in your army. 
 At the start of the first Control Phase, the controlling player MUST pay the upkeep cost in Silent Roar points for each Rite taken.
-At the start of each Control Phase after the first, the controlling player may choose to pay the upkeep for a Rite or not pay the
-upkeep and loose it for the remainder of the game.
-4SRP Rite of the Eternal Night:
-Any ranged attack made against this models in this squad receives RS(-4) (or WP in case of Psychic (S) attacks).
-3SRP Rite of the Tempest:
-Every squad trying to deploy via Rapid Deployment within 8” of this model receives (+4) to their RD die roll
-and a ST(5) autohit after deploying (not cumulative)
-3SRP Rite of Extended Death:
-When this model is reduced to W(0), make a WP test. If the test is passed the model gains W(+1). Any model
-that regains a W in this way is removed from play at the end of the turn as a casualty. If the model is forced
-to make another WP test in the same Game Turn from any source, remove the model immediately from
-the Game as a casualty before the test is made. A model can only regain W(+1) this way per game. Nonvehicle
-models only.
-3SRP Rite of Ghostly Strike:
-This squad gains the Preemptive Strike Deployment Option.
-4SRP Rite of the Revenge:
-Any enemy model that causes the removal of this model via a ranged attack receives a St8 autohit at the
-end of their activation.
-4SRP Rite of the Black Wolf:
-If this squad consists only of non-vehicle Wolfbane models, it may be deployed using the Stalk rules.
-Reveal the squad immediately if the upkeep cost is not paid for.
-6SRP Rite of the Sacrifice:
-This model has W(+1).” To “Non-vehicle models upgraded with this Rite have W(+1). If the upkeep cost is not
-paid for, this model loses one W and, at the beginning of each of its activations, receives a ST(10) autohit.
+At the start of each Control Phase after the first, the controlling player may choose to pay the upkeep for a Rite or not pay the upkeep and loose it for the remainder of the game.
+
+1SRP - Upkeep Cost
+
+4SRP Rite of the Eternal Night: Any ranged attack made against this models in this squad receives RS(-4) (or WP in case of Psychic (S) attacks).
+
+3SRP Rite of the Tempest: Every squad trying to deploy via Rapid Deployment within 8” of this model receives (+4) to their RD die roll and a ST(5) autohit after deploying (not cumulative)
+
+3SRP Rite of Extended Death: When this model is reduced to W(0), make a WP test. If the test is passed the model gains W(+1). Any model that regains a W in this way is removed from play at the end of the turn as a casualty. If the model is forced to make another WP test in the same Game Turn from any source, remove the model immediately from the Game as a casualty before the test is made. A model can only regain W(+1) this way per game. Nonvehicle models only.
+
+3SRP Rite of Ghostly Strike: This squad gains the Preemptive Strike Deployment Option.
+
+4SRP Rite of the Revenge: Any enemy model that causes the removal of this model via a ranged attack receives a St8 autohit at the end of their activation.
+
+4SRP Rite of the Black Wolf: If this squad consists only of non-vehicle Wolfbane models, it may be deployed using the Stalk rules. Reveal the squad immediately if the upkeep cost is not paid for.
+
+6SRP Rite of the Sacrifice: This model has W(+1).” To “Non-vehicle models upgraded with this Rite have W(+1). If the upkeep cost is not paid for, this model loses one W and, at the beginning of each of its activations, receives a ST(10) autohit.
+</description>
+    </rule>
+    <rule id="7602-62f0-8b03-30a5" name="Silent Roar - Howls" hidden="false">
+      <description>
 HOWLS:
 The centre of a wolf’s universe is its pack and howling is the glue that keeps the pack together. Wolfbanes often use howls to communicate during battles and in many a social situation. Just like in wolf society, Wolfbanes have different Howls for each occasion, some strike fear into the hearts of their enemies and others fill the Wolfbanes themselves with fury, frenzy and hatred. A Howl can be activated by spending Silent Roar points at the beginning of the squad activation and affects all models from the howling squad. 2 Howls can be used per squad per turn (including the same Howl twice) and their effects are cumulative. Characters may only be affected once by each Howl per turn. Howls last until the end of the Game Turn.
-2SRP Howl of Fury:
-Models in this squad suffer A(-2), but each of their close combat weapons gains ROA (+1).
-2SRP Call to Hunt:
-The squad gains CC(+2).
-2SRP Growl of Determination:
-The squad gains A(+1).
-1SRP Death Song:
-The squad gains WP(+4).
-2SRP Warcry:
-Each of this model´s close combat weapons has its Power Shot die range increased by one (any to hit roll
-of 1-2 becomes a Power Shot).
-2SRP Bone-chilling Howl:
-The squad gains Fear (+2).
-2SRP Howl of Fate:
-Each model in the squad may re-roll one failed CC or RS roll per turn.</description>
+
+2SRP Howl of Fury: Models in this squad suffer A(-2), but each of their close combat weapons gains ROA (+1).
+
+2SRP Call to Hunt: The squad gains CC(+2).
+
+2SRP Growl of Determination: The squad gains A(+1).
+
+1SRP Death Song: The squad gains WP(+4).
+
+2SRP Warcry: Each of this model´s close combat weapons has its Power Shot die range increased by one (any to hit roll of 1-2 becomes a Power Shot).
+
+2SRP Bone-chilling Howl: The squad gains Fear (+2).
+
+2SRP Howl of Fate: Each model in the squad may re-roll one failed CC or RS roll per turn.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
@@ -2050,11 +2786,222 @@ them in B2B contact with this model, with Morten in their front facing. If you c
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d9c3-03d0-1331-bbd3" name="Print Silent Roar Rules" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b830-e96a-2971-2b0a" name="Chieftain Dunnagh McKenzie [K]" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d102-3016-6598-4ff4" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e9-ac13-fea1-7c74" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c99-03b3-9591-740a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5063-8d47-1f84-b1e7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cfa3-f62f-1945-6252" type="max"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="fbf3-6d37-f88e-5c81" name="Advisor" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c2-f01a-b5e7-5117" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8369-3947-a62a-a7cb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6353-740f-a23d-3035" name="Chieftain Dunnagh McKenzie [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">16/1</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">14</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">18</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">50</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3277-48c6-411b-4a0e" name="Titanium Throwing Axes" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">12</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">HG</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Precision (2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="809e-5394-2569-85a5" name="Murtair" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, Headshot, Weapon Mode (Thrash) RES(1): Critical Force (2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a462-94ff-93da-a9da" name="Murtair (Trash)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+0</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">5</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, Headshot RES(1): ROA(2), Slow to Reload, Sweep</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="ea2e-4470-05cf-d28a" name="Frightening Howl" hidden="false">
+              <description>When performing a Charge action, this unit causes Fear (0).</description>
+            </rule>
+            <rule id="5716-269e-24d5-f9fa" name="Tattoo Protection" hidden="false">
+              <description>This model may make a CON test for every would it suffers. If successful, the wound is ignored. Deadly, Poison, and Gas attacks negate this ability.</description>
+            </rule>
+            <rule id="1280-2430-5691-7170" name="Warcharge" hidden="false">
+              <description>When this model charges, all friendly Berserkers within 12” gain Ferocity (+1) if they also perform a Charge action this turn.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="7265-31df-8afd-357e" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule"/>
+            <infoLink id="515f-4086-5ef8-8c0f" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+            <infoLink id="6761-3335-9f71-3a24" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+            <infoLink id="762b-7f87-07a9-2a4f" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+            <infoLink id="9d7b-4fe3-55c8-74a6" name="Ferocity(3)" hidden="false" targetId="cede-9206-0c28-b4e1" type="rule"/>
+            <infoLink id="80fb-a397-c643-1260" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule"/>
+            <infoLink id="bf1e-d4d1-d6d7-ec06" name="Hurricane of Destruction" hidden="false" targetId="4573-f110-b75c-d96c" type="rule"/>
+            <infoLink id="bceb-2be3-2724-7df3" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="f332-3911-15c8-b566" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+            <categoryLink id="bc0c-5204-e536-8b6f" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd49-70f6-8d67-b34c" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8255-6db9-d20b-446a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="9bf7-a23f-f81c-5397" name="Leader(2/Berserkers)" hidden="false">
+          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4691-dd0b-297f-922a" name="Army Commander" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17ac-ddbd-2bdf-fb0b" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad20-a7d0-22ee-db58" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5caf-0336-ce01-8d4e" name="Leader(1/Headhunters)" hidden="false">
+          <description>Leader (X/Y) – If this model is your commander, you may take (X) of squad (Y) as Troop types. All other limitations remain.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4b5b-a7a9-6be6-5140" name="Army Commander" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="759e-60d9-ea31-1cdc" name="Chieftain Fiona Kingsfield [K]" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a020-85b5-4c4d-9109" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc23-79a9-0f22-00ff" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="883e-a520-ae64-8b65" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3a5f-3e57-2ed5-9ad5" name="Advisor" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c18b-842a-a226-9ebd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc0-243c-0413-366d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3b54-4431-b5f6-e0a7" name="Chieftain Fiona Kingsfield [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">6</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">15/1</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">70</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d2ef-0281-9d47-101b" name="Imbued Screaming Skulls" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">ST/SE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Concussive(1), Pinning</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ee35-0271-642a-9349" name="Legionbane Battleaxe" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+4</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, Headshot, Precision (2), CC rolls of 1-3 count as power shots</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2688-2aa1-e65f-2047" name="Grisly Trophies" hidden="false">
+              <description>For every non-vehicle model removed by this model in Close Combat, place a ‘Severed Head’ marker next to this model. For every marker, the model gains Heal (+1) and Fear (+1).
+This model may spend ‘Severed Head’ markers for the following effects:
+Battle Hymn: 1 marker: This model may reroll any failed dodge rolls. Use at any time.
+Blood of the Kings: X marker: The model gains critical force (+X). Spend at start of activation.</description>
+            </rule>
+            <rule id="f6d1-c97a-41e0-9cf1" name="Skulltakers" hidden="false">
+              <description>If attached to a Headhunter squad, that squad gains Ferocity (1) and Stalk.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="beaa-e564-1dae-af06" name="Agressor Handgun" hidden="false" targetId="2a93-f72f-c651-73a0" type="profile"/>
+            <infoLink id="e8ea-6acd-ae28-49dd" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+            <infoLink id="1fb6-4ed5-dfa8-564d" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+            <infoLink id="6d47-7af6-12b0-431f" name="Brutal" hidden="false" targetId="1e0c-c2c4-dcd4-766f" type="rule"/>
+            <infoLink id="107b-242c-ac47-dfef" name="Dissention(2)" hidden="false" targetId="e697-95a3-e404-cc1c" type="rule"/>
+            <infoLink id="538c-e648-8f73-22f8" name="Dodge(5)" hidden="false" targetId="a418-85b9-3f4f-7e34" type="rule"/>
+            <infoLink id="0a04-a57a-abf0-8121" name="Fear(1)" hidden="false" targetId="5c7c-1161-71c3-7fec" type="rule"/>
+            <infoLink id="758a-53e2-d92e-0046" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+            <infoLink id="27ae-7a8f-84d9-aae3" name="Frenzy" hidden="false" targetId="0582-89eb-376f-7c27" type="rule"/>
+            <infoLink id="45a7-f3b3-8899-23dd" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+            <infoLink id="1a45-fa87-1d07-b5b5" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a660-6392-16aa-dbe7" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="false"/>
+            <categoryLink id="694e-f89d-c753-444f" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
