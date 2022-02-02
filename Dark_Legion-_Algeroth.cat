@@ -1,222 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="14" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristopehrsmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="15" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristopehrsmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="bfa9-ef4c-b99e-18da" name="Cheap Power" hidden="true"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry id="6006-688a-db85-889c" name="Undead Legionnaires" page="" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="6006-688a-db85-889c-645b-adc7-9bb9-5d5e" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
-        <categoryLink id="5b14-5517-0091-2ce1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8d1e-0eb7-6ac1-1a41" name="Necromutant" page="" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7ae-44c1-cc36-392f" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="4f14-ccba-c8d9-9953" name="Insalubrious Bodily Fluids" hidden="false" targetId="8dac-8cfe-9798-49f6" type="rule"/>
-            <infoLink id="8472-bbf5-42e4-bd5a" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule"/>
-            <infoLink id="1152-9dab-0056-283c" name="Grenade of Flies" hidden="false" targetId="dabd-af55-6652-f4d9" type="profile"/>
-            <infoLink id="8afa-60ab-630d-ef2d" name="Belzarach Assault Rifle" hidden="false" targetId="6992-7748-8121-aa77" type="profile"/>
-            <infoLink id="7f44-0d45-9dba-83fc" name="Sectioner Bayonet" hidden="false" targetId="4ab8-123c-bf8e-ba36" type="profile"/>
-            <infoLink id="f0d8-7197-5957-f2ee" name="Necromutant" hidden="false" targetId="7218-0c51-24de-6360" type="profile"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="f210-c467-1a2b-922d" name="Squad Commander" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ea1-f3cc-709b-5866" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="302e-a2f6-4033-f343" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4d76-631c-6018-1b06" name="Legionnaires" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cdb7-85ae-bed4-8cf1" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a200-ea0b-a0c5-d1fb" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="e507-5d1d-acff-f3a6" name="Undead Legionnaires" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
-              <characteristics>
-                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">4</characteristic>
-                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">11/0</characteristic>
-                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">11</characteristic>
-                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">8</characteristic>
-                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">8</characteristic>
-                <characteristic name="WP" typeId="db0e-37dd-158d-c429">10</characteristic>
-                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
-                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
-                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
-                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
-                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">8&quot;</characteristic>
-                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">10</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="4343-a800-8328-98c6" name="Corroded Blade" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-              <characteristics>
-                <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
-                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
-                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
-                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-            <profile id="e077-b441-fe52-677b" name="Kratach Assault Rifle" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-              <characteristics>
-                <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
-                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
-                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
-                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="230f-47cd-85fb-79f2" name="Black Bullets" hidden="false">
-              <description>RES(1): Undead Legionnaire´s ranged weapons in this squad gain Deadly.</description>
-            </rule>
-            <rule id="c076-7210-a14b-2966" name="Brainless" hidden="false">
-              <description>Undead Legionnaires cannot perform actions that cost AP(2).  Also, Undead Legionnaires do not provide a Resource unless there is a Necromutant in the squad.</description>
-            </rule>
-            <rule id="536d-a7e8-2e02-9de5" name="Leash" hidden="false">
-              <description>If this squad commander is a Necromutant, Undead Legionnaires in this squad gain SP(+1).</description>
-            </rule>
-            <rule id="3025-6715-ad24-77cd" name="Swarm" hidden="false">
-              <description>At the end of its activation, this squad of only Undead Legionnaires may be merged into another Undead Legionnaire squad within 8&quot; that has already activated this turn as long as the resulting squad does not contain more that 15 Undead Legionnaires.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5c64-335e-e42b-e2bc" name="Heavy Weapons UL" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="increment" field="82f5-e26f-fd78-cb51" value="2">
-              <repeats>
-                <repeat field="selections" scope="6006-688a-db85-889c" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d76-631c-6018-1b06" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82f5-e26f-fd78-cb51" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="47e4-c2e3-0e8f-e7a0" name="Plaguedealer" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="8fc1-3fb8-78d0-a710" name="Plaguedealer" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
-                    <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
-                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
-                    <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
-                    <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(4)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ecf1-7f28-f1ce-b83a" name="Valcheck HMG" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="63a5-f33d-4dc4-8c5c" name="Valcheck HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
-                    <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">11</characteristic>
-                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
-                    <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
-                    <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="8.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="48e3-f82e-d2ab-55fd" name="Necromutants" page="" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="8f14-be7a-8cea-fd37" name="New InfoLink" hidden="false" targetId="8dac-8cfe-9798-49f6" type="rule"/>
-        <infoLink id="eb72-180a-03ca-1059" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule"/>
-        <infoLink id="d5b5-fda3-6057-ec2f" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
-        <infoLink id="1727-46e8-8dc3-9a73" name="Grenade of Flies" hidden="false" targetId="dabd-af55-6652-f4d9" type="profile"/>
-        <infoLink id="5e6a-c464-fd8b-2c92" name="Belzarach Assault Rifle" hidden="false" targetId="6992-7748-8121-aa77" type="profile"/>
-        <infoLink id="3187-f2e5-b1fc-54e7" name="Sectioner Bayonet" hidden="false" targetId="4ab8-123c-bf8e-ba36" type="profile"/>
-        <infoLink id="4a2e-c097-dd50-6a65" name="Necromutant" hidden="false" targetId="7218-0c51-24de-6360" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="48e3-f82e-d2ab-55fd-645b-adc7-9bb9-5d5e" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
-        <categoryLink id="c732-12e3-454a-d2bd" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="bdeb-3e9e-e599-bd40" name="Heavy Plaguedealer" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="increment" field="3692-2ef7-9aab-6e78" value="2">
-              <repeats>
-                <repeat field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff30-d7b9-1def-b87b" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3692-2ef7-9aab-6e78" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="605b-ae79-21f6-c8a3" name="Heavy Plaguedealer" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-              <characteristics>
-                <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
-                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">14</characteristic>
-                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
-                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing (5), RES(1): ST(4) Poison</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ff30-d7b9-1def-b87b" name="Necromutants" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb2e-5608-9d8a-afe9" type="min"/>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a33-171f-2d74-8eaa" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5c79-1c9e-45e0-572a" name="Banner of Algeroth" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fff-5488-7e75-7095" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="7141-254b-7f5b-711e" name="Banner of Algeroth" hidden="false">
-              <description>Models in this squad gain CC and DEF(+2).</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="cfa7-92d9-26f0-8042" name="Necromutant Leader" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f4f3-b075-510a-41a2" name="Necromutant Leader" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
@@ -861,9 +648,24 @@
     <selectionEntry id="1efa-96e4-9ff5-6015" name="Alakhai Ascendant" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="3925-72a7-18c1-c80c" value="0.0">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c493-033a-e04a-3772" type="greaterThan"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c493-033a-e04a-3772" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b87-be03-d95d-8ba4" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c493-033a-e04a-3772" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b87-be03-d95d-8ba4" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -940,7 +742,7 @@
         <categoryLink id="0db2-5595-4166-a29f" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0473-524a-aa93-ce43" name="Dark Symmetry: Algeroth Powers - Free" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup">
+        <entryLink id="0473-524a-aa93-ce43" name="Free Algeroth Powers" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af4-f418-e8a4-3710" type="max"/>
           </constraints>
@@ -1358,15 +1160,50 @@
     </selectionEntry>
     <selectionEntry id="faeb-d472-82ac-a95e" name="Praetorian Stalkers" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="increment" field="345b-4e5f-00ef-fca4" value="2">
-          <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" repeats="1" roundUp="false"/>
-          </repeats>
+        <modifier type="set" field="345b-4e5f-00ef-fca4" value="2.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" field="hidden" value="false">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" type="greaterThan"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="345b-4e5f-00ef-fca4" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -1393,7 +1230,7 @@
       <infoLinks>
         <infoLink id="d67a-f58b-9736-4503" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
         <infoLink id="79a2-b8a8-1440-a71a" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
-        <infoLink id="7836-63bb-e75c-8cb0" name="New InfoLink" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
+        <infoLink id="7836-63bb-e75c-8cb0" name="Savage Charge" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
         <infoLink id="b1ba-020e-aeca-c676" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
         <infoLink id="b9b7-ed6b-a6be-72a4" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
         <infoLink id="3163-4f07-71e5-a974" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
@@ -2026,6 +1863,1391 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="50.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e158-4e23-5b77-51e1" name="Minister Erwin Stahler [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac2-2c5d-cb18-e984" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bba-9159-d69e-b0e4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1d3d-8e16-6ec2-761b" name="Minister Erwin Stahler [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/2</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">9</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">16</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">22(10)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">100</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="67ca-ea5b-ee18-9687" name="MG-40 LMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+        <profile id="54fa-428d-a046-2bc5" name="Dueling Sabre" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+0</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bab4-ba15-b577-8546" name="Advanced Supply Chain" hidden="false">
+          <description>RES(X): Once per game turn, at any point, place (X) ‘Advanced Supply Chain’ markers on this model. These markers remain in play until this model is removed from the game. During this model´s activation, you may remove any number of markers to access the following abilities until end of turn, each only once per game turn.
+• Seize the Moment: (1-3 markers). For each marker removed, the player receives a (+1) modifier to their Initiative roll for the next game turn.
+• Intelligence Report: (1 Marker). This model gains Espionage.
+• Boosted Supplies: (2 Markers). Nominate 1 friendly squad within 12” and LOS, reduce the RES cost of any abilities for the squad by (1) to a minimum of 0.
+• Emergency Redistribution: Un-spend up to 5 RES for 2 markers each.
+• Double Up: (3 markers). Nominate one Marshal or Kapitan in the army. That model doubles their advanced supply markers or Supply markers.
+• Communications Blocker: (1 marker). At the beginning of the Marshal´s activation, place a permanent token within 24” and LOS of this model
+Models within 4” of the token cannot use any abilities that have a RES cost. Only one such token may be in play at any one time.</description>
+        </rule>
+        <rule id="50d9-ed99-4c74-beaf" name="Officer&apos;s Judgement" hidden="false">
+          <description>All Bauhaus Troop and Support type models within 10” of this model gain CC, RS and LD(+1) (non-cumulative)</description>
+        </rule>
+        <rule id="5f55-0f7e-e607-871b" name="True Nature" hidden="false">
+          <description>This model has two profiles, one for his Minister and one for his Carcass Suit. At the start of its activation, this model may make a WP check and if successful, he may transform into his ‘Carcass Suit’ profile. If wounded, this model may choose to do this automatically. This model loses all Equipment and Abilities for the ‘Minister’ form and gain the Equipment and Abilities of the ‘Carcass Suit’. Any existing Wounds carry over to the new model.</description>
+        </rule>
+        <rule id="fa11-91a2-1ba1-fc28" name="Incognito" hidden="false">
+          <description>Enemy models targeting this model must succeed a LD check. If they fail, they may not take the action against it and the AP is lost. Bauhaus models automatically fail the test. Enemy models must spend RES(1) to target this model. Enemy Bauhaus models must spend RES(2).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e79c-7ccf-9002-5b3d" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule"/>
+        <infoLink id="7fe0-2973-aefe-e62b" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="070f-ca3e-5039-bc86" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule"/>
+        <infoLink id="d745-77ea-c2df-4ab5" name="Initiative(1)" hidden="false" targetId="7de7-41cb-24b1-87cc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7699-caf0-35fb-e16c" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="f8a2-ab4a-1461-c61b" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="8f19-bd18-7442-b4e5" name="Legion Operative" hidden="false" targetId="240e-01ec-bcac-b018" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5653-9a4e-8c1b-21b8" name="Stahler in Carcass Suit [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d84-0a68-9078-2da4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90a5-5143-fab3-0a90" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5070-f261-0054-9786" name="Necrobionic Claws" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+5</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Sweep, RES(1): Critical Force (2), Loses Sweep</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dcb7-5dc9-a796-2ddb" name="Stahler in Carcass Suit [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">16/4</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">10</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">12</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">4</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">25(12)</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2465-a414-0fa1-9917" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule"/>
+            <infoLink id="ed2d-c7fc-0d30-e385" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule"/>
+            <infoLink id="e157-915c-75f3-3d91" name="Regeneration(4)" hidden="false" targetId="17ff-f0fa-9488-a66d" type="rule"/>
+            <infoLink id="6cc3-f027-6156-b11a" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+            <infoLink id="7107-51bb-3b9d-51b2" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="d1a3-50d5-0308-8833" name="Stahler in Carcass Suit [K]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de4-78ea-6180-e599" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5856-2207-45d1-6ded" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="441f-984a-f3c0-19ab" name="Dark Simmetry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5353-3f4e-6c5f-f051" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f585-3906-ffcc-619f" name="Free Algeroth Powers" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1a99-1486-9db5-3197" name="Army Commander" hidden="false" collective="false" import="true" targetId="5230-61bf-49e9-2790" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="500d-a938-33de-1c58" name="Ezoghoul [K]" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="29d3-4321-0a4a-ecbb" name="Crushing Trample" hidden="false">
+          <description>This model may make Ram actions as if it was a vehicle.</description>
+        </rule>
+        <rule id="cd3d-f140-b303-0d39" name="Illiachk" hidden="false">
+          <description>This model is immune to Gas weapons.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="49b0-c9aa-a3b7-b641" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="126c-a3bb-fa40-8164" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule"/>
+        <infoLink id="e2ce-a277-3bf7-ba38" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+        <infoLink id="0cd0-c69f-d19e-259f" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="f4d4-d554-4b53-e163" name="Regeneration(4)" hidden="false" targetId="17ff-f0fa-9488-a66d" type="rule"/>
+        <infoLink id="494f-9082-1c43-18ea" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a038-4c50-b9ba-4aea" name="Flyer" hidden="false" targetId="79ad-4512-1052-014d" primary="false"/>
+        <categoryLink id="1596-f16a-c62e-f8d8" name="Monster/ Light Vehicle" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="638b-666e-2b7e-ecae" name="Ezoghoul [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c8d-c122-955e-6734" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d252-dd8b-8c28-469b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9ea5-c8b6-c705-f587" name="Ezoghoul [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">7</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/2</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">12</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">14</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">24</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">3</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">12&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">75</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b684-7cf9-0285-c762" name="Blutarch Handcannon" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">14</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour-Piercing (2), Short-Ranged Burst</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2d39-9deb-85ae-6a6e" name="Ashreketh Blade" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">2</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+6</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Headshot, Sweep</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="680c-4dff-8efd-1e90" name="Dark Simmetry" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="933b-2d2a-2f1a-11a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9d2-1074-3489-019b" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e790-3a04-4076-77d8" name="Wings of Darkness" hidden="false">
+              <description>Range: Squad. This squad may be Recalled. Next turn it may use Regular or Flank Deployment. This power must be the first AP used by the first model activated in the squad.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04c8-aef4-109f-4437" name="Korlugon, Grand Tekron and Master of Dark Technology [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fe1-7ba5-15e2-901c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3699-f392-e02b-e669" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="37dc-8d2c-6623-3b49" name="Korlugon, Grand Tekron and Master of Dark Technology [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/2</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">12</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">14</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">16</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">4</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">24(12)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">2</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">130</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d946-0844-aa12-7d1e" name="2 Advanced Necrofusion Blasters" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">11</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing (6), Weapon Mode (Burner) RES(2): Critical Force (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="18ed-d88f-53fc-12c1" name="Advanced Necrofusion Blaster(Burner)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">14</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7ce4-f3c5-318d-2d34" name="Symmetry Necrotendrils" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">2</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+0</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">6</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">No IA Saves allowed</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1401-f8d5-0dcb-09a4" name="Hand of Algeroth" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">2</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Slow to Reload, Armour Piercing (6) and Critical Force (2) against Vehicles</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2ebf-9904-d95f-64de" name="Chief Necrotechnologist" hidden="false">
+          <description>RES(1): Target friendly squad within 12” gains one of the following: Camouflage (+1), Crackshot (+1), Frenzy, Unblinking Eye, or ST(+1) to A weapons until the end of turn.</description>
+        </rule>
+        <rule id="ff88-7f57-0337-d6a5" name="Praetorian Progenitor" hidden="false">
+          <description>Before the game, a single Praetorian Stalker squad may be upgraded to one of the following for free:
+Praetorian Enforcers: Up to 4 models in this squad may upgrade their Scythe of Semai with a Hindenburg Incinerator for free.
+Praetorian Hunters: Gains Flank Deployment and RS(+2), but loses Rapid Deployment.
+Praetorian Executioners: Models in this squad may Savage Charge for RES(0).
+Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
+        </rule>
+        <rule id="3d3e-6682-f3b3-e274" name="Paired Weapons (A/F)" hidden="false">
+          <description>Paired Weapons (X) - The model can use up to two of its equipped weapons of the (X) type in the same action. In ranged combat, both weapons have the same primary target. (X) can be a specific weapon, e.g. (combat knife), or a weapon type, e.g. (HG) or (CC).</description>
+        </rule>
+        <rule id="5f2e-12bf-f90e-9517" name="Necrotech Engineer" hidden="false">
+          <description>During the Control Phase, friendly Infantry squads within 6” may choose one of the following: A(+1), Ferocity (1), or CON(+2) until the end of the turn. All models in a squad must choose the same bonus. Friendly vehicles within 6” gain Repair (5). Friendly Algeroth models within 8” gain Heal (+2).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3e6c-7705-636e-23a3" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="5945-4831-ed9b-5345" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="7b50-a592-64a6-d288" name="Regeneration(5)" hidden="false" targetId="ce58-f484-9adf-edc6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9c6-e439-58d4-ef8b" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="6f0c-6138-7329-2703" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0819-04d6-68c1-f67c" name="Splug [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f2-552d-786b-db2f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6b14-8d3f-67dc-5bc1" name="Splug [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">11/0</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">11</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">8</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">8</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">10</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">20</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2601-1332-4b84-c8ac" name="Plaguedealer (Corrosive Acid)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour-Piercing (4), Deadly</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bb41-19cb-30fa-0b3d" name="Corroded Blade" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="edac-4cd8-dcbf-01ad" name="Medic(4)" hidden="false" targetId="3691-3ba8-4ee2-1be6" type="rule"/>
+            <infoLink id="70b4-b9bc-0768-f108" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="55f9-4321-1686-4ebe" name="Splug [K]" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b22-8b87-6f4f-ca70" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158f-4c99-d56d-10f1" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2bed-142c-5593-944a" name="Free Algeroth Powers" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a330-18f4-2239-79b2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bb66-4bc5-c1df-bad8" name="Army Commander" hidden="false" collective="false" import="true" targetId="45ad-3a3c-6cf1-9d2e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ea8-93cc-ecec-9b95" name="Praetorian Enforcers [K] S" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee9-9d78-22f6-6988" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd70-6237-f3b5-b3ae" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="49ee-ef48-164f-b3fd" name="Praetorian Enforcerers [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ae89-9f47-c620-da40" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="75ad-2282-99fd-6ad2" name="Precision Deployment" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="bfd9-69fc-39a0-7bb9" name="Savage Charge" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
+        <infoLink id="ee05-d21a-352e-80af" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="10ca-d276-e4a3-6a2e" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="7e27-5925-8c84-01a9" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="8808-0817-78dd-e73c" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="3520-ef3c-a72c-f961" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2d34-717d-9dc8-850d" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
+        <categoryLink id="9fd4-e685-dcdb-86f6" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4b28-351c-d541-9d35" name="Praetorian Enforcers [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d3-1ab9-f5c6-5616" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a7-7a03-5ae8-0ce2" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cabe-ccdb-3929-f35a" name="Rapid Deployment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe58-7c09-b1e1-a51c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0c41-4057-6733-4d51" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3f37-fbd9-9909-0d2b" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="52ed-6fc8-a35f-b6f2" name="Scythe of Semai Enforcerers HMG Options" hidden="false" collective="false" import="true" targetId="bc9a-6817-51e3-f119" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9bb3-6bbb-cf1f-64e0" name="Praetorian Hunters [K] S" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="951f-e8c0-1225-278e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ec0-9a90-c164-46ad" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="fd96-8d4a-b51a-d18b" name="Praetorian Hunters [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">15</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="abb2-3e27-4d53-7b4e" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="6de7-3ab5-93d1-8ed1" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="c076-6a5b-fc90-fa60" name="New InfoLink" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
+        <infoLink id="42a7-833d-2f89-bfe8" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="9ffd-512b-2b0c-1893" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+        <infoLink id="98a8-aec6-1de4-9790" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="1435-4a3c-7c83-2e69" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="c0a6-0740-816e-3e50" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="16d2-ee74-dfc6-b768" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e0b-bf53-618e-89c9" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
+        <categoryLink id="65c4-24fb-b570-20be" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3b2b-17ea-a8ad-3943" name="Praetorian Hunters [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="136d-0c12-6546-3880" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da70-9ddf-69d3-14b2" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8ae7-ab1f-c0c9-6eb0" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="3b10-a113-5116-0fcc" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3a52-18ff-83e6-673c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d6e-fcb0-88da-adde" name="Praetorian Executioners [K] S" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bee5-d5b5-a47e-4167" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f4eb-053f-09dc-bce5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="15de-4375-805e-5707" name="Praetorian Executioners [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8851-a1a4-219f-8d10" name="Executioners Savage Charge" hidden="false">
+          <description>RES(0): Praetorian Stalker type models in this squad gain Frenzy.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="25e9-4fc8-876e-105f" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="aec8-bdf6-bf64-abd7" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="6d29-dcaf-a25b-919c" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="c651-8a9a-cd16-2553" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="fa23-4e82-b885-7017" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="0473-8a47-c6ab-3e58" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="54d4-44ac-e5fa-4723" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d6ed-bf21-79ed-3d3c" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
+        <categoryLink id="a6cd-a5fb-83eb-3b27" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6f58-11c5-0a14-671b" name="Praetorian Executioners [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="571c-2062-914b-0fc0" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad72-bf75-0d98-6335" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0c98-a788-0794-11c6" name="Rapid Deployment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d005-a666-3b89-7506" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e689-682a-8750-2d24" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a875-7edb-3b40-0124" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="50d0-996c-789e-4e22" name="Scythe of Semai HMG Options" hidden="false" collective="false" import="true" targetId="3a52-18ff-83e6-673c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f31-de6b-6be8-b911" name="Praetorian Guardians [K] S" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b25c-985e-6cae-1c0a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ccb3-8419-56c9-0f33" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ea9b-9a0b-9b4e-69a5" name="Praetorian Guardians [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c969-1bbb-ff6e-b680" name="Bodyguard" hidden="false" targetId="55fc-36d2-10ca-d2dc" type="rule"/>
+        <infoLink id="ac92-c673-7fa1-ded0" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="d81c-bd95-ce76-cd62" name="New InfoLink" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
+        <infoLink id="8430-b806-8c30-feb1" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="d0da-6ce0-f720-c7d6" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="44c1-d748-5531-3d62" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="75c6-1a6c-9453-ea75" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="6c1d-1080-0b23-89f5" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="6b6f-5b6e-3117-ac11" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="21b2-57b2-7b81-c85a" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7b91-18ef-2132-1953" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
+        <categoryLink id="658a-f027-9272-ec74" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2ed6-b7af-1c00-2119" name="Praetorian Guardians [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e946-a4e5-8dfb-9be0" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e018-70db-667f-fde7" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e236-d1d2-69b8-1690" name="Rapid Deployment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73e3-480c-d21a-c4e7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4d4c-f8ea-26f2-0660" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e2d0-666d-fe72-c8b5" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="9884-8b04-a7b8-a193" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3a52-18ff-83e6-673c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b65c-aa22-1587-597b" name="Praetorian Enforcers [K] T" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="467c-5e3b-0604-c995" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e45-708c-a3de-936c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="975a-2cc8-bb3d-5660" name="Praetorian Enforcerers [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="32fc-7497-64c3-41a7" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="2864-f290-5732-fed1" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="81aa-27cd-4c08-d5f3" name="Savage Charge" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
+        <infoLink id="a163-76d6-5564-90bb" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="d64b-0418-0a84-ef4b" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="d0aa-6650-e37d-b0bf" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="dc9f-3f19-a614-b520" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="cc8d-a915-cb57-ec67" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="016e-7422-cdab-8aac" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="b134-264c-63ec-64d5" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="146e-54d4-c5e7-8197" name="Praetorian Enforcers [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f70-e725-a28f-a46d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c2-3c5d-acc8-78a6" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="59ff-fb0b-e3b4-deed" name="Rapid Deployment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6886-9a1b-8964-f7b7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4d8d-db01-f09a-9999" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="29af-4c61-a524-c453" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="4a1d-7ef4-f129-7f9f" name="Scythe of Semai Enforcerers HMG Options" hidden="false" collective="false" import="true" targetId="bc9a-6817-51e3-f119" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7383-83b6-7765-352d" name="Praetorian Executioners [K] T" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc13-e695-7e4b-914a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d76-ff99-a3d7-a57c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="875d-2c6e-6129-0f91" name="Praetorian Executioners [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a27f-ca4c-e523-4750" name="Executioners Savage Charge" hidden="false">
+          <description>RES(0): Praetorian Stalker type models in this squad gain Frenzy.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="20dd-c0d6-0d6b-6c60" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="f414-5d2a-a709-9cca" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="6a2d-2eca-7ef0-c182" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="7eb1-7738-8a2c-6565" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="10e2-f7da-5fb4-97f3" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="1722-4dfe-ee1d-ec88" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="f11a-1d1b-e3cb-7eab" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0b22-60a1-7b1f-5762" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="ad64-b137-bc5b-fc3d" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4b7d-087e-018b-6c42" name="Praetorian Executioners [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebf1-24a7-81e9-82d8" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbde-a134-309b-1691" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="812a-1ee0-8b68-55b4" name="Rapid Deployment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca5-cba4-04ea-f51d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e7ae-8fe9-02b8-7a75" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7a79-a20e-f802-77cd" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="e1ff-0fdb-c5d2-4816" name="Scythe of Semai HMG Options" hidden="false" collective="false" import="true" targetId="3a52-18ff-83e6-673c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49f7-4a73-0f08-a056" name="Praetorian Guardians [K] T" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3d45-abe8-9436-509f" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4351-2dff-1e71-fa24" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7005-ce0e-a912-9669" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ada5-c382-7a76-8e5e" name="Praetorian Guardians [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ff91-3650-7992-9bc2" name="Bodyguard" hidden="false" targetId="55fc-36d2-10ca-d2dc" type="rule"/>
+        <infoLink id="e855-f5f4-30ec-f7ac" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="8cc8-6c2f-2dfa-24fa" name="New InfoLink" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
+        <infoLink id="f9f2-ef90-ff5e-ab0a" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="f4d1-4441-4b7d-a7d2" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="5748-e8d4-707b-127e" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="eb32-48e8-73ad-243a" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="b740-6e49-6b87-6370" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="fd6c-5f89-f5f2-4816" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="7290-6e5e-5221-651c" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="085b-3010-f32f-8454" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="0f49-2981-8de4-a017" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f028-7e4a-2617-05cf" name="Praetorian Guardians [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f92f-4512-6822-26d2" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9950-d198-532f-aa2a" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="33fc-6770-a615-6fa3" name="Rapid Deployment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ce6-f830-4f4a-3366" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="62eb-77ea-885a-8d84" name="Deployment: Rapid Deployment" hidden="false" targetId="51aa-951b-a802-72bf" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7bab-9d35-8b0a-9303" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="8030-7f81-5e8d-3b22" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3a52-18ff-83e6-673c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d45-abe8-9436-509f" name="Praetorian Hunters [K] T" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04c8-aef4-109f-4437" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9bb3-6bbb-cf1f-64e0" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f31-de6b-6be8-b911" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7383-83b6-7765-352d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="49f7-4a73-0f08-a056" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b65c-aa22-1587-597b" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d6e-fcb0-88da-adde" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ea8-93cc-ecec-9b95" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="45ad-3a3c-6cf1-9d2e" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cdc-a1bc-3aaf-5cf3" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5a51-329b-652f-908a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a07e-7086-4172-5b5e" name="Praetorian Hunters [K]" page="905" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">15</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">13</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">26</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">10&quot;</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f11f-bbe3-dc96-24d8" name="Bonded in Birth" hidden="false" targetId="79e3-c1f4-34a1-8d91" type="rule"/>
+        <infoLink id="b6ff-450c-f234-c88b" name="New InfoLink" hidden="false" targetId="4dd6-60e1-1703-f576" type="rule"/>
+        <infoLink id="f453-35bb-692b-043a" name="New InfoLink" hidden="false" targetId="90ab-af0c-787d-a540" type="rule"/>
+        <infoLink id="4600-79a2-0580-f543" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="8c3a-0f51-15f8-322d" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+        <infoLink id="36b1-b1df-ccc8-a96e" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+        <infoLink id="c881-247e-22b6-c16b" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="f82a-32c2-0e74-47cc" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="00cb-f5c4-0461-0eb8" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f232-ae81-16db-d0d7" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="85da-f7a8-c95f-0182" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3174-bc17-d4c4-9609" name="Praetorian Hunters [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ea-5f27-7a8a-7fc2" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7796-4e22-429a-cc3c" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3447-ad2b-362f-4c68" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" targetId="f10e-007f-f5ff-a5ad" type="selectionEntryGroup"/>
+        <entryLink id="f4c2-a201-42e4-9c4e" name="New EntryLink" hidden="false" collective="false" import="true" targetId="3a52-18ff-83e6-673c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6441-15ae-6839-cf3f" name="Tekron [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0498-cb54-2670-fd9c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c753-3196-815d-084d" name="Tekron [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">4</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">12/0</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">12</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">14</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">15</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">14</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20(10)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ae52-4dab-8032-1108" name="Necrofusion Blaster" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">12</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing (6), Weapon Mode (Burner) RES(2): Critical Force (2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dc95-dcc2-ac8f-dc18" name="Necrofusion Blaster (Burner)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0291-a181-eb02-e89b" name="Corroded Pneumatic Claw" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour-Piercing (4) RES(1): No IA Saves allowed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="43db-0cf0-09be-52a7" name="Necrotech Engineer" hidden="false">
+          <description>During the Control Phase, friendly Infantry squads within 6” may choose one of the following: A(+1), Ferocity (1), or CON(+2) until the end of the turn. All models in a squad must choose the same bonus. Friendly vehicles within 6” gain Repair (5). Friendly Algeroth models within 8” gain Heal (+2).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="02b2-984a-1e83-1e65" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+        <infoLink id="3dd7-9b3a-185f-c622" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="8454-1f11-1f7d-4b85" name="Regeneration(5)" hidden="false" targetId="ce58-f484-9adf-edc6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="28eb-afca-9d71-fb5e" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="de37-0ca7-59c6-ebd5" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7f57-414d-3535-6e1b" name="Dark Symmetry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b221-d782-e0d7-af7a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="116c-ae27-2205-fec2" name="Dark Symmetry: Algeroth Powers" hidden="false" collective="false" import="true" targetId="3e05-1579-3250-a997" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b87-be03-d95d-8ba4" name="Saladin, Overlord of Mars [K]" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="a350-f649-4882-f01f" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c493-033a-e04a-3772" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1efa-96e4-9ff5-6015" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c493-033a-e04a-3772" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1efa-96e4-9ff5-6015" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2e2-11be-ce8e-8bb7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a350-f649-4882-f01f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1ad9-7db0-4ea2-9460" name="Saladin, Overlord of Mars [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">6</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">17/4</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">15</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">14</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">15</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">17</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">17</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">5</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">24(12)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">2</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">165</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="351a-d7c6-043e-be25" name="Black Gun" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">28</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Critical Force (2), Exploit, Slow to Reload</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3ec7-827f-dc35-4dac" name="Battlespear" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">2</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing (8), Critical Force (2), RES(1): Sweep, lose Critical Force (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8754-f9ea-5dd4-8b2d" name="Bulldozer" hidden="false">
+          <description>This model may run or charge through walls as long as there is a space to place the model on the other side of the wall. Any structure punched through loses W(1) on a D20 roll of 1-10.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1701-ab5b-1dbc-7558" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="8d89-b76b-0d16-e3fd" name="Fear(5)" hidden="false" targetId="abbd-99f5-b4b3-7fe8" type="rule"/>
+        <infoLink id="823f-7573-a375-fd53" name="Enhanced Unblinking Eye" hidden="false" targetId="ce93-f9c7-c9e4-c0c5" type="rule"/>
+        <infoLink id="1f5f-022b-2920-fa4e" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="6fa2-9a00-627a-e203" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule"/>
+        <infoLink id="bf6d-fac9-7333-1cd0" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="cd7a-cf30-1330-f41e" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+        <infoLink id="c5c4-73c9-c835-0186" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d07f-44f3-abbc-9499" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="4fbb-a6ea-b81a-2004" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e94d-a763-8ad2-e542" name="Dark Simmetry" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81e9-de04-b7ab-d85e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7891-1f73-2a8b-4917" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="f7fe-5f37-1608-e360" name="Throne of Saladin" hidden="false">
+              <description>RES(2): This model may spend AP(2) to nominate a friendly model within 18&quot; (Does not need LOS). Place Saladin in B2B with the nominated model and then remove that model as a casualty. Only Saladin may use this Dark Simmetry Power.</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink id="b7dc-642c-1799-21f3" name="Free Algeroth Powers" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f1e-b020-9fed-8292" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c027-ab5b-0f23-c385" name="Army Commander" hidden="false" collective="false" import="true" targetId="2d11-8ea2-703f-6892" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="165.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c86d-02a9-156d-b20a" name="Sergeant Pious Oleander [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f95-8e00-522b-fc76" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6255-c97b-887a-0bd4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4122-ac5c-089d-f932" name="Sergeant Pious Oleander [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">15</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">11</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">11</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">15</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8625-ed1e-9058-24d4" name="Corroded Hand Ripper" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+1</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, DEF(+1) RES(1): Armour-Piercing (4), Headshot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bedb-7c3b-e1c5-8142" name="Undying" hidden="false">
+          <description>If a model with this ability is removed as a casualty, replace the model with a ‘Undying’ marker. During the next Control phase, make a Regeneration roll for each marker. If successful, replace the marker with the model that was removed. It has W(1). Remove the marker regardless of the Regeneration result. If the removal of this model is tied to removing Resource cards, then remove those cards only after you fail the Regeneration roll.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5af4-56b3-0183-fe19" name="Invader Assault Rifle" hidden="false" targetId="2719-e685-3d95-0803" type="profile"/>
+        <infoLink id="f743-e417-8cab-535c" name="Frag Grenades" hidden="false" targetId="0217-d44b-ef5a-061c" type="profile"/>
+        <infoLink id="d1ec-1d9b-f8ac-c4d6" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule"/>
+        <infoLink id="8ea2-6f52-1ca2-217d" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="d156-26f3-597b-6c76" name="Psychic Mastery(D)" hidden="false" targetId="b6f9-5fb9-1a33-9cd1" type="rule"/>
+        <infoLink id="00ca-ee09-d4ad-9ed8" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="140f-2d1a-0433-9a75" name="Regeneration(5)" hidden="false" targetId="ce58-f484-9adf-edc6" type="rule"/>
+        <infoLink id="63af-cba5-cabe-39d9" name="Human" hidden="false" targetId="878c-4468-9522-70c7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="73b7-e309-644a-df59" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="d539-1190-b632-a817" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="fe43-e46b-4e87-9751" name="Legion Operative" hidden="false" targetId="240e-01ec-bcac-b018" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1d34-9c9e-950e-7d6b" name="Apostle Devotion" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9df-88b0-c138-d440" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a242-8514-f3d8-4295" name="Algeroth (Dark Simmetry)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342c-7ca3-fd90-6242" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ef21-1a4e-8c1e-e315" name="Free Algeroth Powers" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7c49-3b24-9d48-4ef2" name="Ilian (Dark Simmetry)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc7-1c75-9df4-d522" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7152-1b1f-bc02-5b04" name="Free Ilian Powers" hidden="false" collective="false" import="true" targetId="c34a-f95c-36ef-fa92" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="db84-35ee-144e-260e" name="Praetorian Behemoth" hidden="false" collective="false" import="true" targetId="fcf7-8877-2fbc-1eb4" type="selectionEntry">
@@ -2093,8 +3315,30 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <categoryLink id="6bb6-68be-f248-5899" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d5a9-a49b-f73a-7321" name="Alakhai the Cunning" hidden="false" collective="false" import="true" targetId="c493-033a-e04a-3772" type="selectionEntry"/>
+    <entryLink id="d5a9-a49b-f73a-7321" name="Alakhai the Cunning" hidden="false" collective="false" import="true" targetId="c493-033a-e04a-3772" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0b87-be03-d95d-8ba4" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1efa-96e4-9ff5-6015" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink id="1ef1-5264-510a-af37" name="Rob Yourstand" hidden="false" collective="false" import="true" targetId="c610-6995-7548-e098" type="selectionEntry"/>
+    <entryLink id="3185-32d8-dc7a-925e" name="Undead Legionnaires" hidden="false" collective="false" import="true" targetId="181a-369a-1879-3f9f" type="selectionEntry"/>
+    <entryLink id="200b-4d48-530c-5a5a" name="Necromutants" hidden="false" collective="false" import="true" targetId="9274-8003-6d9b-6093" type="selectionEntry"/>
+    <entryLink id="1dcf-27a3-fd9e-4de0" name="Centurion [K]" hidden="false" collective="false" import="true" targetId="5322-0ce5-e6f2-7d53" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="1d81-c9c5-73bd-ee5a" name="Army Commander" hidden="false" collective="false" import="true" targetId="5230-61bf-49e9-2790" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="ebfd-9ebe-29f9-cfa0" name="Cartel Freelancer [K]" hidden="false" collective="false" import="true" targetId="fc30-6657-3aca-5471" type="selectionEntry"/>
+    <entryLink id="4d76-961d-92e1-2aa0" name="Cartel Freelancers [K]" hidden="false" collective="false" import="true" targetId="5c2f-f2ae-5701-ab39" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="5d3b-4ee1-a199-bc2e" name="The Face of the Legion" hidden="false">
@@ -2389,6 +3633,30 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="160.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5230-61bf-49e9-2790" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c26e-fcfb-76ad-adbe" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="27bb-359d-7dae-8e25" name="Army Commander" hidden="false" targetId="2349-4e2c-0d07-8031" primary="false"/>
+        <categoryLink id="ae87-4c16-c45d-f581" name="Army Commander" hidden="false" targetId="2349-4e2c-0d07-8031" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d11-8ea2-703f-6892" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b0-f27d-e51e-a41e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d02a-addb-acdd-db4a" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c077-370f-e673-b82d" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1ee5-d5da-ad4b-dd16" name="Nasca Razide Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="0aeb-9481-9e5f-2859">
@@ -2453,12 +3721,12 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
     </selectionEntryGroup>
     <selectionEntryGroup id="f10e-007f-f5ff-a5ad" name="Praetorian Stalker Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="2757-d9bd-7bf3-7b96">
       <modifiers>
-        <modifier type="increment" field="6bc3-b459-5ce5-a802" value="1">
+        <modifier type="increment" field="6bc3-b459-5ce5-a802" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
-        <modifier type="increment" field="6521-3427-613e-6616" value="1">
+        <modifier type="increment" field="6521-3427-613e-6616" value="1.0">
           <repeats>
             <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
           </repeats>
@@ -2566,6 +3834,51 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="bc9a-6817-51e3-f119" name="Scythe of Semai Enforcerers HMG Options" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="5a6d-b3ae-9e0c-906e" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dddb-ed55-f038-076a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5a6d-b3ae-9e0c-906e" value="0.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dddb-ed55-f038-076a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5a6d-b3ae-9e0c-906e" value="3.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dddb-ed55-f038-076a" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="5a6d-b3ae-9e0c-906e" value="2.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dddb-ed55-f038-076a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a6d-b3ae-9e0c-906e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8858-ae68-ab06-dd00" name="Hindinburg Incenerator" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="d1e1-0a92-92c7-d4bc" name="Hindenburg Incinerator" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">8</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Critical Force(2), Armour Piercing(10)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="8dac-8cfe-9798-49f6" name="Insalubrious Bodily Fluids" hidden="false">
@@ -2589,40 +3902,6 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
         <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
         <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
         <characteristic name="RULES" typeId="9f21-2671-81ec-316a">If a model is hit, its squads RS and CC modified by (-4).</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6992-7748-8121-aa77" name="Belzarach Assault Rifle" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
-        <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
-        <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
-        <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">A</characteristic>
-        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Short-Ranged Burst</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4ab8-123c-bf8e-ba36" name="Sectioner Bayonet" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
-        <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
-        <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
-        <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-        <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
-      </characteristics>
-    </profile>
-    <profile id="7218-0c51-24de-6360" name="Necromutant" page="191" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
-      <characteristics>
-        <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">6</characteristic>
-        <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">13/1</characteristic>
-        <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
-        <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
-        <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
-        <characteristic name="WP" typeId="db0e-37dd-158d-c429">15</characteristic>
-        <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
-        <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
-        <characteristic name="A" typeId="f927-63b8-5afd-6ce1">24</characteristic>
-        <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
-        <characteristic name="COH" typeId="05da-39a2-c9de-de6f">8&quot;</characteristic>
-        <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">20</characteristic>
       </characteristics>
     </profile>
     <profile id="02d2-5236-691e-d3b0" name="Fist and Claws (Tearing Rampage)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">

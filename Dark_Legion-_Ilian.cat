@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb06-1065-ba4a-975d" name="Dark Legion- Ilian" revision="16" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb06-1065-ba4a-975d" name="Dark Legion- Ilian" revision="17" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="917f-8744-3c34-2565" name="Agony Golem" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2046,6 +2046,352 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="100.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1c5d-35a7-72f0-5c66" name="Minister Erwin Stahler [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aec4-2d82-f74a-ecbb" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b18-706c-bb46-2c07" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8dab-c54a-8913-61e5" name="Minister Erwin Stahler [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/2</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">14</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">9</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">16</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">22(10)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">100</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b0e-3a72-055f-e80a" name="MG-40 LMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+        <profile id="24ad-c069-f012-56a2" name="Dueling Sabre" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+0</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e7d4-1bb7-cab8-052a" name="Advanced Supply Chain" hidden="false">
+          <description>RES(X): Once per game turn, at any point, place (X) ‘Advanced Supply Chain’ markers on this model. These markers remain in play until this model is removed from the game. During this model´s activation, you may remove any number of markers to access the following abilities until end of turn, each only once per game turn.
+• Seize the Moment: (1-3 markers). For each marker removed, the player receives a (+1) modifier to their Initiative roll for the next game turn.
+• Intelligence Report: (1 Marker). This model gains Espionage.
+• Boosted Supplies: (2 Markers). Nominate 1 friendly squad within 12” and LOS, reduce the RES cost of any abilities for the squad by (1) to a minimum of 0.
+• Emergency Redistribution: Un-spend up to 5 RES for 2 markers each.
+• Double Up: (3 markers). Nominate one Marshal or Kapitan in the army. That model doubles their advanced supply markers or Supply markers.
+• Communications Blocker: (1 marker). At the beginning of the Marshal´s activation, place a permanent token within 24” and LOS of this model
+Models within 4” of the token cannot use any abilities that have a RES cost. Only one such token may be in play at any one time.</description>
+        </rule>
+        <rule id="aa1d-d740-d561-bb39" name="Officer&apos;s Judgement" hidden="false">
+          <description>All Bauhaus Troop and Support type models within 10” of this model gain CC, RS and LD(+1) (non-cumulative)</description>
+        </rule>
+        <rule id="8b46-e3ad-6fea-e4ae" name="True Nature" hidden="false">
+          <description>This model has two profiles, one for his Minister and one for his Carcass Suit. At the start of its activation, this model may make a WP check and if successful, he may transform into his ‘Carcass Suit’ profile. If wounded, this model may choose to do this automatically. This model loses all Equipment and Abilities for the ‘Minister’ form and gain the Equipment and Abilities of the ‘Carcass Suit’. Any existing Wounds carry over to the new model.</description>
+        </rule>
+        <rule id="3dff-7a6c-2d40-2f17" name="Incognito" hidden="false">
+          <description>Enemy models targeting this model must succeed a LD check. If they fail, they may not take the action against it and the AP is lost. Bauhaus models automatically fail the test. Enemy models must spend RES(1) to target this model. Enemy Bauhaus models must spend RES(2).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1128-4ab1-045b-5c46" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule"/>
+        <infoLink id="75fa-5219-3621-eecb" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="7f69-705b-9b97-6260" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule"/>
+        <infoLink id="6861-72c6-f3e8-0a7c" name="Initiative(1)" hidden="false" targetId="7de7-41cb-24b1-87cc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4b58-30ff-8137-be9c" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="fa5b-5502-4ce3-dcae" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="0571-84e7-fb85-3036" name="Legion Operative" hidden="false" targetId="240e-01ec-bcac-b018" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fa67-19c0-5552-2f45" name="Stahler in Carcass Suit [K]" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8e-1c26-ec43-1695" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda9-6941-6579-7b11" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eaa3-3203-623a-4a5e" name="Necrobionic Claws" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+5</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Sweep, RES(1): Critical Force (2), Loses Sweep</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8bc5-46c6-4d8b-346f" name="Stahler in Carcass Suit [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">16/4</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">10</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">12</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">12</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">16</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">4</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">25(12)</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ae59-2366-198a-7fa2" name="Fearless(5)" hidden="false" targetId="2631-b21d-1be6-639a" type="rule"/>
+            <infoLink id="223f-876e-5a02-25a7" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule"/>
+            <infoLink id="161a-abc2-fbd9-3c1d" name="Regeneration(4)" hidden="false" targetId="17ff-f0fa-9488-a66d" type="rule"/>
+            <infoLink id="fd96-3704-e221-6e22" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+            <infoLink id="6e80-cc5e-ecc6-2690" name="Unbreakable" hidden="false" targetId="64fc-3b92-6908-ef1e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e399-19a9-c9a9-dbb2" name="Dark Simmetry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="571f-4a05-925d-36af" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5fb2-a581-b620-f968" name="Free Algeroth Powers" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f229-5d74-5463-1734" name="Army Commander" hidden="false" collective="false" import="true" targetId="7f15-43e3-b712-5dbd" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d5e-3e42-4b94-4122" name="Voidblade [K]" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="42fc-5b88-6854-99ec" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+        <infoLink id="f929-b77d-23c4-afac" name="Enhanced Unblinking Eye" hidden="false" targetId="ce93-f9c7-c9e4-c0c5" type="rule"/>
+        <infoLink id="1ffd-0c7e-d048-ffd1" name="Hard to Hit(6)" hidden="false" targetId="af3e-e433-2a3c-410b" type="rule"/>
+        <infoLink id="e77c-3a9d-a0f1-df14" name="Regeneration(5)" hidden="false" targetId="ce58-f484-9adf-edc6" type="rule"/>
+        <infoLink id="0fe5-a91c-9bf0-f943" name="Repair(5)" hidden="false" targetId="59ee-ad15-2e83-26d3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7076-d366-8c0b-c462" name="Flyer" hidden="false" targetId="79ad-4512-1052-014d" primary="false"/>
+        <categoryLink id="809b-8a1e-bd65-1808" name="Monster/ Light Vehicle" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ad99-1f88-4018-e548" name="Voidblades [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1726-4d8f-e89e-0dbc" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c1d-7844-9f5e-fa1c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f9f4-cae3-0b60-77fc" name="Voidblades [K]" hidden="false" typeId="69ff-8e30-647f-0835" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="SP" typeId="3d64-19d9-c140-f3c2">8</characteristic>
+                <characteristic name="CC" typeId="c5ce-8266-81a1-3b22">-/-</characteristic>
+                <characteristic name="RS" typeId="2449-66df-7dc8-fb0f">14</characteristic>
+                <characteristic name="WP" typeId="ed65-33f8-601a-60f7">15</characteristic>
+                <characteristic name="LD" typeId="3fb5-dad5-a441-ec28">16</characteristic>
+                <characteristic name="HULL" typeId="e459-2a09-f6a4-5d56">27/3</characteristic>
+                <characteristic name="WPNS" typeId="0d7a-4494-01c9-424c">27/3</characteristic>
+                <characteristic name="MOV" typeId="f4a6-4f0b-6075-23b0">27/3</characteristic>
+                <characteristic name="ENG" typeId="da22-92fc-ab52-ecb7">27/3</characteristic>
+                <characteristic name="A-REAR" typeId="1627-198e-001c-8872">-3</characteristic>
+                <characteristic name="SZ" typeId="2021-cb5b-54b1-82b3">3</characteristic>
+                <characteristic name="COH" typeId="ae91-11e5-e284-db0f">15&quot;</characteristic>
+                <characteristic name="PTS" typeId="8be6-7199-1e47-dafe">75</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="406f-13e6-3e33-5a2e" name="Heavy Void Cannon" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">24/SE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">14</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">ML</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour-Piercing (6), Critical Force (2)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="49fa-9f1b-9116-f5a1" name="Symmetric Multiblaster" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">11</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Pinning, Precision (3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7208-e03d-8f63-0380" name="Wardogs [K]" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="fdb5-379f-7880-2ba8" name="Dimensional Leap" hidden="false">
+          <description>As a Run action, this model may be placed within 3” of any Void Portal that is within 20” (does not need LOS). This counts as having used all SP for movement.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1379-b3c3-3048-b1de" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="9ce4-6226-78e0-6766" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
+        <infoLink id="2af9-8b8a-355e-f786" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule"/>
+        <infoLink id="4788-bf42-8b2f-65a5" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="14b9-d55b-ec58-9220" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule"/>
+        <infoLink id="775c-817e-04fe-16ab" name="Dodge(5)" hidden="false" targetId="a418-85b9-3f4f-7e34" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="de1c-18bd-b7ba-b3ab" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+        <categoryLink id="c360-fd07-13da-e22b" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="525d-d920-554f-33d0" name="Wardogs [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a4-abbc-3575-4574" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a84-8f70-4a9f-a5e7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c30b-8d22-3066-94db" name="Wardogs [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">6</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">13/1</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">-</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">10</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">11</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">12</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">16</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">18</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">16&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">17</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4edd-47bd-ee1c-f5ec" name="Teeth and Claws" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Precision (2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="501e-d628-8458-b7ed" name="Sergeant Pious Oleander [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44b5-403a-79af-4f38" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="004a-cee9-6b0b-7583" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0be5-2303-c863-43a6" name="Sergeant Pious Oleander [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">14/1</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">15</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">11</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">11</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">15</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">50</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="be70-d148-bc90-14ed" name="Corroded Hand Ripper" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+1</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, DEF(+1) RES(1): Armour-Piercing (4), Headshot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d2ca-fdd2-4b1a-7600" name="Undying" hidden="false">
+          <description>If a model with this ability is removed as a casualty, replace the model with a ‘Undying’ marker. During the next Control phase, make a Regeneration roll for each marker. If successful, replace the marker with the model that was removed. It has W(1). Remove the marker regardless of the Regeneration result. If the removal of this model is tied to removing Resource cards, then remove those cards only after you fail the Regeneration roll.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c58e-2e98-3fbe-8447" name="Invader Assault Rifle" hidden="false" targetId="2719-e685-3d95-0803" type="profile"/>
+        <infoLink id="d5df-9fef-537a-6aa4" name="Frag Grenades" hidden="false" targetId="0217-d44b-ef5a-061c" type="profile"/>
+        <infoLink id="634c-2b16-85b1-abff" name="Contempt(All)" hidden="false" targetId="fcf5-5257-1cc1-89db" type="rule"/>
+        <infoLink id="34ab-d6c9-ca3c-3b19" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="c294-1261-4b2d-f83a" name="Psychic Mastery(D)" hidden="false" targetId="b6f9-5fb9-1a33-9cd1" type="rule"/>
+        <infoLink id="1a5f-9602-0f3e-c488" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="268f-f326-97f4-969d" name="Regeneration(5)" hidden="false" targetId="ce58-f484-9adf-edc6" type="rule"/>
+        <infoLink id="d516-21c1-3d86-b83a" name="Human" hidden="false" targetId="878c-4468-9522-70c7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e1e-3482-b612-e08b" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="f3fd-db6c-5a40-3cc1" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="da33-4ccb-a753-a114" name="Legion Operative" hidden="false" targetId="240e-01ec-bcac-b018" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8aeb-7a1f-061e-39b9" name="Apostle Devotion" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbaf-5ebd-9344-c537" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="481e-897e-2096-fb52" name="Algeroth (Dark Simmetry)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa9-6745-c486-8c25" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1f2c-02ba-6cdc-95fc" name="Free Algeroth Powers" hidden="false" collective="false" import="true" targetId="367e-588c-6f67-0e5d" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b35-f368-3053-7ca5" name="Ilian (Dark Simmetry)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea62-b4e4-b0a7-55ed" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1a1b-0af5-2f7a-3bdb" name="Free Ilian Powers" hidden="false" collective="false" import="true" targetId="c34a-f95c-36ef-fa92" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="31a9-603c-7a30-71dd" name="Golgotha, Mistress of Pain" hidden="false" collective="false" import="true" targetId="4f73-8eb9-f727-ac1b" type="selectionEntry">
@@ -2113,6 +2459,8 @@ Portal within 3” of this model for each squad recalled this way. Deploy the re
       </categoryLinks>
     </entryLink>
     <entryLink id="97a4-f30e-91a3-33a5" name="Rob Yourstand" hidden="false" collective="false" import="true" targetId="c610-6995-7548-e098" type="selectionEntry"/>
+    <entryLink id="8a18-fae5-f514-9169" name="Cartel Freelancer [K]" hidden="false" collective="false" import="true" targetId="fc30-6657-3aca-5471" type="selectionEntry"/>
+    <entryLink id="1e18-1a0e-042a-e0f5" name="Cartel Freelancers [K]" hidden="false" collective="false" import="true" targetId="5c2f-f2ae-5701-ab39" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="45de-20ed-4b45-2477" name="Void Portal Tokens" hidden="false">
@@ -2369,6 +2717,17 @@ failed, they are, if possible, relocated into B2B contact with this model ignori
       </rules>
       <categoryLinks>
         <categoryLink id="f877-18aa-8874-d6fb" name="New CategoryLink" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f15-43e3-b712-5dbd" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201f-65bf-c838-7818" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c460-ab1c-80b4-de05" name="Army Commander" hidden="false" targetId="2349-4e2c-0d07-8031" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>

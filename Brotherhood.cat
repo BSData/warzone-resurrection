@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="23" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="31" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="24" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="262f-e39a-82e7-4397" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2852,6 +2852,301 @@ All friendly models in a squad that successfully wounds with one or more Psychic
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="115.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9364-b04c-dcea-6254" name="Ark ofNathaniel’s Flame [K]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0465-c5ec-603d-b985" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="01d7-4e2b-7c02-7f82" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8087-689f-92d0-e30c" name="Ark ofNathaniel’s Flame [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">10/0</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">10</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">8</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">10</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">17</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">16</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">2</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">20(12)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">45</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9721-a7c2-73de-bf5f" name="Flame of the Cardinal" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">15</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a336-8aee-76cd-feea" name="Combat Knife" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+1</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3ae2-930e-1767-ea31" name="Durand’s Blessing" hidden="false">
+          <description>This model may choose one Art from the Art of the Elements for free. One member of the attached squad may cast this Art once per game turn. It is cast for AP(0) and is automatically cast successfully. Friendly Brotherhood models casting an Art within 6” of the Arc gain a WP(+1). A squad with the Ark attached gains a Heal (+2) while the Ark is in play. Enemy models targeting a squad carrying the Ark suffer R S(-1) t o t heir attack rolls.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aa1d-fbf7-a244-59a7" name="Durable" hidden="false" targetId="06fd-6439-7689-fabf" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="02ec-14ef-51f8-80ae" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="549e-5537-afee-a21c" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c708-11e4-0325-4ed7" name="Free Art of Elements" hidden="false" collective="false" import="true" targetId="3842-8f43-7583-dfc3" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="248e-bdd6-142d-2f9d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9113-8d9a-0bf3-612c" name="Army Commander" hidden="false" collective="false" import="true" targetId="d484-969f-7a1c-db4e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9836-b2ae-91f0-5be9" name="Death Angel [K]" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="ef1a-e4af-8580-614d" name="Divine Protection" hidden="false">
+          <description>The Driver location counts as having Durable.</description>
+        </rule>
+        <rule id="e650-84c7-ecd5-89a2" name="Fear the Wrath of the Cardinal" hidden="false">
+          <description>RES(1): Dissention (2). Any enemy model within 12” and LOS receives WP (-1) and must reroll successful Psychic tests.</description>
+        </rule>
+        <rule id="9f63-b40c-f243-9892" name="“Look! The Cardinal!”" hidden="false">
+          <description>Any friendly, non-Mishiman/ Cybertronic models that have LOS gain Contempt (All) and Psychic Mastery (D).</description>
+        </rule>
+        <rule id="5ea7-b984-bf4f-d499" name="On the Hunt" hidden="false">
+          <description>This model may be used as an Open Transport (3) for Inquisitors. This does not make this model a Transport Type. Inquisitors may Embark for AP(0) and the Death Angel may disembark Inquisitors for AP(0).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aa50-b2a3-187e-eb54" name="Book of Faith" hidden="false" targetId="2985-7121-3f86-34b6" type="rule"/>
+        <infoLink id="58d8-4390-ec67-8867" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="cfbf-7477-7463-f2d7" name="Fear(3)" hidden="false" targetId="7fa2-06f6-c4b2-d96e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="be02-739b-11bb-dbea" name="Tank" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false"/>
+        <categoryLink id="a2b9-0beb-e430-dabe" name="Monster/ Light Vehicle" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7b39-07db-0645-1bf4" name="Death Angel [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="162b-fa71-0203-2dac" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b0-17ed-7a78-2542" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5f1a-4b72-4148-bd38" name="Death Angel [K]" hidden="false" typeId="69ff-8e30-647f-0835" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="SP" typeId="3d64-19d9-c140-f3c2">7</characteristic>
+                <characteristic name="CC" typeId="c5ce-8266-81a1-3b22">-/-</characteristic>
+                <characteristic name="RS" typeId="2449-66df-7dc8-fb0f">15</characteristic>
+                <characteristic name="WP" typeId="ed65-33f8-601a-60f7">17</characteristic>
+                <characteristic name="LD" typeId="3fb5-dad5-a441-ec28">15</characteristic>
+                <characteristic name="HULL" typeId="e459-2a09-f6a4-5d56">28/3</characteristic>
+                <characteristic name="WPNS" typeId="0d7a-4494-01c9-424c">27/3</characteristic>
+                <characteristic name="MOV" typeId="f4a6-4f0b-6075-23b0">27/3</characteristic>
+                <characteristic name="ENG" typeId="da22-92fc-ab52-ecb7">27/3</characteristic>
+                <characteristic name="A-REAR" typeId="1627-198e-001c-8872">-4</characteristic>
+                <characteristic name="SZ" typeId="2021-cb5b-54b1-82b3">4</characteristic>
+                <characteristic name="COH" typeId="ae91-11e5-e284-db0f">12&quot;</characteristic>
+                <characteristic name="PTS" typeId="8be6-7199-1e47-dafe">95</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d7e6-7679-1c21-86c4" name="Anointer Autocannon" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">4</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour-Piercing (4), Pinning, Turret RES(1): Deadly</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1f11-645c-3033-3e15" name="2 AC-43 Hymnal LMGs" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">11</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="95.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="390c-a127-217b-6e57" name="Elite Troopers [K]" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b65a-f860-7955-32ba" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+        <infoLink id="0aa0-c52a-d326-6bb4" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule"/>
+        <infoLink id="5eb4-00ac-311a-67df" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+        <infoLink id="6784-6b8d-090d-ddc2" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
+        <infoLink id="2e87-6db8-ccb0-7d40" name="Fearless(2)" hidden="false" targetId="582e-31b1-f64d-9849" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b75a-f2ad-d4e4-e33b" name="Infantry" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="b4e8-78c3-69dc-ee50" name="Troops" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d769-5fde-fd3b-641e" name="Elite Troopers [K]" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="037e-bb2f-0b95-967d" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8a2-d9df-57cd-3beb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="35b6-3810-e5ce-4624" name="Elite Troopers [K]" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+              <characteristics>
+                <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+                <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">13/2</characteristic>
+                <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">13</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">9</characteristic>
+                <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">8</characteristic>
+                <characteristic name="WP" typeId="db0e-37dd-158d-c429">15</characteristic>
+                <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+                <characteristic name="W" typeId="0ee7-d56e-e406-04e8">1</characteristic>
+                <characteristic name="A" typeId="f927-63b8-5afd-6ce1">24</characteristic>
+                <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">1</characteristic>
+                <characteristic name="COH" typeId="05da-39a2-c9de-de6f">8&quot;</characteristic>
+                <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">12</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4a68-0c21-c6e0-720f" name="HAC-20 Eruptor Heavy Assault Rifle" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Short Ranged Burst, Weapon Mode (UBM AC-31 Flamethrower)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="21dc-66bc-f0a4-5910" name="HAC-20 Eruptor Heavy Assault Rifle(UBM AC-31 Flamethrower)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">SFT</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d23a-7938-a4a1-301b" name="Combat Knife" hidden="false" targetId="9351-7193-1f40-4935" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="21.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="776e-9f19-a3e5-e6c0" name="AC-41 Purifier HMG" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="a5bc-137d-cc2f-d030" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="390c-a127-217b-6e57" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d769-5fde-fd3b-641e" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5bc-137d-cc2f-d030" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b48a-9ba7-e2c1-35a6" name="AC-41 Purifier HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">4</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly, Weapon Mode (Incinerator)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dd1d-0396-c983-5677" name="AC-41 Purifier HMG (Incinerator)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">FT</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">F</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Exploit</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="952c-42a8-3cc6-a93b" name="Inquisitor Squad Commander" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a708-f184-325f-189b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="1a69-bfda-4e7e-524c" name="Inquisitor" hidden="false" targetId="e80b-2026-09cc-08b9" type="profile"/>
+            <infoLink id="d60b-fcb4-3899-8686" name="AC-40 Justifier" hidden="false" targetId="88da-d1e6-0220-9753" type="profile"/>
+            <infoLink id="ed7b-2ee6-c944-9604" name="Holy Disemboweller Chainblade" hidden="false" targetId="07fd-a7bc-cee6-6043" type="profile"/>
+            <infoLink id="cd61-5fdf-3458-3239" name="Fear(2)" hidden="false" targetId="cc1a-c174-c1c3-bbc7" type="rule"/>
+            <infoLink id="3cc9-9e4b-b5a0-05b6" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+            <infoLink id="aa53-f964-a195-f597" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule"/>
+            <infoLink id="d291-b6a1-93a5-bebc" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule"/>
+            <infoLink id="37a3-4ab0-50d2-1e8c" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="8398-01d5-a39d-d5b6" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="0d80-ac02-4635-cf5f" name="Squad Commander" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be71-cb7f-f56d-afa4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eca-032e-1ab8-d46e" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6388-d059-f1e6-531b" name="Flank Deployement" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="235f-13a3-4913-0418" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fcc-707e-2ac2-9584" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6dba-d91e-71e5-195f" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8033-c7f1-6173-bcc3" name="Varg Rider Advisor" hidden="false" collective="false" import="true" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry"/>
+        <entryLink id="122c-f310-d59d-3c3e" name="Art Powers" hidden="false" collective="false" import="true" targetId="9e34-b68a-c409-cd52" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38e5-335e-e5b9-0b18" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="66e4-2435-4d39-bd82" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="941c-b414-76c2-188c" name="Corporate Security Agents" hidden="false" collective="false" import="true" targetId="afe7-5da3-ebbf-e831" type="selectionEntry"/>
@@ -2913,6 +3208,10 @@ All friendly models in a squad that successfully wounds with one or more Psychic
         <categoryLink id="c961-e6fd-4dcd-a3d7" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="2a3b-dcd6-ea14-6e02" name="Cartel Freelancer [K]" hidden="false" collective="false" import="true" targetId="fc30-6657-3aca-5471" type="selectionEntry"/>
+    <entryLink id="18c4-00bc-cd36-5999" name="Cartel Freelancers [K]" hidden="false" collective="false" import="true" targetId="5c2f-f2ae-5701-ab39" type="selectionEntry"/>
+    <entryLink id="3241-54b8-8a65-54e5" name="Lane Chung [K]" hidden="false" collective="false" import="true" targetId="4269-e79d-6174-2797" type="selectionEntry"/>
+    <entryLink id="d939-4ae3-16d4-4900" name="Pam Afton [K]" hidden="false" collective="false" import="true" targetId="e907-50e6-7829-d512" type="selectionEntry"/>
   </entryLinks>
   <rules>
     <rule id="a9e0-7aea-82c1-ee3a" name="Stand Against the Darkness" hidden="false">
@@ -3420,6 +3719,17 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d484-969f-7a1c-db4e" name="Army Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3643-359b-fac8-70d8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c7b7-b3f7-836f-1fab" name="Army Commander" hidden="false" targetId="2349-4e2c-0d07-8031" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
