@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="21" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9104-6c08-b7a5-3c44" name="Mishima" revision="22" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="2c30-cff0-24a7-39c5" name="Ronin Samurai" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2748,6 +2748,7 @@ immediately gains Unbreakable, ST(+2), and CC(+1), but her DEF becomes(0).</desc
           </constraints>
         </entryLink>
         <entryLink id="2132-2677-4f4d-bd98" name="Army Commander" hidden="false" collective="false" import="true" targetId="473d-bd5d-ca70-9254" type="selectionEntry"/>
+        <entryLink id="b921-fef8-6fac-21c1" name="Psychic Mastery(B)" hidden="false" collective="false" import="true" targetId="ee1b-156a-88fb-600a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="130.0"/>
@@ -4143,6 +4144,7 @@ ROA(+1).</description>
           </constraints>
         </entryLink>
         <entryLink id="650d-0ce3-969a-051f" name="Army Commander" hidden="false" collective="false" import="true" targetId="473d-bd5d-ca70-9254" type="selectionEntry"/>
+        <entryLink id="14e4-4172-4b5d-1c1d" name="Psychic Mastery(B)" hidden="false" collective="false" import="true" targetId="ee1b-156a-88fb-600a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="90.0"/>
@@ -4394,6 +4396,7 @@ ROA(+1).</description>
           </constraints>
         </entryLink>
         <entryLink id="7b70-7dbf-e4a0-e3f7" name="Army Commander" hidden="false" collective="false" import="true" targetId="473d-bd5d-ca70-9254" type="selectionEntry"/>
+        <entryLink id="cdad-9640-9e41-a37c" name="Psychic Mastery(B)" hidden="false" collective="false" import="true" targetId="ee1b-156a-88fb-600a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="60.0"/>
@@ -4979,6 +4982,9 @@ The model is immune to any damage the Detonation Pack inflicts and it is removed
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="495f-b49e-fefd-bc2b" name="Psychic Mastery(B)" hidden="false" collective="false" import="true" targetId="ee1b-156a-88fb-600a" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
