@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="32" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="33" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -15084,6 +15084,9 @@ For example: A transport (6) vehicle may hold six models from the same squad wit
     </rule>
     <rule id="af3e-e433-2a3c-410b" name="Hard to Hit(6)" hidden="false">
       <description>Hard to Hit (X) – All models targeting this model with a shooting action receive an additional RS(-X).</description>
+    </rule>
+    <rule id="6669-aae9-08fc-ccfb" name="Paired Weapons(CC)" hidden="false">
+      <description>Paired Weapons (CC) - The model can use up to two of its equipped weapons of the (CC) type in the same action.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
