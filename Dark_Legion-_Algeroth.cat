@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="15" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristopehrsmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20fd-3088-3a1f-578e" name="Dark Legion- Algeroth" revision="16" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristopehrsmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="bfa9-ef4c-b99e-18da" name="Cheap Power" hidden="true"/>
   </categoryEntries>
@@ -2254,7 +2254,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ea8-93cc-ecec-9b95" name="Praetorian Enforcers [K] S" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="1ea8-93cc-ecec-9b95" name="Praetorian Enforcers [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2346,7 +2346,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bb3-6bbb-cf1f-64e0" name="Praetorian Hunters [K] S" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="9bb3-6bbb-cf1f-64e0" name="Praetorian Hunters [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2421,7 +2421,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d6e-fcb0-88da-adde" name="Praetorian Executioners [K] S" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="9d6e-fcb0-88da-adde" name="Praetorian Executioners [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2517,7 +2517,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f31-de6b-6be8-b911" name="Praetorian Guardians [K] S" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="7f31-de6b-6be8-b911" name="Praetorian Guardians [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2611,7 +2611,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b65c-aa22-1587-597b" name="Praetorian Enforcers [K] T" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="b65c-aa22-1587-597b" name="Praetorian Enforcers [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2704,7 +2704,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7383-83b6-7765-352d" name="Praetorian Executioners [K] T" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="7383-83b6-7765-352d" name="Praetorian Executioners [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2801,7 +2801,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="49f7-4a73-0f08-a056" name="Praetorian Guardians [K] T" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="49f7-4a73-0f08-a056" name="Praetorian Guardians [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
@@ -2896,7 +2896,7 @@ Praetorian Guardians: Gains Bodyguard and Guardsman.</description>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3d45-abe8-9436-509f" name="Praetorian Hunters [K] T" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="3d45-abe8-9436-509f" name="Praetorian Hunters [K]" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
