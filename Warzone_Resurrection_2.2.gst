@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="33" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="34" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -3693,9 +3693,14 @@ models are placed B2B with him in his front facing and travel the full movement 
           <entryLinks>
             <entryLink id="95ef-cdb7-133c-1097" name="Art Powers" hidden="false" collective="false" import="true" targetId="9e34-b68a-c409-cd52" type="selectionEntryGroup">
               <modifiers>
+                <modifier type="set" field="c58a-6e00-de4c-8c3d" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="ffb6-51f1-f713-0fae" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c834-d11e-c445-cce7" type="greaterThan"/>
+                  </conditions>
+                </modifier>
                 <modifier type="set" field="f8e3-e360-4b68-7a69" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="ffb6-51f1-f713-0fae" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f84d-75c9-a336-ba5e" type="greaterThan"/>
+                    <condition field="selections" scope="ffb6-51f1-f713-0fae" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c834-d11e-c445-cce7" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -9838,7 +9843,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b375-d716-4fc2-7f6d" type="max"/>
               </constraints>
               <rules>
-                <rule id="e5a5-b0e4-53c8-d0ad" name="Hebi no Sutoraiki" hidden="false"/>
+                <rule id="e5a5-b0e4-53c8-d0ad" name="Hebi no Sutoraiki" hidden="false">
+                  <description>Models in this squad gain CC(+2).</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -14219,7 +14226,9 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc2f-549e-2a9f-556f" type="max"/>
               </constraints>
               <rules>
-                <rule id="d59b-08f6-d72b-b7c4" name="Hebi no Sutoraiki" hidden="false"/>
+                <rule id="d59b-08f6-d72b-b7c4" name="Hebi no Sutoraiki" hidden="false">
+                  <description>Models in this squad gain CC(+2).</description>
+                </rule>
               </rules>
               <costs>
                 <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -14390,6 +14399,153 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7b24-060c-3a68-86bc" name="Cybertronic Upgrades" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2d5b-2b67-677b-0dc6" name="Hardware Upgrades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1743-e01e-d880-b109" name="A(+1)" hidden="false" collective="false" import="true" targetId="9c04-ff59-77bb-344e" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4e78-57f7-3050-cbd4" name="CC(+2)" hidden="false" collective="false" import="true" targetId="d4c2-be83-5488-4f00" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="d2a2-f0ab-c4e8-7f14" name="CON(+2)" hidden="false" collective="false" import="true" targetId="3768-6078-db80-1336" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7246-af15-fc33-9d67" name="LD(+2)" hidden="false" collective="false" import="true" targetId="9efe-5c69-9a0a-394f" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="4ce6-b53a-a36f-40f2" name="RS(+2)" hidden="false" collective="false" import="true" targetId="f414-0e71-0fad-08da" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="8e1d-ee2f-b96e-2138" name="SP(+1)" hidden="false" collective="false" import="true" targetId="579a-7bbd-a6e5-2e8f" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="c352-1b67-02f5-b9b9" name="ST(+2)" hidden="false" collective="false" import="true" targetId="431b-3260-c50e-5c8e" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="5c96-10ab-4023-6f1f" name="WP(+2)" hidden="false" collective="false" import="true" targetId="c936-c3d2-be0d-8998" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c8f3-84c0-1bef-35b0" name="Artificial Intelligence Implant" hidden="false" collective="false" import="true" targetId="34ce-2501-6280-7612" type="selectionEntry"/>
+        <entryLink id="bbc0-a317-f9ee-f1b9" name="Early Warning System" hidden="false" collective="false" import="true" targetId="a2be-c385-1c29-36c8" type="selectionEntry"/>
+        <entryLink id="92e8-eac7-c4bb-5ee9" name="EMP Overload Device" hidden="false" collective="false" import="true" targetId="058d-363d-53d0-5949" type="selectionEntry"/>
+        <entryLink id="62c8-bf28-5f09-cf75" name="Enhanced Sensor Array" hidden="false" collective="false" import="true" targetId="5fa7-4156-098e-67fd" type="selectionEntry"/>
+        <entryLink id="b267-f247-8ca9-6c9c" name="Stinger Implant System" hidden="false" collective="false" import="true" targetId="ed79-00ab-e1ea-7ea3" type="selectionEntry"/>
+        <entryLink id="8fad-085f-25e2-c8e6" name="Cell Neogenesis Accelleration" hidden="false" collective="false" import="true" targetId="c898-ed34-a1c5-0640" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f649-b863-68dd-d696" name="Dermal Mirror shards" hidden="false" collective="false" import="true" targetId="b235-7296-f783-12c3" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="4">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="4.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f205-7051-e080-9373" name="Filter Systems" hidden="false" collective="false" import="true" targetId="fea1-29be-b4c3-5291" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d62f-4710-e06f-ab9e" name="Quadriplegic Retro-Enhancement" hidden="false" collective="false" import="true" targetId="978f-93c5-1356-33df" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="2">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="03fe-a0e7-2923-c0ba" name="Weapons Overhaul" hidden="false" collective="false" import="true" targetId="f594-0588-68cd-835c" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

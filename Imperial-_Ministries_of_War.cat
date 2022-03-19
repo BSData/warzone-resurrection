@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="22" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="23" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="06ba-8c0a-a32c-28c8" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1015,7 +1015,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a7f2-d566-cb12-5b52" name="Special Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="a7f2-d566-cb12-5b52" name="ISF Special Weapons" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="0ecd-539c-d135-5f7f" value="2">
               <conditions>
@@ -1618,7 +1618,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b103-552a-563f-595a" name="Special Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b103-552a-563f-595a" name="ISF Special Weapons" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="c7d8-61a3-1b8c-6e56" value="2">
               <conditions>
@@ -3243,6 +3243,7 @@ All Traps have 3 attributes:
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8689-5e79-b752-c2aa" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="242f-fbd6-5e1d-fe16" name="Support" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9757-8f5a-0308-0ba6" name="Wolfbane Commandos" hidden="false" collective="false" import="true" type="model">
@@ -3318,6 +3319,9 @@ All Traps have 3 attributes:
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="f33f-0a8b-2025-05d3" name="Varg Rider Advisor" hidden="false" collective="false" import="true" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -4176,7 +4180,6 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d463-b182-ee50-8803" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5986-424b-fcd0-fcfe" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="735b-f156-9253-3f97" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83fa-655e-e0c7-f3ac" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c414-c2d9-aa47-ea6c" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9013-9028-a1a6-8ee4" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bbe-1ac7-4bc7-f343" type="greaterThan"/>
@@ -4207,7 +4210,6 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d463-b182-ee50-8803" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5986-424b-fcd0-fcfe" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="735b-f156-9253-3f97" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83fa-655e-e0c7-f3ac" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c414-c2d9-aa47-ea6c" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9013-9028-a1a6-8ee4" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bbe-1ac7-4bc7-f343" type="greaterThan"/>
@@ -4324,6 +4326,79 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
       </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d58-d94e-8b07-bed1" name="Gordon Slythe" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="e695-8332-f07b-8c6f" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="20b0-c043-f9c9-5768" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e695-8332-f07b-8c6f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e45-6c28-9ce5-307b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="405b-983a-ec57-316c" name="Gordon Slythe" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
+          <characteristics>
+            <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
+            <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">16/2</characteristic>
+            <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">15</characteristic>
+            <characteristic name="ST" typeId="5f3f-d57f-4147-a808">11</characteristic>
+            <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">13</characteristic>
+            <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
+            <characteristic name="LD" typeId="2186-73a8-0c4c-e706">15</characteristic>
+            <characteristic name="W" typeId="0ee7-d56e-e406-04e8">3</characteristic>
+            <characteristic name="A" typeId="f927-63b8-5afd-6ce1">21(10)</characteristic>
+            <characteristic name="SZ" typeId="1a02-1e97-71e4-e658">0</characteristic>
+            <characteristic name="COH" typeId="05da-39a2-c9de-de6f">-</characteristic>
+            <characteristic name="PTS" typeId="1b37-c4b7-2c11-f4be">80</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="378f-f5f0-2d52-c72a" name="The Blessed´s Claymore" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+          <characteristics>
+            <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+4</characteristic>
+            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
+            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(4), Headshot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6483-edba-0ba2-aeae" name="Advocate of Light" hidden="false">
+          <description>Slythe may join a Brotherhood Trooper squad in any army. Models in that squad count as Wolfbanes for the purposes of Berserker’s Bellow. Slythe may not leave that squad.</description>
+        </rule>
+        <rule id="be97-78b3-a1c5-d465" name="Constitution of an Ox" hidden="false">
+          <description>This model ignores any rule that negates Heal. Every time this model is reduced to W(0) roll a D20. On a roll of 1-10 he regains W(+1). Otherwise, he is removed as a casualty as normal.</description>
+        </rule>
+        <rule id="4b36-29fd-36ff-4b2f" name="Berserker&apos;s Bellow" hidden="false">
+          <description>RES(1): All other Wolfbanes within 8” of Slythe gain ST(+2) when performing a Charge action.</description>
+        </rule>
+        <rule id="6d64-c6bc-de28-6e08" name="Commando Legend" hidden="false">
+          <description>In a Wolfbane army, one squad of Wolfbane Commandos may be deployed using the Stalk rules if Gordon Slythe is attached to it.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f91a-9645-f089-67da" name="Agressor Handgun" hidden="false" targetId="2a93-f72f-c651-73a0" type="profile"/>
+        <infoLink id="7f03-bc41-555b-4eff" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="3b90-8222-4192-db8b" name="Deployment: Stalk" hidden="false" targetId="d045-b1e5-af7a-a68d" type="rule"/>
+        <infoLink id="6a47-19ab-7906-c80d" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule"/>
+        <infoLink id="4a28-d0f3-7a1e-9f49" name="Fear(0)" hidden="false" targetId="cb62-80da-5c6d-81ef" type="rule"/>
+        <infoLink id="dc15-f601-839e-05b0" name="Fearless(3)" hidden="false" targetId="16a8-51de-3e34-7a92" type="rule"/>
+        <infoLink id="ae78-66bd-3a2a-1641" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule"/>
+        <infoLink id="e49b-7617-43df-c765" name="Duelist" hidden="false" targetId="5d6d-d70d-8496-6b8d" type="rule"/>
+        <infoLink id="f9fa-f2a0-6d0a-4893" name="Ferocity(3)" hidden="false" targetId="cede-9206-0c28-b4e1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9511-9297-851c-23d9" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
+        <categoryLink id="9de2-3c09-ec23-1cd3" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
+        <categoryLink id="01ba-72a0-0740-afe9" name="Cartel Agents" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -4551,13 +4626,6 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
         <categoryLink id="eaaa-84af-44dc-3cf5" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="83fa-655e-e0c7-f3ac" name="Gordon Slythe" hidden="false" collective="false" import="true" targetId="20b0-c043-f9c9-5768" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="e286-5508-6ab5-c89f" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false"/>
-        <categoryLink id="24ac-2236-ec25-aa60" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
-        <categoryLink id="9acf-64c8-b491-dba6" name="Characters" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="07c5-d7ba-6751-338a" name="Sean Gallagher" hidden="false" collective="false" import="true" targetId="7635-6d77-c154-fc6d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="621b-4859-cd38-17f2" name="New CategoryLink" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false"/>
@@ -4577,6 +4645,9 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
         <categoryLink id="0845-84e5-29a0-418a" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
         <categoryLink id="cef6-f7c8-de4f-a93a" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="d4cf-3281-ffae-e385" name="Varg Rider Advisor" hidden="false" collective="false" import="true" targetId="7a09-26e2-f7b3-0b1b" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="5986-424b-fcd0-fcfe" name="Big Bob Watts" hidden="false" collective="false" import="true" targetId="e84a-f503-c548-7d27" type="selectionEntry">
       <categoryLinks>

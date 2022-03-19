@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="24" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="262f-e39a-82e7-4397" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -445,15 +445,6 @@
                 <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
               </characteristics>
             </profile>
-            <profile id="b984-56ed-656b-516b" name="Blessed Fragmentation Grenades" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-              <characteristics>
-                <characteristic name="R" typeId="bf81-58c8-2998-0bac">ST/SE</characteristic>
-                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
-                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
-                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">ST(+2) against Dark Legion models.</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink id="e73a-155c-c436-d800" name="Nemesis Handgun" hidden="false" targetId="8bcd-c31c-2dc5-47fa" type="profile"/>
@@ -552,6 +543,36 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="bfa3-40f4-48b1-8c91" name="Grenades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0563-fdb3-650d-7931" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f9da-213a-eebe-d92f" name="Blessed Fragmentation Grenades" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="f7f5-a3ec-2897-707a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aef1-c352-3fbe-a32e" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="fd7d-eef4-6256-3057" name="Blessed Fragmentation Grenades" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="R" typeId="bf81-58c8-2998-0bac">ST/SE</characteristic>
+                    <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
+                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                    <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                    <characteristic name="RULES" typeId="9f21-2671-81ec-316a">ST(+2) against Dark Legion models.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
@@ -559,7 +580,7 @@
     </selectionEntry>
     <selectionEntry id="14e7-753e-b6d2-10fc" name="Mortificators" hidden="true" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="a57e-4062-5c90-ba1d" value="1">
+        <modifier type="set" field="a57e-4062-5c90-ba1d" value="1.0">
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5612-1151-554b-c2f8" type="greaterThan"/>
           </conditions>
@@ -621,15 +642,6 @@
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
                 <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Deadly</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="6835-f5bf-7a93-efb3" name="Blessed Fragmentation Grenades" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-              <characteristics>
-                <characteristic name="R" typeId="bf81-58c8-2998-0bac">ST/SE</characteristic>
-                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
-                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
-                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">ST(+2) against Dark Legion models.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -729,6 +741,36 @@
               </modifiers>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8d8c-d3be-c009-04d0" name="Grenades" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d524-9451-4ebb-cca8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f7bc-bdb9-f32f-d2ee" name="Blessed Fragmentation Grenades" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="547a-ce3f-3831-bc09" value="3.0">
+                  <repeats>
+                    <repeat field="selections" scope="14e7-753e-b6d2-10fc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fbb2-8687-4112-1578" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="0a06-3d96-473e-77ec" name="Blessed Fragmentation Grenades" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="R" typeId="bf81-58c8-2998-0bac">ST/SE</characteristic>
+                    <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">10</characteristic>
+                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                    <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                    <characteristic name="RULES" typeId="9f21-2671-81ec-316a">ST(+2) against Dark Legion models.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2548,9 +2590,14 @@
           <entryLinks>
             <entryLink id="ea58-f181-c941-844b" name="Art Powers" hidden="false" collective="false" import="true" targetId="9e34-b68a-c409-cd52" type="selectionEntryGroup">
               <modifiers>
+                <modifier type="set" field="2a0e-20f4-e536-6cde" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="ecb8-8c23-aea0-cacf" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c834-d11e-c445-cce7" type="greaterThan"/>
+                  </conditions>
+                </modifier>
                 <modifier type="set" field="e491-a29e-3e66-6764" value="0.0">
                   <conditions>
-                    <condition field="selections" scope="ecb8-8c23-aea0-cacf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9e71-2572-572e-d8f5" type="greaterThan"/>
+                    <condition field="selections" scope="ecb8-8c23-aea0-cacf" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c834-d11e-c445-cce7" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2605,7 +2652,7 @@
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
-                <modifier type="set" field="64bd-f27a-fa9b-e9cf" value="1">
+                <modifier type="set" field="64bd-f27a-fa9b-e9cf" value="1.0">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditionGroups>

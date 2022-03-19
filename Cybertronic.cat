@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="19" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="20" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0ef9-1649-8969-17d2" name="Eradicator Death Droid" page="" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -654,13 +654,12 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
             <rule id="7aca-d3a4-2d81-e459" name="Advanced Medical Protocol" hidden="false">
               <description>Troop type models in this model´s squad gains Heal (+4).</description>
             </rule>
-            <rule id="8299-34fc-fd03-0b14" name="Ranger" hidden="false"/>
-            <rule id="9e05-0e26-a78e-3bf7" name="Heal(4)" hidden="false"/>
-            <rule id="615a-4f88-33e4-2753" name="Ranger" hidden="false"/>
           </rules>
           <infoLinks>
             <infoLink id="3ff8-ba6a-36d2-71bf" name="P1000 Handgun" hidden="false" targetId="4ae3-5d86-0884-a26b" type="profile"/>
             <infoLink id="fcad-a03f-5439-3539" name="Oh, She&apos;s Lovely" hidden="false" targetId="d774-240a-40cc-2394" type="rule"/>
+            <infoLink id="04aa-6412-c434-baa1" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+            <infoLink id="5f7c-14e0-b063-9cb7" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Points" typeId="547a-ce3f-3831-bc09" value="15.0"/>
@@ -668,7 +667,7 @@ Add a (-1) modifier to the D20 roll for each friendly Dr. Diana Clone or Neoclon
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="9f36-fadf-57e6-25e2" name="Cybertronic Upgrades" hidden="false" collective="false" import="true" targetId="18de-c154-3c3f-67fd" type="selectionEntryGroup">
+        <entryLink id="9f36-fadf-57e6-25e2" name="Cybertronic Upgrades" hidden="false" collective="false" import="true" targetId="7b24-060c-3a68-86bc" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77b9-4012-aeaf-fea9" type="max"/>
           </constraints>
@@ -4037,19 +4036,13 @@ At any time during the Cybertronic players turn, he can spend two tactical point
             <infoLink id="a134-69eb-357b-d9b4" name="Disorientating Reflection" hidden="false" targetId="b4f3-aa27-29d2-3a69" type="rule"/>
             <infoLink id="7026-822f-612f-4b44" name="Poster Boys" hidden="false" targetId="1460-687b-8e31-9da8" type="rule"/>
             <infoLink id="c198-3a40-cb30-5a9d" name="Chrome-Mirrored Suit" hidden="false" targetId="75cc-7fff-d54f-5e99" type="rule"/>
-            <infoLink id="c748-11f0-f082-3d69" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="e1ec-aafe-d45b-de8e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ce6-3ea5-f128-c7e8" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </infoLink>
+            <infoLink id="c748-11f0-f082-3d69" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
             <infoLink id="6d9b-a0db-97ee-b0ed" name="Camouflage(2)" hidden="false" targetId="418a-4d95-51a3-72dd" type="rule"/>
             <infoLink id="451c-e076-deda-acec" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
             <infoLink id="1bb3-cb6e-16dd-9355" name="Stay Frosty" hidden="false" targetId="a1b9-049f-0fd7-0228" type="rule"/>
             <infoLink id="8b90-8a12-38fe-6aae" name="Paired Weapons(CC/HG)" hidden="false" targetId="3cee-077d-9c75-2399" type="rule"/>
+            <infoLink id="a1fb-b439-763f-8159" name="Predator Senses" hidden="false" targetId="d7a7-05b4-1d8d-2552" type="rule"/>
+            <infoLink id="980e-12ce-68ba-303c" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Points" typeId="547a-ce3f-3831-bc09" value="18.0"/>
@@ -4075,20 +4068,166 @@ At any time during the Cybertronic players turn, he can spend two tactical point
         </selectionEntry>
         <selectionEntry id="f198-0caa-acfd-7a34" name="Infiltrate" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3">
+            <modifier type="increment" field="547a-ce3f-3831-bc09" value="3.0">
               <repeats>
                 <repeat field="selections" scope="e1ec-aafe-d45b-de8e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2914-86e3-19d0-9f35" repeats="1" roundUp="false"/>
               </repeats>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="e1ec-aafe-d45b-de8e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ce6-3ea5-f128-c7e8" type="equalTo"/>
-              </conditions>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db60-797b-94c2-0572" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="db27-bdae-f4e3-6a54" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f252-24a4-90af-6cd6" name="Deployment: Flank" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3189-18f6-47d6-8549" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="78f5-c9ea-db21-159b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a2e0-010a-3c9c-8363" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9723-591c-a622-1a9f" name="Opresseur Mk.I" page="" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6464-5ea6-bd3f-e5e4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8b17-9cd3-f25e-c1c9" name="Opresseur Mk.I" hidden="false" typeId="69ff-8e30-647f-0835" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="SP" typeId="3d64-19d9-c140-f3c2">5</characteristic>
+                <characteristic name="CC" typeId="c5ce-8266-81a1-3b22">9/0</characteristic>
+                <characteristic name="RS" typeId="2449-66df-7dc8-fb0f">14</characteristic>
+                <characteristic name="WP" typeId="ed65-33f8-601a-60f7">14</characteristic>
+                <characteristic name="LD" typeId="3fb5-dad5-a441-ec28">15</characteristic>
+                <characteristic name="HULL" typeId="e459-2a09-f6a4-5d56">28/2</characteristic>
+                <characteristic name="WPNS" typeId="0d7a-4494-01c9-424c">27/2</characteristic>
+                <characteristic name="MOV" typeId="f4a6-4f0b-6075-23b0">26/3</characteristic>
+                <characteristic name="ENG" typeId="da22-92fc-ab52-ecb7">29/2</characteristic>
+                <characteristic name="A-REAR" typeId="1627-198e-001c-8872">-2</characteristic>
+                <characteristic name="SZ" typeId="2021-cb5b-54b1-82b3">2</characteristic>
+                <characteristic name="COH" typeId="ae91-11e5-e284-db0f">10&quot;</characteristic>
+                <characteristic name="PTS" typeId="8be6-7199-1e47-dafe">50</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aab4-6353-e28b-9f25" name="Riot Control Device" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18/SE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">2</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Gas, Weapon Mode(Anit-Personnel/ Smoke), Place a temporary token where the Grenade hits. Any model ending its activation within 3&quot; of the token receives a ST(2) Gas autohit.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="24a9-38eb-066b-97f1" name="Riot Control Device(Smoke)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18/SE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Smoke</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2659-265a-dc0a-b5ba" name="Riot Control Device(Anti-Personnel)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18/LE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
+              </characteristics>
+            </profile>
+            <profile id="9f8f-c70a-c94d-4c58" name="Tazerator" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Concussive(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="ae26-097e-5a46-f775" name="Proximity Alarm" hidden="false">
+              <description>Any enemy model deploying or redeploying within 8” from this model must pass a CON test. If failed, the model immediately receives a stun effect.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="e382-a191-d7fa-9ee4" name="The Core" hidden="false" targetId="69fe-ceaf-fe62-f929" type="rule"/>
+            <infoLink id="50c9-856a-2aec-ae43" name="Receiver" hidden="false" targetId="d423-d31e-ab1a-f2b3" type="rule"/>
+            <infoLink id="680f-b386-ca32-2c9c" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="5db9-38c1-dc92-de87" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true"/>
+            <categoryLink id="d9ce-11bd-a429-b7a5" name="New CategoryLink" hidden="false" targetId="d0b3-d9d4-6d68-0493" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="6271-44b7-d2a5-ec71" name="Advisor" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7138-31f0-be6f-3668" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d4b-ce8e-df4a-a9c9" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a8de-caef-fc74-1707" name="Infiltrate" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="e1ec-aafe-d45b-de8e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f198-0caa-acfd-7a34" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="3a79-860b-0a7b-c9cd" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="e1ec-aafe-d45b-de8e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f198-0caa-acfd-7a34" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c7-5816-c7ed-e505" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a79-860b-0a7b-c9cd" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f999-abd4-812c-4ac1" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e8a7-c67e-a97b-8266" name="Deployment: Flank" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="e1ec-aafe-d45b-de8e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f252-24a4-90af-6cd6" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="ad85-84ae-f558-1102" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="e1ec-aafe-d45b-de8e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f252-24a4-90af-6cd6" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f13-1ee0-bf01-b324" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad85-84ae-f558-1102" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c4f4-9496-3220-a051" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
           </costs>
@@ -4096,15 +4235,6 @@ At any time during the Cybertronic players turn, he can spend two tactical point
       </selectionEntries>
       <entryLinks>
         <entryLink id="7e4d-8c1b-6528-970e" name="Cybertronic Upgrades" hidden="false" collective="false" import="true" targetId="1852-843d-6339-6ae6" type="selectionEntryGroup"/>
-        <entryLink id="3ce6-3ea5-f128-c7e8" name="Opresseur Mk.I" hidden="false" collective="false" import="true" targetId="48c1-b5d7-2f3d-c373" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="e1ec-aafe-d45b-de8e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f198-0caa-acfd-7a34" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
