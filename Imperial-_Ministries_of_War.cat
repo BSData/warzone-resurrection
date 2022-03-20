@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="23" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="24" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="06ba-8c0a-a32c-28c8" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -4398,7 +4398,7 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
         <categoryLink id="01ba-72a0-0740-afe9" name="Cartel Agents" hidden="false" targetId="9b0c-159b-6eb1-d78d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+        <cost name="Points" typeId="547a-ce3f-3831-bc09" value="80.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
