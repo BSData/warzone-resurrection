@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="34" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="35" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -1411,7 +1411,7 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
                 <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
                 <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">10/0</characteristic>
                 <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">10</characteristic>
-                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">6</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">8</characteristic>
                 <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">8</characteristic>
                 <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
                 <characteristic name="LD" typeId="2186-73a8-0c4c-e706">11</characteristic>
@@ -4544,7 +4544,7 @@ Valpurgius starts the game with 3 soulcharger markers.</description>
                 <characteristic name="SP" typeId="9db2-e73d-81c4-7e5e">5</characteristic>
                 <characteristic name="CC" typeId="8dd8-6dd1-452d-e93d">10/0</characteristic>
                 <characteristic name="RS" typeId="a1a2-a898-3ad0-0eed">10</characteristic>
-                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">6</characteristic>
+                <characteristic name="ST" typeId="5f3f-d57f-4147-a808">8</characteristic>
                 <characteristic name="CON" typeId="ff87-4cb9-ec9b-2197">8</characteristic>
                 <characteristic name="WP" typeId="db0e-37dd-158d-c429">14</characteristic>
                 <characteristic name="LD" typeId="2186-73a8-0c4c-e706">11</characteristic>
