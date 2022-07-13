@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="35" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="36" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -12306,12 +12306,12 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a0c7-4654-35b1-f496" name="Levitation" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a0c7-4654-35b1-f496" name="Ghost Form" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7695-5222-1c9a-12b7" type="max"/>
               </constraints>
               <rules>
-                <rule id="860f-b780-54ac-b8c6" name="Levitation" hidden="false">
+                <rule id="860f-b780-54ac-b8c6" name="Ghost Form" hidden="false">
                   <description>Psychic (B) Range: Squad. Models in this squad gain Predator Senses and may move through all Terrain types, even Impassable, with no penalties to SP.</description>
                 </rule>
               </rules>
@@ -13180,7 +13180,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b16b-08b8-8310-ba07" type="max"/>
               </constraints>
               <rules>
-                <rule id="74d1-e224-b4a7-64f6" name="Levitation" hidden="false">
+                <rule id="74d1-e224-b4a7-64f6" name="Ghost Form" hidden="false">
                   <description>Psychic (B) Range: Squad. Models in this squad gain Predator Senses and may move through all Terrain types, even Impassable, with no penalties to SP.</description>
                 </rule>
               </rules>
@@ -13998,12 +13998,12 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="724d-2664-255c-19a6" name="Levitation" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="724d-2664-255c-19a6" name="Ghost Form" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7313-3229-4620-d604" type="max"/>
               </constraints>
               <rules>
-                <rule id="cf9d-1c5d-50ca-7e32" name="Levitation" hidden="false">
+                <rule id="cf9d-1c5d-50ca-7e32" name="Ghost Form" hidden="false">
                   <description>Psychic (B) Range: Squad. Models in this squad gain Predator Senses and may move through all Terrain types, even Impassable, with no penalties to SP.</description>
                 </rule>
               </rules>

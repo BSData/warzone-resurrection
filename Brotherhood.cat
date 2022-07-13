@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="262f-e39a-82e7-4397" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2047,7 +2047,7 @@
                   <characteristics>
                     <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
                     <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">4</characteristic>
-                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
+                    <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
                     <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">PSY</characteristic>
                     <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(6)</characteristic>
                   </characteristics>
@@ -2072,7 +2072,7 @@
                 <rule id="7756-5a59-ca61-26ff" name="Holy Ground" hidden="false">
                   <description>Psychic (D) Nominate a piece of terrain. All enemy models within the terrain take a ST(1) PSY autohit.</description>
                 </rule>
-                <rule id="ffb0-559c-3de1-2c67" name="Levitation" hidden="false">
+                <rule id="ffb0-559c-3de1-2c67" name="Ghost Form" hidden="false">
                   <description>Psychic (B) Range: Squad. Models in this squad gain Predator Senses and may move through all Terrain types, even Impassable, with no penalties to SP.</description>
                 </rule>
                 <rule id="0f16-ab68-2b00-aec8" name="Striking" hidden="false">
