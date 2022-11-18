@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0963-20c9-361a-288f" name="Capitol" revision="4" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0963-20c9-361a-288f" name="Capitol" revision="5" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c4d1-65e5-7a1a-1d65" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -524,6 +524,7 @@
         <infoLink id="6b2c-95c5-4e1f-3d54" name="Jet Boots" hidden="false" targetId="3c89-daf3-170a-bf6f" type="rule"/>
         <infoLink id="6c50-3bc8-e0b8-a99e" name="Jet Packs" hidden="false" targetId="9219-eb64-2384-1c60" type="rule"/>
         <infoLink id="492a-6d11-d6f2-4a06" name="Pure Hatred" hidden="false" targetId="f0bb-7e82-7b60-9cec" type="rule"/>
+        <infoLink id="cb04-cd4b-1020-dff5" name="Gas Mask" hidden="false" targetId="940c-5c32-b65f-4388" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d9b6-1845-2b39-5aa5" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
@@ -2615,6 +2616,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         <infoLink id="84dc-bb57-1648-33b1" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule"/>
         <infoLink id="519a-8075-59c7-31c2" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
         <infoLink id="29d2-2c02-042d-09ea" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="6a0f-424b-d0b0-1ca4" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b3d5-5067-2860-82a1" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
@@ -2654,7 +2656,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             <profile id="18bf-42ce-2503-5ce7" name="Drugged Bite" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
               <characteristics>
                 <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
-                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">_2</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
                 <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Critical Force(2), Deadly, Precision(4). This model takes ST(8) autohit at the end of its activation</characteristic>
@@ -2711,9 +2713,20 @@ to that marker, even through enemy models and does not receive Free Slashes. All
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="47fa-da3d-5fb1-7e80" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
-            <infoLink id="692b-00bb-9fa9-f241" name="Leap(3)" hidden="false" targetId="f16b-7b60-7b61-0ca6" type="rule"/>
+            <infoLink id="82d1-936a-94c5-4da8" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
+            <infoLink id="72e7-dddb-5cc9-18da" name="Leap(3)" hidden="false" targetId="f16b-7b60-7b61-0ca6" type="rule"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="ab1d-102e-81bc-f00b" name="K-9 Guard Dog" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34c5-b6bb-787a-05b9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d9-9208-d79a-42f6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Points" typeId="547a-ce3f-3831-bc09" value="14.0"/>
           </costs>
@@ -2754,6 +2767,15 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <characteristic name="+ARM" typeId="6758-24d0-9c9d-2ed4">2</characteristic>
                 <characteristic name="+DEF" typeId="b603-6489-772a-c092">2</characteristic>
                 <characteristic name="RULES" typeId="f03f-1c6a-5b9c-49f8">IA(10)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a8db-b627-5bd9-4faa" name="M50 Assault Rifle (Tear Gas)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18/SE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Any model hit must pass a CON test or is Pinned and Stunned.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4753,11 +4775,11 @@ Smoke Bombardment.</description>
         <infoLink id="6138-db20-cfc5-de3c" name="Guardsmen" hidden="false" targetId="9f3f-aef7-c4c2-f9a6" type="rule"/>
         <infoLink id="5cd9-59c8-3cf1-e7bd" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
         <infoLink id="c184-0d4d-f2e7-c395" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
+        <infoLink id="8eda-231d-cffc-5aa0" name="Target Sense" hidden="false" targetId="8f2b-5307-c90d-2c1b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="52d2-2e54-678a-1903" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
         <categoryLink id="40f5-ca75-c46b-cb9f" name="New CategoryLink" hidden="false" targetId="645b-adc7-9bb9-5d5e" primary="true"/>
-        <categoryLink id="da18-31eb-2fdc-0637" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4b7e-4174-2a3a-2611" name="K-9 Investigation Dog" hidden="false" collective="false" import="true" type="model">
@@ -4793,7 +4815,7 @@ Smoke Bombardment.</description>
             <profile id="14af-7d29-3439-6515" name="Drugged Bite" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
               <characteristics>
                 <characteristic name="R" typeId="bf81-58c8-2998-0bac">B2B</characteristic>
-                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">_2</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+2</characteristic>
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
                 <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Critical Force(2), Deadly, Precision(4). This model takes ST(8) autohit at the end of its activation</characteristic>
@@ -4850,9 +4872,20 @@ Smoke Bombardment.</description>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="ccc3-9948-a265-303e" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
-            <infoLink id="fa78-5b91-1f4e-5024" name="Leap(3)" hidden="false" targetId="f16b-7b60-7b61-0ca6" type="rule"/>
+            <infoLink id="11ee-5145-342c-88fd" name="Hard to Hit(2)" hidden="false" targetId="f3c9-a124-d54c-6eec" type="rule"/>
+            <infoLink id="c0c7-02be-48ea-b500" name="Leap(3)" hidden="false" targetId="f16b-7b60-7b61-0ca6" type="rule"/>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="acc3-f5ad-cc8e-6154" name="K-9 Guard Dog" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6a0-b441-0480-6789" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3b8-2fbf-118e-6b3e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <costs>
             <cost name="Points" typeId="547a-ce3f-3831-bc09" value="14.0"/>
           </costs>
@@ -4893,6 +4926,15 @@ Smoke Bombardment.</description>
                 <characteristic name="+ARM" typeId="6758-24d0-9c9d-2ed4">2</characteristic>
                 <characteristic name="+DEF" typeId="b603-6489-772a-c092">2</characteristic>
                 <characteristic name="RULES" typeId="f03f-1c6a-5b9c-49f8">IA(10)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d704-b207-48bf-e466" name="M50 Assault Rifle (Tear Gas)" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+              <characteristics>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18/SE</characteristic>
+                <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">-</characteristic>
+                <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">1</characteristic>
+                <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">GR</characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Any model hit must pass a CON test or is Pinned and Stunned.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5932,6 +5974,13 @@ Smoke Bombardment.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="1217-c75b-c488-d0dc" name="Heavy Infantry" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9442-72ba-f5c5-347c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="1376-633a-429b-6abb" name="New CategoryLink" hidden="false" targetId="fd56-ce9f-601d-098d" primary="false"/>
         <categoryLink id="9872-a52a-b2dc-342e" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
