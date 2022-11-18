@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="20" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4661-928e-0cc4-e548" name="Cybertronic" revision="21" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0ef9-1649-8969-17d2" name="Eradicator Death Droid" page="" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -460,6 +460,7 @@
         <infoLink id="a8d3-708e-88d6-e000" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
         <infoLink id="022c-64bc-ed41-d266" name="Sniper" hidden="false" targetId="fd54-d28e-f8b4-60aa" type="rule"/>
         <infoLink id="3f77-24e1-5333-d7f4" name="Target Identifier(4)" hidden="false" targetId="c12f-2b96-a676-ff19" type="rule"/>
+        <infoLink id="ebfb-4a02-c7f9-b5c1" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3fe1-1a22-6301-5912" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>

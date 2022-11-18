@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="36" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="37" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -7102,7 +7102,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
       </constraints>
       <rules>
         <rule id="df2e-2afa-b7d5-05f9" name="Quadriplegic Retro-Enhancement" hidden="false">
-          <description>The model gains Leap(4).</description>
+          <description>Models on small or medium bases. This model gains Grappling Hooks (4).</description>
         </rule>
       </rules>
       <infoLinks>
