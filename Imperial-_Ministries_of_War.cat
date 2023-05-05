@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="06ba-8c0a-a32c-28c8" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -524,7 +524,7 @@
             </profile>
             <profile id="4dbb-96e7-0927-e1c2" name="Southpaw Rockets Launchers – Bear Claw Rockets" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
               <characteristics>
-                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">6-18</characteristic>
                 <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">ML</characteristic>
@@ -3936,7 +3936,7 @@ and scatter it D20/4”. Any model finishing its activation within 3” of the t
             </profile>
             <profile id="b893-f3ab-d650-dfc9" name="Southpaw Rockets Launchers – Bear Claw Rockets" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
               <characteristics>
-                <characteristic name="R" typeId="bf81-58c8-2998-0bac">18</characteristic>
+                <characteristic name="R" typeId="bf81-58c8-2998-0bac">6-18</characteristic>
                 <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">13</characteristic>
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">ML</characteristic>
