@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="37" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="38" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -7105,9 +7105,6 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           <description>Models on small or medium bases. This model gains Grappling Hooks (4).</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="b717-2345-6dcd-6701" name="Leap(4)" hidden="false" targetId="4e6b-2b56-cfe0-1b4a" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="Points" typeId="547a-ce3f-3831-bc09" value="0.0"/>
       </costs>
@@ -10320,7 +10317,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 </rule>
               </rules>
               <costs>
-                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="15.0"/>
+                <cost name="Points" typeId="547a-ce3f-3831-bc09" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="96d1-7ccb-9a58-18ae" name="Infernal Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -10816,7 +10813,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
           </constraints>
           <rules>
             <rule id="5e1b-eb5f-514d-52e5" name="Quadriplegic Retro-Enhancement" hidden="false">
-              <description>The model gains Leap(4).</description>
+              <description>Models on small or medium bases. This model gains Grappling Hooks (4).</description>
             </rule>
           </rules>
           <costs>
