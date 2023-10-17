@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="26" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="262f-e39a-82e7-4397" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -3340,8 +3340,7 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
       <selectionEntryGroups>
         <selectionEntryGroup id="27de-0b4a-da47-17e1" name="Art Powers" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba5-5f96-fe5a-ddcb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1144-7b66-72eb-3dd9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba5-5f96-fe5a-ddcb" type="max"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup id="d0e1-7fae-934c-d522" name="Art of Mentalism" hidden="false" collective="true" import="true">
@@ -3431,12 +3430,6 @@ Characters purchase their own Art Powers and, if attached to a squad, may only u
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="d2cb-3634-5eb8-8783" name="Art of Changeling" hidden="false" collective="false" import="true" targetId="1389-2404-c736-803d" type="selectionEntryGroup"/>
-            <entryLink id="60a0-0b64-fa34-008c" name="Art of Elements" hidden="false" collective="false" import="true" targetId="6cc0-80f0-0f9c-1de1" type="selectionEntryGroup"/>
-            <entryLink id="c009-76e1-c3e0-440f" name="Art of Exorcism" hidden="false" collective="false" import="true" targetId="7851-8ad5-7e38-5c8c" type="selectionEntryGroup"/>
-            <entryLink id="5fcf-c650-c995-f1d2" name="Art of Kinetics" hidden="false" collective="false" import="true" targetId="5e93-4755-5c05-e58f" type="selectionEntryGroup"/>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
