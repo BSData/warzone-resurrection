@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="26" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="06ba-8c0a-a32c-28c8" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -697,16 +697,7 @@
             <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armor Piercing (10), Critical Force (2), RES(2*X): ROA(+X).</characteristic>
           </characteristics>
         </profile>
-        <profile id="a0e5-3830-a2df-e7be" name="Hull Mounted Charger HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-          <characteristics>
-            <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
-            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
-            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
-            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
-            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(2)</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f50a-edea-6aed-d890" name="Hull Mounted Charger HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+        <profile id="a0e5-3830-a2df-e7be" name="2x Hull Mounted Charger HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
           <characteristics>
             <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
             <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
@@ -764,6 +755,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="d725-61bd-dbda-ea7f" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a698-7b18-f018-5e87" name="New CategoryLink" hidden="false" targetId="a0eb-bdb5-0f40-3b6d" primary="true"/>
         <categoryLink id="e36f-da47-67aa-45ec" name="New CategoryLink" hidden="false" targetId="5d51-7b06-c557-4c66" primary="false"/>
@@ -5557,16 +5551,7 @@ All Traps have 3 attributes:
             <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(8), Critical Force(2), Slow to Reoload</characteristic>
           </characteristics>
         </profile>
-        <profile id="f989-d8e8-4221-9f54" name="Hull Mounted Charger HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
-          <characteristics>
-            <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
-            <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
-            <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">3</characteristic>
-            <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">H</characteristic>
-            <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Armour Piercing(2)</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="6cf1-dddf-53a3-4654" name="Hull Mounted Charger HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
+        <profile id="f989-d8e8-4221-9f54" name="2x Hull Mounted Charger HMG" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
           <characteristics>
             <characteristic name="R" typeId="bf81-58c8-2998-0bac">24</characteristic>
             <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">12</characteristic>
@@ -5600,6 +5585,9 @@ All Traps have 3 attributes:
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="a8a5-1217-4179-f360" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a434-efee-0169-9dcc" name="New CategoryLink" hidden="false" targetId="1ab6-a4be-521a-3c12" primary="true"/>
       </categoryLinks>

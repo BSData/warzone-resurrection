@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="38" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="db5c-edc9-d549-ab69" name="Warzone: Resurrection" revision="39" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="547a-ce3f-3831-bc09" name="Points" defaultCostLimit="0.0" hidden="false"/>
   </costTypes>
@@ -1246,6 +1246,31 @@ Ranger squad, all models in this squad gain Ferocity (2).</description>
     <selectionEntry id="0363-58ea-b105-b777" name="John Baptiste" page="" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad0a-b36c-b60e-c317" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e037-5697-20b3-aa48" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9b0c-159b-6eb1-d78d" type="greaterThan"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96ae-f0ce-a737-564d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-5d2b-c36d-3ad6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96ae-f0ce-a737-564d" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a519-5d2b-c36d-3ad6" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="a25c-3735-7351-16b8" value="0.0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -7509,6 +7534,17 @@ to that marker, even through enemy models and does not receive Free Slashes. All
         <infoLink id="212a-0a7b-ef5e-15e0" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
         <infoLink id="fa63-3d28-afdd-1489" name="Heal(4)" hidden="false" targetId="fb6a-677e-5b0f-9f8b" type="rule"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="847f-6d1e-931c-8554" name="Advisor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f5e-db2e-66d9-54c8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a8-2a65-69d3-5fe5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="547a-ce3f-3831-bc09" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="ebc2-96e6-c544-eab8" name="Cybertronic Upgrades" hidden="false" collective="false" import="true" targetId="e898-297d-133a-0584" type="selectionEntryGroup"/>
       </entryLinks>
@@ -15889,11 +15925,11 @@ For example: A transport (6) vehicle may hold six models from the same squad wit
     </profile>
     <profile id="1691-1432-bb65-a4f2" name="Clansman&apos;s Claymore" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
       <characteristics>
-        <characteristic name="R" typeId="bf81-58c8-2998-0bac">1</characteristic>
-        <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">14</characteristic>
+        <characteristic name="R" typeId="bf81-58c8-2998-0bac">1.5</characteristic>
+        <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+4</characteristic>
         <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
         <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">RES(1): Critical Force(2), ROA(1), Slow to Reload</characteristic>
+        <characteristic name="RULES" typeId="9f21-2671-81ec-316a">Gain Frenzy, RES(1): Critical Force(2), ROA(1), Slow to Reload</characteristic>
       </characteristics>
     </profile>
     <profile id="d857-2b3f-3077-4aae" name="M50 Assault Rifle" hidden="false" typeId="e757-f9ad-a515-2a17" typeName="Weapon">
