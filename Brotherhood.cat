@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="26" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="43e5-e0fd-922c-0aa5" name="Brotherhood" revision="27" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="262f-e39a-82e7-4397" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1772,7 +1772,7 @@
         <infoLink id="6404-93f8-9664-cc0b" name="Follow Up" hidden="false" targetId="1c99-2d68-2388-51a7" type="rule"/>
         <infoLink id="1987-1f4e-52fe-72b3" name="Furious Zeal" hidden="false" targetId="e5b6-0451-8f86-8d87" type="rule"/>
         <infoLink id="75b8-77a7-ed13-0844" name="Heal(5)" hidden="false" targetId="dcfd-6b65-fecb-c5bb" type="rule"/>
-        <infoLink id="cf73-f7c0-3671-716a" name="Target Identifier(1)" hidden="false" targetId="eb4d-d76c-16da-ff53" type="rule"/>
+        <infoLink id="cf73-f7c0-3671-716a" name="Target Identifier(1)" hidden="false" targetId="eab4-c5d2-ff00-14bf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7acf-2bf5-543d-17d9" name="New CategoryLink" hidden="false" targetId="e037-5697-20b3-aa48" primary="false"/>
