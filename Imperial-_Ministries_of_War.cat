@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="26" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7250-3526-a4c4-17b2" name="Imperial- Ministries of War" revision="27" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="06ba-8c0a-a32c-28c8" name="Imperial Officer" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -5087,6 +5087,8 @@ All Traps have 3 attributes:
         <infoLink id="0b69-c999-c290-cf3f" name="Scanner" hidden="false" targetId="df8a-ec44-be7f-6610" type="rule"/>
         <infoLink id="4683-a471-8212-d5e4" name="Contempt(Dark Legion)" hidden="false" targetId="1ac0-a02f-f2cb-7b63" type="rule"/>
         <infoLink id="eeee-2796-29e7-15f1" name="Unblinking Eye" hidden="false" targetId="3f0c-6f11-cce4-cd2b" type="rule"/>
+        <infoLink id="0d73-9ddf-363a-2aea" name="Deployment: Infiltrate" hidden="false" targetId="d5b7-414c-f486-421d" type="rule"/>
+        <infoLink id="bb81-18bf-6e3b-382b" name="Deployment: Preemptive Strike" hidden="false" targetId="8a9e-df75-3649-91c0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c37b-54ce-4bb1-8aa6" name="New CategoryLink" hidden="false" targetId="ee84-a5cb-eb15-d280" primary="true"/>
