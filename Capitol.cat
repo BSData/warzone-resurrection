@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0963-20c9-361a-288f" name="Capitol" revision="6" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0963-20c9-361a-288f" name="Capitol" revision="7" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c4d1-65e5-7a1a-1d65" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1193,7 +1193,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"></characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1393,7 +1393,7 @@ to that marker, even through enemy models and does not receive Free Slashes. All
                 <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"></characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3185,7 +3185,7 @@ Smoke Bombardment.</description>
         <infoLink id="b69e-7692-2b59-1079" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
         <infoLink id="d1a8-053e-4379-05d0" name="Regeneration(6)" hidden="false" targetId="aa61-5b96-eddf-cf23" type="rule"/>
         <infoLink id="a238-777a-fbeb-232d" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
-        <infoLink id="d08e-a46b-4838-8681" name="Stim Injectors" hidden="false" targetId="a959-c233-b010-c5e3" type="rule"/>
+        <infoLink id="d08e-a46b-4838-8681" name="Stim Injectors" hidden="false" targetId="561a-b8df-43ef-bfaf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="60b8-d3d1-b0f0-0924" name="New CategoryLink" hidden="false" targetId="52f1-18fa-f371-f40b" primary="true"/>
@@ -3875,7 +3875,7 @@ Smoke Bombardment.</description>
             <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
             <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
             <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"></characteristic>
+            <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
           </characteristics>
         </profile>
         <profile id="9978-0215-ae90-811f" name="Senior Chief Jeffrey Jacobs" hidden="false" typeId="dc7a-aa36-153f-b01a" typeName="Infantry">
@@ -10046,7 +10046,7 @@ Smoke Bombardment.</description>
                 <characteristic name="ST" typeId="6897-944f-c8fe-4c3c">+3</characteristic>
                 <characteristic name="ROA" typeId="230e-bcc1-5de9-c333">2</characteristic>
                 <characteristic name="TYPE" typeId="d9f6-13bc-ea9c-edf7">CC</characteristic>
-                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"></characteristic>
+                <characteristic name="RULES" typeId="9f21-2671-81ec-316a"/>
               </characteristics>
             </profile>
           </profiles>
@@ -10852,7 +10852,7 @@ Smoke Bombardment.</description>
         <infoLink id="353f-8a8d-ccb9-5270" name="Ranger" hidden="false" targetId="da44-cc95-98e8-89a8" type="rule"/>
         <infoLink id="35f6-cb82-f7af-e3f6" name="Regeneration(6)" hidden="false" targetId="aa61-5b96-eddf-cf23" type="rule"/>
         <infoLink id="3841-9613-6863-8d0d" name="Relentless" hidden="false" targetId="bccb-12de-cf4d-238d" type="rule"/>
-        <infoLink id="8381-acad-0039-725f" name="Stim Injectors" hidden="false" targetId="a959-c233-b010-c5e3" type="rule"/>
+        <infoLink id="8381-acad-0039-725f" name="Stim Injectors" hidden="false" targetId="561a-b8df-43ef-bfaf" type="rule"/>
         <infoLink id="08d8-a2f3-b3f8-2056" name="Deployment: Flank" hidden="false" targetId="eaa5-5682-6c52-8505" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -11235,6 +11235,9 @@ Smoke Bombardment.</description>
     </rule>
     <rule id="3fe5-32b2-3e8d-5bac" name="Controlled Demolition" hidden="false">
       <description>After sides have been chosen, but before deploying any squads, nominate one piece of terrain on the board no larger than 6”x6” and remove it from the game. This Enhanced Tactic may only be taken once per army. You may not remove bridges.</description>
+    </rule>
+    <rule id="561a-b8df-43ef-bfaf" name="Stim Injectors" hidden="false">
+      <description>RES(1): This model gains AP(1) and can make an additional Close Combat or Shooting Action. At the end of its activation, it must pass a CON test or suffer W(1). This cannot be used in the turn that this model is deployed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

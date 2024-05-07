@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="24" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c9-14a3-b3ae-9124" name="Bauhaus" revision="25" battleScribeVersion="2.03" authorName="John C. Smith &quot;Darth Fraggle&quot;" authorContact="johnchristophersmith@hotmail.com" library="false" gameSystemId="db5c-edc9-d549-ab69" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c4d1-65e5-7a1a-1d65" name="CTL-422 Mule Armoured Carrier" page="285" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -6608,7 +6608,8 @@ Models within 4” of the token cannot use any abilities that have a RES cost. O
           <description>This model has two profiles, one for his Minister and one for his Carcass Suit. At the start of its activation, this model may make a WP check and if successful, he may transform into his ‘Carcass Suit’ profile. If wounded, this model may choose to do this automatically. This model loses all Equipment and Abilities for the ‘Minister’ form and gain the Equipment and Abilities of the ‘Carcass Suit’. Any existing Wounds carry over to the new model.</description>
         </rule>
         <rule id="8bff-51d9-8ef0-415c" name="Incognito" hidden="false">
-          <description>Enemy models targeting this model must succeed a LD check. If they fail, they may not take the action against it and the AP is lost. Bauhaus models automatically fail the test. Enemy models must spend RES(1) to target this model. Enemy Bauhaus models must spend RES(2).</description>
+          <description>Enemy models targeting this model must succeed a LD check. If they fail, they may not take the action against it and the AP is lost. Bauhaus models automatically fail the test.
+ALTERNATE: Enemy models must spend RES(1) to target this model. Enemy Bauhaus models must spend RES(2).</description>
         </rule>
       </rules>
       <infoLinks>
